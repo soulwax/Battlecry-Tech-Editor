@@ -1015,8 +1015,8 @@ const virtualFS = {
   }
 };
 
-// Virtual file contents
-const virtualFiles = {
+// Virtual file contents (writable)
+let virtualFiles = {
   "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash\nnobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin",
   "/etc/hosts": "127.0.0.1\tlocalhost\n127.0.1.1\tbattlecry-editor\n::1\t\tlocalhost ip6-localhost ip6-loopback",
   "/etc/group": "root:x:0:\nuser:x:1000:\nadm:x:4:user",
@@ -1026,6 +1026,121 @@ const virtualFiles = {
   "/home/user/.bashrc": "# ~/.bashrc\n\nexport PATH=$PATH:/usr/local/bin\nalias ll='ls -alF'\nalias la='ls -A'\nalias l='ls -CF'\n",
   "/home/user/.profile": "# ~/.profile\n\nif [ -n \"$BASH_VERSION\" ]; then\n  . ~/.bashrc\nfi\n"
 };
+
+// File system helper functions
+function normalizePath(path) {
+  if (path.startsWith("/")) {
+    return path;
+  }
+  return shellCwd === "/" ? "/" + path : shellCwd + "/" + path;
+}
+
+function getParentDir(path) {
+  const parts = path.split("/").filter(p => p);
+  if (parts.length === 0) return "/";
+  parts.pop();
+  return parts.length === 0 ? "/" : "/" + parts.join("/");
+}
+
+function getFileName(path) {
+  const parts = path.split("/").filter(p => p);
+  return parts[parts.length - 1] || "";
+}
+
+function ensureDirectory(path) {
+  if (!virtualFS[path]) {
+    const parent = getParentDir(path);
+    if (!virtualFS[parent] || virtualFS[parent].type !== "directory") {
+      return false;
+    }
+    virtualFS[path] = {
+      type: "directory",
+      items: {},
+      perms: "drwxr-xr-x",
+      size: 4096,
+      modified: new Date()
+    };
+    if (!virtualFS[parent].items) {
+      virtualFS[parent].items = {};
+    }
+    virtualFS[parent].items[getFileName(path)] = {
+      type: "directory",
+      perms: "drwxr-xr-x",
+      size: 4096,
+      modified: new Date()
+    };
+  }
+  return true;
+}
+
+function createFile(path, content = "") {
+  const normalizedPath = normalizePath(path);
+  const parent = getParentDir(normalizedPath);
+  const fileName = getFileName(normalizedPath);
+  
+  // Ensure parent directory exists
+  if (!virtualFS[parent] || virtualFS[parent].type !== "directory") {
+    return { success: false, error: `Cannot create file: parent directory does not exist` };
+  }
+  
+  // Create file entry in directory
+  if (!virtualFS[parent].items) {
+    virtualFS[parent].items = {};
+  }
+  
+  virtualFS[parent].items[fileName] = {
+    type: "file",
+    perms: "-rw-r--r--",
+    size: content.length,
+    modified: new Date()
+  };
+  
+  // Store file content
+  virtualFiles[normalizedPath] = content;
+  
+  return { success: true };
+}
+
+function deleteFile(path) {
+  const normalizedPath = normalizePath(path);
+  const parent = getParentDir(normalizedPath);
+  const fileName = getFileName(normalizedPath);
+  
+  if (!virtualFS[parent] || !virtualFS[parent].items || !virtualFS[parent].items[fileName]) {
+    return { success: false, error: `Cannot delete: file does not exist` };
+  }
+  
+  delete virtualFS[parent].items[fileName];
+  delete virtualFiles[normalizedPath];
+  
+  return { success: true };
+}
+
+function readFile(path) {
+  const normalizedPath = normalizePath(path);
+  if (virtualFiles[normalizedPath] !== undefined) {
+    return { success: true, content: virtualFiles[normalizedPath] };
+  }
+  return { success: false, error: "No such file or directory" };
+}
+
+function writeFile(path, content) {
+  const normalizedPath = normalizePath(path);
+  const parent = getParentDir(normalizedPath);
+  const fileName = getFileName(normalizedPath);
+  
+  // Check if file exists
+  if (!virtualFS[parent] || !virtualFS[parent].items || !virtualFS[parent].items[fileName]) {
+    return createFile(path, content);
+  }
+  
+  // Update existing file
+  virtualFiles[normalizedPath] = content;
+  virtualFS[parent].items[fileName].size = content.length;
+  virtualFS[parent].items[fileName].modified = new Date();
+  
+  return { success: true };
+}
 
 // Code Templates
 const CODE_TEMPLATES = {
@@ -1261,7 +1376,31 @@ const shellCommands = {
   echo: {
     description: "Print arguments",
     execute: (args) => {
-      writeToTerminal(args.join(" "), "info");
+      // Check for redirect operators
+      const redirectIndex = args.findIndex(arg => arg === ">" || arg === ">>");
+      if (redirectIndex !== -1 && redirectIndex < args.length - 1) {
+        const text = args.slice(0, redirectIndex).join(" ");
+        const file = args[redirectIndex + 1];
+        const append = args[redirectIndex] === ">>";
+        
+        const result = readFile(file);
+        let content = result.success ? result.content : "";
+        
+        if (append) {
+          content += (content ? "\n" : "") + text;
+        } else {
+          content = text;
+        }
+        
+        const writeResult = writeFile(file, content);
+        if (writeResult.success) {
+          writeToTerminal(`echo: ${append ? "appended to" : "wrote to"} '${file}'`, "success");
+        } else {
+          writeToTerminal(`echo: ${file}: ${writeResult.error}`, "error");
+        }
+      } else {
+        writeToTerminal(args.join(" "), "info");
+      }
     }
   },
   
@@ -1381,12 +1520,11 @@ const shellCommands = {
       }
       
       args.forEach(file => {
-        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
-        
-        if (virtualFiles[filePath]) {
-          writeToTerminal(virtualFiles[filePath], "info");
+        const result = readFile(file);
+        if (result.success) {
+          writeToTerminal(result.content, "info");
         } else {
-          writeToTerminal(`cat: ${file}: No such file or directory`, "error");
+          writeToTerminal(`cat: ${file}: ${result.error}`, "error");
         }
       });
     }
@@ -1482,17 +1620,18 @@ const shellCommands = {
       let foundAny = false;
       
       files.forEach(file => {
-        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
-        if (virtualFiles[filePath]) {
-          const lines = virtualFiles[filePath].split("\n");
+        const result = readFile(file);
+        if (result.success) {
+          const lines = result.content.split("\n");
+          const normalizedPath = normalizePath(file);
           lines.forEach((line, index) => {
             if (line.includes(pattern)) {
-              writeToTerminal(`${filePath}:${index + 1}:${line}`, "info");
+              writeToTerminal(`${normalizedPath}:${index + 1}:${line}`, "info");
               foundAny = true;
             }
           });
         } else {
-          writeToTerminal(`grep: ${file}: No such file or directory`, "error");
+          writeToTerminal(`grep: ${file}: ${result.error}`, "error");
         }
       });
       
@@ -1548,10 +1687,16 @@ const shellCommands = {
     execute: (args) => {
       if (args.length === 0) {
         writeToTerminal("mkdir: missing operand", "error");
+        writeToTerminal("Try 'mkdir --help' for more information.", "error");
         return;
       }
       args.forEach(dir => {
-        writeToTerminal(`mkdir: created directory '${dir}'`, "success");
+        const normalizedPath = normalizePath(dir);
+        if (ensureDirectory(normalizedPath)) {
+          writeToTerminal(`mkdir: created directory '${dir}'`, "success");
+        } else {
+          writeToTerminal(`mkdir: cannot create directory '${dir}': No such file or directory`, "error");
+        }
       });
     }
   },
@@ -1561,12 +1706,18 @@ const shellCommands = {
     execute: (args) => {
       if (args.length === 0) {
         writeToTerminal("rm: missing operand", "error");
+        writeToTerminal("Try 'rm --help' for more information.", "error");
         return;
       }
       const recursive = args.includes("-r") || args.includes("-rf");
       const files = args.filter(arg => !arg.startsWith("-"));
       files.forEach(file => {
-        writeToTerminal(`rm: removed '${file}'`, "success");
+        const result = deleteFile(file);
+        if (result.success) {
+          writeToTerminal(`rm: removed '${file}'`, "success");
+        } else {
+          writeToTerminal(`rm: cannot remove '${file}': ${result.error}`, "error");
+        }
       });
     }
   },
@@ -1576,10 +1727,16 @@ const shellCommands = {
     execute: (args) => {
       if (args.length === 0) {
         writeToTerminal("touch: missing file operand", "error");
+        writeToTerminal("Try 'touch --help' for more information.", "error");
         return;
       }
       args.forEach(file => {
-        writeToTerminal(`touch: created '${file}'`, "success");
+        const result = createFile(file, "");
+        if (result.success) {
+          writeToTerminal(`touch: created '${file}'`, "success");
+        } else {
+          writeToTerminal(`touch: cannot touch '${file}': ${result.error}`, "error");
+        }
       });
     }
   },
@@ -1589,6 +1746,7 @@ const shellCommands = {
     execute: (args) => {
       if (args.length === 0) {
         writeToTerminal("head: missing file operand", "error");
+        writeToTerminal("Try 'head --help' for more information.", "error");
         return;
       }
       
@@ -1599,21 +1757,15 @@ const shellCommands = {
         files = args.slice(2);
       }
       
-      const virtualFiles = {
-        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
-        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
-        "/var/log/system.log": "System started successfully\nAll services running\n"
-      };
-      
       files.forEach(file => {
-        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
-        if (virtualFiles[filePath]) {
-          const fileLines = virtualFiles[filePath].split("\n");
+        const result = readFile(file);
+        if (result.success) {
+          const fileLines = result.content.split("\n");
           fileLines.slice(0, lines).forEach(line => {
             writeToTerminal(line, "info");
           });
         } else {
-          writeToTerminal(`head: ${file}: No such file or directory`, "error");
+          writeToTerminal(`head: ${file}: ${result.error}`, "error");
         }
       });
     }
@@ -1624,6 +1776,7 @@ const shellCommands = {
     execute: (args) => {
       if (args.length === 0) {
         writeToTerminal("tail: missing file operand", "error");
+        writeToTerminal("Try 'tail --help' for more information.", "error");
         return;
       }
       
@@ -1634,21 +1787,15 @@ const shellCommands = {
         files = args.slice(2);
       }
       
-      const virtualFiles = {
-        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
-        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
-        "/var/log/system.log": "System started successfully\nAll services running\n"
-      };
-      
       files.forEach(file => {
-        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
-        if (virtualFiles[filePath]) {
-          const fileLines = virtualFiles[filePath].split("\n");
+        const result = readFile(file);
+        if (result.success) {
+          const fileLines = result.content.split("\n");
           fileLines.slice(-lines).forEach(line => {
             writeToTerminal(line, "info");
           });
         } else {
-          writeToTerminal(`tail: ${file}: No such file or directory`, "error");
+          writeToTerminal(`tail: ${file}: ${result.error}`, "error");
         }
       });
     }
@@ -1659,27 +1806,152 @@ const shellCommands = {
     execute: (args) => {
       if (args.length === 0) {
         writeToTerminal("wc: missing file operand", "error");
+        writeToTerminal("Try 'wc --help' for more information.", "error");
         return;
       }
       
-      const virtualFiles = {
-        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
-        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
-        "/var/log/system.log": "System started successfully\nAll services running\n"
-      };
-      
       args.forEach(file => {
-        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
-        if (virtualFiles[filePath]) {
-          const content = virtualFiles[filePath];
-          const lines = content.split("\n").length;
+        const result = readFile(file);
+        if (result.success) {
+          const content = result.content;
+          const lines = content.split("\n").filter(l => l).length;
           const words = content.split(/\s+/).filter(w => w).length;
           const chars = content.length;
-          writeToTerminal(`${lines} ${words} ${chars} ${file}`, "info");
+          writeToTerminal(`${lines.toString().padStart(6)} ${words.toString().padStart(6)} ${chars.toString().padStart(6)} ${file}`, "info");
         } else {
-          writeToTerminal(`wc: ${file}: No such file or directory`, "error");
+          writeToTerminal(`wc: ${file}: ${result.error}`, "error");
         }
       });
+    }
+  },
+  
+  nano: {
+    description: "Text editor",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("Usage: nano [OPTIONS] [[+LINE,COLUMN] FILE]...", "error");
+        writeToTerminal("Edit a file with nano text editor", "error");
+        return;
+      }
+      
+      const file = args[args.length - 1];
+      const normalizedPath = normalizePath(file);
+      
+      // Read existing file or create new
+      let content = "";
+      const readResult = readFile(file);
+      if (readResult.success) {
+        content = readResult.content;
+      }
+      
+      // Show nano interface
+      writeToTerminal("", "info");
+      writeToTerminal("GNU nano - Text Editor", "info");
+      writeToTerminal(`File: ${file}`, "info");
+      writeToTerminal("", "info");
+      writeToTerminal("^G Get Help  ^O Write Out  ^W Where Is  ^K Cut Text  ^J Justify   ^C Cur Pos", "info");
+      writeToTerminal("^X Exit      ^R Read File  ^\\ Replace   ^U Uncut Text ^T To Spell  ^_ Go To Line", "info");
+      writeToTerminal("", "info");
+      writeToTerminal("---", "info");
+      writeToTerminal("File content:", "info");
+      writeToTerminal("---", "info");
+      
+      // Display file content with line numbers
+      const lines = content.split("\n");
+      lines.forEach((line, index) => {
+        writeToTerminal(`${(index + 1).toString().padStart(4)}  ${line}`, "info");
+      });
+      
+      writeToTerminal("", "info");
+      writeToTerminal("---", "info");
+      writeToTerminal("Note: This is a simplified nano interface.", "info");
+      writeToTerminal("To edit, use: echo 'content' >> file  or  sed -i 's/old/new/' file", "info");
+      writeToTerminal("", "info");
+    }
+  },
+  
+  sed: {
+    description: "Stream editor for filtering and transforming text",
+    execute: (args) => {
+      if (args.length < 2) {
+        writeToTerminal("sed: missing command", "error");
+        writeToTerminal("usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...", "error");
+        return;
+      }
+      
+      // Parse sed command (simplified - supports s/pattern/replacement/)
+      let script = args[0];
+      let files = args.slice(1);
+      const inPlace = args.includes("-i");
+      
+      if (inPlace) {
+        files = args.filter((arg, idx) => !arg.startsWith("-") && idx > 0);
+      }
+      
+      if (files.length === 0) {
+        writeToTerminal("sed: no input files", "error");
+        return;
+      }
+      
+      // Parse substitution command: s/pattern/replacement/
+      if (script.startsWith("s/") && script.includes("/")) {
+        const parts = script.split("/");
+        if (parts.length >= 3) {
+          const pattern = parts[1];
+          const replacement = parts.slice(2, -1).join("/"); // Handle replacement with /
+          const flags = parts[parts.length - 1] || "";
+          
+          files.forEach(file => {
+            const result = readFile(file);
+            if (result.success) {
+              let content = result.content;
+              const lines = content.split("\n");
+              const modifiedLines = lines.map(line => {
+                try {
+                  if (flags.includes("g")) {
+                    // Global replace
+                    return line.replace(new RegExp(pattern, "g"), replacement);
+                  } else {
+                    // Replace first occurrence
+                    return line.replace(new RegExp(pattern), replacement);
+                  }
+                } catch (e) {
+                  // If regex fails, try simple string replace
+                  if (flags.includes("g")) {
+                    return line.split(pattern).join(replacement);
+                  } else {
+                    return line.replace(pattern, replacement);
+                  }
+                }
+              });
+              
+              const newContent = modifiedLines.join("\n");
+              
+              // Write back if -i flag or show output
+              if (inPlace) {
+                const writeResult = writeFile(file, newContent);
+                if (writeResult.success) {
+                  writeToTerminal(`sed: edited '${file}'`, "success");
+                } else {
+                  writeToTerminal(`sed: ${file}: ${writeResult.error}`, "error");
+                }
+              } else {
+                writeToTerminal(newContent, "info");
+              }
+            } else {
+              writeToTerminal(`sed: ${file}: ${result.error}`, "error");
+            }
+          });
+        } else {
+          writeToTerminal("sed: invalid command", "error");
+        }
+      } else if (script.startsWith("d")) {
+        // Delete lines command (simplified - would need line numbers)
+        writeToTerminal("sed: delete command requires line numbers (not yet implemented)", "error");
+      } else {
+        writeToTerminal(`sed: unsupported command '${script}'`, "error");
+        writeToTerminal("Supported: s/pattern/replacement/[flags] (use -i for in-place editing)", "error");
+      }
     }
   }
 };

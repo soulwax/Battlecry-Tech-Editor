@@ -5,6 +5,63 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2024-01-20
+
+### Added - File I/O Operations
+
+#### Writable File System
+- Implemented fully writable virtual file system
+- File creation, reading, updating, and deletion operations
+- Directory creation and management
+- File metadata tracking (size, permissions, modification dates)
+- Path normalization and validation
+- Parent directory auto-creation
+
+#### Enhanced File Commands
+- `touch` - Now actually creates empty files in the file system
+- `rm` - Now actually deletes files from the file system
+- `mkdir` - Now actually creates directories in the file system
+- `cat` - Enhanced to work with all files (existing and newly created)
+- `grep` - Enhanced to search in all files including newly created ones
+- `head` - Enhanced to read from all files
+- `tail` - Enhanced to read from all files
+- `wc` - Enhanced to count in all files
+
+#### New File Editing Commands
+- `nano` - Text editor interface
+  - Displays file content with line numbers
+  - Shows GNU nano-style interface
+  - Help text and usage instructions
+  - Simplified interface for file viewing
+  
+- `sed` - Stream editor for text transformation
+  - Substitution command: `s/pattern/replacement/[flags]`
+  - In-place editing with `-i` flag
+  - Global replacement with `g` flag
+  - Regex pattern support with fallback to simple string replacement
+  - Multiple file editing support
+  - Proper error handling
+
+#### Enhanced `echo` Command
+- Output redirection support:
+  - `echo "text" > file` - Overwrite file with text
+  - `echo "text" >> file` - Append text to file
+- Automatic file creation if file doesn't exist
+- File update capability
+
+### Changed
+- File system operations now persist during session
+- All file-related commands now use unified file I/O functions
+- Improved error messages for file operations
+- Better path handling and normalization
+
+### Technical Details
+- Added helper functions: `createFile()`, `deleteFile()`, `readFile()`, `writeFile()`, `ensureDirectory()`, `normalizePath()`
+- File system state management
+- File metadata synchronization
+
+---
+
 ## [1.1.0] - 2024-01-20
 
 ### Added - Terminal Features
