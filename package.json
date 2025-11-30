@@ -1,21 +1,21 @@
 {
-  "name": "battlecry-dart-editor",
+  "name": "soulwax-dart-editor",
   "version": "1.0.0",
-  "description": "Battlecry Editor web application for Dart compilation",
+  "description": "Dart Editor web application for Dart compilation",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "pm2:start": "pm2 start server.js --name battlecry-dart-editor",
-    "pm2:stop": "pm2 stop battlecry-dart-editor",
-    "pm2:restart": "pm2 restart battlecry-dart-editor",
-    "pm2:logs": "pm2 logs battlecry-dart-editor",
-    "pm2:delete": "pm2 delete battlecry-dart-editor"
+    "pm2:start": "pm2 start server.js --name soulwax-dart-editor",
+    "pm2:stop": "pm2 stop soulwax-dart-editor",
+    "pm2:restart": "pm2 restart soulwax-dart-editor",
+    "pm2:logs": "pm2 logs soulwax-dart-editor",
+    "pm2:delete": "pm2 delete soulwax-dart-editor"
   },
   "keywords": [
     "monaco",
-    "battlecry",
-    "battlecry-dart-editor",
+    "soulwax-dart-editor",
+    "dart-editor",
     "dart",
     "editor"
   ],

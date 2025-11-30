@@ -1,4 +1,4 @@
-// Battlecry Editor instances
+// Dart Editor instances
 let dartEditor = null;
 let outputEditor = null;
 
@@ -312,7 +312,7 @@ require(["vs/editor/editor.main"], function () {
     }
   });
 
-  console.log("Battlecry Editor initialized successfully");
+  console.log("Dart Editor initialized successfully");
 
   // Check server health
   checkServerHealth();
@@ -536,7 +536,7 @@ document.addEventListener("keydown", (e) => {
   }
 });
 
-console.log("Battlecry Dart Editor initialized");
+console.log("Soul's Dart Editor initialized");
 console.log("Keyboard shortcuts:");
 console.log("  Ctrl/Cmd + Enter: Compile to JS");
 console.log("  Ctrl/Cmd + Shift + Enter: Compile to Native");

@@ -230,7 +230,7 @@ app.get("/health", (req, res) => {
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`\n🚀 Battlecry Dart Editor Server Running`);
+  console.log(`\n🚀 Soul's Dart Editor Server Running`);
   console.log(`📡 Server: http://localhost:${PORT}`);
   console.log(`⏰ Started at: ${new Date().toLocaleString()}\n`);
 

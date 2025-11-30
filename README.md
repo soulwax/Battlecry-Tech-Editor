@@ -1,10 +1,10 @@
-# Battlecry Dart Editor
+# Dart Editor
 
-A professional web-based IDE for Dart development featuring the Battlecry Editor with dual-pane layout, syntax highlighting, and compilation capabilities.
+A professional web-based IDE for Dart development featuring the Dart Editor with dual-pane layout, syntax highlighting, and compilation capabilities.
 
 ## Features
 
-- **Dual-Pane Battlecry Editor Interface**
+- **Dual-Pane Dart Editor Interface**
   - Left pane: Dart code editor with syntax highlighting
   - Right pane: Read-only output viewer for compiled code
   - Synchronized scrolling between panes
@@ -15,7 +15,7 @@ A professional web-based IDE for Dart development featuring the Battlecry Editor
   - Real-time error reporting
 
 - **Modern UI**
-  - Dark theme matching Battlecry's vs-dark
+  - Dark theme matching Soulwax's vs-dark
   - Responsive layout (side-by-side on desktop, stacked on mobile)
   - Status indicators and notifications
   - Keyboard shortcuts for quick actions
@@ -46,7 +46,7 @@ dart --version
 1. **Clone or navigate to the project directory:**
 
     ```bash
-    cd /home/soulwax/workspace/WEB/Battlecry-Editor
+    cd /home/soulwax/workspace/WEB/soulwax-dart-editor
     ```
 
 2. **Install dependencies:**
@@ -96,12 +96,12 @@ npm run pm2:delete   # Remove from PM2
 ## Project Structure
 
 ```sh
-Battlecry-Editor/
+.
 ├───server.js          # Express server with compilation endpoints
 ├───public/
 │   ├───index.html     # Main HTML page
 │   ├───style.css      # Styling for dual-pane layout
-│   └───app.js         # Client-side Battlecry editor logic
+│   └───app.js         # Client-side Dart editor logic
 └───temp/              # Temporary files (auto-created, auto-cleaned)
 ├───package.json       # Project dependencies
 └───README.md          # This file
@@ -182,7 +182,7 @@ To change the port from 5555, edit [server.js:6](server.js#L6):
 const PORT = 5555; // Change to your desired port
 ```
 
-### Battlecry Editor Theme
+### Dart Editor Theme
 
 To change the editor theme, edit [public/app.js](public/app.js) and modify the `theme` property:
 
