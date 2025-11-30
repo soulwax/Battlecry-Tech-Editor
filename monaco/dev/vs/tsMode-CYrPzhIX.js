@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/tsMode-CYrPzhIX.js
+
 define("vs/tsMode-CYrPzhIX", ["module", "exports", "./editor.api-CykLys8L", "./workers-p6mTW5Va", "./monaco.contribution-YfYcxPkX"], (function(module, exports, editor_api, workers, language_typescript_monaco_contribution) {
   "use strict";
   class WorkerManager {

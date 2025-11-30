@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/decorations/decorations.js
+
 import './decorations.css';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import { HorizontalRange } from '../../view/renderingContext.js';

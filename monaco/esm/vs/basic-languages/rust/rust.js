@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/rust/rust.js
+
 const conf = {
   comments: {
     lineComment: "//",

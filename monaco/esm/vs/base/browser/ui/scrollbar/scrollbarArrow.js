@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/scrollbar/scrollbarArrow.js
+
 import { GlobalPointerMoveMonitor } from '../../globalPointerMoveMonitor.js';
 import { Widget } from '../widget.js';
 import { TimeoutTimer } from '../../../common/async.js';

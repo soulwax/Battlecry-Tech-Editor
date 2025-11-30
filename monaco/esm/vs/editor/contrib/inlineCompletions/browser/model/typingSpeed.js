@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/typingSpeed.js
+
 import { sum } from '../../../../../base/common/arrays.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 

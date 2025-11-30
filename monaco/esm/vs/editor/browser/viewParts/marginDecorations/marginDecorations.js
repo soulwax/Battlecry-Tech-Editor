@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/marginDecorations/marginDecorations.js
+
 import './marginDecorations.css';
 import { DedupOverlay, DecorationToRender } from '../glyphMargin/glyphMargin.js';
 

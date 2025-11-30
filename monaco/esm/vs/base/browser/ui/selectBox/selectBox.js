@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/selectBox/selectBox.js
+
 import { isMacintosh } from '../../../common/platform.js';
 import { Widget } from '../widget.js';
 import './selectBox.css';

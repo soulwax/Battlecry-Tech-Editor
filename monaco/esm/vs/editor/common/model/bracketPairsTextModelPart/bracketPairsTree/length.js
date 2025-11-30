@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/length.js
+
 import { splitLines } from '../../../../../base/common/strings.js';
 import { Range } from '../../../core/range.js';
 import { TextLength } from '../../../core/text/textLength.js';

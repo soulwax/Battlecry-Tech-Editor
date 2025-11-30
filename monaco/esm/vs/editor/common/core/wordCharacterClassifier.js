@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/wordCharacterClassifier.js
+
 import { safeIntl } from '../../../base/common/date.js';
 import { LRUCache } from '../../../base/common/map.js';
 import { CharacterClassifier } from './characterClassifier.js';

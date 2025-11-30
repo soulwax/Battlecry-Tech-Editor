@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/powerquery-Du80-tps.js
+
 define("vs/powerquery-Du80-tps", ["exports"], (function(exports) {
   "use strict";
   const conf = {

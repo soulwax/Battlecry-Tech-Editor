@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/java-vwwkdu2k.js
+
 define("vs/java-vwwkdu2k", ["exports"], (function(exports) {
   "use strict";
   const conf = {

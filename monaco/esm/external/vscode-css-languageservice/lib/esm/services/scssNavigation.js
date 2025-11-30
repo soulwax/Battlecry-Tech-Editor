@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/scssNavigation.js
+
 import { CSSNavigation } from './cssNavigation.js';
 import { NodeType } from '../parser/cssNodes.js';
 import { URI, Utils } from '../../../../vscode-uri/lib/esm/index.js';

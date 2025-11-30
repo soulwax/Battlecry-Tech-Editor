@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/registry/common/platform.js
+
 import { ok } from '../../../base/common/assert.js';
 import { isFunction, isString, isObject } from '../../../base/common/types.js';
 

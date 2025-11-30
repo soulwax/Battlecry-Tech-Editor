@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/lexon-BmRNXYWC.js
+
 define("vs/lexon-BmRNXYWC", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/derived.js
+
 import { strictEquals } from '../../equals.js';
 import '../../event.js';
 import { DisposableStore } from '../../lifecycle.js';

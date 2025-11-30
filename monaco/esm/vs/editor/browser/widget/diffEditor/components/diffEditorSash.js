@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/components/diffEditorSash.js
+
 import { Sash } from '../../../../../base/browser/ui/sash/sash.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import '../../../../../base/common/observableInternal/index.js';

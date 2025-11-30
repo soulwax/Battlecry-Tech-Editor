@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/postEditWidget.js
+
 import { $, addDisposableListener, EventType, getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { Button } from '../../../../base/browser/ui/button/button.js';
 import { raceCancellationError } from '../../../../base/common/async.js';

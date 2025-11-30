@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/csp-CtMdzNMY.js
+
 define("vs/csp-CtMdzNMY", ["exports"], (function(exports) {
   "use strict";
   const conf = {

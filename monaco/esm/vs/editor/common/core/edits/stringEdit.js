@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/edits/stringEdit.js
+
 import { commonPrefixLength, commonSuffixLength } from '../../../../base/common/strings.js';
 import { OffsetRange } from '../ranges/offsetRange.js';
 import { BaseEdit, BaseReplacement } from './edit.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/editContext.js
+
 import { ViewPart } from '../../view/viewPart.js';
 
 /*---------------------------------------------------------------------------------------------

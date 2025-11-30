@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/textModelText.js
+
 import { AbstractText } from '../core/text/abstractText.js';
 import { TextLength } from '../core/text/textLength.js';
 

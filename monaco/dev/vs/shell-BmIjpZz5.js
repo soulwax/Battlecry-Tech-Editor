@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/shell-BmIjpZz5.js
+
 define("vs/shell-BmIjpZz5", ["exports"], (function(exports) {
   "use strict";
   const conf = {

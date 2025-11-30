@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/solidity-ClNCm0U5.js
+
 define("vs/solidity-ClNCm0U5", ["exports"], (function(exports) {
   "use strict";
   const conf = {

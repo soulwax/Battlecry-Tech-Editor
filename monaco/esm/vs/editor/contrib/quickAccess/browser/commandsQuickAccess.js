@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/quickAccess/browser/commandsQuickAccess.js
+
 import { stripIcons } from '../../../../base/common/iconLabels.js';
 import { isLocalizedString } from '../../../../platform/action/common/action.js';
 import { AbstractCommandsQuickAccessProvider } from '../../../../platform/quickinput/browser/commandsQuickAccess.js';

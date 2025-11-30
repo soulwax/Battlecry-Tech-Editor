@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/dnd.js
+
 import { Mimes } from '../common/mime.js';
 
 // Common data transfers

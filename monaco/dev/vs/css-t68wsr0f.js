@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/css-t68wsr0f.js
+
 define("vs/css-t68wsr0f", ["exports"], (function(exports) {
   "use strict";
   const conf = {

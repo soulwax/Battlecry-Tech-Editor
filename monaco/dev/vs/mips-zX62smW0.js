@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/mips-zX62smW0.js
+
 define("vs/mips-zX62smW0", ["exports"], (function(exports) {
   "use strict";
   const conf = {

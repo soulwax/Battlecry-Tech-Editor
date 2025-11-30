@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/marked/marked.js
+
 /**
  * marked v14.0.0 - a markdown parser
  * Copyright (c) 2011-2024, Christopher Jeffrey. (MIT Licensed)

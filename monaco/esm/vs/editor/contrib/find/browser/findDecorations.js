@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findDecorations.js
+
 import { Range } from '../../../common/core/range.js';
 import { OverviewRulerLane } from '../../../common/model.js';
 import { ModelDecorationOptions } from '../../../common/model/textModel.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/utils/promise.js
+
 import { transaction } from '../transaction.js';
 import { observableValue } from '../observables/observableValue.js';
 

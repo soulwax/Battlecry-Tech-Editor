@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/whitespace/whitespace.js
+
 import './whitespace.css';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import { firstNonWhitespaceIndex, lastNonWhitespaceIndex } from '../../../../base/common/strings.js';

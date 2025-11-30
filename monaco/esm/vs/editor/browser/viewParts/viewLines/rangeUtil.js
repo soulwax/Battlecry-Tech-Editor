@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewLines/rangeUtil.js
+
 import { FloatHorizontalRange } from '../../view/renderingContext.js';
 
 /*---------------------------------------------------------------------------------------------

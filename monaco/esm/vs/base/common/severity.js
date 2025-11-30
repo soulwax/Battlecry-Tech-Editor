@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/severity.js
+
 import { equalsIgnoreCase } from './strings.js';
 
 /*---------------------------------------------------------------------------------------------

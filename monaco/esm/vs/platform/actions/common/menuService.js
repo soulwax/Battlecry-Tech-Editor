@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actions/common/menuService.js
+
 import { RunOnceScheduler } from '../../../base/common/async.js';
 import { Emitter, DebounceEmitter } from '../../../base/common/event.js';
 import { DisposableStore } from '../../../base/common/lifecycle.js';

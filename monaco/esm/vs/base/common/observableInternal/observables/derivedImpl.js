@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/derivedImpl.js
+
 import { BaseObservable } from './baseObservable.js';
 import { assertFn } from '../../assert.js';
 import '../../arrays.js';

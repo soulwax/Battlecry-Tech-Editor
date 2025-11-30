@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/languageFacts/dataManager.js
+
 import { HTMLDataProvider } from './dataProvider.js';
 import { htmlData } from './data/webCustomData.js';
 import { binarySearch } from '../utils/arrays.js';

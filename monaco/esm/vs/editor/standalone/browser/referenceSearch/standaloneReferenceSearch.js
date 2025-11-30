@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/referenceSearch/standaloneReferenceSearch.js
+
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { ICodeEditorService } from '../../../browser/services/codeEditorService.js';
 import { ReferencesController } from '../../../contrib/gotoSymbol/browser/peek/referencesController.js';

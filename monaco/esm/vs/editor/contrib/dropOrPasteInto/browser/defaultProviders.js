@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/defaultProviders.js
+
 import { coalesce } from '../../../../base/common/arrays.js';
 import { UriList } from '../../../../base/common/dataTransfer.js';
 import { HierarchicalKind } from '../../../../base/common/hierarchicalKind.js';

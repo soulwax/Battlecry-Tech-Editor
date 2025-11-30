@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/bracketMatching/browser/bracketMatching.js
+
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import './bracketMatching.css';

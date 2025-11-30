@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/postiats-OtZm4COL.js
+
 define("vs/postiats-OtZm4COL", ["exports"], (function(exports) {
   "use strict";
   const conf = {

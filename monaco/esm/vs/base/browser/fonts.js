@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/fonts.js
+
 import { isWindows, isMacintosh } from '../common/platform.js';
 
 /*---------------------------------------------------------------------------------------------

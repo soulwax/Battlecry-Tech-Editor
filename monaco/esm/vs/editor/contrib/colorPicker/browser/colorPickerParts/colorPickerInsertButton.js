@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerInsertButton.js
+
 import '../colorPicker.css';
 import { append, addDisposableListener, EventType } from '../../../../../base/browser/dom.js';
 import { Emitter } from '../../../../../base/common/event.js';

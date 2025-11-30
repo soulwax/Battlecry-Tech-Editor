@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssCompletion.js
+
 import { getNodePath, Property, Expression, Interpolation, SimpleSelector, NodeType, FunctionArgument, Declarations, VariableDeclaration, RuleSet, FunctionDeclaration, MixinReference, Function, Supports, SupportsCondition, ExtendsReference, ReferenceType, AbstractDeclaration, Declaration, NumericValue, Identifier, MixinDeclaration, FunctionParameter, HexColorValue } from '../parser/cssNodes.js';
 import { Symbols } from '../parser/cssSymbolScope.js';
 import { getEntryDescription } from '../languageFacts/entry.js';

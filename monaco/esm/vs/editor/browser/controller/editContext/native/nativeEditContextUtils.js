@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/native/nativeEditContextUtils.js
+
 import { addDisposableListener, getShadowRoot, getActiveElement } from '../../../../../base/browser/dom.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import { ILogService } from '../../../../../platform/log/common/log.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/m3/m3.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

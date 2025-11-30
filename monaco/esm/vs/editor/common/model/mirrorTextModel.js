@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/mirrorTextModel.js
+
 import { splitLines } from '../../../base/common/strings.js';
 import { Position } from '../core/position.js';
 import { PrefixSumComputer } from './prefixSumComputer.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollContribution.js
+
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { ToggleStickyScroll, FocusStickyScroll, SelectPreviousStickyScrollLine, SelectNextStickyScrollLine, GoToStickyScrollLine, SelectEditor } from './stickyScrollActions.js';
 import { StickyScrollController } from './stickyScrollController.js';

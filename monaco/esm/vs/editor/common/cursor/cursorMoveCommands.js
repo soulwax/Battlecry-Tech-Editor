@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorMoveCommands.js
+
 import { isObject, isString, isUndefined, isBoolean, isNumber } from '../../../base/common/types.js';
 import { CursorState, SingleCursorState } from '../cursorCommon.js';
 import { MoveOperations } from './cursorMoveOperations.js';

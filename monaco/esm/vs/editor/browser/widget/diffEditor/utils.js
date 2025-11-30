@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/utils.js
+
 import { findLast } from '../../../../base/common/arraysFind.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';
 import { DisposableStore, Disposable, toDisposable } from '../../../../base/common/lifecycle.js';

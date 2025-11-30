@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/protobuf-Bn1ftnRe.js
+
 define("vs/protobuf-Bn1ftnRe", ["exports"], (function(exports) {
   "use strict";
   const namedLiterals = ["true", "false"];

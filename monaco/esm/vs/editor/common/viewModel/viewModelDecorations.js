@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/viewModelDecorations.js
+
 import { Position } from '../core/position.js';
 import { Range } from '../core/range.js';
 import { filterValidationDecorations, filterFontDecorations } from '../config/editorOptions.js';

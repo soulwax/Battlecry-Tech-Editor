@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/languageFacts/dataProvider.js
+
 import { normalizeMarkupContent } from '../utils/markup.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/mouseEvent.js
+
 import { isChrome, isFirefox, isSafari } from './browser.js';
 import { IframeUtils } from './iframe.js';
 import { isMacintosh, isWindows } from '../common/platform.js';

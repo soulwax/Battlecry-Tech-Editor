@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/semanticTokensDto.js
+
 import { VSBuffer } from '../../../base/common/buffer.js';
 import { isLittleEndian } from '../../../base/common/platform.js';
 

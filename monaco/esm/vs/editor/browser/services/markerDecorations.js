@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/markerDecorations.js
+
 import { IMarkerDecorationsService } from '../../common/services/markerDecorations.js';
 import { registerEditorContribution } from '../editorExtensions.js';
 

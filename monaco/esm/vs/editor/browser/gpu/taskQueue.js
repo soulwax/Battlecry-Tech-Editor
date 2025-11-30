@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/taskQueue.js
+
 import { getActiveWindow } from '../../../base/browser/dom.js';
 import { Disposable, toDisposable } from '../../../base/common/lifecycle.js';
 import { ILogService } from '../../../platform/log/common/log.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/rename/browser/rename.js
+
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { raceCancellation } from '../../../../base/common/async.js';
 import { CancellationTokenSource, CancellationToken } from '../../../../base/common/cancellation.js';

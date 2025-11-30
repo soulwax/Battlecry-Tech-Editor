@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/button/button.js
+
 import { EventType, addDisposableListener, EventHelper, trackFocus, reset } from '../../dom.js';
 import { StandardKeyboardEvent } from '../../keyboardEvent.js';
 import { renderMarkdown, renderAsPlaintext } from '../../markdownRenderer.js';

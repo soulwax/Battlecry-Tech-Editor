@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/tree/quickInputTreeController.js
+
 import { append, $ as $$1 } from '../../../../base/browser/dom.js';
 import { RenderIndentGuides } from '../../../../base/browser/ui/tree/abstractTree.js';
 import { Emitter } from '../../../../base/common/event.js';

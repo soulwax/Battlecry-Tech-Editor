@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/myersDiffAlgorithm.js
+
 import { OffsetRange } from '../../../core/ranges/offsetRange.js';
 import { InfiniteTimeout, DiffAlgorithmResult, SequenceDiff } from './diffAlgorithm.js';
 

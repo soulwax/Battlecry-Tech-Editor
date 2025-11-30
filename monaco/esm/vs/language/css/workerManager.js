@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/css/workerManager.js
+
 import { createWebWorker } from '../../common/workers.js';
 
 const STOP_WHEN_IDLE_FOR = 2 * 60 * 1e3;

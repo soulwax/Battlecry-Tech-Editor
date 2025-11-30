@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/lineNumbers/lineNumbers.js
+
 import './lineNumbers.css';
 import { isLinux } from '../../../../base/common/platform.js';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';

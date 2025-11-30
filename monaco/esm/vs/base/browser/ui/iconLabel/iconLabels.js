@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/iconLabel/iconLabels.js
+
 import { $ } from '../../dom.js';
 import { ThemeIcon } from '../../../common/themables.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextkey/common/scanner.js
+
 import { illegalState } from '../../../base/common/errors.js';
 import { localize } from '../../../nls.js';
 

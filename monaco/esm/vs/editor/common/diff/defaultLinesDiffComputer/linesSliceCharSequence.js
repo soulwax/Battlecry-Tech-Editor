@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/linesSliceCharSequence.js
+
 import { findLastIdxMonotonous, findLastMonotonous, findFirstMonotonous } from '../../../../base/common/arraysFind.js';
 import { OffsetRange } from '../../core/ranges/offsetRange.js';
 import { Position } from '../../core/position.js';

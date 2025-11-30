@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/comparers.js
+
 import { safeIntl } from './date.js';
 import { Lazy } from './lazy.js';
 

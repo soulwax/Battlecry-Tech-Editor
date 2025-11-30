@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/perl-BZM3Cl3T.js
+
 define("vs/perl-BZM3Cl3T", ["exports"], (function(exports) {
   "use strict";
   const conf = {

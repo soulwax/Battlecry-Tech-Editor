@@ -1,3 +1,5 @@
+// File: monaco/esm/external/jsonc-parser/lib/esm/impl/parser.js
+
 import { createScanner } from './scanner.js';
 
 /*---------------------------------------------------------------------------------------------

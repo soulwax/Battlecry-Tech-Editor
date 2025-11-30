@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colors/minimapColors.js
+
 import { localize } from '../../../../nls.js';
 import { Color, RGBA } from '../../../../base/common/color.js';
 import { registerColor, transparent } from '../colorUtils.js';

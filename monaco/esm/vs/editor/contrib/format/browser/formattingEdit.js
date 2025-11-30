@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/format/browser/formattingEdit.js
+
 import { EditOperation } from '../../../common/core/editOperation.js';
 import { Range } from '../../../common/core/range.js';
 import { StableEditorScrollState } from '../../../browser/stableEditorScroll.js';

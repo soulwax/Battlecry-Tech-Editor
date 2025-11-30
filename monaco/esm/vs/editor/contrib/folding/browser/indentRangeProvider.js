@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/folding/browser/indentRangeProvider.js
+
 import { computeIndentLevel } from '../../../common/model/utils.js';
 import { MAX_LINE_NUMBER, FoldingRegions } from './foldingRanges.js';
 

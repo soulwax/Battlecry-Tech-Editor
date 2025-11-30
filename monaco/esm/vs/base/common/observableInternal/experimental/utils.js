@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/experimental/utils.js
+
 import { derivedObservableWithCache } from '../utils/utils.js';
 
 /*---------------------------------------------------------------------------------------------

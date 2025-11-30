@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/dataTransfer.js
+
 import { distinct } from './arrays.js';
 import { Iterable } from './iterator.js';
 import { generateUuid } from './uuid.js';

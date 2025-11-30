@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/parser.js
+
 import { ListAstNode, TextAstNode, PairAstNode, InvalidBracketAstNode } from './ast.js';
 import { BeforeEditPositionMapper } from './beforeEditPositionMapper.js';
 import { SmallImmutableSet } from './smallImmutableSet.js';

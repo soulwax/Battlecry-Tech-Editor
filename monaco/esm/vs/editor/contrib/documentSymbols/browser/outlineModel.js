@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/documentSymbols/browser/outlineModel.js
+
 import { equals } from '../../../../base/common/arrays.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';

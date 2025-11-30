@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/workspace/common/workspaceTrust.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

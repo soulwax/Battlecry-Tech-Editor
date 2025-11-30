@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/floatingMenu/browser/floatingMenu.contribution.js
+
 import './floatingMenu.css';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { FloatingEditorToolbar } from './floatingMenu.js';

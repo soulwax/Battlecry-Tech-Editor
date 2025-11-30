@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/objectCollectionBuffer.js
+
 import { Emitter, Event } from '../../../base/common/event.js';
 import { Disposable, toDisposable, dispose } from '../../../base/common/lifecycle.js';
 import { LinkedList } from '../../../base/common/linkedList.js';

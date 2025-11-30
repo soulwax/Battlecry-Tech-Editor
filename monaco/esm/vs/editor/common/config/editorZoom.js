@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/config/editorZoom.js
+
 import { Emitter } from '../../../base/common/event.js';
 
 /*---------------------------------------------------------------------------------------------

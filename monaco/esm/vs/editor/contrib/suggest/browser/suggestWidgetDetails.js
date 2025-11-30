@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestWidgetDetails.js
+
 import { Dimension, $, append, show, clearNode, hide, size, getClientArea } from '../../../../base/browser/dom.js';
 import { ResizableHTMLElement } from '../../../../base/browser/ui/resizable/resizable.js';
 import { DomScrollableElement } from '../../../../base/browser/ui/scrollbar/scrollableElement.js';

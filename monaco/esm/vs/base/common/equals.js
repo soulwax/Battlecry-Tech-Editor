@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/equals.js
+
 import { equals } from './arrays.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/htmlLanguageTypes.js
+
 import { MarkupKind } from '../../../vscode-languageserver-types/lib/esm/main.js';
 export { Color, ColorInformation, ColorPresentation, Command, CompletionItem, CompletionItemKind, CompletionItemTag, CompletionList, Diagnostic, DocumentHighlight, DocumentHighlightKind, DocumentLink, DocumentSymbol, DocumentUri, FoldingRange, FoldingRangeKind, FormattingOptions, Hover, InsertReplaceEdit, InsertTextFormat, InsertTextMode, Location, MarkedString, MarkupContent, Position, Range, SelectionRange, SymbolInformation, SymbolKind, TextEdit, WorkspaceEdit } from '../../../vscode-languageserver-types/lib/esm/main.js';
 export { TextDocument } from '../../../vscode-languageserver-textdocument/lib/esm/main.js';

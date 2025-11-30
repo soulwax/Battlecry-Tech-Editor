@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestMemory.js
+
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { LRUCache } from '../../../../base/common/map.js';

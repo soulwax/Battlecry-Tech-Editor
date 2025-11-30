@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/wordOperations/browser/wordOperations.js
+
 import { localize2 } from '../../../../nls.js';
 import { CONTEXT_ACCESSIBILITY_MODE_ENABLED } from '../../../../platform/accessibility/common/accessibility.js';
 import { ContextKeyExpr } from '../../../../platform/contextkey/common/contextkey.js';

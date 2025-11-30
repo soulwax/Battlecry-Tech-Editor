@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/tokenWithTextArray.js
+
 import { OffsetRange } from '../core/ranges/offsetRange.js';
 import { LineTokens } from './lineTokens.js';
 

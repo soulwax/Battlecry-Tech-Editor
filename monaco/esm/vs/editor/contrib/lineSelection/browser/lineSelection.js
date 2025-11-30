@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/lineSelection/browser/lineSelection.js
+
 import { registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { CursorMoveCommands } from '../../../common/cursor/cursorMoveCommands.js';
 import { EditorContextKeys } from '../../../common/editorContextKeys.js';

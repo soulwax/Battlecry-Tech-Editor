@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/accessibility/browser/accessibilityService.js
+
 import { addDisposableListener } from '../../../base/browser/dom.js';
 import { mainWindow } from '../../../base/browser/window.js';
 import { Emitter } from '../../../base/common/event.js';

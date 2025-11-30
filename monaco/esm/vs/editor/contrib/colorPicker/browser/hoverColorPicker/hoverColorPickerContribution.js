@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerContribution.js
+
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import { Range } from '../../../../common/core/range.js';
 import { ContentHoverController } from '../../../hover/browser/contentHoverController.js';

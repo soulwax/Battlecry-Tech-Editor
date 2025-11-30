@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/extpath.js
+
 import { sep, posix } from './path.js';
 import { isWindows } from './platform.js';
 import { startsWithIgnoreCase } from './strings.js';

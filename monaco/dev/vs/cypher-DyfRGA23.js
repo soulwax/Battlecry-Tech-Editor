@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/cypher-DyfRGA23.js
+
 define("vs/cypher-DyfRGA23", ["exports"], (function(exports) {
   "use strict";
   const conf = {

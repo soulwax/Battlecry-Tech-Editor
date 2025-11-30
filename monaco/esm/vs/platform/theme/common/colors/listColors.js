@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colors/listColors.js
+
 import { localize } from '../../../../nls.js';
 import { Color } from '../../../../base/common/color.js';
 import { registerColor, ifDefinedThenElse, lighten, darken, transparent } from '../colorUtils.js';

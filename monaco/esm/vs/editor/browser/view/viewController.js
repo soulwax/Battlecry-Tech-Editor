@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view/viewController.js
+
 import { CoreNavigationCommands } from '../coreCommands.js';
 import { Position } from '../../common/core/position.js';
 import { isLinux } from '../../../base/common/platform.js';

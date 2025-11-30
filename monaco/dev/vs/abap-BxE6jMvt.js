@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/abap-BxE6jMvt.js
+
 define("vs/abap-BxE6jMvt", ["exports"], (function(exports) {
   "use strict";
   const conf = {

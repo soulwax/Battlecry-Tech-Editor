@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/multiDiffEditor/utils.js
+
 import { ActionRunner } from '../../../../base/common/actions.js';
 
 /*---------------------------------------------------------------------------------------------

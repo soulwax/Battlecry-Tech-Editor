@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerActions.js
+
 import { EditorAction, EditorAction2 } from '../../../../browser/editorExtensions.js';
 import { localize2, localize } from '../../../../../nls.js';
 import { EditorContextKeys } from '../../../../common/editorContextKeys.js';

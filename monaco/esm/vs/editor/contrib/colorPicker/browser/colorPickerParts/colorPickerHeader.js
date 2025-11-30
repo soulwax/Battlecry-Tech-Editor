@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerHeader.js
+
 import '../colorPicker.css';
 import { $ as $$1, append, addDisposableListener, EventType } from '../../../../../base/browser/dom.js';
 import { Color } from '../../../../../base/common/color.js';

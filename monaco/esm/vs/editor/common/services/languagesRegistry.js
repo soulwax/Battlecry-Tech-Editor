@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/languagesRegistry.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { regExpLeadsToEndlessLoop } from '../../../base/common/strings.js';

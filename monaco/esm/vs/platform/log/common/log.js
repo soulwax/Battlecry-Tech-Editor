@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/log/common/log.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { hash } from '../../../base/common/hash.js';
 import { Disposable } from '../../../base/common/lifecycle.js';

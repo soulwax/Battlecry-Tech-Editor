@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/edits/edit.js
+
 import { BugIndicatingError } from '../../../../base/common/errors.js';
 import { OffsetRange } from '../ranges/offsetRange.js';
 

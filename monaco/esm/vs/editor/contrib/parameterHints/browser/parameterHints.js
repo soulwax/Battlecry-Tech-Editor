@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/parameterHints/browser/parameterHints.js
+
 import { Lazy } from '../../../../base/common/lazy.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { registerEditorContribution, registerEditorAction, EditorCommand, registerEditorCommand, EditorAction } from '../../../browser/editorExtensions.js';

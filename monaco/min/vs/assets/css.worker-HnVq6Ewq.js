@@ -1,3 +1,5 @@
+// File: monaco/min/vs/assets/css.worker-HnVq6Ewq.js
+
 (function(){"use strict";var lt,Ce,ne;class rh{constructor(){this.listeners=[],this.unexpectedErrorHandler=function(e){setTimeout(()=>{throw e.stack?It.isErrorNoTelemetry(e)?new It(e.message+`
 
 `+e.stack):new Error(e.message+`

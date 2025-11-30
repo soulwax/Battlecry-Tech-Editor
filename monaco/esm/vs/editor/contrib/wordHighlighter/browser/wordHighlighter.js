@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/wordHighlighter/browser/wordHighlighter.js
+
 import { localize2 } from '../../../../nls.js';
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { Delayer, first, createCancelablePromise } from '../../../../base/common/async.js';

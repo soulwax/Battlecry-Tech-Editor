@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/contiguousMultilineTokensBuilder.js
+
 import { ContiguousMultilineTokens } from './contiguousMultilineTokens.js';
 
 class ContiguousMultilineTokensBuilder {

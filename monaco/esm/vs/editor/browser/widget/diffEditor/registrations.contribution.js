@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/registrations.contribution.js
+
 import { Codicon } from '../../../../base/common/codicons.js';
 import { ThemeIcon } from '../../../../base/common/themables.js';
 import { ModelDecorationOptions } from '../../../common/model/textModel.js';

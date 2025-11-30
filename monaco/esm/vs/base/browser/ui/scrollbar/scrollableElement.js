@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/scrollbar/scrollableElement.js
+
 import { isChrome, getZoomFactor } from '../../browser.js';
 import { getWindow, addDisposableListener, EventType, scheduleAtNextAnimationFrame } from '../../dom.js';
 import { createFastDomNode } from '../../fastDomNode.js';

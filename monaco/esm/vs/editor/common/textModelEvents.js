@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/textModelEvents.js
+
 /**
  * An event describing that a model has been reset to a new value.
  * @internal

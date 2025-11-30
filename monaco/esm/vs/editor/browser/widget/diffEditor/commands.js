@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/commands.js
+
 import { getActiveElement } from '../../../../base/browser/dom.js';
 import { Codicon } from '../../../../base/common/codicons.js';
 import { EditorAction2 } from '../../editorExtensions.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/prefixSumComputer.js
+
 import { arrayInsert } from '../../../base/common/arrays.js';
 import { toUint32 } from '../../../base/common/uint.js';
 

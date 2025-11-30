@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/editorState/browser/keybindingCancellation.js
+
 import { registerEditorCommand, EditorCommand } from '../../../browser/editorExtensions.js';
 import { RawContextKey, IContextKeyService } from '../../../../platform/contextkey/common/contextkey.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';

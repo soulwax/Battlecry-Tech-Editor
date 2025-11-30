@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/inputMode.js
+
 import { Emitter } from '../../base/common/event.js';
 
 /*---------------------------------------------------------------------------------------------

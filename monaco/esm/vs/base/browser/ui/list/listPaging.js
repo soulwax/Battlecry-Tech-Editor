@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/list/listPaging.js
+
 import { range } from '../../../common/arrays.js';
 import { CancellationTokenSource } from '../../../common/cancellation.js';
 import { Event } from '../../../common/event.js';

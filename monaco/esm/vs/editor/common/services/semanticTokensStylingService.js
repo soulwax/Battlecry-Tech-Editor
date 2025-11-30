@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/semanticTokensStylingService.js
+
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { ILanguageService } from '../languages/language.js';
 import { IThemeService } from '../../../platform/theme/common/themeService.js';

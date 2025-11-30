@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/powerquery/powerquery.js
+
 const conf = {
   comments: {
     lineComment: "//",

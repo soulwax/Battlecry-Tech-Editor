@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/decorators.js
+
 function memoize(_target, key, descriptor) {
     let fnKey = null;
     let fn = null;

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/wgsl-C6G-1Rhr.js
+
 define("vs/wgsl-C6G-1Rhr", ["exports"], (function(exports) {
   "use strict";
   const conf = {

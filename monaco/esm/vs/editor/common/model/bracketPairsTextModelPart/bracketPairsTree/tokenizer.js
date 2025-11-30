@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/tokenizer.js
+
 import { NotSupportedError } from '../../../../../base/common/errors.js';
 import { TokenMetadata } from '../../../encodedTokenAttributes.js';
 import { TextAstNode } from './ast.js';

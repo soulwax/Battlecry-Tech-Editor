@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/smartSelect/browser/bracketSelections.js
+
 import { LinkedList } from '../../../../base/common/linkedList.js';
 import { Position } from '../../../common/core/position.js';
 import { Range } from '../../../common/core/range.js';

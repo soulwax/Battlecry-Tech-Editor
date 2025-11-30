@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/handlebars-C_OonjWa.js
+
 define("vs/handlebars-C_OonjWa", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const EMPTY_ELEMENTS = [

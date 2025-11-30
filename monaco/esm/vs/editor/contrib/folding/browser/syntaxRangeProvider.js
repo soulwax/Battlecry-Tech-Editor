@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/folding/browser/syntaxRangeProvider.js
+
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { MAX_LINE_NUMBER, FoldingRegions } from './foldingRanges.js';

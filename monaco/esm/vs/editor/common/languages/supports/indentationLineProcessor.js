@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/indentationLineProcessor.js
+
 import { getLeadingWhitespace } from '../../../../base/common/strings.js';
 import { createScopedLineTokens } from '../supports.js';
 import { LineTokens } from '../../tokens/lineTokens.js';

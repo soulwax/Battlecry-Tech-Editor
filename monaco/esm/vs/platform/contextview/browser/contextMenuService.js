@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextview/browser/contextMenuService.js
+
 import { ModifierKeyEmitter } from '../../../base/browser/dom.js';
 import { Separator } from '../../../base/common/actions.js';
 import { Emitter } from '../../../base/common/event.js';

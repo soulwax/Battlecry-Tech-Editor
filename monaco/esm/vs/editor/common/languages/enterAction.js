@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/enterAction.js
+
 import { IndentAction } from './languageConfiguration.js';
 import { getIndentationAtPosition } from './languageConfigurationRegistry.js';
 import { IndentationContextProcessor } from './supports/indentationLineProcessor.js';

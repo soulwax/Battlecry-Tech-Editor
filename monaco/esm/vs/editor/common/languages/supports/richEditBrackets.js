@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/richEditBrackets.js
+
 import { createRegExp, escapeRegExpCharacters } from '../../../../base/common/strings.js';
 import { getPlatformTextDecoder } from '../../core/stringBuilder.js';
 import { Range } from '../../core/range.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/rangeMapping.js
+
 import { groupAdjacentBy } from '../../../base/common/arrays.js';
 import { assertFn, checkAdjacentItems } from '../../../base/common/assert.js';
 import { BugIndicatingError } from '../../../base/common/errors.js';

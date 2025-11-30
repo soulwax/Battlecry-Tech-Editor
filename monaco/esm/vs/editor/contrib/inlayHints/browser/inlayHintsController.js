@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlayHints/browser/inlayHintsController.js
+
 import { ModifierKeyEmitter, isHTMLElement } from '../../../../base/browser/dom.js';
 import { isNonEmptyArray } from '../../../../base/common/arrays.js';
 import { RunOnceScheduler, disposableTimeout } from '../../../../base/common/async.js';

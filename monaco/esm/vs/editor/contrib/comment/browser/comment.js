@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/comment/browser/comment.js
+
 import { KeyChord } from '../../../../base/common/keyCodes.js';
 import { localize, localize2 } from '../../../../nls.js';
 import { MenuId } from '../../../../platform/actions/common/actions.js';

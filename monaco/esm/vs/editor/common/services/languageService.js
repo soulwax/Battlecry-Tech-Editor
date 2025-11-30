@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/languageService.js
+
 import { Emitter, Event } from '../../../base/common/event.js';
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { LanguagesRegistry } from './languagesRegistry.js';

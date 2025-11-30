@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/unicodeHighlighter/browser/unicodeHighlighter.js
+
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { Codicon } from '../../../../base/common/codicons.js';
 import { createCommandUri, MarkdownString } from '../../../../base/common/htmlContent.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/accessibilitySignal/browser/accessibilitySignalService.js
+
 import { localize } from '../../../nls.js';
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/tree/quickInputTreeSorter.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 
 /*---------------------------------------------------------------------------------------------

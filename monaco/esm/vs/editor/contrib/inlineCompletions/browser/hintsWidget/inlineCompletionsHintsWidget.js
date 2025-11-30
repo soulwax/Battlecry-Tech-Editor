@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/hintsWidget/inlineCompletionsHintsWidget.js
+
 import { n, h } from '../../../../../base/browser/dom.js';
 import { renderMarkdown } from '../../../../../base/browser/markdownRenderer.js';
 import { ActionViewItem } from '../../../../../base/browser/ui/actionbar/actionViewItems.js';

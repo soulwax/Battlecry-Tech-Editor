@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/mysql/mysql.js
+
 const conf = {
   comments: {
     lineComment: "--",

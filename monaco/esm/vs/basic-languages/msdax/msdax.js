@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/msdax/msdax.js
+
 const conf = {
   comments: {
     lineComment: "//",

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/scrollbar/scrollbarVisibilityController.js
+
 import { TimeoutTimer } from '../../../common/async.js';
 import { Disposable } from '../../../common/lifecycle.js';
 

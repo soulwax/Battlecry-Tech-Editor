@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/atlas/textureAtlasSlabAllocator.js
+
 import { getActiveWindow } from '../../../../base/browser/dom.js';
 import { BugIndicatingError } from '../../../../base/common/errors.js';
 import { NKeyMap } from '../../../../base/common/map.js';

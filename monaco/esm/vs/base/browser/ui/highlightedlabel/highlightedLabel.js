@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/highlightedlabel/highlightedLabel.js
+
 import { append, $, reset } from '../../dom.js';
 import { getBaseLayerHoverDelegate } from '../hover/hoverDelegate2.js';
 import { getDefaultHoverDelegate } from '../hover/hoverDelegateFactory.js';

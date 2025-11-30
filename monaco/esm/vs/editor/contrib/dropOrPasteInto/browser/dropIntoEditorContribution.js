@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/dropIntoEditorContribution.js
+
 import { registerEditorContribution, registerEditorCommand, EditorCommand } from '../../../browser/editorExtensions.js';
 import { registerEditorFeature } from '../../../common/editorFeatures.js';
 import { DefaultDropProvidersFeature } from './defaultProviders.js';

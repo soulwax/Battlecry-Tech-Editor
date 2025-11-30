@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/quickAccess/browser/gotoSymbolQuickAccess.js
+
 import { DeferredPromise } from '../../../../base/common/async.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';
 import { Codicon } from '../../../../base/common/codicons.js';

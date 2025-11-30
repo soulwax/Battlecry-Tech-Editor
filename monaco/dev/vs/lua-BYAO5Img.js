@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/lua-BYAO5Img.js
+
 define("vs/lua-BYAO5Img", ["exports"], (function(exports) {
   "use strict";
   const conf = {

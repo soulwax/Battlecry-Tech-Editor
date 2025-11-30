@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/htmlLanguageService.js
+
 import { createScanner } from './parser/htmlScanner.js';
 import { HTMLParser } from './parser/htmlParser.js';
 import { HTMLCompletion } from './services/htmlCompletion.js';

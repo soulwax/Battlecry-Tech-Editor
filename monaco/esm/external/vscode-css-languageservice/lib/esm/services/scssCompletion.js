@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/scssCompletion.js
+
 import { CSSCompletion } from './cssCompletion.js';
 import { NodeType, ReferenceType } from '../parser/cssNodes.js';
 import '../cssLanguageTypes.js';

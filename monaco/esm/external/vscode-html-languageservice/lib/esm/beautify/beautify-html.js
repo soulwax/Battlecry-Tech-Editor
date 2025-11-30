@@ -1,8 +1,10 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/beautify/beautify-html.js
+// version: 1.15.1
+
 import { js_beautify } from './beautify.js';
 import { css_beautify } from './beautify-css.js';
 
 // copied from js-beautify/js/lib/beautify-html.js
-// version: 1.15.1
 /* AUTO-GENERATED. DO NOT MODIFY. */
 /*
 

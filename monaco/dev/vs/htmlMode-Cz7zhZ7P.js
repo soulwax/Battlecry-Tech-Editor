@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/htmlMode-Cz7zhZ7P.js
+
 define("vs/htmlMode-Cz7zhZ7P", ["module", "exports", "./workers-p6mTW5Va", "./lspLanguageFeatures-BnY_dL8Y", "./editor.api-CykLys8L"], (function(module, exports, workers, lspLanguageFeatures, editor_api) {
   "use strict";
   const STOP_WHEN_IDLE_FOR = 2 * 60 * 1e3;

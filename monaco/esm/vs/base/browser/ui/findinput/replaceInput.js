@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/findinput/replaceInput.js
+
 import { EventHelper } from '../../dom.js';
 import { Toggle } from '../toggle/toggle.js';
 import { HistoryInputBox } from '../inputbox/inputBox.js';

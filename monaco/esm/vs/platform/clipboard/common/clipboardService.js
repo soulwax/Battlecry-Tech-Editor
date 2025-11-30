@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/clipboard/common/clipboardService.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

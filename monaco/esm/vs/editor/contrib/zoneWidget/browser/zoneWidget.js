@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/zoneWidget/browser/zoneWidget.js
+
 import { removeCSSRulesContainingSelector, createCSSRule } from '../../../../base/browser/domStylesheets.js';
 import { Sash } from '../../../../base/browser/ui/sash/sash.js';
 import { Color, RGBA } from '../../../../base/common/color.js';

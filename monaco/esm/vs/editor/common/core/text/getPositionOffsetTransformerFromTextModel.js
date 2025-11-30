@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/text/getPositionOffsetTransformerFromTextModel.js
+
 import './positionToOffset.js';
 import { PositionOffsetTransformerBase } from './positionToOffsetImpl.js';
 

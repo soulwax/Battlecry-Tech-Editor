@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/defaultDocumentColorProvider.js
+
 import { Color, RGBA } from '../../../../base/common/color.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { ILanguageFeaturesService } from '../../../common/services/languageFeatures.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/clojure-DyYtgmYv.js
+
 define("vs/clojure-DyYtgmYv", ["exports"], (function(exports) {
   "use strict";
   const conf = {

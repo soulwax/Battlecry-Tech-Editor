@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/go/go.js
+
 const conf = {
   comments: {
     lineComment: "//",

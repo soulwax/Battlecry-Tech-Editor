@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/modelLineProjectionData.js
+
 import { assertNever } from '../../base/common/assert.js';
 import { Position } from './core/position.js';
 import { InjectedTextCursorStops } from './model.js';

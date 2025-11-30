@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/tsMode.js
+
 import { WorkerManager } from './workerManager.js';
 import { SuggestAdapter, SignatureHelpAdapter, QuickInfoAdapter, DocumentHighlightAdapter, DefinitionAdapter, LibFiles, ReferenceAdapter, OutlineAdapter, RenameAdapter, FormatAdapter, FormatOnTypeAdapter, CodeActionAdaptor, InlayHintsAdapter, DiagnosticsAdapter } from './languageFeatures.js';
 export { Adapter, FormatHelper, Kind, flattenDiagnosticMessageText } from './languageFeatures.js';

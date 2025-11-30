@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/common/types.js
+
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';
 import { HierarchicalKind } from '../../../../base/common/hierarchicalKind.js';
 

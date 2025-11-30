@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/telemetry/common/telemetry.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

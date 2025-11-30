@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/textModelEditSource.js
+
 import { prefixedUuid } from '../../base/common/uuid.js';
 import { TextLength } from './core/text/textLength.js';
 

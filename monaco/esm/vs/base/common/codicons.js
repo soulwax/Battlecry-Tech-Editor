@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/codicons.js
+
 import { register } from './codiconsUtil.js';
 import { codiconsLibrary } from './codiconsLibrary.js';
 

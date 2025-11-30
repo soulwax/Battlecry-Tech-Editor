@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actions/browser/toolbar.js
+
 import { addDisposableListener, getWindow } from '../../../base/browser/dom.js';
 import { StandardMouseEvent } from '../../../base/browser/mouseEvent.js';
 import { ToolBar, ToggleMenuAction } from '../../../base/browser/ui/toolbar/toolbar.js';

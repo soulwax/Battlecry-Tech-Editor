@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/scala/scala.js
+
 const conf = {
   /*
    * `...` is allowed as an identifier.

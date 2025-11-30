@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeActionController.js
+
 import { getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { status } from '../../../../base/browser/ui/aria/aria.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';

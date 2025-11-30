@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoSymbol/browser/peek/referencesTree.js
+
 import { append, $ } from '../../../../../base/browser/dom.js';
 import { CountBadge } from '../../../../../base/browser/ui/countBadge/countBadge.js';
 import { HighlightedLabel } from '../../../../../base/browser/ui/highlightedlabel/highlightedLabel.js';

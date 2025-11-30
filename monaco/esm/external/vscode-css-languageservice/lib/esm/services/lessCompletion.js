@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/lessCompletion.js
+
 import { CSSCompletion } from './cssCompletion.js';
 import '../cssLanguageTypes.js';
 import { t } from '../../../../@vscode/l10n/dist/browser.js';

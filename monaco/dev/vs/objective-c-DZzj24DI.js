@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/objective-c-DZzj24DI.js
+
 define("vs/objective-c-DZzj24DI", ["exports"], (function(exports) {
   "use strict";
   const conf = {

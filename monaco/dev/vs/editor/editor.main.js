@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/editor/editor.main.js
+
 define("vs/editor/editor.main", ["exports", "require", "vs/nls.messages-loader!", "../monaco.contribution-D_SyqKiy", "../monaco.contribution-D74vF5SR", "../monaco.contribution-Cqdn_4Kw", "../monaco.contribution-YfYcxPkX", "../basic-languages/monaco.contribution", "../editor.api-CykLys8L", "../workers-p6mTW5Va"], (function(exports, require, nls_messagesLoader_, language_css_monaco_contribution, language_html_monaco_contribution, language_json_monaco_contribution, language_typescript_monaco_contribution, basicLanguages_monaco_contribution, editor_api, workers) {
   "use strict";
   function _interopNamespaceDefault(e) {

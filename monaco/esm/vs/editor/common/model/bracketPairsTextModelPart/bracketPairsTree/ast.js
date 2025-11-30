@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/ast.js
+
 import { BugIndicatingError } from '../../../../../base/common/errors.js';
 import { CursorColumns } from '../../../core/cursorColumns.js';
 import { lengthToObj, lengthGetLineCount, lengthAdd, lengthZero } from './length.js';

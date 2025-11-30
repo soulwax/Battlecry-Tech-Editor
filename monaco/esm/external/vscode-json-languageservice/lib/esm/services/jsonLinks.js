@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonLinks.js
+
 import '../jsonLanguageTypes.js';
 import { Range } from '../../../../vscode-languageserver-types/lib/esm/main.js';
 

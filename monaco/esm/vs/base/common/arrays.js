@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/arrays.js
+
 /**
  * Returns the last entry and the initial N-1 entries of the array, as a tuple of [rest, last].
  *

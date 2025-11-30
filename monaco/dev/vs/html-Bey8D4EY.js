@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/html-Bey8D4EY.js
+
 define("vs/html-Bey8D4EY", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const EMPTY_ELEMENTS = [

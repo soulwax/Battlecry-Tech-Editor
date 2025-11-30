@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/mouseCursor/mouseCursor.js
+
 import './mouseCursor.css';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/json/tokenization.js
+
 import { createScanner } from '../../../external/jsonc-parser/lib/esm/main.js';
 
 function createTokenizationSupport(supportComments) {

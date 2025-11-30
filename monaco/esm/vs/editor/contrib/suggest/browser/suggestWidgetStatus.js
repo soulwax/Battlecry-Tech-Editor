@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestWidgetStatus.js
+
 import { append, $ } from '../../../../base/browser/dom.js';
 import { ActionBar } from '../../../../base/browser/ui/actionbar/actionbar.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';

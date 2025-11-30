@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/commands/common/commands.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Iterable } from '../../../base/common/iterator.js';
 import { markAsSingleton, toDisposable } from '../../../base/common/lifecycle.js';

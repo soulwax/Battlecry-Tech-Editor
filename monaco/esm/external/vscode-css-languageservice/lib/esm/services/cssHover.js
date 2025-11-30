@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssHover.js
+
 import { getNodePath, Media, Selector, SimpleSelector, Declaration, UnknownAtRule, Node, NodeType } from '../parser/cssNodes.js';
 import { getEntryDescription } from '../languageFacts/entry.js';
 import '../languageFacts/colors.js';

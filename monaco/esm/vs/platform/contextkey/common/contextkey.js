@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextkey/common/contextkey.js
+
 import { isMacintosh, isLinux, isWindows, isWeb, isEdge, isFirefox, isChrome, isSafari } from '../../../base/common/platform.js';
 import { isFalsyOrWhitespace } from '../../../base/common/strings.js';
 import { Scanner } from './scanner.js';

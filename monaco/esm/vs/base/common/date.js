@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/date.js
+
 import { Lazy } from './lazy.js';
 import { LANGUAGE_DEFAULT } from './platform.js';
 

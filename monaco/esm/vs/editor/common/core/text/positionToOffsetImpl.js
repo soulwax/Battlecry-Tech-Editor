@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/text/positionToOffsetImpl.js
+
 import { findLastIdxMonotonous } from '../../../../base/common/arraysFind.js';
 import { OffsetRange } from '../ranges/offsetRange.js';
 import { Position } from '../position.js';

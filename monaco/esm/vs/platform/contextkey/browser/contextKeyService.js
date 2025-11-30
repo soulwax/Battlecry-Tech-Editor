@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextkey/browser/contextKeyService.js
+
 import { Event, PauseableEmitter } from '../../../base/common/event.js';
 import { Iterable } from '../../../base/common/iterator.js';
 import { MutableDisposable, DisposableStore, Disposable } from '../../../base/common/lifecycle.js';

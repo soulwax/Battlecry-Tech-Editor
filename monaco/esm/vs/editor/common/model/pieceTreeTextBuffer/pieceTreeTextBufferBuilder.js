@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/pieceTreeTextBuffer/pieceTreeTextBufferBuilder.js
+
 import { startsWithUTF8BOM, UTF8_BOM_CHARACTER, containsRTL, containsUnusualLineTerminators } from '../../../../base/common/strings.js';
 import { createLineStarts, StringBuffer, createLineStartsFast } from './pieceTreeBase.js';
 import { PieceTreeTextBuffer } from './pieceTreeTextBuffer.js';

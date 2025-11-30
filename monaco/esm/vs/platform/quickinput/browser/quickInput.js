@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInput.js
+
 import { reset, isMouseEvent, addDisposableListener, EventType, isHTMLElement } from '../../../base/browser/dom.js';
 import { StandardKeyboardEvent } from '../../../base/browser/keyboardEvent.js';
 import { Toggle } from '../../../base/browser/ui/toggle/toggle.js';

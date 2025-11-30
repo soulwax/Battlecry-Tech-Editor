@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/edcore.main.js
+
 import './internal/initialize.js';
 import './browser/coreCommands.js';
 import './browser/widget/codeEditor/codeEditorWidget.js';

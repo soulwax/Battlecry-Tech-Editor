@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/atlas/textureAtlasPage.js
+
 import { Disposable, toDisposable } from '../../../../base/common/lifecycle.js';
 import { NKeyMap } from '../../../../base/common/map.js';
 import { LogLevel, ILogService } from '../../../../platform/log/common/log.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/documentSymbols/browser/documentSymbols.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { assertType } from '../../../../base/common/types.js';
 import { URI } from '../../../../base/common/uri.js';

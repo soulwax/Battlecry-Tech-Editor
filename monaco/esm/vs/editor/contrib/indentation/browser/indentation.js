@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/indentation/browser/indentation.js
+
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { getLeadingWhitespace } from '../../../../base/common/strings.js';
 import { localize2, localize } from '../../../../nls.js';

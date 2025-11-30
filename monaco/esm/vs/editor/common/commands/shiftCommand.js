@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/commands/shiftCommand.js
+
 import { firstNonWhitespaceIndex } from '../../../base/common/strings.js';
 import { CursorColumns } from '../core/cursorColumns.js';
 import { Range } from '../core/range.js';

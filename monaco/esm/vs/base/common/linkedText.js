@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/linkedText.js
+
 import { memoize } from './decorators.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/placeholderText/browser/placeholderTextContribution.js
+
 import { h } from '../../../../base/browser/dom.js';
 import { structuralEquals } from '../../../../base/common/equals.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';

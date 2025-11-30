@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/editor.api2.js
+
 import { EditorOptions } from './common/config/editorOptions.js';
 import { createMonacoBaseAPI } from './common/services/editorBaseApi.js';
 import { createMonacoEditorAPI } from './standalone/browser/standaloneEditor.js';

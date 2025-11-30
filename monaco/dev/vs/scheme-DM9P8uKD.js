@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/scheme-DM9P8uKD.js
+
 define("vs/scheme-DM9P8uKD", ["exports"], (function(exports) {
   "use strict";
   const conf = {

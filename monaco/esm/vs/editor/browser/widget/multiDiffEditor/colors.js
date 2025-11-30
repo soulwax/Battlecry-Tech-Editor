@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/multiDiffEditor/colors.js
+
 import { localize } from '../../../../nls.js';
 import { registerColor } from '../../../../platform/theme/common/colorUtils.js';
 import '../../../../platform/theme/common/colors/baseColors.js';

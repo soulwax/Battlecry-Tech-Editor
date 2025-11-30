@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/nls.messages-loader.js
+
 define("vs/nls.messages-loader", ["exports"], (function(exports) {
   "use strict";
   function load(name, req, load2, config) {

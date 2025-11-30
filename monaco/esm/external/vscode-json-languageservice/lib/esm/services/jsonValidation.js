@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonValidation.js
+
 import { ErrorCode } from '../jsonLanguageTypes.js';
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 import { isBoolean } from '../utils/objects.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/ghostText/ghostTextView.js
+
 import { createTrustedTypesPolicy } from '../../../../../../base/browser/trustedTypes.js';
 import '../../../../../../base/browser/ui/iconLabel/iconLabels.js';
 import '../../../../../../base/common/codicons.js';

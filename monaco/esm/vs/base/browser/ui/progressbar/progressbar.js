@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/progressbar/progressbar.js
+
 import { show } from '../../dom.js';
 import { RunOnceScheduler } from '../../../common/async.js';
 import { Disposable, MutableDisposable } from '../../../common/lifecycle.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/observableValueOpts.js
+
 import { DebugNameData } from '../debugName.js';
 import { strictEquals } from '../../equals.js';
 import '../../event.js';

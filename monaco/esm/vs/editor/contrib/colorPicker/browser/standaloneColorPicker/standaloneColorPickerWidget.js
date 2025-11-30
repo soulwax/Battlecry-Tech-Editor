@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerWidget.js
+
 import '../colorPicker.css';
 import { Disposable, MutableDisposable } from '../../../../../base/common/lifecycle.js';
 import { IInstantiationService } from '../../../../../platform/instantiation/common/instantiation.js';

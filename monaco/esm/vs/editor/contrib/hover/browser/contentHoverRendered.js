@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/contentHoverRendered.js
+
 import { RenderedHoverParts } from './hoverTypes.js';
 import { Disposable, toDisposable, DisposableStore } from '../../../../base/common/lifecycle.js';
 import { EditorHoverStatusBar } from './contentHoverStatusBar.js';

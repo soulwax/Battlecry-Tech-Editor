@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/typespec/typespec.js
+
 const bounded = (text) => `\\b${text}\\b`;
 const notBefore = (regex) => `(?!${regex})`;
 const identifierStart = "[_a-zA-Z]";

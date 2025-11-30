@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/viewModelImpl.js
+
 import { ArrayQueue } from '../../../base/common/arrays.js';
 import { RunOnceScheduler } from '../../../base/common/async.js';
 import { Color } from '../../../base/common/color.js';

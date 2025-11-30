@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/provideInlineCompletions.js
+
 import { assertNever } from '../../../../../base/common/assert.js';
 import { AsyncIterableProducer } from '../../../../../base/common/async.js';
 import { CancellationTokenSource } from '../../../../../base/common/cancellation.js';

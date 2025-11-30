@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/liquid-Limfe9fx.js
+
 define("vs/liquid-Limfe9fx", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const EMPTY_ELEMENTS = [

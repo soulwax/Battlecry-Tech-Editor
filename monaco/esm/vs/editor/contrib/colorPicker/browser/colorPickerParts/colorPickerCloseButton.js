@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerCloseButton.js
+
 import '../colorPicker.css';
 import { append, $ as $$1, addDisposableListener, EventType } from '../../../../../base/browser/dom.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';

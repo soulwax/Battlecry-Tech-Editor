@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoSymbol/browser/peek/referencesController.js
+
 import { createCancelablePromise } from '../../../../../base/common/async.js';
 import { onUnexpectedError } from '../../../../../base/common/errors.js';
 import { KeyChord } from '../../../../../base/common/keyCodes.js';

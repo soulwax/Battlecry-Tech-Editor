@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneServices.js
+
 import './standaloneCodeEditorService.js';
 import './standaloneLayoutService.js';
 import '../../../platform/undoRedo/common/undoRedoService.js';

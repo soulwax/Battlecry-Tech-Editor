@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/changeRecorder.js
+
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import '../../../../../base/common/observableInternal/index.js';
 import { IInstantiationService } from '../../../../../platform/instantiation/common/instantiation.js';

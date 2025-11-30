@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/hoverAccessibleViews.js
+
 class HoverAccessibleView {
 }
 class HoverAccessibilityHelp {

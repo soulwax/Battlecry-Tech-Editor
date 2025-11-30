@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/findinput/findInputToggles.js
+
 import { Toggle } from '../toggle/toggle.js';
 import { Codicon } from '../../../common/codicons.js';
 import { localize } from '../../../../nls.js';

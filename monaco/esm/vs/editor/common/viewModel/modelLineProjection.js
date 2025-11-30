@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/modelLineProjection.js
+
 import { LineTokens } from '../tokens/lineTokens.js';
 import { Position } from '../core/position.js';
 import { LineInjectedText } from '../textModelEvents.js';

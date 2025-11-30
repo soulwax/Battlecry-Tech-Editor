@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/renderStrategy/baseRenderStrategy.js
+
 import { ViewEventHandler } from '../../../common/viewEventHandler.js';
 
 /*---------------------------------------------------------------------------------------------

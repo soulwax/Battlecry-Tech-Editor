@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/sql-RAEyXdQG.js
+
 define("vs/sql-RAEyXdQG", ["exports"], (function(exports) {
   "use strict";
   const conf = {

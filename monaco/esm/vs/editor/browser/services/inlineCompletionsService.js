@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/inlineCompletionsService.js
+
 import { TimeoutTimer } from '../../../base/common/async.js';
 import { BugIndicatingError } from '../../../base/common/errors.js';
 import { Emitter } from '../../../base/common/event.js';

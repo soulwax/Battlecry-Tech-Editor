@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/systemverilog-D8uKG36_.js
+
 define("vs/systemverilog-D8uKG36_", ["exports"], (function(exports) {
   "use strict";
   const conf = {

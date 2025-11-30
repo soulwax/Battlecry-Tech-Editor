@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/clipboard/browser/clipboard.js
+
 import { isFirefox } from '../../../../base/browser/browser.js';
 import { getActiveWindow, getActiveDocument } from '../../../../base/browser/dom.js';
 import { isNative, isWeb } from '../../../../base/common/platform.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/pickerQuickAccess.js
+
 import { timeout } from '../../../base/common/async.js';
 import { CancellationTokenSource } from '../../../base/common/cancellation.js';
 import { Disposable, DisposableStore, MutableDisposable } from '../../../base/common/lifecycle.js';

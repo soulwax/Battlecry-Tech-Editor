@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/config/editorConfigurationSchema.js
+
 import { diffEditorDefaultOptions } from './diffEditor.js';
 import { editorOptionsRegistry } from './editorOptions.js';
 import { EDITOR_MODEL_DEFAULTS } from '../core/misc/textModelDefaults.js';

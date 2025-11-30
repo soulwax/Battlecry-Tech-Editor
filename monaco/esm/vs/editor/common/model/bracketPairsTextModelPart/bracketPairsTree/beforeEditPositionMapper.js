@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/beforeEditPositionMapper.js
+
 import { Range } from '../../../core/range.js';
 import { positionToLength, lengthOfString, lengthToObj, lengthDiffNonNegative, toLength, lengthLessThanEqual, lengthAdd } from './length.js';
 

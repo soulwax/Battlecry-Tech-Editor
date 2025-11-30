@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/swift-CXsb7aR5.js
+
 define("vs/swift-CXsb7aR5", ["exports"], (function(exports) {
   "use strict";
   /*!---------------------------------------------------------------------------------------------

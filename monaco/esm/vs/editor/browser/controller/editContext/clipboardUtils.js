@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/clipboardUtils.js
+
 import { isWindows } from '../../../../base/common/platform.js';
 import { Mimes } from '../../../../base/common/mime.js';
 

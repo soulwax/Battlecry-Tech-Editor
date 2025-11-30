@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/text/positionToOffset.js
+
 import { StringReplacement, StringEdit } from '../edits/stringEdit.js';
 import { TextEdit, TextReplacement } from '../edits/textEdit.js';
 import { _setPositionOffsetTransformerDependencies } from './positionToOffsetImpl.js';

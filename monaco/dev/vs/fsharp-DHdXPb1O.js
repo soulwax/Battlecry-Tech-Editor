@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/fsharp-DHdXPb1O.js
+
 define("vs/fsharp-DHdXPb1O", ["exports"], (function(exports) {
   "use strict";
   const conf = {

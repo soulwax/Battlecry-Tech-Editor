@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/features/movedBlocksLinesFeature.js
+
 import { h } from '../../../../../base/browser/dom.js';
 import { ActionBar } from '../../../../../base/browser/ui/actionbar/actionbar.js';
 import { Action } from '../../../../../base/common/actions.js';

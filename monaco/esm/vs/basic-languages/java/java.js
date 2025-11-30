@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/java/java.js
+
 const conf = {
   // the default separators except `@$`
   wordPattern: /(-?\d*\.\d\w*)|([^\`\~\!\#\%\^\&\*\(\)\-\=\+\[\{\]\}\\\|\;\:\'\"\,\.\<\>\/\?\s]+)/g,

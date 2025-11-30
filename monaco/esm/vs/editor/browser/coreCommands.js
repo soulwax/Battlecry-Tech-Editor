@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/coreCommands.js
+
 import { localize } from '../../nls.js';
 import { isFirefox } from '../../base/browser/browser.js';
 import { isObject, isString, isUndefined, isNumber, isBoolean } from '../../base/common/types.js';

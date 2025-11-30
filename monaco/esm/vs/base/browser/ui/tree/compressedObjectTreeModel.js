@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/tree/compressedObjectTreeModel.js
+
 import { getVisibleState, isFilterResult } from './indexTreeModel.js';
 import { ObjectTreeModel } from './objectTreeModel.js';
 import { WeakMapper, TreeError } from './tree.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoSymbol/browser/referencesModel.js
+
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { Emitter } from '../../../../base/common/event.js';
 import { defaultGenerator } from '../../../../base/common/idGenerator.js';

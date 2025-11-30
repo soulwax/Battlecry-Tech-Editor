@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/config/editorConfiguration.js
+
 import { isWebKit, isFirefox, isSafari, isWebkitWebView } from '../../../base/browser/browser.js';
 import { equals } from '../../../base/common/arrays.js';
 import { Emitter } from '../../../base/common/event.js';

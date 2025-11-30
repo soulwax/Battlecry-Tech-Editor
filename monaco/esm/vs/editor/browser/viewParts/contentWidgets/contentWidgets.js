@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/contentWidgets/contentWidgets.js
+
 import { getDomNodePagePosition, getClientArea } from '../../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { ViewPart, PartFingerprints } from '../../view/viewPart.js';

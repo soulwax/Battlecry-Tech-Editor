@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/dropdown/dropdown.js
+
 import { append, $, EventType, addDisposableListener, EventHelper, isMouseEvent } from '../../dom.js';
 import { StandardKeyboardEvent } from '../../keyboardEvent.js';
 import { EventType as EventType$1, Gesture } from '../../touch.js';

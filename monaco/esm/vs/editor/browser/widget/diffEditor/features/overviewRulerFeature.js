@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/features/overviewRulerFeature.js
+
 import { h, addStandardDisposableListener, EventType, addDisposableListener } from '../../../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../../../base/browser/fastDomNode.js';
 import { ScrollbarState } from '../../../../../base/browser/ui/scrollbar/scrollbarState.js';

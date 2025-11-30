@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/constObservable.js
+
 import { ConvenientObservable } from './baseObservable.js';
 
 /*---------------------------------------------------------------------------------------------

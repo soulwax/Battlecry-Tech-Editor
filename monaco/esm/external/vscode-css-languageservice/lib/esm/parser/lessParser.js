@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/lessParser.js
+
 import { LESSScanner, Ellipsis } from './lessScanner.js';
 import { TokenType } from './cssScanner.js';
 import { Parser } from './cssParser.js';

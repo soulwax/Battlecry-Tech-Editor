@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/copyPasteController.js
+
 import { addDisposableListener } from '../../../../base/browser/dom.js';
 import { coalesce } from '../../../../base/common/arrays.js';
 import { createCancelablePromise, DeferredPromise, raceCancellation } from '../../../../base/common/async.js';

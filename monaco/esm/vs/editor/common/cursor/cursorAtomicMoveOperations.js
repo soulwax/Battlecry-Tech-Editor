@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorAtomicMoveOperations.js
+
 import { CursorColumns } from '../core/cursorColumns.js';
 
 /*---------------------------------------------------------------------------------------------

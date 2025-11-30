@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/rust-DIvkf86i.js
+
 define("vs/rust-DIvkf86i", ["exports"], (function(exports) {
   "use strict";
   const conf = {

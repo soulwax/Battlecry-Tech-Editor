@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/inspectTokens/inspectTokens.js
+
 import './inspectTokens.css';
 import { reset, $, append } from '../../../../base/browser/dom.js';
 import { Color } from '../../../../base/common/color.js';

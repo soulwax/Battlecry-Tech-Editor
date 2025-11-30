@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/product/common/productService.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

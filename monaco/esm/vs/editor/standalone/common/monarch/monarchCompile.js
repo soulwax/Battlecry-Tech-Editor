@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/common/monarch/monarchCompile.js
+
 import { isString } from '../../../../base/common/types.js';
 import { createError, fixCase, empty, substituteMatchesRe, stateExists, substituteMatches } from './monarchCommon.js';
 

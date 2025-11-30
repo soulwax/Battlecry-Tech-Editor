@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollModelProvider.js
+
 import { Disposable, DisposableStore, MutableDisposable } from '../../../../base/common/lifecycle.js';
 import { ILanguageFeaturesService } from '../../../common/services/languageFeatures.js';
 import { OutlineModel, OutlineGroup, OutlineElement } from '../../documentSymbols/browser/outlineModel.js';

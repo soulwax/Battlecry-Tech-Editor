@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/singleTextEditHelpers.js
+
 import { commonPrefixLength } from '../../../../../base/common/strings.js';
 import { Range } from '../../../../common/core/range.js';
 import { TextLength } from '../../../../common/core/text/textLength.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findWidgetSearchHistory.js
+
 import { Emitter } from '../../../../base/common/event.js';
 import { IStorageService } from '../../../../platform/storage/common/storage.js';
 

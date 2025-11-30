@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestController.js
+
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { isNonEmptyArray } from '../../../../base/common/arrays.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';

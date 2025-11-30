@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/yaml-Dx1TJ9RY.js
+
 define("vs/yaml-Dx1TJ9RY", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewLayout/viewLayout.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { Scrollable } from '../../../base/common/scrollable.js';

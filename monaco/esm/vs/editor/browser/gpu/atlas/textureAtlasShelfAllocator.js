@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/atlas/textureAtlasShelfAllocator.js
+
 import { BugIndicatingError } from '../../../../base/common/errors.js';
 import { ensureNonNullable } from '../gpuUtils.js';
 

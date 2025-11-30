@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view/viewPart.js
+
 import { ViewEventHandler } from '../../common/viewEventHandler.js';
 
 /*---------------------------------------------------------------------------------------------

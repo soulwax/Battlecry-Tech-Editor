@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/common/monarch/monarchCommon.js
+
 import { escapeRegExpCharacters } from '../../../../base/common/strings.js';
 
 /*---------------------------------------------------------------------------------------------

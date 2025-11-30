@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/renderLines.js
+
 import { createTrustedTypesPolicy } from '../../../../../../base/browser/trustedTypes.js';
 import { applyFontInfo } from '../../../../config/domFontInfo.js';
 import { EditorFontLigatures } from '../../../../../common/config/editorOptions.js';

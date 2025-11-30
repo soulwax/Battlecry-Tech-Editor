@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/contentHoverWidget.js
+
 import { Dimension, append, trackFocus, getClientArea, getDomNodePagePosition, getTotalHeight, getTotalWidth } from '../../../../base/browser/dom.js';
 import { IKeybindingService } from '../../../../platform/keybinding/common/keybinding.js';
 import { ResizableContentWidget } from './resizableContentWidget.js';

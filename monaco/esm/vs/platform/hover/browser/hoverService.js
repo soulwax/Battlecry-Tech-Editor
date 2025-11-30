@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/hover/browser/hoverService.js
+
 import { registerSingleton } from '../../instantiation/common/extensions.js';
 import { registerThemingParticipant } from '../../theme/common/themeService.js';
 import '../../theme/common/colorUtils.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/editorScrollbar/editorScrollbar.js
+
 import { addDisposableListener } from '../../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { SmoothScrollableElement } from '../../../../base/browser/ui/scrollbar/scrollableElement.js';

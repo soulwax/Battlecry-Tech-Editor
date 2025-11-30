@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/browser/defaultStyles.js
+
 import { asCssVariable, asCssVariableWithDefault } from '../common/colorUtils.js';
 import { activeContrastBorder, textLinkForeground, contrastBorder, focusBorder } from '../common/colors/baseColors.js';
 import '../common/colors/chartsColors.js';

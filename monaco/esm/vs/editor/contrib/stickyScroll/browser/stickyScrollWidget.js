@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.js
+
 import { addDisposableListener, EventType } from '../../../../base/browser/dom.js';
 import { createTrustedTypesPolicy } from '../../../../base/browser/trustedTypes.js';
 import { equals } from '../../../../base/common/arrays.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/st-UObc-eRR.js
+
 define("vs/st-UObc-eRR", ["exports"], (function(exports) {
   "use strict";
   const conf = {

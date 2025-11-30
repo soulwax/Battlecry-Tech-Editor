@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/getIconClasses.js
+
 import { Schemas } from '../../../base/common/network.js';
 import { DataUri } from '../../../base/common/resources.js';
 import { URI } from '../../../base/common/uri.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/event.js
+
 import { Emitter } from '../common/event.js';
 
 /*---------------------------------------------------------------------------------------------

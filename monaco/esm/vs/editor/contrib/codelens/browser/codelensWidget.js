@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codelens/browser/codelensWidget.js
+
 import { $, reset } from '../../../../base/browser/dom.js';
 import { renderLabelWithIcons } from '../../../../base/browser/ui/iconLabel/iconLabels.js';
 import './codelensWidget.css';

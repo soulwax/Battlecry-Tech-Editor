@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languageFeatureRegistry.js
+
 import { Emitter } from '../../base/common/event.js';
 import { toDisposable } from '../../base/common/lifecycle.js';
 import { shouldSynchronizeModel } from './model.js';

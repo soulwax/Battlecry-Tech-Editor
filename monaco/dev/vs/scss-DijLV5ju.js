@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/scss-DijLV5ju.js
+
 define("vs/scss-DijLV5ju", ["exports"], (function(exports) {
   "use strict";
   const conf = {

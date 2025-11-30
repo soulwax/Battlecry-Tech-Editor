@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollActions.js
+
 import { EditorAction2 } from '../../../browser/editorExtensions.js';
 import { localize, localize2 } from '../../../../nls.js';
 import { Categories } from '../../../../platform/action/common/actionCommonCategories.js';

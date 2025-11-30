@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/misc/indentation.js
+
 import { firstNonWhitespaceIndex } from '../../../../base/common/strings.js';
 import { CursorColumns } from '../cursorColumns.js';
 

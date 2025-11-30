@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/glyphHoverComputer.js
+
 import { asArray } from '../../../../base/common/arrays.js';
 import { isEmptyMarkdownString } from '../../../../base/common/htmlContent.js';
 import { GlyphMarginLane } from '../../../common/model.js';

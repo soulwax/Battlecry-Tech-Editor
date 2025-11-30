@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/restructuredtext/restructuredtext.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

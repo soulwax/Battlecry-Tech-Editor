@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/editStack.js
+
 import { localize } from '../../../nls.js';
 import { onUnexpectedError } from '../../../base/common/errors.js';
 import { Selection } from '../core/selection.js';

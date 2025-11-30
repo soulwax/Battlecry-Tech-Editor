@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeActionCommands.js
+
 import { HierarchicalKind } from '../../../../base/common/hierarchicalKind.js';
 import { escapeRegExpCharacters } from '../../../../base/common/strings.js';
 import { EditorAction, EditorCommand } from '../../../browser/editorExtensions.js';

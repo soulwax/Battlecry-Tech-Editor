@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/progress/common/progress.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 const IProgressService = createDecorator('progressService');

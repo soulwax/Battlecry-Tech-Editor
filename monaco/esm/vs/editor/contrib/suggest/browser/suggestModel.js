@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestModel.js
+
 import { TimeoutTimer } from '../../../../base/common/async.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';

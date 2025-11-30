@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/unusualLineTerminators/browser/unusualLineTerminators.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { basename } from '../../../../base/common/resources.js';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';

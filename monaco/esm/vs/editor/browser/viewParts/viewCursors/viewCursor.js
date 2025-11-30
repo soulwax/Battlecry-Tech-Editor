@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewCursors/viewCursor.js
+
 import { getWindow, computeScreenAwareSize } from '../../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { getCharContainingOffset } from '../../../../base/common/strings.js';

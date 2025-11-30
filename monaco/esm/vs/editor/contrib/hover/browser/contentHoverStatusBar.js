@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/contentHoverStatusBar.js
+
 import { $ as $$1, append } from '../../../../base/browser/dom.js';
 import { HoverAction } from '../../../../base/browser/ui/hover/hoverWidget.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';

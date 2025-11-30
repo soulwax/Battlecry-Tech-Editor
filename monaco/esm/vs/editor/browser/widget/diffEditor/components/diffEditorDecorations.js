@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/components/diffEditorDecorations.js
+
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import '../../../../../base/common/observableInternal/index.js';
 import { allowsTrueInlineDiffRendering } from './diffEditorViewZones/diffEditorViewZones.js';

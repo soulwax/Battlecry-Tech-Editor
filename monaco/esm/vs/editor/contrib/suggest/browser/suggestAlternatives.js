@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestAlternatives.js
+
 import { RawContextKey, IContextKeyService } from '../../../../platform/contextkey/common/contextkey.js';
 
 /*---------------------------------------------------------------------------------------------

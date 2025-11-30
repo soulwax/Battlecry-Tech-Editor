@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/edits/lineEdit.js
+
 import { assert, checkAdjacentItems } from '../../../../base/common/assert.js';
 import { splitLines } from '../../../../base/common/strings.js';
 import { LineRange } from '../ranges/lineRange.js';

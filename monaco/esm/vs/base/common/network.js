@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/network.js
+
 import { onUnexpectedError } from './errors.js';
 import { isWeb, isNative, webWorkerOrigin } from './platform.js';
 import { equalsIgnoreCase, startsWithIgnoreCase } from './strings.js';

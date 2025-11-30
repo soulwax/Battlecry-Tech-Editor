@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/pixelRatio.js
+
 import { getWindowId, onDidUnregisterWindow } from './dom.js';
 import { Event, Emitter } from '../common/event.js';
 import { markAsSingleton, Disposable } from '../common/lifecycle.js';

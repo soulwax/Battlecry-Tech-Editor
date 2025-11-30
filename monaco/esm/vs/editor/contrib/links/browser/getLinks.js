@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/links/browser/getLinks.js
+
 import { coalesce } from '../../../../base/common/arrays.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';

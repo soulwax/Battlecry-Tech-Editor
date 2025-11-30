@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/cpp-9dJI961u.js
+
 define("vs/cpp-9dJI961u", ["exports"], (function(exports) {
   "use strict";
   const conf = {

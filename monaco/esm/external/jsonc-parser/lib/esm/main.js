@@ -1,3 +1,5 @@
+// File: monaco/esm/external/jsonc-parser/lib/esm/main.js
+
 import { format as format$1 } from './impl/format.js';
 import { parse as parse$1, getNodePath as getNodePath$1, getNodeValue as getNodeValue$1, findNodeAtOffset as findNodeAtOffset$1 } from './impl/parser.js';
 import { createScanner as createScanner$1 } from './impl/scanner.js';

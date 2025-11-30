@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/cursorColumns.js
+
 import { isFullWidthCharacter, isEmojiImprecise, GraphemeIterator, getNextCodePoint } from '../../../base/common/strings.js';
 
 /*---------------------------------------------------------------------------------------------

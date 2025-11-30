@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/uri.js
+
 import { win32, posix } from './path.js';
 import { isWindows } from './platform.js';
 

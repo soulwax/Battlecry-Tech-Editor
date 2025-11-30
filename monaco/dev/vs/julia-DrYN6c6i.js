@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/julia-DrYN6c6i.js
+
 define("vs/julia-DrYN6c6i", ["exports"], (function(exports) {
   "use strict";
   const conf = {

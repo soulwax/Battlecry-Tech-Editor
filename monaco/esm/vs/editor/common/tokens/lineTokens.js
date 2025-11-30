@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/lineTokens.js
+
 import { TokenMetadata } from '../encodedTokenAttributes.js';
 import { OffsetRange } from '../core/ranges/offsetRange.js';
 import { onUnexpectedError } from '../../../base/common/errors.js';

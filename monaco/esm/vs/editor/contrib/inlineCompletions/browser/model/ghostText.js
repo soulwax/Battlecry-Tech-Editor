@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/ghostText.js
+
 import { equals } from '../../../../../base/common/arrays.js';
 import { splitLines } from '../../../../../base/common/strings.js';
 import { Position } from '../../../../common/core/position.js';

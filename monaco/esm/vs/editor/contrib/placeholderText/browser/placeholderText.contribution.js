@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/placeholderText/browser/placeholderText.contribution.js
+
 import './placeholderText.css';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { ghostTextForeground } from '../../../common/core/editorColorRegistry.js';

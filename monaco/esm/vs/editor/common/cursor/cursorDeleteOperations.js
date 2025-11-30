@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorDeleteOperations.js
+
 import { firstNonWhitespaceIndex, getLeftDeleteOffset } from '../../../base/common/strings.js';
 import { ReplaceCommand } from '../commands/replaceCommand.js';
 import { isQuote, EditOperationResult } from '../cursorCommon.js';

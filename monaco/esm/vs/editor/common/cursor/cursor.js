@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursor.js
+
 import { onUnexpectedError } from '../../../base/common/errors.js';
 import { nextCharLength, commonPrefixLength, commonSuffixLength } from '../../../base/common/strings.js';
 import { CursorCollection } from './cursorCollection.js';

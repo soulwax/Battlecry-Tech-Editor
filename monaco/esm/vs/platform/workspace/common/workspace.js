@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/workspace/common/workspace.js
+
 import { localize } from '../../../nls.js';
 import { basename } from '../../../base/common/path.js';
 import '../../../base/common/ternarySearchTree.js';

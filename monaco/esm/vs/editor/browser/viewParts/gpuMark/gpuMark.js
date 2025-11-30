@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/gpuMark/gpuMark.js
+
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import { ViewLineOptions } from '../viewLines/viewLineOptions.js';
 import './gpuMark.css';

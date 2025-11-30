@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/codeEditor/embeddedCodeEditorWidget.js
+
 import { mixin } from '../../../../base/common/objects.js';
 import { ICodeEditorService } from '../../services/codeEditorService.js';
 import { CodeEditorWidget } from './codeEditorWidget.js';

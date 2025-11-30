@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/markers/common/markerService.js
+
 import { isFalsyOrEmpty, isNonEmptyArray } from '../../../base/common/arrays.js';
 import { DebounceEmitter } from '../../../base/common/event.js';
 import { Iterable } from '../../../base/common/iterator.js';

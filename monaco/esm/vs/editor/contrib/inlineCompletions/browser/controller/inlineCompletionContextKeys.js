@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionContextKeys.js
+
 import { RawContextKey } from '../../../../../platform/contextkey/common/contextkey.js';
 import { localize } from '../../../../../nls.js';
 

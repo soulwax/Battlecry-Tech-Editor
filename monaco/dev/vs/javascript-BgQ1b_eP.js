@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/javascript-BgQ1b_eP.js
+
 define("vs/javascript-BgQ1b_eP", ["exports", "./typescript-0SV7N1Xc"], (function(exports, typescript) {
   "use strict";
   const conf = typescript.conf;

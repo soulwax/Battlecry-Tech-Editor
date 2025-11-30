@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/json/jsonMode.js
+
 import { WorkerManager } from './workerManager.js';
 import { DocumentFormattingEditProvider, DocumentRangeFormattingEditProvider, CompletionAdapter, HoverAdapter, DocumentSymbolAdapter, DocumentColorAdapter, FoldingRangeAdapter, SelectionRangeAdapter, DiagnosticsAdapter } from '../common/lspLanguageFeatures.js';
 export { DefinitionAdapter, DocumentHighlightAdapter, DocumentLinkAdapter, ReferenceAdapter, RenameAdapter, fromPosition, fromRange, toRange, toTextEdit } from '../common/lspLanguageFeatures.js';

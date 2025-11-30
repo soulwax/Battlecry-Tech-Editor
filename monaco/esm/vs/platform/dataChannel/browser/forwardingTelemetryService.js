@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/dataChannel/browser/forwardingTelemetryService.js
+
 import { ITelemetryService } from '../../telemetry/common/telemetry.js';
 import { IDataChannelService } from '../common/dataChannel.js';
 

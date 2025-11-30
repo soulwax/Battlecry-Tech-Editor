@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/bat-gO9qKzUo.js
+
 define("vs/bat-gO9qKzUo", ["exports"], (function(exports) {
   "use strict";
   const conf = {

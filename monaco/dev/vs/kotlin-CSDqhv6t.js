@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/kotlin-CSDqhv6t.js
+
 define("vs/kotlin-CSDqhv6t", ["exports"], (function(exports) {
   "use strict";
   const conf = {

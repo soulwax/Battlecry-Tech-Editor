@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/worker/webWorker.js
+
 import { onUnexpectedError, transformErrorForSerialization } from '../errors.js';
 import { Emitter } from '../event.js';
 import { Disposable } from '../lifecycle.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/browser.js
+
 import { mainWindow } from './window.js';
 
 /*---------------------------------------------------------------------------------------------

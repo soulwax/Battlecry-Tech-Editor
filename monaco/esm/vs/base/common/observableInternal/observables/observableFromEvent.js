@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/observableFromEvent.js
+
 import { subtransaction } from '../transaction.js';
 import { strictEquals } from '../../equals.js';
 import '../../event.js';

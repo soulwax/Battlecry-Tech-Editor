@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/objects.js
+
 import { isUndefinedOrNull, isObject, isTypedArray } from './types.js';
 
 /*---------------------------------------------------------------------------------------------

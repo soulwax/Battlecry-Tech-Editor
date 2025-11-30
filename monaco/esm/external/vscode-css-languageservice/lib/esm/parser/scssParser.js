@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/scssParser.js
+
 import { SCSSScanner, VariableName, SmallerEqualsOperator, GreaterEqualsOperator, InterpolationFunction, EqualsOperator, NotEqualsOperator, Ellipsis } from './scssScanner.js';
 import { TokenType } from './cssScanner.js';
 import { Parser } from './cssParser.js';

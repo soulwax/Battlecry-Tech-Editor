@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsModel.js
+
 import { mapFindFirst } from '../../../../../base/common/arraysFind.js';
 import { itemsEquals } from '../../../../../base/common/equals.js';
 import { BugIndicatingError, onUnexpectedExternalError } from '../../../../../base/common/errors.js';

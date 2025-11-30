@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/unicodeTextModelHighlighter.js
+
 import { Range } from '../core/range.js';
 import { Searcher } from '../model/textModelSearch.js';
 import { isHighSurrogate, AmbiguousCharacters, InvisibleCharacters, escapeRegExpCharacters, isBasicASCII } from '../../../base/common/strings.js';

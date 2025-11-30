@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/changeTracker.js
+
 import { BugIndicatingError } from '../errors.js';
 import '../arrays.js';
 import '../event.js';

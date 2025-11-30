@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/keybinding/common/usLayoutResolvedKeybinding.js
+
 import { KeyCodeUtils, IMMUTABLE_CODE_TO_KEY_CODE } from '../../../base/common/keyCodes.js';
 import { KeyCodeChord } from '../../../base/common/keybindings.js';
 import { BaseResolvedKeybinding } from './baseResolvedKeybinding.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/insertFinalNewLine/browser/insertFinalNewLineCommand.js
+
 import { lastNonWhitespaceIndex } from '../../../../base/common/strings.js';
 import { EditOperation } from '../../../common/core/editOperation.js';
 import { Position } from '../../../common/core/position.js';

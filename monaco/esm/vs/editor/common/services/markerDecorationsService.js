@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/markerDecorationsService.js
+
 import { IMarkerService, MarkerSeverity } from '../../../platform/markers/common/markers.js';
 import { Disposable, toDisposable } from '../../../base/common/lifecycle.js';
 import { OverviewRulerLane } from '../model.js';

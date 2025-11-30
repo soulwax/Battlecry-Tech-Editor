@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/autoIndent.js
+
 import { getLeadingWhitespace } from '../../../base/common/strings.js';
 import { IndentAction } from './languageConfiguration.js';
 import { IndentationContextProcessor, isLanguageDifferentFromLineStart, ProcessedIndentRulesSupport } from './supports/indentationLineProcessor.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/contextview/contextview.js
+
 import { BrowserFeatures } from '../../canIUse.js';
 import { $, hide, addStandardDisposableListener, clearNode, show, isHTMLElement, getDomNodePagePosition, getDomNodeZoomLevel, getTotalWidth, getTotalHeight, getActiveWindow, getWindow, isAncestor } from '../../dom.js';
 import { Disposable, toDisposable, DisposableStore } from '../../../common/lifecycle.js';

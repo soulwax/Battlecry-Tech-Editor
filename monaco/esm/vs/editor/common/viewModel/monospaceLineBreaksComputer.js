@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/monospaceLineBreaksComputer.js
+
 import { isHighSurrogate, isLowSurrogate, firstNonWhitespaceIndex, isFullWidthCharacter } from '../../../base/common/strings.js';
 import { CharacterClassifier } from '../core/characterClassifier.js';
 import { LineInjectedText } from '../textModelEvents.js';

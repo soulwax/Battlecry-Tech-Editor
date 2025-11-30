@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/editor.worker.start.js
+
 import { initialize } from '../base/common/worker/webWorkerBootstrap.js';
 import { EditorWorker } from './common/services/editorWebWorker.js';
 import { EditorWorkerHost } from './common/services/editorWorkerHost.js';

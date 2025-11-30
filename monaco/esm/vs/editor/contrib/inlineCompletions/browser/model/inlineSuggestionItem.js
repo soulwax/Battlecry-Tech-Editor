@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineSuggestionItem.js
+
 import { BugIndicatingError } from '../../../../../base/common/errors.js';
 import { matchesSubString } from '../../../../../base/common/filters.js';
 import '../../../../../base/common/observableInternal/index.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/cursorUndo/browser/cursorUndo.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { registerEditorContribution, registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { EditorContextKeys } from '../../../common/editorContextKeys.js';

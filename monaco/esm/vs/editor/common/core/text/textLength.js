@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/text/textLength.js
+
 import { LineRange } from '../ranges/lineRange.js';
 import { Position } from '../position.js';
 import { Range } from '../range.js';

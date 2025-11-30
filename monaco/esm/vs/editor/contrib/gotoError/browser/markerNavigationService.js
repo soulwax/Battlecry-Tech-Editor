@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoError/browser/markerNavigationService.js
+
 import { binarySearch2, equals } from '../../../../base/common/arrays.js';
 import { Emitter } from '../../../../base/common/event.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';

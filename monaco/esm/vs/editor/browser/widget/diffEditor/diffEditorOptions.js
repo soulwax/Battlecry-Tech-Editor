@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/diffEditorOptions.js
+
 import '../../../../base/common/observableInternal/index.js';
 import { IAccessibilityService } from '../../../../platform/accessibility/common/accessibility.js';
 import { diffEditorDefaultOptions } from '../../../common/config/diffEditor.js';

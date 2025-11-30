@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/contiguousTokensEditing.js
+
 import { LineTokens } from './lineTokens.js';
 
 /*---------------------------------------------------------------------------------------------

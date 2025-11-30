@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/actions.js
+
 import { Emitter } from './event.js';
 import { Disposable } from './lifecycle.js';
 import { localize } from '../../nls.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorWordOperations.js
+
 import { isLowerAsciiLetter, isAsciiDigit, isUpperAsciiLetter, lastNonWhitespaceIndex } from '../../../base/common/strings.js';
 import { SingleCursorState } from '../cursorCommon.js';
 import { DeleteOperations } from './cursorDeleteOperations.js';

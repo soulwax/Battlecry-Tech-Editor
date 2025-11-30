@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/tsWorker.js
+
 import * as typescriptServices from './lib/typescriptServices.js';
 import { typescript, createLanguageService, ScriptKind } from './lib/typescriptServices.js';
 import { libFileMap } from './lib/lib.js';

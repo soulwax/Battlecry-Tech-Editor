@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/keybinding/common/keybinding.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

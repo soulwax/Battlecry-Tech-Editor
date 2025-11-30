@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/rename/browser/renameWidget.js
+
 import { getClientArea, getDomNodePagePosition, getTotalHeight, getTotalWidth, addDisposableListener, EventType, clearNode } from '../../../../base/browser/dom.js';
 import { StandardKeyboardEvent } from '../../../../base/browser/keyboardEvent.js';
 import { status } from '../../../../base/browser/ui/aria/aria.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/linkComputer.js
+
 import { CharacterClassifier } from '../core/characterClassifier.js';
 
 /*---------------------------------------------------------------------------------------------

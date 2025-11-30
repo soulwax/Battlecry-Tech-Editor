@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/utils/runOnChange.js
+
 import { cancelOnDispose } from '../../cancellation.js';
 import '../../arrays.js';
 import '../../event.js';

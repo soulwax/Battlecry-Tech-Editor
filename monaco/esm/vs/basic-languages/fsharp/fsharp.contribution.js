@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/fsharp/fsharp.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

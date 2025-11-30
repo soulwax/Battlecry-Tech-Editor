@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlayHints/browser/inlayHintsLocations.js
+
 import { getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { Action, Separator } from '../../../../base/common/actions.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';

@@ -1,1 +1,3 @@
+// File: monaco/min/vs/nls.messages-loader.js
+
 define("vs/nls.messages-loader",["exports"],(function(s){"use strict";function a(o,l,n,t){const e=t["vs/nls"]?.availableLanguages?.["*"];!e||e==="en"?n({}):l([`vs/nls.messages.${e}`],()=>{n({})})}s.load=a,Object.defineProperty(s,Symbol.toStringTag,{value:"Module"})}));

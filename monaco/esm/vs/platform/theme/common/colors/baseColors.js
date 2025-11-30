@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colors/baseColors.js
+
 import { localize } from '../../../../nls.js';
 import { Color } from '../../../../base/common/color.js';
 import { registerColor, transparent } from '../colorUtils.js';

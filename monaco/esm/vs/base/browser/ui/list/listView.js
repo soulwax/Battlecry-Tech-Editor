@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/list/listView.js
+
 import { DataTransfers } from '../../dnd.js';
 import { getContentWidth, scheduleAtNextAnimationFrame, getWindow, addDisposableListener, getActiveElement, getContentHeight, getDocument, getTopLeftOffset, animate, isHTMLElement, isSVGElement, isAncestor } from '../../dom.js';
 import { DomEmitter } from '../../event.js';

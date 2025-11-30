@@ -1,3 +1,4 @@
+// File: monaco/esm/metadata.js
 
 exports.features = [
   {

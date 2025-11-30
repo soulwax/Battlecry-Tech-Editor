@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneCodeEditorService.js
+
 import { windowOpenNoOpener } from '../../../base/browser/dom.js';
 import { Schemas } from '../../../base/common/network.js';
 import { AbstractCodeEditorService } from '../../browser/services/abstractCodeEditorService.js';

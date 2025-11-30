@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeActionMenu.js
+
 import '../../../../base/browser/ui/codicons/codicon/codicon.css';
 import '../../../../base/browser/ui/codicons/codicon/codicon-modifiers.css';
 import { Codicon } from '../../../../base/common/codicons.js';

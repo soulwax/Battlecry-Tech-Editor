@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findOptionsWidget.js
+
 import { addDisposableListener, EventType } from '../../../../base/browser/dom.js';
 import './findOptionsWidget.css';
 import { CaseSensitiveToggle, WholeWordsToggle, RegexToggle } from '../../../../base/browser/ui/findinput/findInputToggles.js';

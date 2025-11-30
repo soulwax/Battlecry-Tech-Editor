@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codelens/browser/codeLensCache.js
+
 import { Event } from '../../../../base/common/event.js';
 import { LRUCache } from '../../../../base/common/map.js';
 import { Range } from '../../../common/core/range.js';

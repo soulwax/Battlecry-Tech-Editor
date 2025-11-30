@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoError/browser/gotoErrorWidget.js
+
 import { append, $, addStandardDisposableListener, clearNode } from '../../../../base/browser/dom.js';
 import { ScrollableElement } from '../../../../base/browser/ui/scrollbar/scrollableElement.js';
 import { isNonEmptyArray } from '../../../../base/common/arrays.js';

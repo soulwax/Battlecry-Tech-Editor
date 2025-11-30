@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPicker.js
+
 import { ColorDecorationInjectedTextMarker } from '../colorDetector.js';
 
 /*---------------------------------------------------------------------------------------------

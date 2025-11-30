@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/resources.js
+
 import { isEqualOrParent, toSlashes, toPosixPath, getRoot } from './extpath.js';
 import { Schemas } from './network.js';
 import { posix, dirname as dirname$1, normalize, relative, resolve, sep } from './path.js';

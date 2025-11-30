@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/configuration.js
+
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 
 /*---------------------------------------------------------------------------------------------

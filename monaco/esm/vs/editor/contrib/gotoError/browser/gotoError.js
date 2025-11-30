@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoError/browser/gotoError.js
+
 import { Codicon } from '../../../../base/common/codicons.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { registerEditorContribution, registerEditorAction, EditorCommand, registerEditorCommand, EditorAction } from '../../../browser/editorExtensions.js';

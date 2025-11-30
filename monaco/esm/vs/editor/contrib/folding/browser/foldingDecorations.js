@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/folding/browser/foldingDecorations.js
+
 import { Codicon } from '../../../../base/common/codicons.js';
 import { ModelDecorationOptions } from '../../../common/model/textModel.js';
 import { localize } from '../../../../nls.js';

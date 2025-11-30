@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/tokenization.js
+
 import { Color } from '../../../../base/common/color.js';
 
 /*---------------------------------------------------------------------------------------------

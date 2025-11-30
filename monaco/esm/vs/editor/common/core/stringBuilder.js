@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/stringBuilder.js
+
 import { isHighSurrogate } from '../../../base/common/strings.js';
 import { isLittleEndian } from '../../../base/common/platform.js';
 import { readUInt16LE } from '../../../base/common/buffer.js';

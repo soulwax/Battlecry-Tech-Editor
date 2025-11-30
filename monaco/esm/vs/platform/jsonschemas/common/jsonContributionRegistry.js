@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/jsonschemas/common/jsonContributionRegistry.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable, toDisposable } from '../../../base/common/lifecycle.js';
 import { Registry } from '../../registry/common/platform.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/copyPasteContribution.js
+
 import { HierarchicalKind } from '../../../../base/common/hierarchicalKind.js';
 import { localize, localize2 } from '../../../../nls.js';
 import { registerEditorContribution, registerEditorCommand, EditorCommand, registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';

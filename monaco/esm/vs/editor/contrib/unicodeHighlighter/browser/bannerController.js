@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/unicodeHighlighter/browser/bannerController.js
+
 import './bannerController.css';
 import { localize } from '../../../../nls.js';
 import { $, clearNode, append } from '../../../../base/browser/dom.js';

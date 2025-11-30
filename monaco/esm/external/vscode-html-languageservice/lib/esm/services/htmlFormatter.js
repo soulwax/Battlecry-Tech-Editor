@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlFormatter.js
+
 import '../htmlLanguageTypes.js';
 import { html_beautify } from '../beautify/beautify-html.js';
 import { repeat } from '../utils/strings.js';

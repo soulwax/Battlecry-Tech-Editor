@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/tree/abstractTree.js
+
 import { isEditableElement, isKeyboardEvent, hasParentWithClass, append, $, clearNode, addDisposableListener } from '../../dom.js';
 import { createStyleSheet } from '../../domStylesheets.js';
 import { asCssValueWithDefault } from '../../cssValue.js';

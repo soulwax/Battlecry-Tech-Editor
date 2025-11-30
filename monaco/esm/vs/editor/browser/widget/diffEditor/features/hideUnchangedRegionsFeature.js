@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/features/hideUnchangedRegionsFeature.js
+
 import { h, $, reset, addDisposableListener, getWindow } from '../../../../../base/browser/dom.js';
 import { renderLabelWithIcons, renderIcon } from '../../../../../base/browser/ui/iconLabel/iconLabels.js';
 import { Codicon } from '../../../../../base/common/codicons.js';

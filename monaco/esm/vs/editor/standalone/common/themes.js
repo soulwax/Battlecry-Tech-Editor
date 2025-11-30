@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/common/themes.js
+
 import { editorActiveIndentGuide1, editorIndentGuide1 } from '../../common/core/editorColorRegistry.js';
 import '../../../platform/theme/common/colorUtils.js';
 import '../../../platform/theme/common/colors/baseColors.js';

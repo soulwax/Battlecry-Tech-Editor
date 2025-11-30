@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/pgsql/pgsql.js
+
 const conf = {
   comments: {
     lineComment: "--",

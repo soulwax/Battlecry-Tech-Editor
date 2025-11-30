@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/markdown/markdown.js
+
 const conf = {
   comments: {
     blockComment: ["<!--", "-->"]

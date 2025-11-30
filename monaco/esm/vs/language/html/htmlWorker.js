@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/html/htmlWorker.js
+
 import { newHTMLDataProvider, getLanguageService } from '../../../external/vscode-html-languageservice/lib/esm/htmlLanguageService.js';
 import { TextDocument } from '../../../external/vscode-languageserver-textdocument/lib/esm/main.js';
 

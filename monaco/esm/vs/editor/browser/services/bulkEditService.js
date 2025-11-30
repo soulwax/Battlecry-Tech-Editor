@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/bulkEditService.js
+
 import { createDecorator } from '../../../platform/instantiation/common/instantiation.js';
 import { URI } from '../../../base/common/uri.js';
 import { isObject } from '../../../base/common/types.js';

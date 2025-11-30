@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/assets/editor.worker-DbHNojjm.js
+
 (function() {
   "use strict";
   class ErrorHandler {

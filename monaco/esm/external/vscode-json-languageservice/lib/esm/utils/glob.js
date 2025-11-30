@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/utils/glob.js
+
 /*---------------------------------------------------------------------------------------------
  *  Copyright (c) Microsoft Corporation. All rights reserved.
  *  Copyright (c) 2013, Nick Fitzgerald

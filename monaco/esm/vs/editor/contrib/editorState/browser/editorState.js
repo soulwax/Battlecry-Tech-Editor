@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/editorState/browser/editorState.js
+
 import { format } from '../../../../base/common/strings.js';
 import { Range } from '../../../common/core/range.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';

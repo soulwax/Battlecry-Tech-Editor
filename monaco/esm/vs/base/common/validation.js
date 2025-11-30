@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/validation.js
+
 import { mapFilter } from './arrays.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/theme.js
+
 import { BugIndicatingError } from '../../../../../../base/common/errors.js';
 import '../../../../../../base/common/observableInternal/index.js';
 import { localize } from '../../../../../../nls.js';

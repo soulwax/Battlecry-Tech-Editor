@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/lintUtil.js
+
 import { includes } from '../utils/arrays.js';
 
 /*---------------------------------------------------------------------------------------------

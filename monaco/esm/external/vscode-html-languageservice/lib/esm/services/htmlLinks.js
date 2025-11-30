@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlLinks.js
+
 import { createScanner } from '../parser/htmlScanner.js';
 import { startsWith } from '../utils/strings.js';
 import { URI } from '../../../../vscode-uri/lib/esm/index.js';

@@ -1,3 +1,5 @@
+// File: monaco/min/vs/assets/json.worker-DKiEKt88.js
+
 (function(){"use strict";var he,J;class $o{constructor(){this.listeners=[],this.unexpectedErrorHandler=function(e){setTimeout(()=>{throw e.stack?ft.isErrorNoTelemetry(e)?new ft(e.message+`
 
 `+e.stack):new Error(e.message+`

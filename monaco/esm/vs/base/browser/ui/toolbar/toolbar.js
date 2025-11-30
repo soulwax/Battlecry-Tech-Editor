@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/toolbar/toolbar.js
+
 import { ActionBar } from '../actionbar/actionbar.js';
 import { DropdownMenuActionViewItem } from '../dropdown/dropdownActionViewItem.js';
 import { Action, SubmenuAction, Separator } from '../../../common/actions.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/editorDom.js
+
 import { getWindow, addDisposableListener, EventType, getDomNodePagePosition, addStandardDisposableListener, isInShadowDOM } from '../../base/browser/dom.js';
 import { createStyleSheet } from '../../base/browser/domStylesheets.js';
 import { GlobalPointerMoveMonitor } from '../../base/browser/globalPointerMoveMonitor.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/iconRegistry.js
+
 import { RunOnceScheduler } from '../../../base/common/async.js';
 import { Codicon } from '../../../base/common/codicons.js';
 import { getCodiconFontCharacters } from '../../../base/common/codiconsUtil.js';

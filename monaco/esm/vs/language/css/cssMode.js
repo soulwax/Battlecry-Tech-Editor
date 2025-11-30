@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/css/cssMode.js
+
 import { WorkerManager } from './workerManager.js';
 import { CompletionAdapter, HoverAdapter, DocumentHighlightAdapter, DefinitionAdapter, ReferenceAdapter, DocumentSymbolAdapter, RenameAdapter, DocumentColorAdapter, FoldingRangeAdapter, DiagnosticsAdapter, SelectionRangeAdapter, DocumentFormattingEditProvider, DocumentRangeFormattingEditProvider } from '../common/lspLanguageFeatures.js';
 export { DocumentLinkAdapter, fromPosition, fromRange, toRange, toTextEdit } from '../common/lspLanguageFeatures.js';

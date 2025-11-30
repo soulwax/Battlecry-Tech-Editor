@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/linesOperations/browser/moveLinesCommand.js
+
 import { getLeadingWhitespace, lastNonWhitespaceIndex } from '../../../../base/common/strings.js';
 import { ShiftCommand } from '../../../common/commands/shiftCommand.js';
 import { Range } from '../../../common/core/range.js';

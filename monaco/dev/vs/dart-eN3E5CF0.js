@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/dart-eN3E5CF0.js
+
 define("vs/dart-eN3E5CF0", ["exports"], (function(exports) {
   "use strict";
   const conf = {

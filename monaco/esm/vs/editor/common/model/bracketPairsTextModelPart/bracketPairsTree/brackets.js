@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/brackets.js
+
 import { escapeRegExpCharacters } from '../../../../../base/common/strings.js';
 import { BracketAstNode } from './ast.js';
 import { toLength } from './length.js';

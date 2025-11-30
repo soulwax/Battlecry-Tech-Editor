@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/iterator.js
+
 import { isIterable } from './types.js';
 
 /*---------------------------------------------------------------------------------------------

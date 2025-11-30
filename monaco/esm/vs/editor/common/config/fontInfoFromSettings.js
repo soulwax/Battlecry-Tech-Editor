@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/config/fontInfoFromSettings.js
+
 import { EditorOptions } from './editorOptions.js';
 import { BareFontInfo } from './fontInfo.js';
 

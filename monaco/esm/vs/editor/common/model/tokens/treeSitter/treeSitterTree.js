@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/treeSitter/treeSitterTree.js
+
 import { TaskQueue } from '../../../../../base/common/async.js';
 import { Disposable, toDisposable } from '../../../../../base/common/lifecycle.js';
 import '../../../../../base/common/observableInternal/index.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/diffEditor.contribution.js
+
 import { Codicon } from '../../../../base/common/codicons.js';
 import { ToggleUseInlineViewWhenSpaceIsLimited, ToggleShowMovedCodeBlocks, RevertHunkOrSelection, AccessibleDiffViewerNext, AccessibleDiffViewerPrev, ToggleCollapseUnchangedRegions, SwitchSide, ExitCompareMove, CollapseAllUnchangedRegions, ShowAllUnchangedRegions } from './commands.js';
 import { EditorContextKeys } from '../../../common/editorContextKeys.js';

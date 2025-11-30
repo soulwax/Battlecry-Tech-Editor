@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/findSectionHeaders.js
+
 import { isMultilineRegexSource } from '../model/textModelSearch.js';
 import { regExpLeadsToEndlessLoop } from '../../../base/common/strings.js';
 

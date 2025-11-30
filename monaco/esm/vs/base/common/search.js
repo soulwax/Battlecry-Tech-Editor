@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/search.js
+
 import { containsUppercaseCharacter } from './strings.js';
 
 /*---------------------------------------------------------------------------------------------

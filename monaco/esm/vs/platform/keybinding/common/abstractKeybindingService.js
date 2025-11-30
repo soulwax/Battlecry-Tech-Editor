@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/keybinding/common/abstractKeybindingService.js
+
 import { IntervalTimer, TimeoutTimer } from '../../../base/common/async.js';
 import { illegalState } from '../../../base/common/errors.js';
 import { Event, Emitter } from '../../../base/common/event.js';

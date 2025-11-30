@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/reactions/autorunImpl.js
+
 import { assertFn } from '../../assert.js';
 import '../../arrays.js';
 import { onBugIndicatingError, BugIndicatingError } from '../../errors.js';

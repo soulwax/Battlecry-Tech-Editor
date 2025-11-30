@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/getHover.js
+
 import { AsyncIterableProducer } from '../../../../base/common/async.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/ecl/ecl.js
+
 const conf = {
   comments: {
     lineComment: "//",

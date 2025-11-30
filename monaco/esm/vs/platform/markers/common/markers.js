@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/markers/common/markers.js
+
 import Severity from '../../../base/common/severity.js';
 import { localize } from '../../../nls.js';
 import { createDecorator } from '../../instantiation/common/instantiation.js';

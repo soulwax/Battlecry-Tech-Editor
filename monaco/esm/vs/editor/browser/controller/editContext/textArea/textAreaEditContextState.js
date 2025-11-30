@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/textArea/textAreaEditContextState.js
+
 import { commonPrefixLength, commonSuffixLength } from '../../../../../base/common/strings.js';
 
 /*---------------------------------------------------------------------------------------------

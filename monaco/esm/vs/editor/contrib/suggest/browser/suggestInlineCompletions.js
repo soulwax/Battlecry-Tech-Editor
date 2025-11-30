@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestInlineCompletions.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { FuzzyScore } from '../../../../base/common/filters.js';
 import { Iterable } from '../../../../base/common/iterator.js';

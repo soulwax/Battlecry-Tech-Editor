@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/dropIntoEditorController.js
+
 import { coalesce } from '../../../../base/common/arrays.js';
 import { createCancelablePromise, raceCancellation } from '../../../../base/common/async.js';
 import { VSDataTransfer } from '../../../../base/common/dataTransfer.js';

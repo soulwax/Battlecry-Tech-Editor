@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/systemverilog/systemverilog.js
+
 const conf = {
   comments: {
     lineComment: "//",

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/worker/webWorkerBootstrap.js
+
 import { WebWorkerServer } from './webWorker.js';
 
 /*---------------------------------------------------------------------------------------------

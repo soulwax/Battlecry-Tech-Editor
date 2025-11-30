@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/commandsQuickAccess.js
+
 import { toErrorMessage } from '../../../base/common/errorMessage.js';
 import { isCancellationError } from '../../../base/common/errors.js';
 import { or, matchesContiguousSubString, matchesWords, matchesPrefix } from '../../../base/common/filters.js';

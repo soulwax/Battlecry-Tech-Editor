@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonCompletion.js
+
 import { getNodePath, getNodeValue, contains } from '../parser/jsonParser.js';
 import { createScanner } from '../../../../jsonc-parser/lib/esm/main.js';
 import { stringifyObject } from '../utils/json.js';

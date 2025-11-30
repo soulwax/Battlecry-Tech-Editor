@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewZones/viewZones.js
+
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { ViewPart } from '../../view/viewPart.js';

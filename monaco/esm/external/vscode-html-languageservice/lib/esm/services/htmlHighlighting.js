@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlHighlighting.js
+
 import { createScanner } from '../parser/htmlScanner.js';
 import { TokenType } from '../htmlLanguageTypes.js';
 import { DocumentHighlightKind } from '../../../../vscode-languageserver-types/lib/esm/main.js';

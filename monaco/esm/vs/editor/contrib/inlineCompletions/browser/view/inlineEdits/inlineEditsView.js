@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsView.js
+
 import { $ } from '../../../../../../base/browser/dom.js';
 import { equalsIfDefined, itemEquals } from '../../../../../../base/common/equals.js';
 import { onUnexpectedError, BugIndicatingError } from '../../../../../../base/common/errors.js';

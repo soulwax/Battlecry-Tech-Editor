@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokenizationRegistry.js
+
 import { Emitter } from '../../base/common/event.js';
 import { toDisposable, Disposable } from '../../base/common/lifecycle.js';
 

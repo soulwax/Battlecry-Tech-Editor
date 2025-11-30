@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/hover/hoverDelegate2.js
+
 import { Disposable } from '../../../common/lifecycle.js';
 
 /*---------------------------------------------------------------------------------------------

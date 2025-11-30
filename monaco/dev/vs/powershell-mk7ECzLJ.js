@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/powershell-mk7ECzLJ.js
+
 define("vs/powershell-mk7ECzLJ", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colors/searchColors.js
+
 import { localize } from '../../../../nls.js';
 import { registerColor, transparent } from '../colorUtils.js';
 import { foreground } from './baseColors.js';

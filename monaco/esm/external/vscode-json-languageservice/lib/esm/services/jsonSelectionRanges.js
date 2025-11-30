@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonSelectionRanges.js
+
 import '../jsonLanguageTypes.js';
 import { createScanner } from '../../../../jsonc-parser/lib/esm/main.js';
 import { SelectionRange, Range } from '../../../../vscode-languageserver-types/lib/esm/main.js';

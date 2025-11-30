@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/configuration/common/configurationRegistry.js
+
 import { distinct } from '../../../base/common/arrays.js';
 import { Emitter } from '../../../base/common/event.js';
 import { isObject, isUndefined, isUndefinedOrNull } from '../../../base/common/types.js';

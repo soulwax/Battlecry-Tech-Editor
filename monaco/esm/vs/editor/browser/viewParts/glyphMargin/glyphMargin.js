@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/glyphMargin/glyphMargin.js
+
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { ArrayQueue } from '../../../../base/common/arrays.js';
 import './glyphMargin.css';

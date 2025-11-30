@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/selectBox/selectBoxNative.js
+
 import { addDisposableListener, addStandardDisposableListener, EventHelper } from '../../dom.js';
 import { Gesture, EventType } from '../../touch.js';
 import { equals } from '../../../common/arrays.js';

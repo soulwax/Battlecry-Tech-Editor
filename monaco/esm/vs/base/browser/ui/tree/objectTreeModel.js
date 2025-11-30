@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/tree/objectTreeModel.js
+
 import { IndexTreeModel } from './indexTreeModel.js';
 import { ObjectTreeElementCollapseState, TreeError } from './tree.js';
 import { Iterable } from '../../../common/iterator.js';

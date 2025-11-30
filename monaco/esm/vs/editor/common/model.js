@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model.js
+
 import { equals } from '../../base/common/objects.js';
 
 /*---------------------------------------------------------------------------------------------

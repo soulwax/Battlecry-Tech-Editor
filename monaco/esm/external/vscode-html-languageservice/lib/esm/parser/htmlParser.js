@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/parser/htmlParser.js
+
 import { createScanner } from './htmlScanner.js';
 import { findFirst } from '../utils/arrays.js';
 import { TokenType } from '../htmlLanguageTypes.js';

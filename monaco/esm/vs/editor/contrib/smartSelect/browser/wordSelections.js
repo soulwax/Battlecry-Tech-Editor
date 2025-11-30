@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/smartSelect/browser/wordSelections.js
+
 import { isLowerAsciiLetter, isUpperAsciiLetter } from '../../../../base/common/strings.js';
 import { Range } from '../../../common/core/range.js';
 

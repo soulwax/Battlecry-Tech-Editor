@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/linesDiffComputers.js
+
 import { LegacyLinesDiffComputer } from './legacyLinesDiffComputer.js';
 import { DefaultLinesDiffComputer } from './defaultLinesDiffComputer/defaultLinesDiffComputer.js';
 

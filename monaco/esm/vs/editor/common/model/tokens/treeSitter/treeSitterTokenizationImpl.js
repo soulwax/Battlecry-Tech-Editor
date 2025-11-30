@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/treeSitter/treeSitterTokenizationImpl.js
+
 import { Emitter } from '../../../../../base/common/event.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import { setTimeout0 } from '../../../../../base/common/platform.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/rulers/rulers.js
+
 import './rulers.css';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { ViewPart } from '../../view/viewPart.js';

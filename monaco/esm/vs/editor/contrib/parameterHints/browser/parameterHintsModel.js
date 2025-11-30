@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/parameterHints/browser/parameterHintsModel.js
+
 import { Delayer, createCancelablePromise } from '../../../../base/common/async.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { Emitter } from '../../../../base/common/event.js';

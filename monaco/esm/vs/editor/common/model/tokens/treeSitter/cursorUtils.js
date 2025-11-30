@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/treeSitter/cursorUtils.js
+
 function gotoNextSibling(newCursor, oldCursor) {
     const n = newCursor.gotoNextSibling();
     const o = oldCursor.gotoNextSibling();

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/monaco.contribution-Cqdn_4Kw.js
+
 define("vs/monaco.contribution-Cqdn_4Kw", ["require", "exports", "./editor.api-CykLys8L"], (function(require, exports, editor_api) {
   "use strict";
   class LanguageServiceDefaultsImpl {

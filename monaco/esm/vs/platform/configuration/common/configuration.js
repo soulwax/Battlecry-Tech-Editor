@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/configuration/common/configuration.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 const IConfigurationService = createDecorator('configurationService');

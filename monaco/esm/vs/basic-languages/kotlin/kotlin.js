@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/kotlin/kotlin.js
+
 const conf = {
   // the default separators except `@$`
   wordPattern: /(-?\d*\.\d\w*)|([^\`\~\!\#\%\^\&\*\(\)\-\=\+\[\{\]\}\\\|\;\:\'\"\,\.\<\>\/\?\s]+)/g,

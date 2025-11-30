@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/multiDiffEditor/objectPool.js
+
 class ObjectPool {
     constructor(_create) {
         this._create = _create;

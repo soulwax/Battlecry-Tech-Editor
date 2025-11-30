@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/mdx-DDjyMvBD.js
+
 define("vs/mdx-DDjyMvBD", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const conf = {

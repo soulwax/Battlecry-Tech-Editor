@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/fixedArray.js
+
 import { arrayInsert } from '../../../base/common/arrays.js';
 
 /*---------------------------------------------------------------------------------------------

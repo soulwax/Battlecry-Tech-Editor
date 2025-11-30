@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/sb-DUCWDbCb.js
+
 define("vs/sb-DUCWDbCb", ["exports"], (function(exports) {
   "use strict";
   const conf = {

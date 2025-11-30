@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/sectionHeaders/browser/sectionHeaders.js
+
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';

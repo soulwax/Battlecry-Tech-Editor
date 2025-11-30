@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/wordHelper.js
+
 import { Iterable } from '../../../base/common/iterator.js';
 import { LinkedList } from '../../../base/common/linkedList.js';
 

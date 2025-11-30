@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViewInterface.js
+
 var InlineEditTabAction;
 (function (InlineEditTabAction) {
     InlineEditTabAction["Jump"] = "jump";

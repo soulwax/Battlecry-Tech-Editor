@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/utils/utilsCancellation.js
+
 import { CancellationError } from '../../errors.js';
 import '../../cancellation.js';
 import { autorun } from '../reactions/autorun.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/marshalling.js
+
 import { VSBuffer } from './buffer.js';
 import { URI } from './uri.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/blockDecorations/blockDecorations.js
+
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import './blockDecorations.css';
 import { ViewPart } from '../../view/viewPart.js';

@@ -1,5 +1,7 @@
-// copied from js-beautify/js/lib/beautify-css.js
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/beautify/beautify-css.js
 // version: 1.15.1
+
+// copied from js-beautify/js/lib/beautify-css.js
 /* AUTO-GENERATED. DO NOT MODIFY. */
 /*
 

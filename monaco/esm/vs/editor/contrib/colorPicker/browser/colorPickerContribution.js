@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerContribution.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { illegalArgument } from '../../../../base/common/errors.js';
 import { URI } from '../../../../base/common/uri.js';

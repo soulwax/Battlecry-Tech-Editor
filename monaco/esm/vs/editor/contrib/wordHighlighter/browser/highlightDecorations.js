@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/wordHighlighter/browser/highlightDecorations.js
+
 import './highlightDecorations.css';
 import { OverviewRulerLane } from '../../../common/model.js';
 import { ModelDecorationOptions } from '../../../common/model/textModel.js';

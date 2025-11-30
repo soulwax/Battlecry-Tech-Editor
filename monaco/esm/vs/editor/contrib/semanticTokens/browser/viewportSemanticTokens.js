@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/semanticTokens/browser/viewportSemanticTokens.js
+
 import { RunOnceScheduler, createCancelablePromise } from '../../../../base/common/async.js';
 import { Disposable, dispose } from '../../../../base/common/lifecycle.js';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';

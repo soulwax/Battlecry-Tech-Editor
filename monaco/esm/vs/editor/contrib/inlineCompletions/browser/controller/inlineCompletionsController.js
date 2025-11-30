@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/controller/inlineCompletionsController.js
+
 import { alert } from '../../../../../base/browser/ui/aria/aria.js';
 import { timeout } from '../../../../../base/common/async.js';
 import { cancelOnDispose } from '../../../../../base/common/cancellation.js';

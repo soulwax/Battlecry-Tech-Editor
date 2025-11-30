@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/insertFinalNewLine/browser/insertFinalNewLine.js
+
 import { EditorAction, registerEditorAction } from '../../../browser/editorExtensions.js';
 import { InsertFinalNewLineCommand } from './insertFinalNewLineCommand.js';
 import { EditorContextKeys } from '../../../common/editorContextKeys.js';

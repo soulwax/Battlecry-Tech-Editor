@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/selections/selections.js
+
 import './selections.css';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import '../../../../platform/theme/common/colorUtils.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/async.js
+
 import { CancellationTokenSource } from './cancellation.js';
 import { BugIndicatingError, CancellationError } from './errors.js';
 import { toDisposable, isDisposable } from './lifecycle.js';

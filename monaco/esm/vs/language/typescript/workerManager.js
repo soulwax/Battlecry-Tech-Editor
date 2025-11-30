@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/workerManager.js
+
 import '../../editor/browser/coreCommands.js';
 import '../../editor/browser/widget/codeEditor/codeEditorWidget.js';
 import '../../editor/browser/widget/diffEditor/diffEditor.contribution.js';

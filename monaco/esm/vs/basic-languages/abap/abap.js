@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/abap/abap.js
+
 const conf = {
   comments: {
     lineComment: "*"

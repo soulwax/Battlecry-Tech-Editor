@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneLayoutService.js
+
 import { getClientArea } from '../../../base/browser/dom.js';
 import { mainWindow } from '../../../base/browser/window.js';
 import { coalesce } from '../../../base/common/arrays.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/glyphHoverWidget.js
+
 import { addStandardDisposableListener, $ as $$1, append, getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { Disposable, DisposableStore } from '../../../../base/common/lifecycle.js';
 import { IMarkdownRendererService } from '../../../../platform/markdown/browser/markdownRenderer.js';

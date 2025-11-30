@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/csharp/csharp.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

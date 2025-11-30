@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/quickAccess/browser/editorNavigationQuickAccess.js
+
 import { createSingleCallFunction } from '../../../../base/common/functional.js';
 import { DisposableStore, MutableDisposable, toDisposable } from '../../../../base/common/lifecycle.js';
 import { getCodeEditor, isDiffEditor } from '../../../browser/editorBrowser.js';

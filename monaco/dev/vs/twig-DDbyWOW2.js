@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/twig-DDbyWOW2.js
+
 define("vs/twig-DDbyWOW2", ["exports"], (function(exports) {
   "use strict";
   const conf = {

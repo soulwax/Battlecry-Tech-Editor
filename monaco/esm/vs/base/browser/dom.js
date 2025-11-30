@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/dom.js
+
 import './browser.js';
 import { BrowserFeatures } from './canIUse.js';
 import { StandardKeyboardEvent } from './keyboardEvent.js';

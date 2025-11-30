@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextview/browser/contextViewService.js
+
 import { ContextView } from '../../../base/browser/ui/contextview/contextview.js';
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { ILayoutService } from '../../layout/browser/layoutService.js';

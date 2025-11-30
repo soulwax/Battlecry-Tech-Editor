@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/hoverUtils.js
+
 import { getDomNodePagePosition } from '../../../../base/browser/dom.js';
 
 /*---------------------------------------------------------------------------------------------

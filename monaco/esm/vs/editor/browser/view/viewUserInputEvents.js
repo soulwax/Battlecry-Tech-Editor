@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view/viewUserInputEvents.js
+
 import { Position } from '../../common/core/position.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/less-B7KFvseP.js
+
 define("vs/less-B7KFvseP", ["exports"], (function(exports) {
   "use strict";
   const conf = {

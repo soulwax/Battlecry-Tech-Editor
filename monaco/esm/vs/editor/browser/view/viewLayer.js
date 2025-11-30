@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view/viewLayer.js
+
 import { createFastDomNode } from '../../../base/browser/fastDomNode.js';
 import { createTrustedTypesPolicy } from '../../../base/browser/trustedTypes.js';
 import { BugIndicatingError } from '../../../base/common/errors.js';

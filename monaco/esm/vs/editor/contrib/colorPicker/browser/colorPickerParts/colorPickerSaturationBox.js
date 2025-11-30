@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerSaturationBox.js
+
 import '../colorPicker.css';
 import { $ as $$1, append, addDisposableListener, EventType, getDomNodePagePosition } from '../../../../../base/browser/dom.js';
 import { GlobalPointerMoveMonitor } from '../../../../../base/browser/globalPointerMoveMonitor.js';

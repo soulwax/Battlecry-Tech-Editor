@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/product/common/product.js
+
 import { env } from '../../../base/common/process.js';
 
 /*---------------------------------------------------------------------------------------------

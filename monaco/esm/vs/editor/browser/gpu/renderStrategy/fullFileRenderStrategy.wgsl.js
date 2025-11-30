@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/renderStrategy/fullFileRenderStrategy.wgsl.js
+
 import { TextureAtlas } from '../atlas/textureAtlas.js';
 import { TextureAtlasPage } from '../atlas/textureAtlasPage.js';
 

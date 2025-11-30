@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/dataTransfer.js
+
 import { DataTransfers } from '../../base/browser/dnd.js';
 import { VSDataTransfer, createStringDataTransferItem, UriList, createFileDataTransferItem } from '../../base/common/dataTransfer.js';
 import { Mimes } from '../../base/common/mime.js';

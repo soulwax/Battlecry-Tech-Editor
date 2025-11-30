@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/minimap/minimapCharRendererFactory.js
+
 import { MinimapCharRenderer } from './minimapCharRenderer.js';
 import { allCharCodes } from './minimapCharSheet.js';
 import { prebakedMiniMaps } from './minimapPreBaked.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneWebWorker.js
+
 import { EditorWorkerClient } from '../../browser/services/editorWorkerService.js';
 
 /*---------------------------------------------------------------------------------------------

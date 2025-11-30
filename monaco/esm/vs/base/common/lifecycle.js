@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/lifecycle.js
+
 import { Iterable } from './iterator.js';
 
 function setParentOfDisposable(child, parent) {

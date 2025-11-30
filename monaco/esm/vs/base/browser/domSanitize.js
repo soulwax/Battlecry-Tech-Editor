@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/domSanitize.js
+
 import { Schemas } from '../common/network.js';
 import { reset } from './dom.js';
 import purify from './dompurify/dompurify.js';

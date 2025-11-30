@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoSymbol/browser/symbolNavigation.js
+
 import { Emitter } from '../../../../base/common/event.js';
 import { combinedDisposable, DisposableStore, dispose } from '../../../../base/common/lifecycle.js';
 import { isEqual } from '../../../../base/common/resources.js';

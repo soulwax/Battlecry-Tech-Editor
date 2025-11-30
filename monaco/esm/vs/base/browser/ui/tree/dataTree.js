@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/tree/dataTree.js
+
 import { AbstractTree } from './abstractTree.js';
 import { ObjectTreeModel } from './objectTreeModel.js';
 

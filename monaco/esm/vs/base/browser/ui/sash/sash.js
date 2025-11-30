@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/sash/sash.js
+
 import { getWindow, append, $, addDisposableListener, EventHelper, isHTMLElement } from '../../dom.js';
 import { createStyleSheet } from '../../domStylesheets.js';
 import { DomEmitter } from '../../event.js';

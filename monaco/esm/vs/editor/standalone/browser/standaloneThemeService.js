@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneThemeService.js
+
 import { isInShadowDOM } from '../../../base/browser/dom.js';
 import { createStyleSheet } from '../../../base/browser/domStylesheets.js';
 import { addMatchMediaChangeListener } from '../../../base/browser/browser.js';

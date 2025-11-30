@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/middleScroll/browser/middleScroll.contribution.js
+
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { MiddleScrollController } from './middleScrollController.js';
 

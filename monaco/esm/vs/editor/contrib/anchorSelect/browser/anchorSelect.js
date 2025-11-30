@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/anchorSelect/browser/anchorSelect.js
+
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { MarkdownString } from '../../../../base/common/htmlContent.js';
 import { KeyChord } from '../../../../base/common/keyCodes.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/observable/common/platformObservableUtils.js
+
 import { DisposableStore } from '../../../base/common/lifecycle.js';
 import '../../../base/common/observableInternal/index.js';
 import { DebugLocation } from '../../../base/common/observableInternal/debugLocation.js';

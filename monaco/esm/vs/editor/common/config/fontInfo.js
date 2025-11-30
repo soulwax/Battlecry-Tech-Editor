@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/config/fontInfo.js
+
 import { isMacintosh, isWindows } from '../../../base/common/platform.js';
 import { EditorZoom } from './editorZoom.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/folding/browser/foldingModel.js
+
 import { Emitter } from '../../../../base/common/event.js';
 import { FoldingRegions } from './foldingRanges.js';
 import { hash } from '../../../../base/common/hash.js';

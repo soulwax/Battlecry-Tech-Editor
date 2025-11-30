@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/menu/menu.js
+
 import { isFirefox } from '../../browser.js';
 import { Gesture, EventType as EventType$1 } from '../../touch.js';
 import { addDisposableListener, EventType, EventHelper, isAncestor, getWindow, isInShadowDOM, getActiveElement, append, $, Dimension, clearNode } from '../../dom.js';

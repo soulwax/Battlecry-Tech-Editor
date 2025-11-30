@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/keybinding/common/baseResolvedKeybinding.js
+
 import { illegalArgument } from '../../../base/common/errors.js';
 import { UILabelProvider, AriaLabelProvider, ElectronAcceleratorLabelProvider, UserSettingsLabelProvider } from '../../../base/common/keybindingLabels.js';
 import { ResolvedKeybinding, ResolvedChord } from '../../../base/common/keybindings.js';

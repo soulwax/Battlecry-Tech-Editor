@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/common/quickAccess.js
+
 import { coalesce } from '../../../base/common/arrays.js';
 import { toDisposable } from '../../../base/common/lifecycle.js';
 import { Registry } from '../../registry/common/platform.js';

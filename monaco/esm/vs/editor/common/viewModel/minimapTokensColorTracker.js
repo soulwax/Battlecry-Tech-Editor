@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/minimapTokensColorTracker.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable, markAsSingleton } from '../../../base/common/lifecycle.js';
 import { RGBA8 } from '../core/misc/rgba.js';

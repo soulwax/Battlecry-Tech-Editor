@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/computeGhostText.js
+
 import { LcsDiff } from '../../../../../base/common/diff/diff.js';
 import { getLeadingWhitespace } from '../../../../../base/common/strings.js';
 import { Range } from '../../../../common/core/range.js';

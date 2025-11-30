@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/nls.messages.ja.js.js
+
 define("vs/nls.messages.ja.js", (function() {
   "use strict";
   /*!-----------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findController.js
+
 import { Delayer } from '../../../../base/common/async.js';
 import { Disposable, DisposableStore } from '../../../../base/common/lifecycle.js';
 import { escapeRegExpCharacters } from '../../../../base/common/strings.js';

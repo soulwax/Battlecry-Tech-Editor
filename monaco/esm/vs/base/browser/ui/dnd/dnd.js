@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/dnd/dnd.js
+
 import { $ } from '../../dom.js';
 import './dnd.css';
 

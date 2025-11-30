@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/fsharp/fsharp.js
+
 const conf = {
   comments: {
     lineComment: "//",

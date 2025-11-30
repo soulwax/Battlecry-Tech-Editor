@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewLines/viewLine.js
+
 import { isFirefox, isSafari, isWebKit } from '../../../../base/browser/browser.js';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { isNative, isLinux } from '../../../../base/common/platform.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/platform.js
+
 import '../../nls.js';
 import { getNLSLanguage } from '../../nls.messages.js';
 

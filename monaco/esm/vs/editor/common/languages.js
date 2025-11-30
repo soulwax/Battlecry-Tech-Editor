@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages.js
+
 import { Codicon } from '../../base/common/codicons.js';
 import { URI } from '../../base/common/uri.js';
 import { Range } from './core/range.js';

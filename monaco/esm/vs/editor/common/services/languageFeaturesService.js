@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/languageFeaturesService.js
+
 import { LanguageFeatureRegistry } from '../languageFeatureRegistry.js';
 import { ILanguageFeaturesService } from './languageFeatures.js';
 import { registerSingleton } from '../../../platform/instantiation/common/extensions.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewLinesGpu/viewLinesGpu.js
+
 import { getActiveWindow } from '../../../../base/browser/dom.js';
 import { BugIndicatingError } from '../../../../base/common/errors.js';
 import '../../../../base/common/observableInternal/index.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/msdax-MzEb-8sD.js
+
 define("vs/msdax-MzEb-8sD", ["exports"], (function(exports) {
   "use strict";
   const conf = {

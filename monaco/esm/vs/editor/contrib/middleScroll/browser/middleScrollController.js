@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/middleScroll/browser/middleScrollController.js
+
 import { getWindow, n, addDisposableListener } from '../../../../base/browser/dom.js';
 import { Disposable, DisposableStore } from '../../../../base/common/lifecycle.js';
 import '../../../../base/common/observableInternal/index.js';

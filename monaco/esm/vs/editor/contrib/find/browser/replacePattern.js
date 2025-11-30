@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/replacePattern.js
+
 import { buildReplaceStringWithCasePreserved } from '../../../../base/common/search.js';
 
 /*---------------------------------------------------------------------------------------------

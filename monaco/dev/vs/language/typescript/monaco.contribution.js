@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/language/typescript/monaco.contribution.js
+
 define("vs/language/typescript/monaco.contribution", ["exports", "../../monaco.contribution-YfYcxPkX", "../../editor.api-CykLys8L"], (function(exports, language_typescript_monaco_contribution, editor_api) {
   "use strict";
   exports.JsxEmit = language_typescript_monaco_contribution.JsxEmit;

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlayHints/browser/inlayHintsContribution.js
+
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 import { HoverParticipantRegistry } from '../../hover/browser/hoverTypes.js';
 import { InlayHintsController } from './inlayHintsController.js';

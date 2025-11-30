@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/dynamicProgrammingDiffing.js
+
 import { OffsetRange } from '../../../core/ranges/offsetRange.js';
 import { InfiniteTimeout, DiffAlgorithmResult, SequenceDiff } from './diffAlgorithm.js';
 import { Array2D } from '../utils.js';

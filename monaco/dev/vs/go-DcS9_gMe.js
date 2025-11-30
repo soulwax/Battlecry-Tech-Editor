@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/go-DcS9_gMe.js
+
 define("vs/go-DcS9_gMe", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/treeViewsDndService.js
+
 import { registerSingleton } from '../../../platform/instantiation/common/extensions.js';
 import { createDecorator } from '../../../platform/instantiation/common/instantiation.js';
 import { TreeViewsDnDService } from './treeViewsDnd.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/filters.js
+
 import { LRUCache } from './map.js';
 import { getKoreanAltChars } from './naturalLanguage/korean.js';
 import { startsWithIgnoreCase, isEmojiImprecise, convertSimple2RegExpPattern } from './strings.js';

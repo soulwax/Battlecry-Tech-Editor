@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerBody.js
+
 import '../colorPicker.css';
 import { $ as $$1, append } from '../../../../../base/browser/dom.js';
 import { Color, HSVA } from '../../../../../base/common/color.js';

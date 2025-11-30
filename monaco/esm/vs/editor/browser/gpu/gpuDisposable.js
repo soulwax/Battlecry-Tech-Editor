@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/gpuDisposable.js
+
 import { isFunction } from '../../../base/common/types.js';
 
 /*---------------------------------------------------------------------------------------------

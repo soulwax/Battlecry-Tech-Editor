@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/hash.js
+
 import { encodeHex, VSBuffer } from './buffer.js';
 import { isHighSurrogate, isLowSurrogate, computeCodePoint } from './strings.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/multiDiffEditor/diffEditorItemTemplate.js
+
 import { h } from '../../../../base/browser/dom.js';
 import { Button } from '../../../../base/browser/ui/button/button.js';
 import { Codicon } from '../../../../base/common/codicons.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/tree/quickInputTreeAccessibilityProvider.js
+
 import { Event } from '../../../../base/common/event.js';
 import { getCodiconAriaLabel } from '../../../../base/common/iconLabels.js';
 import { localize } from '../../../../nls.js';

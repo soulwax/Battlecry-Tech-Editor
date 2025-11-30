@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/cssLanguageService.js
+
 import { Parser } from './parser/cssParser.js';
 import { CSSCompletion } from './services/cssCompletion.js';
 import { CSSHover } from './services/cssHover.js';

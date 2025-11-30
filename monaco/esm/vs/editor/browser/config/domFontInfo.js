@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/config/domFontInfo.js
+
 import { FastDomNode } from '../../../base/browser/fastDomNode.js';
 
 /*---------------------------------------------------------------------------------------------

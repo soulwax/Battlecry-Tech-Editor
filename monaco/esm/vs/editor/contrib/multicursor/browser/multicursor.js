@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/multicursor/browser/multicursor.js
+
 import { status } from '../../../../base/browser/ui/aria/aria.js';
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { KeyChord } from '../../../../base/common/keyCodes.js';

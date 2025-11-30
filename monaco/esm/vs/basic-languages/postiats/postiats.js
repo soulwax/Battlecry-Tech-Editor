@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/postiats/postiats.js
+
 const conf = {
   comments: {
     lineComment: "//",

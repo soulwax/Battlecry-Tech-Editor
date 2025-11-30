@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/animation.js
+
 import { getActiveWindow } from '../../../../../base/browser/dom.js';
 import '../../../../../base/common/observableInternal/index.js';
 import { observableSignal } from '../../../../../base/common/observableInternal/observables/observableSignal.js';

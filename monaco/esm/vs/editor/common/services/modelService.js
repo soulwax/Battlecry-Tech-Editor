@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/modelService.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { StringSHA1 } from '../../../base/common/hash.js';
 import { Disposable, DisposableStore } from '../../../base/common/lifecycle.js';

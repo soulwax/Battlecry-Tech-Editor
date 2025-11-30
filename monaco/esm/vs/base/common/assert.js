@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/assert.js
+
 import { onUnexpectedError, BugIndicatingError } from './errors.js';
 
 /*---------------------------------------------------------------------------------------------

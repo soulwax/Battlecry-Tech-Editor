@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/scrollbar/abstractScrollbar.js
+
 import { addDisposableListener, EventType, getDomNodePagePosition } from '../../dom.js';
 import { createFastDomNode } from '../../fastDomNode.js';
 import { GlobalPointerMoveMonitor } from '../../globalPointerMoveMonitor.js';

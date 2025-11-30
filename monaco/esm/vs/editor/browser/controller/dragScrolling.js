@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/dragScrolling.js
+
 import { scheduleAtNextAnimationFrame, getWindow } from '../../../base/browser/dom.js';
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { Position } from '../../common/core/position.js';

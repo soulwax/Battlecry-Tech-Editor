@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/azcli/azcli.js
+
 const conf = {
   comments: {
     lineComment: "#"

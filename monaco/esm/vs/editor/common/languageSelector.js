@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languageSelector.js
+
 import { match } from '../../base/common/glob.js';
 import { normalize } from '../../base/common/path.js';
 

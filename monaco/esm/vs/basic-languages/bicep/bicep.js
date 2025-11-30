@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/bicep/bicep.js
+
 const bounded = (text) => `\\b${text}\\b`;
 const identifierStart = "[_a-zA-Z]";
 const identifierContinue = "[_a-zA-Z0-9]";

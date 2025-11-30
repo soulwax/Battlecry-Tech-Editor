@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/caretOperations/browser/moveCaretCommand.js
+
 import { Range } from '../../../common/core/range.js';
 import { Selection } from '../../../common/core/selection.js';
 

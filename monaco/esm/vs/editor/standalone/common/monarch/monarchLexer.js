@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/common/monarch/monarchLexer.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { TokenizationRegistry, Token, TokenizationResult, EncodedTokenizationResult } from '../../../common/languages.js';
 import { nullTokenize, nullTokenizeEncoded, NullState } from '../../../common/languages/nullTokenize.js';

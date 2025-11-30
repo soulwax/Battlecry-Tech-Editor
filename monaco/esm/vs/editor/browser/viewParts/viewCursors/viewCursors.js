@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewCursors/viewCursors.js
+
 import './viewCursors.css';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { TimeoutTimer } from '../../../../base/common/async.js';

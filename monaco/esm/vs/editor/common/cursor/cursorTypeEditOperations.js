@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorTypeEditOperations.js
+
 import { onUnexpectedError } from '../../../base/common/errors.js';
 import { getLeadingWhitespace, firstNonWhitespaceIndex, splitLines, lastNonWhitespaceIndex } from '../../../base/common/strings.js';
 import { ReplaceCommandWithoutChangingPosition, ReplaceCommandWithOffsetCursorState, ReplaceCommand, ReplaceOvertypeCommand, ReplaceOvertypeCommandOnCompositionEnd, ReplaceCommandThatPreservesSelection } from '../commands/replaceCommand.js';

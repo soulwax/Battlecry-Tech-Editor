@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/viewContext.js
+
 import { EditorTheme } from '../editorTheme.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/json/jsonWorker.js
+
 import { getLanguageService } from '../../../external/vscode-json-languageservice/lib/esm/jsonLanguageService.js';
 import { URI } from '../../../external/vscode-uri/lib/esm/index.js';
 import { ClientCapabilities } from '../../../external/vscode-json-languageservice/lib/esm/jsonLanguageTypes.js';

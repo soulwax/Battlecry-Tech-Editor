@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/tree/quickInputDelegate.js
+
 import { QuickInputTreeRenderer } from './quickInputTreeRenderer.js';
 
 /*---------------------------------------------------------------------------------------------

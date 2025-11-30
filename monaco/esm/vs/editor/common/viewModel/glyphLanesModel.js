@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/glyphLanesModel.js
+
 import { GlyphMarginLane } from '../model.js';
 
 /*---------------------------------------------------------------------------------------------

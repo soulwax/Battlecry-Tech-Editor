@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colorUtils.js
+
 import { assertNever } from '../../../base/common/assert.js';
 import { RunOnceScheduler } from '../../../base/common/async.js';
 import { Color } from '../../../base/common/color.js';

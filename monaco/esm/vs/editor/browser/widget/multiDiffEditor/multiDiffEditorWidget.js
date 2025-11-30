@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidget.js
+
 import { readHotReloadableExport } from '../../../../base/common/hotReloadHelpers.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import '../../../../base/common/observableInternal/index.js';

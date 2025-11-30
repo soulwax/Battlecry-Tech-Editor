@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/handlebars/handlebars.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

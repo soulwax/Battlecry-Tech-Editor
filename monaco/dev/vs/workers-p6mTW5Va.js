@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/workers-p6mTW5Va.js
+
 define("vs/workers-p6mTW5Va", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   function createTrustedTypesPolicy(policyName, policyOptions) {

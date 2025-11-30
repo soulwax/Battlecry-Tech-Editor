@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/history.js
+
 import { ArrayNavigator } from './navigator.js';
 
 class HistoryNavigator {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/glyphHoverController.js
+
 import { Disposable, DisposableStore } from '../../../../base/common/lifecycle.js';
 import { IInstantiationService } from '../../../../platform/instantiation/common/instantiation.js';
 import { RunOnceScheduler } from '../../../../base/common/async.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/ts.worker.js
+
 import { initialize } from '../../common/initialize.js';
 import * as typescriptServices from './lib/typescriptServices.js';
 export { typescriptServices as ts };

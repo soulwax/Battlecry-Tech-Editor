@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/quickInput/standaloneQuickInputService.js
+
 import './standaloneQuickInput.css';
 import { Event } from '../../../../base/common/event.js';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';

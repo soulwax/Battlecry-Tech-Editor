@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/common/lspLanguageFeatures.js
+
 import { InsertTextFormat, CompletionItemKind, DocumentHighlightKind, SymbolKind, FoldingRangeKind, DiagnosticSeverity } from '../../../external/vscode-languageserver-types/lib/esm/main.js';
 import '../../editor/browser/coreCommands.js';
 import '../../editor/browser/widget/codeEditor/codeEditorWidget.js';

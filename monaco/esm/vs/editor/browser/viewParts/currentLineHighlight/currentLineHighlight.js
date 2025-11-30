@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/currentLineHighlight/currentLineHighlight.js
+
 import './currentLineHighlight.css';
 import { DynamicViewOverlay } from '../../view/dynamicViewOverlay.js';
 import { editorLineHighlight, editorLineHighlightBorder } from '../../../common/core/editorColorRegistry.js';

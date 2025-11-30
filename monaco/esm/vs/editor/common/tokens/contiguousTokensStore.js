@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/contiguousTokensStore.js
+
 import { arrayInsert } from '../../../base/common/arrays.js';
 import { Position } from '../core/position.js';
 import { EMPTY_LINE_TOKENS, toUint32Array, ContiguousTokensEditing } from './contiguousTokensEditing.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorMoveOperations.js
+
 import { prevCharLength, nextCharLength } from '../../../base/common/strings.js';
 import { CursorColumns } from '../core/cursorColumns.js';
 import { Position } from '../core/position.js';

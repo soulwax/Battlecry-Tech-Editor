@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/rectangleRenderer.js
+
 import { getActiveWindow } from '../../../base/browser/dom.js';
 import { Event } from '../../../base/common/event.js';
 import { MutableDisposable } from '../../../base/common/lifecycle.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/globalPointerMoveMonitor.js
+
 import { getWindow, addDisposableListener, EventType } from './dom.js';
 import { DisposableStore, toDisposable } from '../common/lifecycle.js';
 

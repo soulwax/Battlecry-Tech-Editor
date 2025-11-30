@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/bicep-XOQLqtWX.js
+
 define("vs/bicep-XOQLqtWX", ["exports"], (function(exports) {
   "use strict";
   const bounded = (text) => `\\b${text}\\b`;

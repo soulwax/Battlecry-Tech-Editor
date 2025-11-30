@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssNavigation.js
+
 import { FileType } from '../cssLanguageTypes.js';
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 import { getNodeAtOffset, NodeType, RuleSet, Selector, VariableDeclaration, MixinDeclaration, FunctionDeclaration, Keyframe, FontFace, Media, Medialist, Node, Identifier, Property } from '../parser/cssNodes.js';

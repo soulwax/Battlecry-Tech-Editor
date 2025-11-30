@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/semanticTokens/common/getSemanticTokens.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';
 import { URI } from '../../../../base/common/uri.js';

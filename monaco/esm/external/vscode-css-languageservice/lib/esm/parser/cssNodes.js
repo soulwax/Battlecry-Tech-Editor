@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/cssNodes.js
+
 import { trim } from '../utils/strings.js';
 
 /*---------------------------------------------------------------------------------------------

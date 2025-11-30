@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/standaloneStrings.js
+
 import { localize } from '../../nls.js';
 
 /*---------------------------------------------------------------------------------------------

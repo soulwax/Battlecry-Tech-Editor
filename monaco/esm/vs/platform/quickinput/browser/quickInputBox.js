@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInputBox.js
+
 import { append, $ as $$1 } from '../../../base/browser/dom.js';
 import { FindInput } from '../../../base/browser/ui/findinput/findInput.js';
 import { Disposable } from '../../../base/common/lifecycle.js';

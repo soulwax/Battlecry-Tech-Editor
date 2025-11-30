@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/overlayWidgets/overlayWidgets.js
+
 import './overlayWidgets.css';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { ViewPart, PartFingerprints } from '../../view/viewPart.js';

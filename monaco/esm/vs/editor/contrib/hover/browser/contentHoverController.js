@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/contentHoverController.js
+
 import { SHOW_OR_FOCUS_HOVER_ACTION_ID, INCREASE_HOVER_VERBOSITY_ACTION_ID, DECREASE_HOVER_VERBOSITY_ACTION_ID } from './hoverActionIds.js';
 import { Disposable, DisposableStore } from '../../../../base/common/lifecycle.js';
 import { IInstantiationService } from '../../../../platform/instantiation/common/instantiation.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/pug/pug.js
+
 const conf = {
   comments: {
     lineComment: "//"

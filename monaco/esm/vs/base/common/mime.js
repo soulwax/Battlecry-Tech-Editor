@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/mime.js
+
 const Mimes = Object.freeze({
     text: 'text/plain',
     binary: 'application/octet-stream',

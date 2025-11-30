@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/textModelStringEdit.js
+
 import { StringReplacement, StringEdit } from '../core/edits/stringEdit.js';
 import { OffsetRange } from '../core/ranges/offsetRange.js';
 

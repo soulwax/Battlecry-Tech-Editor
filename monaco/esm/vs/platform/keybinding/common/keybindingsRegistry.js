@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/keybinding/common/keybindingsRegistry.js
+
 import { decodeKeybinding } from '../../../base/common/keybindings.js';
 import { OS } from '../../../base/common/platform.js';
 import { CommandsRegistry } from '../../commands/common/commands.js';

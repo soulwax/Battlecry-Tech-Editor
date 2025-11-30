@@ -1,14 +1,2356 @@
-Monaco-Editor
+Battlecry-Editor
+├───.env.sample
 ├───.gitignore
+├───.prettierignore
+├───.prettierrc.json
+├───ecosystem.config.js
 ├───LICENSE
 ├───package-lock.json
 ├───package.json
 ├───README.md
 ├───server.js
+├───tree.txt
 ├───.claude/
 │   └───settings.local.json
+├───logs/
+│   ├───pm2-combined.log
+│   ├───pm2-error.log
+│   └───pm2-out.log
+├───monaco/
+│   ├───CHANGELOG.md
+│   ├───LICENSE
+│   ├───monaco.d.ts
+│   ├───package.json
+│   ├───README.md
+│   ├───ThirdPartyNotices.txt
+│   ├───dev/
+│   │   └───vs/
+│   │       ├───_commonjsHelpers-98qg88fe.js
+│   │       ├───abap-BxE6jMvt.js
+│   │       ├───apex-Jqcmv7eP.js
+│   │       ├───azcli-DlDxj3-g.js
+│   │       ├───bat-gO9qKzUo.js
+│   │       ├───bicep-XOQLqtWX.js
+│   │       ├───cameligo-DCtn5844.js
+│   │       ├───clojure-DyYtgmYv.js
+│   │       ├───coffee-C8bOs6Uz.js
+│   │       ├───cpp-9dJI961u.js
+│   │       ├───csharp-NZNtYXm3.js
+│   │       ├───csp-CtMdzNMY.js
+│   │       ├───css-t68wsr0f.js
+│   │       ├───cssMode-Cakukknl.js
+│   │       ├───cypher-DyfRGA23.js
+│   │       ├───dart-eN3E5CF0.js
+│   │       ├───dockerfile-A7JJbAuF.js
+│   │       ├───ecl-BJgqfLSq.js
+│   │       ├───editor.api-CykLys8L.js
+│   │       ├───elixir-BxvNo5o6.js
+│   │       ├───flow9-BNnUn-_8.js
+│   │       ├───freemarker2-CQSuO4BX.js
+│   │       ├───fsharp-DHdXPb1O.js
+│   │       ├───go-DcS9_gMe.js
+│   │       ├───graphql-CHzgmf8E.js
+│   │       ├───handlebars-C_OonjWa.js
+│   │       ├───hcl-ChD4paVH.js
+│   │       ├───html-Bey8D4EY.js
+│   │       ├───htmlMode-Cz7zhZ7P.js
+│   │       ├───ini-CdZgSnLI.js
+│   │       ├───java-vwwkdu2k.js
+│   │       ├───javascript-BgQ1b_eP.js
+│   │       ├───jsonMode-CCwfh_OB.js
+│   │       ├───julia-DrYN6c6i.js
+│   │       ├───kotlin-CSDqhv6t.js
+│   │       ├───less-B7KFvseP.js
+│   │       ├───lexon-BmRNXYWC.js
+│   │       ├───liquid-Limfe9fx.js
+│   │       ├───loader.js
+│   │       ├───lspLanguageFeatures-BnY_dL8Y.js
+│   │       ├───lua-BYAO5Img.js
+│   │       ├───m3-B1KqSpyY.js
+│   │       ├───markdown-BXo7NBdp.js
+│   │       ├───mdx-DDjyMvBD.js
+│   │       ├───mips-zX62smW0.js
+│   │       ├───monaco.contribution-Cqdn_4Kw.js
+│   │       ├───monaco.contribution-D74vF5SR.js
+│   │       ├───monaco.contribution-D_SyqKiy.js
+│   │       ├───monaco.contribution-YfYcxPkX.js
+│   │       ├───msdax-MzEb-8sD.js
+│   │       ├───mysql-Drs0JCLT.js
+│   │       ├───nls.messages-loader.js
+│   │       ├───nls.messages.cs.js.js
+│   │       ├───nls.messages.de.js.js
+│   │       ├───nls.messages.es.js.js
+│   │       ├───nls.messages.fr.js.js
+│   │       ├───nls.messages.it.js.js
+│   │       ├───nls.messages.ja.js.js
+│   │       ├───nls.messages.js.js
+│   │       ├───nls.messages.ko.js.js
+│   │       ├───nls.messages.pl.js.js
+│   │       ├───nls.messages.pt-br.js.js
+│   │       ├───nls.messages.ru.js.js
+│   │       ├───nls.messages.tr.js.js
+│   │       ├───nls.messages.zh-cn.js.js
+│   │       ├───nls.messages.zh-tw.js.js
+│   │       ├───objective-c-DZzj24DI.js
+│   │       ├───pascal-Ek4lERtt.js
+│   │       ├───pascaligo-BhBiNdI2.js
+│   │       ├───perl-BZM3Cl3T.js
+│   │       ├───pgsql-BAYS0xjf.js
+│   │       ├───php-DK3ktPH8.js
+│   │       ├───pla-DbBZgOrT.js
+│   │       ├───postiats-OtZm4COL.js
+│   │       ├───powerquery-Du80-tps.js
+│   │       ├───powershell-mk7ECzLJ.js
+│   │       ├───protobuf-Bn1ftnRe.js
+│   │       ├───pug-BIApPNjT.js
+│   │       ├───python-CzSOMEzg.js
+│   │       ├───qsharp-BzyhV8V4.js
+│   │       ├───r-BZ_VXAR1.js
+│   │       ├───razor-BIG_AFb9.js
+│   │       ├───redis-BVpHZsxd.js
+│   │       ├───redshift-DMeYiY_v.js
+│   │       ├───restructuredtext-CmsqpaZy.js
+│   │       ├───ruby-qQzGPz_6.js
+│   │       ├───rust-DIvkf86i.js
+│   │       ├───sb-DUCWDbCb.js
+│   │       ├───scala-Cs4aXuOD.js
+│   │       ├───scheme-DM9P8uKD.js
+│   │       ├───scss-DijLV5ju.js
+│   │       ├───shell-BmIjpZz5.js
+│   │       ├───solidity-ClNCm0U5.js
+│   │       ├───sophia-DRm4eves.js
+│   │       ├───sparql-O5ONewYs.js
+│   │       ├───sql-RAEyXdQG.js
+│   │       ├───st-UObc-eRR.js
+│   │       ├───swift-CXsb7aR5.js
+│   │       ├───systemverilog-D8uKG36_.js
+│   │       ├───tcl-BiHOeboY.js
+│   │       ├───tsMode-CYrPzhIX.js
+│   │       ├───twig-DDbyWOW2.js
+│   │       ├───typescript-0SV7N1Xc.js
+│   │       ├───typespec-BoPQuPjQ.js
+│   │       ├───vb-Dj0rva7R.js
+│   │       ├───wgsl-C6G-1Rhr.js
+│   │       ├───workers-p6mTW5Va.js
+│   │       ├───xml-fSKCG6nN.js
+│   │       ├───yaml-Dx1TJ9RY.js
+│   │       ├───assets/
+│   │       │   ├───css.worker-CgWp-mpq.js
+│   │       │   ├───editor.worker-DbHNojjm.js
+│   │       │   ├───html.worker-Dp8eKPfv.js
+│   │       │   ├───json.worker-CvNsV1ln.js
+│   │       │   └───ts.worker-ClNbeHrN.js
+│   │       ├───basic-languages/
+│   │       │   └───monaco.contribution.js
+│   │       ├───editor/
+│   │       │   ├───editor.main.css
+│   │       │   └───editor.main.js
+│   │       └───language/
+│   │           ├───css/
+│   │           │   └───monaco.contribution.js
+│   │           ├───html/
+│   │           │   └───monaco.contribution.js
+│   │           ├───json/
+│   │           │   └───monaco.contribution.js
+│   │           └───typescript/
+│   │               └───monaco.contribution.js
+│   ├───esm/
+│   │   ├───metadata.d.ts
+│   │   ├───metadata.js
+│   │   ├───nls.messages.cs.js
+│   │   ├───nls.messages.de.js
+│   │   ├───nls.messages.es.js
+│   │   ├───nls.messages.fr.js
+│   │   ├───nls.messages.it.js
+│   │   ├───nls.messages.ja.js
+│   │   ├───nls.messages.js
+│   │   ├───nls.messages.ko.js
+│   │   ├───nls.messages.pl.js
+│   │   ├───nls.messages.pt-br.js
+│   │   ├───nls.messages.ru.js
+│   │   ├───nls.messages.tr.js
+│   │   ├───nls.messages.zh-cn.js
+│   │   ├───nls.messages.zh-tw.js
+│   │   ├───external/
+│   │   │   ├───@vscode/
+│   │   │   │   └───l10n/
+│   │   │   ├───jsonc-parser/
+│   │   │   │   └───lib/
+│   │   │   │       └───esm/
+│   │   │   │           ├───main.js
+│   │   │   │           └───impl/
+│   │   │   │               ├───format.js
+│   │   │   │               ├───parser.js
+│   │   │   │               ├───scanner.js
+│   │   │   │               └───string-intern.js
+│   │   │   ├───monaco-lsp-client/
+│   │   │   │   └───out/
+│   │   │   │       └───index.js
+│   │   │   ├───vscode-css-languageservice/
+│   │   │   │   └───lib/
+│   │   │   │       └───esm/
+│   │   │   │           ├───cssLanguageService.js
+│   │   │   │           ├───cssLanguageTypes.js
+│   │   │   │           ├───beautify/
+│   │   │   │           │   └───beautify-css.js
+│   │   │   │           ├───data/
+│   │   │   │           │   └───webCustomData.js
+│   │   │   │           ├───languageFacts/
+│   │   │   │           │   ├───builtinData.js
+│   │   │   │           │   ├───colors.js
+│   │   │   │           │   ├───dataManager.js
+│   │   │   │           │   ├───dataProvider.js
+│   │   │   │           │   └───entry.js
+│   │   │   │           ├───parser/
+│   │   │   │           │   ├───cssErrors.js
+│   │   │   │           │   ├───cssNodes.js
+│   │   │   │           │   ├───cssParser.js
+│   │   │   │           │   ├───cssScanner.js
+│   │   │   │           │   ├───cssSymbolScope.js
+│   │   │   │           │   ├───lessParser.js
+│   │   │   │           │   ├───lessScanner.js
+│   │   │   │           │   ├───scssErrors.js
+│   │   │   │           │   ├───scssParser.js
+│   │   │   │           │   └───scssScanner.js
+│   │   │   │           ├───services/
+│   │   │   │           │   ├───cssCodeActions.js
+│   │   │   │           │   ├───cssCompletion.js
+│   │   │   │           │   ├───cssFolding.js
+│   │   │   │           │   ├───cssFormatter.js
+│   │   │   │           │   ├───cssHover.js
+│   │   │   │           │   ├───cssNavigation.js
+│   │   │   │           │   ├───cssSelectionRange.js
+│   │   │   │           │   ├───cssValidation.js
+│   │   │   │           │   ├───lessCompletion.js
+│   │   │   │           │   ├───lint.js
+│   │   │   │           │   ├───lintRules.js
+│   │   │   │           │   ├───lintUtil.js
+│   │   │   │           │   ├───pathCompletion.js
+│   │   │   │           │   ├───scssCompletion.js
+│   │   │   │           │   ├───scssNavigation.js
+│   │   │   │           │   └───selectorPrinting.js
+│   │   │   │           └───utils/
+│   │   │   │               ├───arrays.js
+│   │   │   │               ├───objects.js
+│   │   │   │               ├───resources.js
+│   │   │   │               └───strings.js
+│   │   │   ├───vscode-html-languageservice/
+│   │   │   │   └───lib/
+│   │   │   │       └───esm/
+│   │   │   │           ├───htmlLanguageService.js
+│   │   │   │           ├───htmlLanguageTypes.js
+│   │   │   │           ├───beautify/
+│   │   │   │           │   ├───beautify-css.js
+│   │   │   │           │   ├───beautify-html.js
+│   │   │   │           │   └───beautify.js
+│   │   │   │           ├───languageFacts/
+│   │   │   │           │   ├───dataManager.js
+│   │   │   │           │   ├───dataProvider.js
+│   │   │   │           │   └───data/
+│   │   │   │           │       └───webCustomData.js
+│   │   │   │           ├───parser/
+│   │   │   │           │   ├───htmlEntities.js
+│   │   │   │           │   ├───htmlParser.js
+│   │   │   │           │   └───htmlScanner.js
+│   │   │   │           ├───services/
+│   │   │   │           │   ├───htmlCompletion.js
+│   │   │   │           │   ├───htmlFolding.js
+│   │   │   │           │   ├───htmlFormatter.js
+│   │   │   │           │   ├───htmlHighlighting.js
+│   │   │   │           │   ├───htmlHover.js
+│   │   │   │           │   ├───htmlLinkedEditing.js
+│   │   │   │           │   ├───htmlLinks.js
+│   │   │   │           │   ├───htmlMatchingTagPosition.js
+│   │   │   │           │   ├───htmlRename.js
+│   │   │   │           │   ├───htmlSelectionRange.js
+│   │   │   │           │   ├───htmlSymbolsProvider.js
+│   │   │   │           │   └───pathCompletion.js
+│   │   │   │           └───utils/
+│   │   │   │               ├───arrays.js
+│   │   │   │               ├───markup.js
+│   │   │   │               ├───object.js
+│   │   │   │               └───strings.js
+│   │   │   ├───vscode-json-languageservice/
+│   │   │   │   └───lib/
+│   │   │   │       └───esm/
+│   │   │   │           ├───jsonLanguageService.js
+│   │   │   │           ├───jsonLanguageTypes.js
+│   │   │   │           ├───parser/
+│   │   │   │           │   └───jsonParser.js
+│   │   │   │           ├───services/
+│   │   │   │           │   ├───configuration.js
+│   │   │   │           │   ├───jsonCompletion.js
+│   │   │   │           │   ├───jsonDocumentSymbols.js
+│   │   │   │           │   ├───jsonFolding.js
+│   │   │   │           │   ├───jsonHover.js
+│   │   │   │           │   ├───jsonLinks.js
+│   │   │   │           │   ├───jsonSchemaService.js
+│   │   │   │           │   ├───jsonSelectionRanges.js
+│   │   │   │           │   └───jsonValidation.js
+│   │   │   │           └───utils/
+│   │   │   │               ├───colors.js
+│   │   │   │               ├───format.js
+│   │   │   │               ├───glob.js
+│   │   │   │               ├───json.js
+│   │   │   │               ├───objects.js
+│   │   │   │               ├───propertyTree.js
+│   │   │   │               ├───sort.js
+│   │   │   │               └───strings.js
+│   │   │   ├───vscode-languageserver-textdocument/
+│   │   │   │   └───lib/
+│   │   │   │       └───esm/
+│   │   │   │           └───main.js
+│   │   │   ├───vscode-languageserver-types/
+│   │   │   │   └───lib/
+│   │   │   │       └───esm/
+│   │   │   │           └───main.js
+│   │   │   └───vscode-uri/
+│   │   │       └───lib/
+│   │   │           └───esm/
+│   │   │               └───index.js
+│   │   └───vs/
+│   │       ├───nls.js
+│   │       ├───nls.messages.js
+│   │       ├───base/
+│   │       │   ├───browser/
+│   │       │   │   ├───browser.js
+│   │       │   │   ├───canIUse.js
+│   │       │   │   ├───cssValue.js
+│   │       │   │   ├───dnd.js
+│   │       │   │   ├───dom.js
+│   │       │   │   ├───domSanitize.js
+│   │       │   │   ├───domStylesheets.js
+│   │       │   │   ├───event.js
+│   │       │   │   ├───fastDomNode.js
+│   │       │   │   ├───fonts.js
+│   │       │   │   ├───formattedTextRenderer.js
+│   │       │   │   ├───globalPointerMoveMonitor.js
+│   │       │   │   ├───iframe.js
+│   │       │   │   ├───keyboardEvent.js
+│   │       │   │   ├───markdownRenderer.js
+│   │       │   │   ├───mouseEvent.js
+│   │       │   │   ├───performance.js
+│   │       │   │   ├───pixelRatio.js
+│   │       │   │   ├───touch.js
+│   │       │   │   ├───trustedTypes.js
+│   │       │   │   ├───webWorkerFactory.js
+│   │       │   │   ├───window.js
+│   │       │   │   ├───dompurify/
+│   │       │   │   │   └───dompurify.js
+│   │       │   │   └───ui/
+│   │       │   │       ├───widget.js
+│   │       │   │       ├───actionbar/
+│   │       │   │       │   ├───actionbar.css
+│   │       │   │       │   ├───actionbar.js
+│   │       │   │       │   └───actionViewItems.js
+│   │       │   │       ├───aria/
+│   │       │   │       │   ├───aria.css
+│   │       │   │       │   └───aria.js
+│   │       │   │       ├───button/
+│   │       │   │       │   ├───button.css
+│   │       │   │       │   └───button.js
+│   │       │   │       ├───codicons/
+│   │       │   │       │   └───codicon/
+│   │       │   │       │       ├───codicon-modifiers.css
+│   │       │   │       │       ├───codicon-modifiers.css.d.ts
+│   │       │   │       │       ├───codicon.css
+│   │       │   │       │       ├───codicon.css.d.ts
+│   │       │   │       │       └───codicon.ttf
+│   │       │   │       ├───contextview/
+│   │       │   │       │   ├───contextview.css
+│   │       │   │       │   └───contextview.js
+│   │       │   │       ├───countBadge/
+│   │       │   │       │   ├───countBadge.css
+│   │       │   │       │   └───countBadge.js
+│   │       │   │       ├───dnd/
+│   │       │   │       │   ├───dnd.css
+│   │       │   │       │   └───dnd.js
+│   │       │   │       ├───dropdown/
+│   │       │   │       │   ├───dropdown.css
+│   │       │   │       │   ├───dropdown.js
+│   │       │   │       │   └───dropdownActionViewItem.js
+│   │       │   │       ├───findinput/
+│   │       │   │       │   ├───findInput.css
+│   │       │   │       │   ├───findInput.js
+│   │       │   │       │   ├───findInputToggles.js
+│   │       │   │       │   └───replaceInput.js
+│   │       │   │       ├───highlightedlabel/
+│   │       │   │       │   └───highlightedLabel.js
+│   │       │   │       ├───hover/
+│   │       │   │       │   ├───hover.js
+│   │       │   │       │   ├───hoverDelegate2.js
+│   │       │   │       │   ├───hoverDelegateFactory.js
+│   │       │   │       │   ├───hoverWidget.css
+│   │       │   │       │   └───hoverWidget.js
+│   │       │   │       ├───iconLabel/
+│   │       │   │       │   ├───iconlabel.css
+│   │       │   │       │   ├───iconLabel.js
+│   │       │   │       │   └───iconLabels.js
+│   │       │   │       ├───inputbox/
+│   │       │   │       │   ├───inputBox.css
+│   │       │   │       │   └───inputBox.js
+│   │       │   │       ├───keybindingLabel/
+│   │       │   │       │   ├───keybindingLabel.css
+│   │       │   │       │   └───keybindingLabel.js
+│   │       │   │       ├───list/
+│   │       │   │       │   ├───list.css
+│   │       │   │       │   ├───list.js
+│   │       │   │       │   ├───listPaging.js
+│   │       │   │       │   ├───listView.js
+│   │       │   │       │   ├───listWidget.js
+│   │       │   │       │   ├───rangeMap.js
+│   │       │   │       │   ├───rowCache.js
+│   │       │   │       │   └───splice.js
+│   │       │   │       ├───menu/
+│   │       │   │       │   └───menu.js
+│   │       │   │       ├───mouseCursor/
+│   │       │   │       │   ├───mouseCursor.css
+│   │       │   │       │   └───mouseCursor.js
+│   │       │   │       ├───progressbar/
+│   │       │   │       │   ├───progressbar.css
+│   │       │   │       │   └───progressbar.js
+│   │       │   │       ├───resizable/
+│   │       │   │       │   └───resizable.js
+│   │       │   │       ├───sash/
+│   │       │   │       │   ├───sash.css
+│   │       │   │       │   └───sash.js
+│   │       │   │       ├───scrollbar/
+│   │       │   │       │   ├───abstractScrollbar.js
+│   │       │   │       │   ├───horizontalScrollbar.js
+│   │       │   │       │   ├───scrollableElement.js
+│   │       │   │       │   ├───scrollbarArrow.js
+│   │       │   │       │   ├───scrollbarState.js
+│   │       │   │       │   ├───scrollbarVisibilityController.js
+│   │       │   │       │   ├───verticalScrollbar.js
+│   │       │   │       │   └───media/
+│   │       │   │       │       └───scrollbars.css
+│   │       │   │       ├───selectBox/
+│   │       │   │       │   ├───selectBox.css
+│   │       │   │       │   ├───selectBox.js
+│   │       │   │       │   ├───selectBoxCustom.css
+│   │       │   │       │   ├───selectBoxCustom.js
+│   │       │   │       │   └───selectBoxNative.js
+│   │       │   │       ├───severityIcon/
+│   │       │   │       │   ├───severityIcon.js
+│   │       │   │       │   └───media/
+│   │       │   │       │       └───severityIcon.css
+│   │       │   │       ├───splitview/
+│   │       │   │       │   ├───splitview.css
+│   │       │   │       │   └───splitview.js
+│   │       │   │       ├───table/
+│   │       │   │       │   ├───table.css
+│   │       │   │       │   └───tableWidget.js
+│   │       │   │       ├───toggle/
+│   │       │   │       │   ├───toggle.css
+│   │       │   │       │   └───toggle.js
+│   │       │   │       ├───toolbar/
+│   │       │   │       │   ├───toolbar.css
+│   │       │   │       │   └───toolbar.js
+│   │       │   │       └───tree/
+│   │       │   │           ├───abstractTree.js
+│   │       │   │           ├───asyncDataTree.js
+│   │       │   │           ├───compressedObjectTreeModel.js
+│   │       │   │           ├───dataTree.js
+│   │       │   │           ├───indexTreeModel.js
+│   │       │   │           ├───objectTree.js
+│   │       │   │           ├───objectTreeModel.js
+│   │       │   │           ├───tree.js
+│   │       │   │           └───media/
+│   │       │   │               └───tree.css
+│   │       │   ├───common/
+│   │       │   │   ├───actions.js
+│   │       │   │   ├───arrays.js
+│   │       │   │   ├───arraysFind.js
+│   │       │   │   ├───assert.js
+│   │       │   │   ├───async.js
+│   │       │   │   ├───buffer.js
+│   │       │   │   ├───cache.js
+│   │       │   │   ├───cancellation.js
+│   │       │   │   ├───codicons.js
+│   │       │   │   ├───codiconsLibrary.js
+│   │       │   │   ├───codiconsUtil.js
+│   │       │   │   ├───collections.js
+│   │       │   │   ├───color.js
+│   │       │   │   ├───comparers.js
+│   │       │   │   ├───dataTransfer.js
+│   │       │   │   ├───date.js
+│   │       │   │   ├───decorators.js
+│   │       │   │   ├───equals.js
+│   │       │   │   ├───errorMessage.js
+│   │       │   │   ├───errors.js
+│   │       │   │   ├───event.js
+│   │       │   │   ├───extpath.js
+│   │       │   │   ├───filters.js
+│   │       │   │   ├───functional.js
+│   │       │   │   ├───fuzzyScorer.js
+│   │       │   │   ├───glob.js
+│   │       │   │   ├───hash.js
+│   │       │   │   ├───hierarchicalKind.js
+│   │       │   │   ├───history.js
+│   │       │   │   ├───hotReloadHelpers.js
+│   │       │   │   ├───htmlContent.js
+│   │       │   │   ├───iconLabels.js
+│   │       │   │   ├───idGenerator.js
+│   │       │   │   ├───ime.js
+│   │       │   │   ├───iterator.js
+│   │       │   │   ├───keybindingLabels.js
+│   │       │   │   ├───keybindings.js
+│   │       │   │   ├───keyCodes.js
+│   │       │   │   ├───labels.js
+│   │       │   │   ├───lazy.js
+│   │       │   │   ├───lifecycle.js
+│   │       │   │   ├───linkedList.js
+│   │       │   │   ├───linkedText.js
+│   │       │   │   ├───map.js
+│   │       │   │   ├───marshalling.js
+│   │       │   │   ├───mime.js
+│   │       │   │   ├───navigator.js
+│   │       │   │   ├───network.js
+│   │       │   │   ├───normalization.js
+│   │       │   │   ├───numbers.js
+│   │       │   │   ├───objects.js
+│   │       │   │   ├───path.js
+│   │       │   │   ├───platform.js
+│   │       │   │   ├───process.js
+│   │       │   │   ├───range.js
+│   │       │   │   ├───resources.js
+│   │       │   │   ├───scrollable.js
+│   │       │   │   ├───search.js
+│   │       │   │   ├───severity.js
+│   │       │   │   ├───stopwatch.js
+│   │       │   │   ├───strings.js
+│   │       │   │   ├───symbols.js
+│   │       │   │   ├───ternarySearchTree.js
+│   │       │   │   ├───tfIdf.js
+│   │       │   │   ├───themables.js
+│   │       │   │   ├───types.js
+│   │       │   │   ├───uint.js
+│   │       │   │   ├───uri.js
+│   │       │   │   ├───uuid.js
+│   │       │   │   ├───validation.js
+│   │       │   │   ├───diff/
+│   │       │   │   │   ├───diff.js
+│   │       │   │   │   └───diffChange.js
+│   │       │   │   ├───marked/
+│   │       │   │   │   └───marked.js
+│   │       │   │   ├───naturalLanguage/
+│   │       │   │   │   └───korean.js
+│   │       │   │   ├───observableInternal/
+│   │       │   │   │   ├───base.js
+│   │       │   │   │   ├───changeTracker.js
+│   │       │   │   │   ├───debugLocation.js
+│   │       │   │   │   ├───debugName.js
+│   │       │   │   │   ├───index.js
+│   │       │   │   │   ├───transaction.js
+│   │       │   │   │   ├───experimental/
+│   │       │   │   │   │   ├───reducer.js
+│   │       │   │   │   │   └───utils.js
+│   │       │   │   │   ├───logging/
+│   │       │   │   │   │   ├───consoleObservableLogger.js
+│   │       │   │   │   │   ├───logging.js
+│   │       │   │   │   │   └───debugger/
+│   │       │   │   │   │       ├───debuggerRpc.js
+│   │       │   │   │   │       ├───devToolsLogger.js
+│   │       │   │   │   │       ├───rpc.js
+│   │       │   │   │   │       └───utils.js
+│   │       │   │   │   ├───observables/
+│   │       │   │   │   │   ├───baseObservable.js
+│   │       │   │   │   │   ├───constObservable.js
+│   │       │   │   │   │   ├───derived.js
+│   │       │   │   │   │   ├───derivedImpl.js
+│   │       │   │   │   │   ├───lazyObservableValue.js
+│   │       │   │   │   │   ├───observableFromEvent.js
+│   │       │   │   │   │   ├───observableSignal.js
+│   │       │   │   │   │   ├───observableSignalFromEvent.js
+│   │       │   │   │   │   ├───observableValue.js
+│   │       │   │   │   │   └───observableValueOpts.js
+│   │       │   │   │   ├───reactions/
+│   │       │   │   │   │   ├───autorun.js
+│   │       │   │   │   │   └───autorunImpl.js
+│   │       │   │   │   └───utils/
+│   │       │   │   │       ├───promise.js
+│   │       │   │   │       ├───runOnChange.js
+│   │       │   │   │       ├───utils.js
+│   │       │   │   │       └───utilsCancellation.js
+│   │       │   │   └───worker/
+│   │       │   │       ├───webWorker.js
+│   │       │   │       └───webWorkerBootstrap.js
+│   │       │   └───parts/
+│   │       │       └───storage/
+│   │       │           └───common/
+│   │       │               └───storage.js
+│   │       ├───basic-languages/
+│   │       │   ├───_.contribution.js
+│   │       │   ├───abap/
+│   │       │   │   ├───abap.contribution.d.ts
+│   │       │   │   ├───abap.contribution.js
+│   │       │   │   └───abap.js
+│   │       │   ├───apex/
+│   │       │   │   ├───apex.contribution.d.ts
+│   │       │   │   ├───apex.contribution.js
+│   │       │   │   └───apex.js
+│   │       │   ├───azcli/
+│   │       │   │   ├───azcli.contribution.d.ts
+│   │       │   │   ├───azcli.contribution.js
+│   │       │   │   └───azcli.js
+│   │       │   ├───bat/
+│   │       │   │   ├───bat.contribution.d.ts
+│   │       │   │   ├───bat.contribution.js
+│   │       │   │   └───bat.js
+│   │       │   ├───bicep/
+│   │       │   │   ├───bicep.contribution.d.ts
+│   │       │   │   ├───bicep.contribution.js
+│   │       │   │   └───bicep.js
+│   │       │   ├───cameligo/
+│   │       │   │   ├───cameligo.contribution.d.ts
+│   │       │   │   ├───cameligo.contribution.js
+│   │       │   │   └───cameligo.js
+│   │       │   ├───clojure/
+│   │       │   │   ├───clojure.contribution.d.ts
+│   │       │   │   ├───clojure.contribution.js
+│   │       │   │   └───clojure.js
+│   │       │   ├───coffee/
+│   │       │   │   ├───coffee.contribution.d.ts
+│   │       │   │   ├───coffee.contribution.js
+│   │       │   │   └───coffee.js
+│   │       │   ├───cpp/
+│   │       │   │   ├───cpp.contribution.d.ts
+│   │       │   │   ├───cpp.contribution.js
+│   │       │   │   └───cpp.js
+│   │       │   ├───csharp/
+│   │       │   │   ├───csharp.contribution.d.ts
+│   │       │   │   ├───csharp.contribution.js
+│   │       │   │   └───csharp.js
+│   │       │   ├───csp/
+│   │       │   │   ├───csp.contribution.d.ts
+│   │       │   │   ├───csp.contribution.js
+│   │       │   │   └───csp.js
+│   │       │   ├───css/
+│   │       │   │   ├───css.contribution.d.ts
+│   │       │   │   ├───css.contribution.js
+│   │       │   │   └───css.js
+│   │       │   ├───cypher/
+│   │       │   │   ├───cypher.contribution.d.ts
+│   │       │   │   ├───cypher.contribution.js
+│   │       │   │   └───cypher.js
+│   │       │   ├───dart/
+│   │       │   │   ├───dart.contribution.d.ts
+│   │       │   │   ├───dart.contribution.js
+│   │       │   │   └───dart.js
+│   │       │   ├───dockerfile/
+│   │       │   │   ├───dockerfile.contribution.d.ts
+│   │       │   │   ├───dockerfile.contribution.js
+│   │       │   │   └───dockerfile.js
+│   │       │   ├───ecl/
+│   │       │   │   ├───ecl.contribution.d.ts
+│   │       │   │   ├───ecl.contribution.js
+│   │       │   │   └───ecl.js
+│   │       │   ├───elixir/
+│   │       │   │   ├───elixir.contribution.d.ts
+│   │       │   │   ├───elixir.contribution.js
+│   │       │   │   └───elixir.js
+│   │       │   ├───flow9/
+│   │       │   │   ├───flow9.contribution.d.ts
+│   │       │   │   ├───flow9.contribution.js
+│   │       │   │   └───flow9.js
+│   │       │   ├───freemarker2/
+│   │       │   │   ├───freemarker2.contribution.d.ts
+│   │       │   │   ├───freemarker2.contribution.js
+│   │       │   │   └───freemarker2.js
+│   │       │   ├───fsharp/
+│   │       │   │   ├───fsharp.contribution.d.ts
+│   │       │   │   ├───fsharp.contribution.js
+│   │       │   │   └───fsharp.js
+│   │       │   ├───go/
+│   │       │   │   ├───go.contribution.d.ts
+│   │       │   │   ├───go.contribution.js
+│   │       │   │   └───go.js
+│   │       │   ├───graphql/
+│   │       │   │   ├───graphql.contribution.d.ts
+│   │       │   │   ├───graphql.contribution.js
+│   │       │   │   └───graphql.js
+│   │       │   ├───handlebars/
+│   │       │   │   ├───handlebars.contribution.d.ts
+│   │       │   │   ├───handlebars.contribution.js
+│   │       │   │   └───handlebars.js
+│   │       │   ├───hcl/
+│   │       │   │   ├───hcl.contribution.d.ts
+│   │       │   │   ├───hcl.contribution.js
+│   │       │   │   └───hcl.js
+│   │       │   ├───html/
+│   │       │   │   ├───html.contribution.d.ts
+│   │       │   │   ├───html.contribution.js
+│   │       │   │   └───html.js
+│   │       │   ├───ini/
+│   │       │   │   ├───ini.contribution.d.ts
+│   │       │   │   ├───ini.contribution.js
+│   │       │   │   └───ini.js
+│   │       │   ├───java/
+│   │       │   │   ├───java.contribution.d.ts
+│   │       │   │   ├───java.contribution.js
+│   │       │   │   └───java.js
+│   │       │   ├───javascript/
+│   │       │   │   ├───javascript.contribution.d.ts
+│   │       │   │   ├───javascript.contribution.js
+│   │       │   │   └───javascript.js
+│   │       │   ├───julia/
+│   │       │   │   ├───julia.contribution.d.ts
+│   │       │   │   ├───julia.contribution.js
+│   │       │   │   └───julia.js
+│   │       │   ├───kotlin/
+│   │       │   │   ├───kotlin.contribution.d.ts
+│   │       │   │   ├───kotlin.contribution.js
+│   │       │   │   └───kotlin.js
+│   │       │   ├───less/
+│   │       │   │   ├───less.contribution.d.ts
+│   │       │   │   ├───less.contribution.js
+│   │       │   │   └───less.js
+│   │       │   ├───lexon/
+│   │       │   │   ├───lexon.contribution.d.ts
+│   │       │   │   ├───lexon.contribution.js
+│   │       │   │   └───lexon.js
+│   │       │   ├───liquid/
+│   │       │   │   ├───liquid.contribution.d.ts
+│   │       │   │   ├───liquid.contribution.js
+│   │       │   │   └───liquid.js
+│   │       │   ├───lua/
+│   │       │   │   ├───lua.contribution.d.ts
+│   │       │   │   ├───lua.contribution.js
+│   │       │   │   └───lua.js
+│   │       │   ├───m3/
+│   │       │   │   ├───m3.contribution.d.ts
+│   │       │   │   ├───m3.contribution.js
+│   │       │   │   └───m3.js
+│   │       │   ├───markdown/
+│   │       │   │   ├───markdown.contribution.d.ts
+│   │       │   │   ├───markdown.contribution.js
+│   │       │   │   └───markdown.js
+│   │       │   ├───mdx/
+│   │       │   │   ├───mdx.contribution.d.ts
+│   │       │   │   ├───mdx.contribution.js
+│   │       │   │   └───mdx.js
+│   │       │   ├───mips/
+│   │       │   │   ├───mips.contribution.d.ts
+│   │       │   │   ├───mips.contribution.js
+│   │       │   │   └───mips.js
+│   │       │   ├───msdax/
+│   │       │   │   ├───msdax.contribution.d.ts
+│   │       │   │   ├───msdax.contribution.js
+│   │       │   │   └───msdax.js
+│   │       │   ├───mysql/
+│   │       │   │   ├───mysql.contribution.d.ts
+│   │       │   │   ├───mysql.contribution.js
+│   │       │   │   └───mysql.js
+│   │       │   ├───objective-c/
+│   │       │   │   ├───objective-c.contribution.d.ts
+│   │       │   │   ├───objective-c.contribution.js
+│   │       │   │   └───objective-c.js
+│   │       │   ├───pascal/
+│   │       │   │   ├───pascal.contribution.d.ts
+│   │       │   │   ├───pascal.contribution.js
+│   │       │   │   └───pascal.js
+│   │       │   ├───pascaligo/
+│   │       │   │   ├───pascaligo.contribution.d.ts
+│   │       │   │   ├───pascaligo.contribution.js
+│   │       │   │   └───pascaligo.js
+│   │       │   ├───perl/
+│   │       │   │   ├───perl.contribution.d.ts
+│   │       │   │   ├───perl.contribution.js
+│   │       │   │   └───perl.js
+│   │       │   ├───pgsql/
+│   │       │   │   ├───pgsql.contribution.d.ts
+│   │       │   │   ├───pgsql.contribution.js
+│   │       │   │   └───pgsql.js
+│   │       │   ├───php/
+│   │       │   │   ├───php.contribution.d.ts
+│   │       │   │   ├───php.contribution.js
+│   │       │   │   └───php.js
+│   │       │   ├───pla/
+│   │       │   │   ├───pla.contribution.d.ts
+│   │       │   │   ├───pla.contribution.js
+│   │       │   │   └───pla.js
+│   │       │   ├───postiats/
+│   │       │   │   ├───postiats.contribution.d.ts
+│   │       │   │   ├───postiats.contribution.js
+│   │       │   │   └───postiats.js
+│   │       │   ├───powerquery/
+│   │       │   │   ├───powerquery.contribution.d.ts
+│   │       │   │   ├───powerquery.contribution.js
+│   │       │   │   └───powerquery.js
+│   │       │   ├───powershell/
+│   │       │   │   ├───powershell.contribution.d.ts
+│   │       │   │   ├───powershell.contribution.js
+│   │       │   │   └───powershell.js
+│   │       │   ├───protobuf/
+│   │       │   │   ├───protobuf.contribution.d.ts
+│   │       │   │   ├───protobuf.contribution.js
+│   │       │   │   └───protobuf.js
+│   │       │   ├───pug/
+│   │       │   │   ├───pug.contribution.d.ts
+│   │       │   │   ├───pug.contribution.js
+│   │       │   │   └───pug.js
+│   │       │   ├───python/
+│   │       │   │   ├───python.contribution.d.ts
+│   │       │   │   ├───python.contribution.js
+│   │       │   │   └───python.js
+│   │       │   ├───qsharp/
+│   │       │   │   ├───qsharp.contribution.d.ts
+│   │       │   │   ├───qsharp.contribution.js
+│   │       │   │   └───qsharp.js
+│   │       │   ├───r/
+│   │       │   │   ├───r.contribution.d.ts
+│   │       │   │   ├───r.contribution.js
+│   │       │   │   └───r.js
+│   │       │   ├───razor/
+│   │       │   │   ├───razor.contribution.d.ts
+│   │       │   │   ├───razor.contribution.js
+│   │       │   │   └───razor.js
+│   │       │   ├───redis/
+│   │       │   │   ├───redis.contribution.d.ts
+│   │       │   │   ├───redis.contribution.js
+│   │       │   │   └───redis.js
+│   │       │   ├───redshift/
+│   │       │   │   ├───redshift.contribution.d.ts
+│   │       │   │   ├───redshift.contribution.js
+│   │       │   │   └───redshift.js
+│   │       │   ├───restructuredtext/
+│   │       │   │   ├───restructuredtext.contribution.d.ts
+│   │       │   │   ├───restructuredtext.contribution.js
+│   │       │   │   └───restructuredtext.js
+│   │       │   ├───ruby/
+│   │       │   │   ├───ruby.contribution.d.ts
+│   │       │   │   ├───ruby.contribution.js
+│   │       │   │   └───ruby.js
+│   │       │   ├───rust/
+│   │       │   │   ├───rust.contribution.d.ts
+│   │       │   │   ├───rust.contribution.js
+│   │       │   │   └───rust.js
+│   │       │   ├───sb/
+│   │       │   │   ├───sb.contribution.d.ts
+│   │       │   │   ├───sb.contribution.js
+│   │       │   │   └───sb.js
+│   │       │   ├───scala/
+│   │       │   │   ├───scala.contribution.d.ts
+│   │       │   │   ├───scala.contribution.js
+│   │       │   │   └───scala.js
+│   │       │   ├───scheme/
+│   │       │   │   ├───scheme.contribution.d.ts
+│   │       │   │   ├───scheme.contribution.js
+│   │       │   │   └───scheme.js
+│   │       │   ├───scss/
+│   │       │   │   ├───scss.contribution.d.ts
+│   │       │   │   ├───scss.contribution.js
+│   │       │   │   └───scss.js
+│   │       │   ├───shell/
+│   │       │   │   ├───shell.contribution.d.ts
+│   │       │   │   ├───shell.contribution.js
+│   │       │   │   └───shell.js
+│   │       │   ├───solidity/
+│   │       │   │   ├───solidity.contribution.d.ts
+│   │       │   │   ├───solidity.contribution.js
+│   │       │   │   └───solidity.js
+│   │       │   ├───sophia/
+│   │       │   │   ├───sophia.contribution.d.ts
+│   │       │   │   ├───sophia.contribution.js
+│   │       │   │   └───sophia.js
+│   │       │   ├───sparql/
+│   │       │   │   ├───sparql.contribution.d.ts
+│   │       │   │   ├───sparql.contribution.js
+│   │       │   │   └───sparql.js
+│   │       │   ├───sql/
+│   │       │   │   ├───sql.contribution.d.ts
+│   │       │   │   ├───sql.contribution.js
+│   │       │   │   └───sql.js
+│   │       │   ├───st/
+│   │       │   │   ├───st.contribution.d.ts
+│   │       │   │   ├───st.contribution.js
+│   │       │   │   └───st.js
+│   │       │   ├───swift/
+│   │       │   │   ├───swift.contribution.d.ts
+│   │       │   │   ├───swift.contribution.js
+│   │       │   │   └───swift.js
+│   │       │   ├───systemverilog/
+│   │       │   │   ├───systemverilog.contribution.d.ts
+│   │       │   │   ├───systemverilog.contribution.js
+│   │       │   │   └───systemverilog.js
+│   │       │   ├───tcl/
+│   │       │   │   ├───tcl.contribution.d.ts
+│   │       │   │   ├───tcl.contribution.js
+│   │       │   │   └───tcl.js
+│   │       │   ├───twig/
+│   │       │   │   ├───twig.contribution.d.ts
+│   │       │   │   ├───twig.contribution.js
+│   │       │   │   └───twig.js
+│   │       │   ├───typescript/
+│   │       │   │   ├───typescript.contribution.d.ts
+│   │       │   │   ├───typescript.contribution.js
+│   │       │   │   └───typescript.js
+│   │       │   ├───typespec/
+│   │       │   │   ├───typespec.contribution.d.ts
+│   │       │   │   ├───typespec.contribution.js
+│   │       │   │   └───typespec.js
+│   │       │   ├───vb/
+│   │       │   │   ├───vb.contribution.d.ts
+│   │       │   │   ├───vb.contribution.js
+│   │       │   │   └───vb.js
+│   │       │   ├───wgsl/
+│   │       │   │   ├───wgsl.contribution.d.ts
+│   │       │   │   ├───wgsl.contribution.js
+│   │       │   │   └───wgsl.js
+│   │       │   ├───xml/
+│   │       │   │   ├───xml.contribution.d.ts
+│   │       │   │   ├───xml.contribution.js
+│   │       │   │   └───xml.js
+│   │       │   └───yaml/
+│   │       │       ├───yaml.contribution.d.ts
+│   │       │       ├───yaml.contribution.js
+│   │       │       └───yaml.js
+│   │       ├───common/
+│   │       │   ├───initialize.js
+│   │       │   └───workers.js
+│   │       ├───editor/
+│   │       │   ├───edcore.main.js
+│   │       │   ├───editor.all.js
+│   │       │   ├───editor.api.d.ts
+│   │       │   ├───editor.api.js
+│   │       │   ├───editor.api2.js
+│   │       │   ├───editor.main.d.ts
+│   │       │   ├───editor.main.js
+│   │       │   ├───editor.worker.js
+│   │       │   ├───editor.worker.start.js
+│   │       │   ├───browser/
+│   │       │   │   ├───coreCommands.d.ts
+│   │       │   │   ├───coreCommands.js
+│   │       │   │   ├───dataTransfer.js
+│   │       │   │   ├───editorBrowser.js
+│   │       │   │   ├───editorDom.js
+│   │       │   │   ├───editorExtensions.js
+│   │       │   │   ├───observableCodeEditor.js
+│   │       │   │   ├───stableEditorScroll.js
+│   │       │   │   ├───triggerInlineEditCommandsRegistry.js
+│   │       │   │   ├───view.js
+│   │       │   │   ├───config/
+│   │       │   │   │   ├───charWidthReader.js
+│   │       │   │   │   ├───domFontInfo.js
+│   │       │   │   │   ├───editorConfiguration.js
+│   │       │   │   │   ├───elementSizeObserver.js
+│   │       │   │   │   ├───fontMeasurements.js
+│   │       │   │   │   ├───migrateOptions.js
+│   │       │   │   │   └───tabFocus.js
+│   │       │   │   ├───controller/
+│   │       │   │   │   ├───dragScrolling.js
+│   │       │   │   │   ├───mouseHandler.js
+│   │       │   │   │   ├───mouseTarget.js
+│   │       │   │   │   ├───pointerHandler.js
+│   │       │   │   │   └───editContext/
+│   │       │   │   │       ├───clipboardUtils.js
+│   │       │   │   │       ├───editContext.js
+│   │       │   │   │       ├───screenReaderUtils.js
+│   │       │   │   │       ├───native/
+│   │       │   │   │       │   ├───editContextFactory.js
+│   │       │   │   │       │   ├───nativeEditContext.css
+│   │       │   │   │       │   ├───nativeEditContext.js
+│   │       │   │   │       │   ├───nativeEditContextRegistry.js
+│   │       │   │   │       │   ├───nativeEditContextUtils.js
+│   │       │   │   │       │   ├───screenReaderContentRich.js
+│   │       │   │   │       │   ├───screenReaderContentSimple.js
+│   │       │   │   │       │   └───screenReaderSupport.js
+│   │       │   │   │       └───textArea/
+│   │       │   │   │           ├───textAreaEditContext.css
+│   │       │   │   │           ├───textAreaEditContext.js
+│   │       │   │   │           ├───textAreaEditContextInput.js
+│   │       │   │   │           └───textAreaEditContextState.js
+│   │       │   │   ├───gpu/
+│   │       │   │   │   ├───bufferDirtyTracker.js
+│   │       │   │   │   ├───contentSegmenter.js
+│   │       │   │   │   ├───gpuDisposable.js
+│   │       │   │   │   ├───gpuUtils.js
+│   │       │   │   │   ├───objectCollectionBuffer.js
+│   │       │   │   │   ├───rectangleRenderer.js
+│   │       │   │   │   ├───rectangleRenderer.wgsl.js
+│   │       │   │   │   ├───taskQueue.js
+│   │       │   │   │   ├───viewGpuContext.js
+│   │       │   │   │   ├───atlas/
+│   │       │   │   │   │   ├───textureAtlas.js
+│   │       │   │   │   │   ├───textureAtlasPage.js
+│   │       │   │   │   │   ├───textureAtlasShelfAllocator.js
+│   │       │   │   │   │   └───textureAtlasSlabAllocator.js
+│   │       │   │   │   ├───css/
+│   │       │   │   │   │   ├───decorationCssRuleExtractor.js
+│   │       │   │   │   │   ├───decorationStyleCache.js
+│   │       │   │   │   │   └───media/
+│   │       │   │   │   │       └───decorationCssRuleExtractor.css
+│   │       │   │   │   ├───raster/
+│   │       │   │   │   │   └───glyphRasterizer.js
+│   │       │   │   │   └───renderStrategy/
+│   │       │   │   │       ├───baseRenderStrategy.js
+│   │       │   │   │       ├───fullFileRenderStrategy.js
+│   │       │   │   │       ├───fullFileRenderStrategy.wgsl.js
+│   │       │   │   │       └───viewportRenderStrategy.js
+│   │       │   │   ├───services/
+│   │       │   │   │   ├───abstractCodeEditorService.js
+│   │       │   │   │   ├───bulkEditService.js
+│   │       │   │   │   ├───codeEditorService.js
+│   │       │   │   │   ├───editorWorkerService.js
+│   │       │   │   │   ├───inlineCompletionsService.js
+│   │       │   │   │   ├───markerDecorations.js
+│   │       │   │   │   └───openerService.js
+│   │       │   │   ├───view/
+│   │       │   │   │   ├───domLineBreaksComputer.js
+│   │       │   │   │   ├───dynamicViewOverlay.js
+│   │       │   │   │   ├───renderingContext.js
+│   │       │   │   │   ├───viewController.js
+│   │       │   │   │   ├───viewLayer.js
+│   │       │   │   │   ├───viewOverlays.js
+│   │       │   │   │   ├───viewPart.js
+│   │       │   │   │   └───viewUserInputEvents.js
+│   │       │   │   ├───viewParts/
+│   │       │   │   │   ├───blockDecorations/
+│   │       │   │   │   │   ├───blockDecorations.css
+│   │       │   │   │   │   └───blockDecorations.js
+│   │       │   │   │   ├───contentWidgets/
+│   │       │   │   │   │   └───contentWidgets.js
+│   │       │   │   │   ├───currentLineHighlight/
+│   │       │   │   │   │   ├───currentLineHighlight.css
+│   │       │   │   │   │   └───currentLineHighlight.js
+│   │       │   │   │   ├───decorations/
+│   │       │   │   │   │   ├───decorations.css
+│   │       │   │   │   │   └───decorations.js
+│   │       │   │   │   ├───editorScrollbar/
+│   │       │   │   │   │   └───editorScrollbar.js
+│   │       │   │   │   ├───glyphMargin/
+│   │       │   │   │   │   ├───glyphMargin.css
+│   │       │   │   │   │   └───glyphMargin.js
+│   │       │   │   │   ├───gpuMark/
+│   │       │   │   │   │   ├───gpuMark.css
+│   │       │   │   │   │   └───gpuMark.js
+│   │       │   │   │   ├───indentGuides/
+│   │       │   │   │   │   ├───indentGuides.css
+│   │       │   │   │   │   └───indentGuides.js
+│   │       │   │   │   ├───lineNumbers/
+│   │       │   │   │   │   ├───lineNumbers.css
+│   │       │   │   │   │   └───lineNumbers.js
+│   │       │   │   │   ├───linesDecorations/
+│   │       │   │   │   │   ├───linesDecorations.css
+│   │       │   │   │   │   └───linesDecorations.js
+│   │       │   │   │   ├───margin/
+│   │       │   │   │   │   ├───margin.css
+│   │       │   │   │   │   └───margin.js
+│   │       │   │   │   ├───marginDecorations/
+│   │       │   │   │   │   ├───marginDecorations.css
+│   │       │   │   │   │   └───marginDecorations.js
+│   │       │   │   │   ├───minimap/
+│   │       │   │   │   │   ├───minimap.css
+│   │       │   │   │   │   ├───minimap.js
+│   │       │   │   │   │   ├───minimapCharRenderer.js
+│   │       │   │   │   │   ├───minimapCharRendererFactory.js
+│   │       │   │   │   │   ├───minimapCharSheet.js
+│   │       │   │   │   │   └───minimapPreBaked.js
+│   │       │   │   │   ├───overlayWidgets/
+│   │       │   │   │   │   ├───overlayWidgets.css
+│   │       │   │   │   │   └───overlayWidgets.js
+│   │       │   │   │   ├───overviewRuler/
+│   │       │   │   │   │   ├───decorationsOverviewRuler.js
+│   │       │   │   │   │   └───overviewRuler.js
+│   │       │   │   │   ├───rulers/
+│   │       │   │   │   │   ├───rulers.css
+│   │       │   │   │   │   └───rulers.js
+│   │       │   │   │   ├───rulersGpu/
+│   │       │   │   │   │   └───rulersGpu.js
+│   │       │   │   │   ├───scrollDecoration/
+│   │       │   │   │   │   ├───scrollDecoration.css
+│   │       │   │   │   │   └───scrollDecoration.js
+│   │       │   │   │   ├───selections/
+│   │       │   │   │   │   ├───selections.css
+│   │       │   │   │   │   └───selections.js
+│   │       │   │   │   ├───viewCursors/
+│   │       │   │   │   │   ├───viewCursor.js
+│   │       │   │   │   │   ├───viewCursors.css
+│   │       │   │   │   │   └───viewCursors.js
+│   │       │   │   │   ├───viewLines/
+│   │       │   │   │   │   ├───domReadingContext.js
+│   │       │   │   │   │   ├───rangeUtil.js
+│   │       │   │   │   │   ├───viewLine.js
+│   │       │   │   │   │   ├───viewLineOptions.js
+│   │       │   │   │   │   ├───viewLines.css
+│   │       │   │   │   │   └───viewLines.js
+│   │       │   │   │   ├───viewLinesGpu/
+│   │       │   │   │   │   └───viewLinesGpu.js
+│   │       │   │   │   ├───viewZones/
+│   │       │   │   │   │   └───viewZones.js
+│   │       │   │   │   └───whitespace/
+│   │       │   │   │       ├───whitespace.css
+│   │       │   │   │       └───whitespace.js
+│   │       │   │   └───widget/
+│   │       │   │       ├───codeEditor/
+│   │       │   │       │   ├───codeEditorContributions.js
+│   │       │   │       │   ├───codeEditorWidget.d.ts
+│   │       │   │       │   ├───codeEditorWidget.js
+│   │       │   │       │   ├───editor.css
+│   │       │   │       │   └───embeddedCodeEditorWidget.js
+│   │       │   │       ├───diffEditor/
+│   │       │   │       │   ├───commands.js
+│   │       │   │       │   ├───delegatingEditorImpl.js
+│   │       │   │       │   ├───diffEditor.contribution.d.ts
+│   │       │   │       │   ├───diffEditor.contribution.js
+│   │       │   │       │   ├───diffEditorOptions.js
+│   │       │   │       │   ├───diffEditorViewModel.js
+│   │       │   │       │   ├───diffEditorWidget.js
+│   │       │   │       │   ├───diffProviderFactoryService.js
+│   │       │   │       │   ├───registrations.contribution.js
+│   │       │   │       │   ├───style.css
+│   │       │   │       │   ├───utils.js
+│   │       │   │       │   ├───components/
+│   │       │   │       │   │   ├───accessibleDiffViewer.css
+│   │       │   │       │   │   ├───accessibleDiffViewer.js
+│   │       │   │       │   │   ├───diffEditorDecorations.js
+│   │       │   │       │   │   ├───diffEditorEditors.js
+│   │       │   │       │   │   ├───diffEditorSash.js
+│   │       │   │       │   │   └───diffEditorViewZones/
+│   │       │   │       │   │       ├───copySelection.js
+│   │       │   │       │   │       ├───diffEditorViewZones.js
+│   │       │   │       │   │       ├───inlineDiffDeletedCodeMargin.js
+│   │       │   │       │   │       └───renderLines.js
+│   │       │   │       │   ├───features/
+│   │       │   │       │   │   ├───gutterFeature.js
+│   │       │   │       │   │   ├───hideUnchangedRegionsFeature.js
+│   │       │   │       │   │   ├───movedBlocksLinesFeature.js
+│   │       │   │       │   │   ├───overviewRulerFeature.js
+│   │       │   │       │   │   └───revertButtonsFeature.js
+│   │       │   │       │   └───utils/
+│   │       │   │       │       └───editorGutter.js
+│   │       │   │       ├───markdownRenderer/
+│   │       │   │       │   └───browser/
+│   │       │   │       │       ├───editorMarkdownCodeBlockRenderer.js
+│   │       │   │       │       └───renderedMarkdown.css
+│   │       │   │       └───multiDiffEditor/
+│   │       │   │           ├───colors.js
+│   │       │   │           ├───diffEditorItemTemplate.js
+│   │       │   │           ├───multiDiffEditorWidget.js
+│   │       │   │           ├───multiDiffEditorWidgetImpl.js
+│   │       │   │           ├───objectPool.js
+│   │       │   │           ├───style.css
+│   │       │   │           └───utils.js
+│   │       │   ├───common/
+│   │       │   │   ├───coordinatesConverter.js
+│   │       │   │   ├───cursorCommon.js
+│   │       │   │   ├───editorAction.js
+│   │       │   │   ├───editorCommon.js
+│   │       │   │   ├───editorContextKeys.js
+│   │       │   │   ├───editorFeatures.js
+│   │       │   │   ├───editorTheme.js
+│   │       │   │   ├───encodedTokenAttributes.js
+│   │       │   │   ├───inputMode.js
+│   │       │   │   ├───languageFeatureRegistry.js
+│   │       │   │   ├───languages.js
+│   │       │   │   ├───languageSelector.js
+│   │       │   │   ├───model.js
+│   │       │   │   ├───modelLineProjectionData.js
+│   │       │   │   ├───standaloneStrings.js
+│   │       │   │   ├───textModelBracketPairs.js
+│   │       │   │   ├───textModelEditSource.js
+│   │       │   │   ├───textModelEvents.js
+│   │       │   │   ├───textModelGuides.js
+│   │       │   │   ├───tokenizationRegistry.js
+│   │       │   │   ├───viewEventHandler.js
+│   │       │   │   ├───viewEvents.js
+│   │       │   │   ├───viewModel.js
+│   │       │   │   ├───viewModelEventDispatcher.js
+│   │       │   │   ├───commands/
+│   │       │   │   │   ├───replaceCommand.js
+│   │       │   │   │   ├───shiftCommand.js
+│   │       │   │   │   ├───surroundSelectionCommand.js
+│   │       │   │   │   └───trimTrailingWhitespaceCommand.js
+│   │       │   │   ├───config/
+│   │       │   │   │   ├───diffEditor.js
+│   │       │   │   │   ├───editorConfigurationSchema.js
+│   │       │   │   │   ├───editorOptions.js
+│   │       │   │   │   ├───editorZoom.js
+│   │       │   │   │   ├───fontInfo.js
+│   │       │   │   │   └───fontInfoFromSettings.js
+│   │       │   │   ├───core/
+│   │       │   │   │   ├───characterClassifier.js
+│   │       │   │   │   ├───cursorColumns.js
+│   │       │   │   │   ├───editOperation.js
+│   │       │   │   │   ├───editorColorRegistry.js
+│   │       │   │   │   ├───position.js
+│   │       │   │   │   ├───range.js
+│   │       │   │   │   ├───selection.js
+│   │       │   │   │   ├───stringBuilder.js
+│   │       │   │   │   ├───textChange.js
+│   │       │   │   │   ├───wordCharacterClassifier.js
+│   │       │   │   │   ├───wordHelper.js
+│   │       │   │   │   ├───2d/
+│   │       │   │   │   │   ├───point.js
+│   │       │   │   │   │   └───rect.js
+│   │       │   │   │   ├───edits/
+│   │       │   │   │   │   ├───edit.js
+│   │       │   │   │   │   ├───lineEdit.js
+│   │       │   │   │   │   ├───stringEdit.js
+│   │       │   │   │   │   └───textEdit.js
+│   │       │   │   │   ├───misc/
+│   │       │   │   │   │   ├───eolCounter.js
+│   │       │   │   │   │   ├───indentation.js
+│   │       │   │   │   │   ├───rgba.js
+│   │       │   │   │   │   └───textModelDefaults.js
+│   │       │   │   │   ├───ranges/
+│   │       │   │   │   │   ├───columnRange.js
+│   │       │   │   │   │   ├───lineRange.js
+│   │       │   │   │   │   ├───offsetRange.js
+│   │       │   │   │   │   └───rangeSingleLine.js
+│   │       │   │   │   └───text/
+│   │       │   │   │       ├───abstractText.js
+│   │       │   │   │       ├───getPositionOffsetTransformerFromTextModel.js
+│   │       │   │   │       ├───positionToOffset.js
+│   │       │   │   │       ├───positionToOffsetImpl.js
+│   │       │   │   │       └───textLength.js
+│   │       │   │   ├───cursor/
+│   │       │   │   │   ├───cursor.js
+│   │       │   │   │   ├───cursorAtomicMoveOperations.js
+│   │       │   │   │   ├───cursorCollection.js
+│   │       │   │   │   ├───cursorColumnSelection.js
+│   │       │   │   │   ├───cursorContext.js
+│   │       │   │   │   ├───cursorDeleteOperations.js
+│   │       │   │   │   ├───cursorMoveCommands.js
+│   │       │   │   │   ├───cursorMoveOperations.js
+│   │       │   │   │   ├───cursorTypeEditOperations.js
+│   │       │   │   │   ├───cursorTypeOperations.js
+│   │       │   │   │   ├───cursorWordOperations.js
+│   │       │   │   │   └───oneCursor.js
+│   │       │   │   ├───diff/
+│   │       │   │   │   ├───legacyLinesDiffComputer.js
+│   │       │   │   │   ├───linesDiffComputer.js
+│   │       │   │   │   ├───linesDiffComputers.js
+│   │       │   │   │   ├───rangeMapping.js
+│   │       │   │   │   └───defaultLinesDiffComputer/
+│   │       │   │   │       ├───computeMovedLines.js
+│   │       │   │   │       ├───defaultLinesDiffComputer.js
+│   │       │   │   │       ├───heuristicSequenceOptimizations.js
+│   │       │   │   │       ├───lineSequence.js
+│   │       │   │   │       ├───linesSliceCharSequence.js
+│   │       │   │   │       ├───utils.js
+│   │       │   │   │       └───algorithms/
+│   │       │   │   │           ├───diffAlgorithm.js
+│   │       │   │   │           ├───dynamicProgrammingDiffing.js
+│   │       │   │   │           └───myersDiffAlgorithm.js
+│   │       │   │   ├───languages/
+│   │       │   │   │   ├───autoIndent.js
+│   │       │   │   │   ├───defaultDocumentColorsComputer.js
+│   │       │   │   │   ├───enterAction.js
+│   │       │   │   │   ├───language.js
+│   │       │   │   │   ├───languageConfiguration.js
+│   │       │   │   │   ├───languageConfigurationRegistry.js
+│   │       │   │   │   ├───linkComputer.js
+│   │       │   │   │   ├───modesRegistry.js
+│   │       │   │   │   ├───nullTokenize.js
+│   │       │   │   │   ├───supports.js
+│   │       │   │   │   ├───textToHtmlTokenizer.js
+│   │       │   │   │   └───supports/
+│   │       │   │   │       ├───characterPair.js
+│   │       │   │   │       ├───electricCharacter.js
+│   │       │   │   │       ├───indentationLineProcessor.js
+│   │       │   │   │       ├───indentRules.js
+│   │       │   │   │       ├───inplaceReplaceSupport.js
+│   │       │   │   │       ├───languageBracketsConfiguration.js
+│   │       │   │   │       ├───onEnter.js
+│   │       │   │   │       ├───richEditBrackets.js
+│   │       │   │   │       └───tokenization.js
+│   │       │   │   ├───model/
+│   │       │   │   │   ├───editStack.js
+│   │       │   │   │   ├───fixedArray.js
+│   │       │   │   │   ├───guidesTextModelPart.js
+│   │       │   │   │   ├───indentationGuesser.js
+│   │       │   │   │   ├───intervalTree.js
+│   │       │   │   │   ├───mirrorTextModel.js
+│   │       │   │   │   ├───prefixSumComputer.js
+│   │       │   │   │   ├───textModel.js
+│   │       │   │   │   ├───textModelPart.js
+│   │       │   │   │   ├───textModelSearch.js
+│   │       │   │   │   ├───textModelStringEdit.js
+│   │       │   │   │   ├───textModelText.js
+│   │       │   │   │   ├───textModelTokens.js
+│   │       │   │   │   ├───utils.js
+│   │       │   │   │   ├───bracketPairsTextModelPart/
+│   │       │   │   │   │   ├───bracketPairsImpl.js
+│   │       │   │   │   │   ├───colorizedBracketPairsDecorationProvider.js
+│   │       │   │   │   │   ├───fixBrackets.js
+│   │       │   │   │   │   └───bracketPairsTree/
+│   │       │   │   │   │       ├───ast.js
+│   │       │   │   │   │       ├───beforeEditPositionMapper.js
+│   │       │   │   │   │       ├───bracketPairsTree.js
+│   │       │   │   │   │       ├───brackets.js
+│   │       │   │   │   │       ├───combineTextEditInfos.js
+│   │       │   │   │   │       ├───concat23Trees.js
+│   │       │   │   │   │       ├───length.js
+│   │       │   │   │   │       ├───nodeReader.js
+│   │       │   │   │   │       ├───parser.js
+│   │       │   │   │   │       ├───smallImmutableSet.js
+│   │       │   │   │   │       └───tokenizer.js
+│   │       │   │   │   ├───pieceTreeTextBuffer/
+│   │       │   │   │   │   ├───pieceTreeBase.js
+│   │       │   │   │   │   ├───pieceTreeTextBuffer.js
+│   │       │   │   │   │   ├───pieceTreeTextBufferBuilder.js
+│   │       │   │   │   │   └───rbTreeBase.js
+│   │       │   │   │   └───tokens/
+│   │       │   │   │       ├───abstractSyntaxTokenBackend.js
+│   │       │   │   │       ├───tokenizationTextModelPart.js
+│   │       │   │   │       ├───tokenizerSyntaxTokenBackend.js
+│   │       │   │   │       └───treeSitter/
+│   │       │   │   │           ├───cursorUtils.js
+│   │       │   │   │           ├───tokenStore.js
+│   │       │   │   │           ├───treeSitterSyntaxTokenBackend.js
+│   │       │   │   │           ├───treeSitterTokenizationImpl.js
+│   │       │   │   │           └───treeSitterTree.js
+│   │       │   │   ├───services/
+│   │       │   │   │   ├───editorBaseApi.js
+│   │       │   │   │   ├───editorWebWorker.js
+│   │       │   │   │   ├───editorWorker.js
+│   │       │   │   │   ├───editorWorkerHost.js
+│   │       │   │   │   ├───findSectionHeaders.js
+│   │       │   │   │   ├───getIconClasses.js
+│   │       │   │   │   ├───languageFeatureDebounce.js
+│   │       │   │   │   ├───languageFeatures.js
+│   │       │   │   │   ├───languageFeaturesService.js
+│   │       │   │   │   ├───languagesAssociations.js
+│   │       │   │   │   ├───languageService.js
+│   │       │   │   │   ├───languagesRegistry.js
+│   │       │   │   │   ├───markerDecorations.js
+│   │       │   │   │   ├───markerDecorationsService.js
+│   │       │   │   │   ├───model.js
+│   │       │   │   │   ├───modelService.js
+│   │       │   │   │   ├───resolverService.js
+│   │       │   │   │   ├───semanticTokensDto.js
+│   │       │   │   │   ├───semanticTokensProviderStyling.js
+│   │       │   │   │   ├───semanticTokensStyling.js
+│   │       │   │   │   ├───semanticTokensStylingService.js
+│   │       │   │   │   ├───textResourceConfiguration.js
+│   │       │   │   │   ├───treeViewsDnd.js
+│   │       │   │   │   ├───treeViewsDndService.js
+│   │       │   │   │   ├───unicodeTextModelHighlighter.js
+│   │       │   │   │   ├───textModelSync/
+│   │       │   │   │   │   └───textModelSync.impl.js
+│   │       │   │   │   └───treeSitter/
+│   │       │   │   │       ├───treeSitterLibraryService.js
+│   │       │   │   │       └───treeSitterThemeService.js
+│   │       │   │   ├───standalone/
+│   │       │   │   │   └───standaloneEnums.js
+│   │       │   │   ├───tokens/
+│   │       │   │   │   ├───common.js
+│   │       │   │   │   ├───contiguousMultilineTokens.js
+│   │       │   │   │   ├───contiguousMultilineTokensBuilder.js
+│   │       │   │   │   ├───contiguousTokensEditing.js
+│   │       │   │   │   ├───contiguousTokensStore.js
+│   │       │   │   │   ├───lineTokens.js
+│   │       │   │   │   ├───sparseMultilineTokens.js
+│   │       │   │   │   ├───sparseTokensStore.js
+│   │       │   │   │   └───tokenWithTextArray.js
+│   │       │   │   ├───viewLayout/
+│   │       │   │   │   ├───lineDecorations.js
+│   │       │   │   │   ├───lineHeights.js
+│   │       │   │   │   ├───linePart.js
+│   │       │   │   │   ├───linesLayout.js
+│   │       │   │   │   ├───viewLayout.js
+│   │       │   │   │   ├───viewLineRenderer.js
+│   │       │   │   │   └───viewLinesViewportData.js
+│   │       │   │   └───viewModel/
+│   │       │   │       ├───glyphLanesModel.js
+│   │       │   │       ├───inlineDecorations.js
+│   │       │   │       ├───minimapTokensColorTracker.js
+│   │       │   │       ├───modelLineProjection.js
+│   │       │   │       ├───monospaceLineBreaksComputer.js
+│   │       │   │       ├───overviewZoneManager.js
+│   │       │   │       ├───viewContext.js
+│   │       │   │       ├───viewModelDecoration.js
+│   │       │   │       ├───viewModelDecorations.js
+│   │       │   │       ├───viewModelImpl.js
+│   │       │   │       └───viewModelLines.js
+│   │       │   ├───contrib/
+│   │       │   │   ├───anchorSelect/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───anchorSelect.css
+│   │       │   │   │       ├───anchorSelect.d.ts
+│   │       │   │   │       └───anchorSelect.js
+│   │       │   │   ├───bracketMatching/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───bracketMatching.css
+│   │       │   │   │       ├───bracketMatching.d.ts
+│   │       │   │   │       └───bracketMatching.js
+│   │       │   │   ├───caretOperations/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───caretOperations.d.ts
+│   │       │   │   │       ├───caretOperations.js
+│   │       │   │   │       ├───moveCaretCommand.js
+│   │       │   │   │       ├───transpose.d.ts
+│   │       │   │   │       └───transpose.js
+│   │       │   │   ├───clipboard/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───clipboard.d.ts
+│   │       │   │   │       └───clipboard.js
+│   │       │   │   ├───codeAction/
+│   │       │   │   │   ├───browser/
+│   │       │   │   │   │   ├───codeAction.js
+│   │       │   │   │   │   ├───codeActionCommands.js
+│   │       │   │   │   │   ├───codeActionContributions.d.ts
+│   │       │   │   │   │   ├───codeActionContributions.js
+│   │       │   │   │   │   ├───codeActionController.js
+│   │       │   │   │   │   ├───codeActionKeybindingResolver.js
+│   │       │   │   │   │   ├───codeActionMenu.js
+│   │       │   │   │   │   ├───codeActionModel.js
+│   │       │   │   │   │   ├───lightBulbWidget.css
+│   │       │   │   │   │   └───lightBulbWidget.js
+│   │       │   │   │   └───common/
+│   │       │   │   │       └───types.js
+│   │       │   │   ├───codelens/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───codelens.js
+│   │       │   │   │       ├───codeLensCache.js
+│   │       │   │   │       ├───codelensController.d.ts
+│   │       │   │   │       ├───codelensController.js
+│   │       │   │   │       ├───codelensWidget.css
+│   │       │   │   │       └───codelensWidget.js
+│   │       │   │   ├───colorPicker/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───color.js
+│   │       │   │   │       ├───colorDetector.js
+│   │       │   │   │       ├───colorPicker.css
+│   │       │   │   │       ├───colorPickerContribution.d.ts
+│   │       │   │   │       ├───colorPickerContribution.js
+│   │       │   │   │       ├───colorPickerModel.js
+│   │       │   │   │       ├───colorPickerParticipantUtils.js
+│   │       │   │   │       ├───colorPickerWidget.js
+│   │       │   │   │       ├───defaultDocumentColorProvider.js
+│   │       │   │   │       ├───colorPickerParts/
+│   │       │   │   │       │   ├───colorPickerBody.js
+│   │       │   │   │       │   ├───colorPickerCloseButton.js
+│   │       │   │   │       │   ├───colorPickerHeader.js
+│   │       │   │   │       │   ├───colorPickerInsertButton.js
+│   │       │   │   │       │   ├───colorPickerSaturationBox.js
+│   │       │   │   │       │   └───colorPickerStrip.js
+│   │       │   │   │       ├───hoverColorPicker/
+│   │       │   │   │       │   ├───hoverColorPicker.js
+│   │       │   │   │       │   ├───hoverColorPickerContribution.js
+│   │       │   │   │       │   └───hoverColorPickerParticipant.js
+│   │       │   │   │       └───standaloneColorPicker/
+│   │       │   │   │           ├───standaloneColorPickerActions.js
+│   │       │   │   │           ├───standaloneColorPickerController.js
+│   │       │   │   │           ├───standaloneColorPickerParticipant.js
+│   │       │   │   │           └───standaloneColorPickerWidget.js
+│   │       │   │   ├───comment/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───blockCommentCommand.js
+│   │       │   │   │       ├───comment.d.ts
+│   │       │   │   │       ├───comment.js
+│   │       │   │   │       └───lineCommentCommand.js
+│   │       │   │   ├───contextmenu/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───contextmenu.d.ts
+│   │       │   │   │       └───contextmenu.js
+│   │       │   │   ├───cursorUndo/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───cursorUndo.d.ts
+│   │       │   │   │       └───cursorUndo.js
+│   │       │   │   ├───diffEditorBreadcrumbs/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───contribution.d.ts
+│   │       │   │   │       └───contribution.js
+│   │       │   │   ├───dnd/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───dnd.css
+│   │       │   │   │       ├───dnd.d.ts
+│   │       │   │   │       ├───dnd.js
+│   │       │   │   │       └───dragAndDropCommand.js
+│   │       │   │   ├───documentSymbols/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───documentSymbols.d.ts
+│   │       │   │   │       ├───documentSymbols.js
+│   │       │   │   │       └───outlineModel.js
+│   │       │   │   ├───dropOrPasteInto/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───copyPasteContribution.d.ts
+│   │       │   │   │       ├───copyPasteContribution.js
+│   │       │   │   │       ├───copyPasteController.js
+│   │       │   │   │       ├───defaultProviders.js
+│   │       │   │   │       ├───dropIntoEditorContribution.d.ts
+│   │       │   │   │       ├───dropIntoEditorContribution.js
+│   │       │   │   │       ├───dropIntoEditorController.js
+│   │       │   │   │       ├───edit.js
+│   │       │   │   │       ├───postEditWidget.css
+│   │       │   │   │       └───postEditWidget.js
+│   │       │   │   ├───editorState/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───editorState.js
+│   │       │   │   │       └───keybindingCancellation.js
+│   │       │   │   ├───find/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───findController.d.ts
+│   │       │   │   │       ├───findController.js
+│   │       │   │   │       ├───findDecorations.js
+│   │       │   │   │       ├───findModel.js
+│   │       │   │   │       ├───findOptionsWidget.css
+│   │       │   │   │       ├───findOptionsWidget.js
+│   │       │   │   │       ├───findState.js
+│   │       │   │   │       ├───findWidget.css
+│   │       │   │   │       ├───findWidget.js
+│   │       │   │   │       ├───findWidgetSearchHistory.js
+│   │       │   │   │       ├───replaceAllCommand.js
+│   │       │   │   │       ├───replacePattern.js
+│   │       │   │   │       └───replaceWidgetHistory.js
+│   │       │   │   ├───floatingMenu/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───floatingMenu.contribution.d.ts
+│   │       │   │   │       ├───floatingMenu.contribution.js
+│   │       │   │   │       ├───floatingMenu.css
+│   │       │   │   │       └───floatingMenu.js
+│   │       │   │   ├───folding/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───folding.css
+│   │       │   │   │       ├───folding.d.ts
+│   │       │   │   │       ├───folding.js
+│   │       │   │   │       ├───foldingDecorations.js
+│   │       │   │   │       ├───foldingModel.js
+│   │       │   │   │       ├───foldingRanges.js
+│   │       │   │   │       ├───hiddenRangeModel.js
+│   │       │   │   │       ├───indentRangeProvider.js
+│   │       │   │   │       └───syntaxRangeProvider.js
+│   │       │   │   ├───fontZoom/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───fontZoom.d.ts
+│   │       │   │   │       └───fontZoom.js
+│   │       │   │   ├───format/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───format.js
+│   │       │   │   │       ├───formatActions.d.ts
+│   │       │   │   │       ├───formatActions.js
+│   │       │   │   │       └───formattingEdit.js
+│   │       │   │   ├───gotoError/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───gotoError.d.ts
+│   │       │   │   │       ├───gotoError.js
+│   │       │   │   │       ├───gotoErrorWidget.js
+│   │       │   │   │       ├───markerNavigationService.js
+│   │       │   │   │       └───media/
+│   │       │   │   │           └───gotoErrorWidget.css
+│   │       │   │   ├───gotoSymbol/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───goToCommands.d.ts
+│   │       │   │   │       ├───goToCommands.js
+│   │       │   │   │       ├───goToSymbol.js
+│   │       │   │   │       ├───referencesModel.js
+│   │       │   │   │       ├───symbolNavigation.js
+│   │       │   │   │       ├───link/
+│   │       │   │   │       │   ├───clickLinkGesture.js
+│   │       │   │   │       │   ├───goToDefinitionAtPosition.css
+│   │       │   │   │       │   ├───goToDefinitionAtPosition.d.ts
+│   │       │   │   │       │   └───goToDefinitionAtPosition.js
+│   │       │   │   │       └───peek/
+│   │       │   │   │           ├───referencesController.js
+│   │       │   │   │           ├───referencesTree.js
+│   │       │   │   │           ├───referencesWidget.css
+│   │       │   │   │           └───referencesWidget.js
+│   │       │   │   ├───gpu/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───gpuActions.d.ts
+│   │       │   │   │       └───gpuActions.js
+│   │       │   │   ├───hover/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───contentHoverComputer.js
+│   │       │   │   │       ├───contentHoverController.js
+│   │       │   │   │       ├───contentHoverRendered.js
+│   │       │   │   │       ├───contentHoverStatusBar.js
+│   │       │   │   │       ├───contentHoverTypes.js
+│   │       │   │   │       ├───contentHoverWidget.js
+│   │       │   │   │       ├───contentHoverWidgetWrapper.js
+│   │       │   │   │       ├───getHover.js
+│   │       │   │   │       ├───glyphHoverComputer.js
+│   │       │   │   │       ├───glyphHoverController.js
+│   │       │   │   │       ├───glyphHoverWidget.js
+│   │       │   │   │       ├───hover.css
+│   │       │   │   │       ├───hoverAccessibleViews.js
+│   │       │   │   │       ├───hoverActionIds.js
+│   │       │   │   │       ├───hoverActions.js
+│   │       │   │   │       ├───hoverContribution.d.ts
+│   │       │   │   │       ├───hoverContribution.js
+│   │       │   │   │       ├───hoverCopyButton.js
+│   │       │   │   │       ├───hoverOperation.js
+│   │       │   │   │       ├───hoverTypes.js
+│   │       │   │   │       ├───hoverUtils.js
+│   │       │   │   │       ├───markdownHoverParticipant.js
+│   │       │   │   │       ├───markerHoverParticipant.js
+│   │       │   │   │       └───resizableContentWidget.js
+│   │       │   │   ├───indentation/
+│   │       │   │   │   ├───browser/
+│   │       │   │   │   │   ├───indentation.d.ts
+│   │       │   │   │   │   └───indentation.js
+│   │       │   │   │   └───common/
+│   │       │   │   │       ├───indentation.js
+│   │       │   │   │       └───indentUtils.js
+│   │       │   │   ├───inlayHints/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───inlayHints.js
+│   │       │   │   │       ├───inlayHintsContribution.d.ts
+│   │       │   │   │       ├───inlayHintsContribution.js
+│   │       │   │   │       ├───inlayHintsController.js
+│   │       │   │   │       ├───inlayHintsHover.js
+│   │       │   │   │       └───inlayHintsLocations.js
+│   │       │   │   ├───inlineCompletions/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───inlineCompletions.contribution.d.ts
+│   │       │   │   │       ├───inlineCompletions.contribution.js
+│   │       │   │   │       ├───inlineCompletionsAccessibleView.js
+│   │       │   │   │       ├───structuredLogger.js
+│   │       │   │   │       ├───telemetry.js
+│   │       │   │   │       ├───utils.js
+│   │       │   │   │       ├───controller/
+│   │       │   │   │       │   ├───commandIds.js
+│   │       │   │   │       │   ├───commands.js
+│   │       │   │   │       │   ├───inlineCompletionContextKeys.js
+│   │       │   │   │       │   └───inlineCompletionsController.js
+│   │       │   │   │       ├───hintsWidget/
+│   │       │   │   │       │   ├───hoverParticipant.js
+│   │       │   │   │       │   ├───inlineCompletionsHintsWidget.css
+│   │       │   │   │       │   └───inlineCompletionsHintsWidget.js
+│   │       │   │   │       ├───model/
+│   │       │   │   │       │   ├───animation.js
+│   │       │   │   │       │   ├───changeRecorder.js
+│   │       │   │   │       │   ├───computeGhostText.js
+│   │       │   │   │       │   ├───ghostText.js
+│   │       │   │   │       │   ├───graph.js
+│   │       │   │   │       │   ├───inlineCompletionsModel.js
+│   │       │   │   │       │   ├───inlineCompletionsSource.js
+│   │       │   │   │       │   ├───inlineEdit.js
+│   │       │   │   │       │   ├───inlineSuggestionItem.js
+│   │       │   │   │       │   ├───provideInlineCompletions.js
+│   │       │   │   │       │   ├───singleTextEditHelpers.js
+│   │       │   │   │       │   ├───suggestWidgetAdapter.js
+│   │       │   │   │       │   └───typingSpeed.js
+│   │       │   │   │       └───view/
+│   │       │   │   │           ├───inlineCompletionsView.js
+│   │       │   │   │           ├───ghostText/
+│   │       │   │   │           │   ├───ghostTextView.css
+│   │       │   │   │           │   └───ghostTextView.js
+│   │       │   │   │           └───inlineEdits/
+│   │       │   │   │               ├───inlineEditsModel.js
+│   │       │   │   │               ├───inlineEditsNewUsers.js
+│   │       │   │   │               ├───inlineEditsView.js
+│   │       │   │   │               ├───inlineEditsViewInterface.js
+│   │       │   │   │               ├───inlineEditsViewProducer.js
+│   │       │   │   │               ├───inlineEditWithChanges.js
+│   │       │   │   │               ├───theme.js
+│   │       │   │   │               ├───view.css
+│   │       │   │   │               ├───components/
+│   │       │   │   │               ├───inlineEditsViews/
+│   │       │   │   │               └───utils/
+│   │       │   │   ├───inlineProgress/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───inlineProgress.d.ts
+│   │       │   │   │       ├───inlineProgress.js
+│   │       │   │   │       └───inlineProgressWidget.css
+│   │       │   │   ├───inPlaceReplace/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───inPlaceReplace.css
+│   │       │   │   │       ├───inPlaceReplace.d.ts
+│   │       │   │   │       ├───inPlaceReplace.js
+│   │       │   │   │       └───inPlaceReplaceCommand.js
+│   │       │   │   ├───insertFinalNewLine/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───insertFinalNewLine.d.ts
+│   │       │   │   │       ├───insertFinalNewLine.js
+│   │       │   │   │       └───insertFinalNewLineCommand.js
+│   │       │   │   ├───lineSelection/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───lineSelection.d.ts
+│   │       │   │   │       └───lineSelection.js
+│   │       │   │   ├───linesOperations/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───copyLinesCommand.js
+│   │       │   │   │       ├───linesOperations.d.ts
+│   │       │   │   │       ├───linesOperations.js
+│   │       │   │   │       ├───moveLinesCommand.js
+│   │       │   │   │       └───sortLinesCommand.js
+│   │       │   │   ├───linkedEditing/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───linkedEditing.css
+│   │       │   │   │       ├───linkedEditing.d.ts
+│   │       │   │   │       └───linkedEditing.js
+│   │       │   │   ├───links/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───getLinks.js
+│   │       │   │   │       ├───links.css
+│   │       │   │   │       ├───links.d.ts
+│   │       │   │   │       └───links.js
+│   │       │   │   ├───longLinesHelper/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───longLinesHelper.d.ts
+│   │       │   │   │       └───longLinesHelper.js
+│   │       │   │   ├───message/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───messageController.css
+│   │       │   │   │       └───messageController.js
+│   │       │   │   ├───middleScroll/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───middleScroll.contribution.d.ts
+│   │       │   │   │       ├───middleScroll.contribution.js
+│   │       │   │   │       ├───middleScroll.css
+│   │       │   │   │       └───middleScrollController.js
+│   │       │   │   ├───multicursor/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───multicursor.d.ts
+│   │       │   │   │       └───multicursor.js
+│   │       │   │   ├───parameterHints/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───parameterHints.css
+│   │       │   │   │       ├───parameterHints.d.ts
+│   │       │   │   │       ├───parameterHints.js
+│   │       │   │   │       ├───parameterHintsModel.js
+│   │       │   │   │       ├───parameterHintsWidget.js
+│   │       │   │   │       └───provideSignatureHelp.js
+│   │       │   │   ├───peekView/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───peekView.js
+│   │       │   │   │       └───media/
+│   │       │   │   │           └───peekViewWidget.css
+│   │       │   │   ├───placeholderText/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───placeholderText.contribution.d.ts
+│   │       │   │   │       ├───placeholderText.contribution.js
+│   │       │   │   │       ├───placeholderText.css
+│   │       │   │   │       └───placeholderTextContribution.js
+│   │       │   │   ├───quickAccess/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───commandsQuickAccess.js
+│   │       │   │   │       ├───editorNavigationQuickAccess.js
+│   │       │   │   │       ├───gotoLineQuickAccess.js
+│   │       │   │   │       └───gotoSymbolQuickAccess.js
+│   │       │   │   ├───readOnlyMessage/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───contribution.d.ts
+│   │       │   │   │       └───contribution.js
+│   │       │   │   ├───rename/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───rename.d.ts
+│   │       │   │   │       ├───rename.js
+│   │       │   │   │       ├───renameWidget.css
+│   │       │   │   │       └───renameWidget.js
+│   │       │   │   ├───sectionHeaders/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───sectionHeaders.d.ts
+│   │       │   │   │       └───sectionHeaders.js
+│   │       │   │   ├───semanticTokens/
+│   │       │   │   │   ├───browser/
+│   │       │   │   │   │   ├───documentSemanticTokens.d.ts
+│   │       │   │   │   │   ├───documentSemanticTokens.js
+│   │       │   │   │   │   ├───viewportSemanticTokens.d.ts
+│   │       │   │   │   │   └───viewportSemanticTokens.js
+│   │       │   │   │   └───common/
+│   │       │   │   │       ├───getSemanticTokens.js
+│   │       │   │   │       └───semanticTokensConfig.js
+│   │       │   │   ├───smartSelect/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───bracketSelections.js
+│   │       │   │   │       ├───smartSelect.d.ts
+│   │       │   │   │       ├───smartSelect.js
+│   │       │   │   │       └───wordSelections.js
+│   │       │   │   ├───snippet/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───snippetController2.d.ts
+│   │       │   │   │       ├───snippetController2.js
+│   │       │   │   │       ├───snippetParser.js
+│   │       │   │   │       ├───snippetSession.css
+│   │       │   │   │       ├───snippetSession.js
+│   │       │   │   │       └───snippetVariables.js
+│   │       │   │   ├───stickyScroll/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───stickyScroll.css
+│   │       │   │   │       ├───stickyScrollActions.js
+│   │       │   │   │       ├───stickyScrollContribution.d.ts
+│   │       │   │   │       ├───stickyScrollContribution.js
+│   │       │   │   │       ├───stickyScrollController.js
+│   │       │   │   │       ├───stickyScrollElement.js
+│   │       │   │   │       ├───stickyScrollModelProvider.js
+│   │       │   │   │       ├───stickyScrollProvider.js
+│   │       │   │   │       └───stickyScrollWidget.js
+│   │       │   │   ├───suggest/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───completionModel.js
+│   │       │   │   │       ├───suggest.js
+│   │       │   │   │       ├───suggestAlternatives.js
+│   │       │   │   │       ├───suggestCommitCharacters.js
+│   │       │   │   │       ├───suggestController.d.ts
+│   │       │   │   │       ├───suggestController.js
+│   │       │   │   │       ├───suggestInlineCompletions.d.ts
+│   │       │   │   │       ├───suggestInlineCompletions.js
+│   │       │   │   │       ├───suggestMemory.js
+│   │       │   │   │       ├───suggestModel.js
+│   │       │   │   │       ├───suggestOvertypingCapturer.js
+│   │       │   │   │       ├───suggestWidget.js
+│   │       │   │   │       ├───suggestWidgetDetails.js
+│   │       │   │   │       ├───suggestWidgetRenderer.js
+│   │       │   │   │       ├───suggestWidgetStatus.js
+│   │       │   │   │       ├───wordContextKey.js
+│   │       │   │   │       ├───wordDistance.js
+│   │       │   │   │       └───media/
+│   │       │   │   │           └───suggest.css
+│   │       │   │   ├───symbolIcons/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───symbolIcons.css
+│   │       │   │   │       └───symbolIcons.js
+│   │       │   │   ├───toggleTabFocusMode/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───toggleTabFocusMode.d.ts
+│   │       │   │   │       └───toggleTabFocusMode.js
+│   │       │   │   ├───tokenization/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───tokenization.d.ts
+│   │       │   │   │       └───tokenization.js
+│   │       │   │   ├───unicodeHighlighter/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───bannerController.css
+│   │       │   │   │       ├───bannerController.js
+│   │       │   │   │       ├───unicodeHighlighter.css
+│   │       │   │   │       ├───unicodeHighlighter.d.ts
+│   │       │   │   │       └───unicodeHighlighter.js
+│   │       │   │   ├───unusualLineTerminators/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───unusualLineTerminators.d.ts
+│   │       │   │   │       └───unusualLineTerminators.js
+│   │       │   │   ├───wordHighlighter/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───highlightDecorations.css
+│   │       │   │   │       ├───highlightDecorations.js
+│   │       │   │   │       ├───textualHighlightProvider.js
+│   │       │   │   │       ├───wordHighlighter.d.ts
+│   │       │   │   │       └───wordHighlighter.js
+│   │       │   │   ├───wordOperations/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───wordOperations.d.ts
+│   │       │   │   │       └───wordOperations.js
+│   │       │   │   ├───wordPartOperations/
+│   │       │   │   │   └───browser/
+│   │       │   │   │       ├───wordPartOperations.d.ts
+│   │       │   │   │       └───wordPartOperations.js
+│   │       │   │   └───zoneWidget/
+│   │       │   │       └───browser/
+│   │       │   │           ├───zoneWidget.css
+│   │       │   │           └───zoneWidget.js
+│   │       │   ├───internal/
+│   │       │   │   ├───initialize.d.ts
+│   │       │   │   └───initialize.js
+│   │       │   └───standalone/
+│   │       │       ├───browser/
+│   │       │       │   ├───colorizer.js
+│   │       │       │   ├───standalone-tokens.css
+│   │       │       │   ├───standaloneCodeEditor.js
+│   │       │       │   ├───standaloneCodeEditorService.js
+│   │       │       │   ├───standaloneEditor.js
+│   │       │       │   ├───standaloneLanguages.js
+│   │       │       │   ├───standaloneLayoutService.js
+│   │       │       │   ├───standaloneServices.js
+│   │       │       │   ├───standaloneThemeService.js
+│   │       │       │   ├───standaloneTreeSitterLibraryService.js
+│   │       │       │   ├───standaloneWebWorker.js
+│   │       │       │   ├───inspectTokens/
+│   │       │       │   │   ├───inspectTokens.css
+│   │       │       │   │   ├───inspectTokens.d.ts
+│   │       │       │   │   └───inspectTokens.js
+│   │       │       │   ├───iPadShowKeyboard/
+│   │       │       │   │   ├───iPadShowKeyboard.css
+│   │       │       │   │   ├───iPadShowKeyboard.d.ts
+│   │       │       │   │   └───iPadShowKeyboard.js
+│   │       │       │   ├───quickAccess/
+│   │       │       │   │   ├───standaloneCommandsQuickAccess.d.ts
+│   │       │       │   │   ├───standaloneCommandsQuickAccess.js
+│   │       │       │   │   ├───standaloneGotoLineQuickAccess.d.ts
+│   │       │       │   │   ├───standaloneGotoLineQuickAccess.js
+│   │       │       │   │   ├───standaloneGotoSymbolQuickAccess.d.ts
+│   │       │       │   │   ├───standaloneGotoSymbolQuickAccess.js
+│   │       │       │   │   ├───standaloneHelpQuickAccess.d.ts
+│   │       │       │   │   └───standaloneHelpQuickAccess.js
+│   │       │       │   ├───quickInput/
+│   │       │       │   │   ├───standaloneQuickInput.css
+│   │       │       │   │   └───standaloneQuickInputService.js
+│   │       │       │   ├───referenceSearch/
+│   │       │       │   │   ├───standaloneReferenceSearch.d.ts
+│   │       │       │   │   └───standaloneReferenceSearch.js
+│   │       │       │   └───toggleHighContrast/
+│   │       │       │       ├───toggleHighContrast.d.ts
+│   │       │       │       └───toggleHighContrast.js
+│   │       │       └───common/
+│   │       │           ├───standaloneTheme.js
+│   │       │           ├───themes.js
+│   │       │           └───monarch/
+│   │       │               ├───monarchCommon.js
+│   │       │               ├───monarchCompile.js
+│   │       │               └───monarchLexer.js
+│   │       ├───language/
+│   │       │   ├───common/
+│   │       │   │   └───lspLanguageFeatures.js
+│   │       │   ├───css/
+│   │       │   │   ├───css.worker.js
+│   │       │   │   ├───cssMode.js
+│   │       │   │   ├───cssWorker.js
+│   │       │   │   ├───monaco.contribution.d.ts
+│   │       │   │   ├───monaco.contribution.js
+│   │       │   │   └───workerManager.js
+│   │       │   ├───html/
+│   │       │   │   ├───html.worker.js
+│   │       │   │   ├───htmlMode.js
+│   │       │   │   ├───htmlWorker.js
+│   │       │   │   ├───monaco.contribution.d.ts
+│   │       │   │   ├───monaco.contribution.js
+│   │       │   │   └───workerManager.js
+│   │       │   ├───json/
+│   │       │   │   ├───json.worker.js
+│   │       │   │   ├───jsonMode.js
+│   │       │   │   ├───jsonWorker.js
+│   │       │   │   ├───monaco.contribution.d.ts
+│   │       │   │   ├───monaco.contribution.js
+│   │       │   │   ├───tokenization.js
+│   │       │   │   └───workerManager.js
+│   │       │   └───typescript/
+│   │       │       ├───languageFeatures.js
+│   │       │       ├───monaco.contribution.d.ts
+│   │       │       ├───monaco.contribution.js
+│   │       │       ├───ts.worker.js
+│   │       │       ├───tsMode.js
+│   │       │       ├───tsWorker.js
+│   │       │       ├───workerManager.js
+│   │       │       └───lib/
+│   │       │           ├───lib.index.js
+│   │       │           ├───lib.js
+│   │       │           ├───typescriptServices.js
+│   │       │           └───typescriptServicesMetadata.js
+│   │       └───platform/
+│   │           ├───accessibility/
+│   │           │   ├───browser/
+│   │           │   │   ├───accessibilityService.js
+│   │           │   │   └───accessibleViewRegistry.js
+│   │           │   └───common/
+│   │           │       └───accessibility.js
+│   │           ├───accessibilitySignal/
+│   │           │   └───browser/
+│   │           │       └───accessibilitySignalService.js
+│   │           ├───action/
+│   │           │   └───common/
+│   │           │       ├───action.js
+│   │           │       └───actionCommonCategories.js
+│   │           ├───actions/
+│   │           │   ├───browser/
+│   │           │   │   ├───actionViewItemService.js
+│   │           │   │   ├───menuEntryActionViewItem.css
+│   │           │   │   ├───menuEntryActionViewItem.js
+│   │           │   │   └───toolbar.js
+│   │           │   └───common/
+│   │           │       ├───actions.js
+│   │           │       └───menuService.js
+│   │           ├───actionWidget/
+│   │           │   └───browser/
+│   │           │       ├───actionList.js
+│   │           │       ├───actionWidget.css
+│   │           │       └───actionWidget.js
+│   │           ├───clipboard/
+│   │           │   ├───browser/
+│   │           │   │   └───clipboardService.js
+│   │           │   └───common/
+│   │           │       └───clipboardService.js
+│   │           ├───commands/
+│   │           │   └───common/
+│   │           │       └───commands.js
+│   │           ├───configuration/
+│   │           │   └───common/
+│   │           │       ├───configuration.js
+│   │           │       ├───configurationModels.js
+│   │           │       ├───configurationRegistry.js
+│   │           │       └───configurations.js
+│   │           ├───contextkey/
+│   │           │   ├───browser/
+│   │           │   │   └───contextKeyService.js
+│   │           │   └───common/
+│   │           │       ├───contextkey.js
+│   │           │       ├───contextkeys.js
+│   │           │       └───scanner.js
+│   │           ├───contextview/
+│   │           │   └───browser/
+│   │           │       ├───contextMenuHandler.js
+│   │           │       ├───contextMenuService.js
+│   │           │       ├───contextView.js
+│   │           │       └───contextViewService.js
+│   │           ├───dataChannel/
+│   │           │   ├───browser/
+│   │           │   │   └───forwardingTelemetryService.js
+│   │           │   └───common/
+│   │           │       └───dataChannel.js
+│   │           ├───dialogs/
+│   │           │   └───common/
+│   │           │       └───dialogs.js
+│   │           ├───dnd/
+│   │           │   └───browser/
+│   │           │       └───dnd.js
+│   │           ├───editor/
+│   │           │   └───common/
+│   │           │       └───editor.js
+│   │           ├───environment/
+│   │           │   └───common/
+│   │           │       └───environment.js
+│   │           ├───extensions/
+│   │           │   └───common/
+│   │           │       └───extensions.js
+│   │           ├───files/
+│   │           │   └───common/
+│   │           │       └───files.js
+│   │           ├───history/
+│   │           │   └───browser/
+│   │           │       ├───contextScopedHistoryWidget.js
+│   │           │       └───historyWidgetKeybindingHint.js
+│   │           ├───hover/
+│   │           │   └───browser/
+│   │           │       ├───hover.css
+│   │           │       ├───hover.js
+│   │           │       ├───hoverService.js
+│   │           │       ├───hoverWidget.js
+│   │           │       └───updatableHoverWidget.js
+│   │           ├───instantiation/
+│   │           │   └───common/
+│   │           │       ├───descriptors.js
+│   │           │       ├───extensions.js
+│   │           │       ├───graph.js
+│   │           │       ├───instantiation.js
+│   │           │       ├───instantiationService.js
+│   │           │       └───serviceCollection.js
+│   │           ├───jsonschemas/
+│   │           │   └───common/
+│   │           │       └───jsonContributionRegistry.js
+│   │           ├───keybinding/
+│   │           │   └───common/
+│   │           │       ├───abstractKeybindingService.js
+│   │           │       ├───baseResolvedKeybinding.js
+│   │           │       ├───keybinding.js
+│   │           │       ├───keybindingResolver.js
+│   │           │       ├───keybindingsRegistry.js
+│   │           │       ├───resolvedKeybindingItem.js
+│   │           │       └───usLayoutResolvedKeybinding.js
+│   │           ├───label/
+│   │           │   └───common/
+│   │           │       └───label.js
+│   │           ├───layout/
+│   │           │   └───browser/
+│   │           │       └───layoutService.js
+│   │           ├───list/
+│   │           │   └───browser/
+│   │           │       └───listService.js
+│   │           ├───log/
+│   │           │   └───common/
+│   │           │       ├───log.js
+│   │           │       └───logService.js
+│   │           ├───markdown/
+│   │           │   └───browser/
+│   │           │       └───markdownRenderer.js
+│   │           ├───markers/
+│   │           │   └───common/
+│   │           │       ├───markers.js
+│   │           │       └───markerService.js
+│   │           ├───notification/
+│   │           │   └───common/
+│   │           │       └───notification.js
+│   │           ├───observable/
+│   │           │   └───common/
+│   │           │       ├───platformObservableUtils.js
+│   │           │       ├───wrapInHotClass.js
+│   │           │       └───wrapInReloadableClass.js
+│   │           ├───opener/
+│   │           │   ├───browser/
+│   │           │   │   ├───link.css
+│   │           │   │   └───link.js
+│   │           │   └───common/
+│   │           │       └───opener.js
+│   │           ├───product/
+│   │           │   └───common/
+│   │           │       ├───product.js
+│   │           │       └───productService.js
+│   │           ├───progress/
+│   │           │   └───common/
+│   │           │       └───progress.js
+│   │           ├───quickinput/
+│   │           │   ├───browser/
+│   │           │   │   ├───commandsQuickAccess.js
+│   │           │   │   ├───helpQuickAccess.js
+│   │           │   │   ├───pickerQuickAccess.js
+│   │           │   │   ├───quickAccess.js
+│   │           │   │   ├───quickInput.js
+│   │           │   │   ├───quickInputActions.js
+│   │           │   │   ├───quickInputBox.js
+│   │           │   │   ├───quickInputController.js
+│   │           │   │   ├───quickInputList.js
+│   │           │   │   ├───quickInputService.js
+│   │           │   │   ├───quickInputUtils.js
+│   │           │   │   ├───media/
+│   │           │   │   │   └───quickInput.css
+│   │           │   │   └───tree/
+│   │           │   │       ├───quickInputDelegate.js
+│   │           │   │       ├───quickInputTree.js
+│   │           │   │       ├───quickInputTreeAccessibilityProvider.js
+│   │           │   │       ├───quickInputTreeController.js
+│   │           │   │       ├───quickInputTreeFilter.js
+│   │           │   │       ├───quickInputTreeRenderer.js
+│   │           │   │       └───quickInputTreeSorter.js
+│   │           │   └───common/
+│   │           │       ├───quickAccess.js
+│   │           │       └───quickInput.js
+│   │           ├───registry/
+│   │           │   └───common/
+│   │           │       └───platform.js
+│   │           ├───storage/
+│   │           │   └───common/
+│   │           │       └───storage.js
+│   │           ├───telemetry/
+│   │           │   └───common/
+│   │           │       └───telemetry.js
+│   │           ├───theme/
+│   │           │   ├───browser/
+│   │           │   │   ├───defaultStyles.js
+│   │           │   │   └───iconsStyleSheet.js
+│   │           │   └───common/
+│   │           │       ├───colorUtils.js
+│   │           │       ├───iconRegistry.js
+│   │           │       ├───theme.js
+│   │           │       ├───themeService.js
+│   │           │       └───colors/
+│   │           │           ├───baseColors.js
+│   │           │           ├───chartsColors.js
+│   │           │           ├───editorColors.js
+│   │           │           ├───inputColors.js
+│   │           │           ├───listColors.js
+│   │           │           ├───menuColors.js
+│   │           │           ├───minimapColors.js
+│   │           │           ├───miscColors.js
+│   │           │           ├───quickpickColors.js
+│   │           │           └───searchColors.js
+│   │           ├───undoRedo/
+│   │           │   └───common/
+│   │           │       ├───undoRedo.js
+│   │           │       └───undoRedoService.js
+│   │           ├───window/
+│   │           │   └───common/
+│   │           │       └───window.js
+│   │           └───workspace/
+│   │               └───common/
+│   │                   ├───workspace.js
+│   │                   └───workspaceTrust.js
+│   └───min/
+│       └───vs/
+│           ├───_commonjsHelpers-CT9FvmAN.js
+│           ├───abap-D-t0cyap.js
+│           ├───apex-CcIm7xu6.js
+│           ├───azcli-BA0tQDCg.js
+│           ├───bat-C397hTD6.js
+│           ├───bicep-DF5aW17k.js
+│           ├───cameligo-plsz8qhj.js
+│           ├───clojure-Y2auQMzK.js
+│           ├───coffee-Bu45yuWE.js
+│           ├───cpp-CkKPQIni.js
+│           ├───csharp-CX28MZyh.js
+│           ├───csp-D8uWnyxW.js
+│           ├───css-CaeNmE3S.js
+│           ├───cssMode-CjiAH6dQ.js
+│           ├───cypher-DVThT8BS.js
+│           ├───dart-CmGfCvrO.js
+│           ├───dockerfile-CZqqYdch.js
+│           ├───ecl-30fUercY.js
+│           ├───editor.api-CalNCsUg.js
+│           ├───elixir-xjPaIfzF.js
+│           ├───flow9-DqtmStfK.js
+│           ├───freemarker2-Cz_sV6Md.js
+│           ├───fsharp-BOMdg4U1.js
+│           ├───go-D_hbi-Jt.js
+│           ├───graphql-CKUU4kLG.js
+│           ├───handlebars-OwglfO-1.js
+│           ├───hcl-DTaboeZW.js
+│           ├───html-Pa1xEWsY.js
+│           ├───htmlMode-Bz67EXwp.js
+│           ├───ini-CsNwO04R.js
+│           ├───java-CI4ZMsH9.js
+│           ├───javascript-PczUCGdz.js
+│           ├───jsonMode-DULH5oaX.js
+│           ├───julia-BwzEvaQw.js
+│           ├───kotlin-IUYPiTV8.js
+│           ├───less-C0eDYdqa.js
+│           ├───lexon-iON-Kj97.js
+│           ├───liquid-DqKjdPGy.js
+│           ├───loader.js
+│           ├───lspLanguageFeatures-kM9O9rjY.js
+│           ├───lua-DtygF91M.js
+│           ├───m3-CsR4AuFi.js
+│           ├───markdown-C_rD0bIw.js
+│           ├───mdx-DEWtB1K5.js
+│           ├───mips-CiYP61RB.js
+│           ├───monaco.contribution-D2OdxNBt.js
+│           ├───monaco.contribution-DO3azKX8.js
+│           ├───monaco.contribution-EcChJV6a.js
+│           ├───monaco.contribution-qLAYrEOP.js
+│           ├───msdax-C38-sJlp.js
+│           ├───mysql-CdtbpvbG.js
+│           ├───nls.messages-loader.js
+│           ├───nls.messages.cs.js.js
+│           ├───nls.messages.de.js.js
+│           ├───nls.messages.es.js.js
+│           ├───nls.messages.fr.js.js
+│           ├───nls.messages.it.js.js
+│           ├───nls.messages.ja.js.js
+│           ├───nls.messages.js.js
+│           ├───nls.messages.ko.js.js
+│           ├───nls.messages.pl.js.js
+│           ├───nls.messages.pt-br.js.js
+│           ├───nls.messages.ru.js.js
+│           ├───nls.messages.tr.js.js
+│           ├───nls.messages.zh-cn.js.js
+│           ├───nls.messages.zh-tw.js.js
+│           ├───objective-c-CntZFaHX.js
+│           ├───pascal-r6kuqfl_.js
+│           ├───pascaligo-BiXoTmXh.js
+│           ├───perl-DABw_TcH.js
+│           ├───pgsql-me_jFXeX.js
+│           ├───php-D_kh-9LK.js
+│           ├───pla-VfZjczW0.js
+│           ├───postiats-BBSzz8Pk.js
+│           ├───powerquery-Dt-g_2cc.js
+│           ├───powershell-B-7ap1zc.js
+│           ├───protobuf-BmtuEB1A.js
+│           ├───pug-BRpRNeEb.js
+│           ├───python-Cr0UkIbn.js
+│           ├───qsharp-BzsFaUU9.js
+│           ├───r-f8dDdrp4.js
+│           ├───razor-BYAHOTkz.js
+│           ├───redis-fvZQY4PI.js
+│           ├───redshift-45Et0LQi.js
+│           ├───restructuredtext-C7UUFKFD.js
+│           ├───ruby-CZO8zYTz.js
+│           ├───rust-Bfetafyc.js
+│           ├───sb-3GYllVck.js
+│           ├───scala-foMgrKo1.js
+│           ├───scheme-CHdMtr7p.js
+│           ├───scss-C1cmLt9V.js
+│           ├───shell-ClXCKCEW.js
+│           ├───solidity-MZ6ExpPy.js
+│           ├───sophia-DWkuSsPQ.js
+│           ├───sparql-AUGFYSyk.js
+│           ├───sql-32GpJSV2.js
+│           ├───st-CuDFIVZ_.js
+│           ├───swift-n-2HociN.js
+│           ├───systemverilog-Ch4vA8Yt.js
+│           ├───tcl-D74tq1nH.js
+│           ├───tsMode-CZz1Umrk.js
+│           ├───twig-C6taOxMV.js
+│           ├───typescript-DfOrAzoV.js
+│           ├───typespec-D-PIh9Xw.js
+│           ├───vb-Dyb2648j.js
+│           ├───wgsl-BhLXMOR0.js
+│           ├───workers-DcJshg-q.js
+│           ├───xml-CdsdnY8S.js
+│           ├───yaml-DYGvmE88.js
+│           ├───assets/
+│           │   ├───css.worker-HnVq6Ewq.js
+│           │   ├───editor.worker-Be8ye1pW.js
+│           │   ├───html.worker-B51mlPHg.js
+│           │   ├───json.worker-DKiEKt88.js
+│           │   └───ts.worker-CMbG-7ft.js
+│           ├───basic-languages/
+│           │   └───monaco.contribution.js
+│           ├───editor/
+│           │   ├───editor.main.css
+│           │   └───editor.main.js
+│           └───language/
+│               ├───css/
+│               │   └───monaco.contribution.js
+│               ├───html/
+│               │   └───monaco.contribution.js
+│               ├───json/
+│               │   └───monaco.contribution.js
+│               └───typescript/
+│                   └───monaco.contribution.js
 ├───public/
 │   ├───app.js
 │   ├───index.html
-│   └───style.css
+│   ├───style.css
+│   └───assets/
+│       └───fonts/
+│           ├───Ubuntu/
+│           │   ├───LICENCE-FAQ.txt
+│           │   ├───LICENCE.txt
+│           │   ├───README.md
+│           │   ├───UbuntuNerdFont-Bold.ttf
+│           │   ├───UbuntuNerdFont-BoldItalic.ttf
+│           │   ├───UbuntuNerdFont-Condensed.ttf
+│           │   ├───UbuntuNerdFont-Italic.ttf
+│           │   ├───UbuntuNerdFont-Light.ttf
+│           │   ├───UbuntuNerdFont-LightItalic.ttf
+│           │   ├───UbuntuNerdFont-Medium.ttf
+│           │   ├───UbuntuNerdFont-MediumItalic.ttf
+│           │   ├───UbuntuNerdFont-Regular.ttf
+│           │   ├───UbuntuNerdFontPropo-Bold.ttf
+│           │   ├───UbuntuNerdFontPropo-BoldItalic.ttf
+│           │   ├───UbuntuNerdFontPropo-Condensed.ttf
+│           │   ├───UbuntuNerdFontPropo-Italic.ttf
+│           │   ├───UbuntuNerdFontPropo-Light.ttf
+│           │   ├───UbuntuNerdFontPropo-LightItalic.ttf
+│           │   ├───UbuntuNerdFontPropo-Medium.ttf
+│           │   ├───UbuntuNerdFontPropo-MediumItalic.ttf
+│           │   └───UbuntuNerdFontPropo-Regular.ttf
+│           ├───UbuntuMono/
+│           │   ├───LICENCE-FAQ.txt
+│           │   ├───LICENCE.txt
+│           │   ├───README.md
+│           │   ├───UbuntuMonoNerdFont-Bold.ttf
+│           │   ├───UbuntuMonoNerdFont-BoldItalic.ttf
+│           │   ├───UbuntuMonoNerdFont-Italic.ttf
+│           │   ├───UbuntuMonoNerdFont-Regular.ttf
+│           │   ├───UbuntuMonoNerdFontMono-Bold.ttf
+│           │   ├───UbuntuMonoNerdFontMono-BoldItalic.ttf
+│           │   ├───UbuntuMonoNerdFontMono-Italic.ttf
+│           │   ├───UbuntuMonoNerdFontMono-Regular.ttf
+│           │   ├───UbuntuMonoNerdFontPropo-Bold.ttf
+│           │   ├───UbuntuMonoNerdFontPropo-BoldItalic.ttf
+│           │   ├───UbuntuMonoNerdFontPropo-Italic.ttf
+│           │   └───UbuntuMonoNerdFontPropo-Regular.ttf
+│           └───UbuntuSans/
+│               ├───LICENCE.txt
+│               ├───README.md
+│               ├───UbuntuSansMonoNerdFont-Bold.ttf
+│               ├───UbuntuSansMonoNerdFont-BoldItalic.ttf
+│               ├───UbuntuSansMonoNerdFont-Italic.ttf
+│               ├───UbuntuSansMonoNerdFont-Medium.ttf
+│               ├───UbuntuSansMonoNerdFont-MediumItalic.ttf
+│               ├───UbuntuSansMonoNerdFont-Regular.ttf
+│               ├───UbuntuSansMonoNerdFont-SemiBold.ttf
+│               ├───UbuntuSansMonoNerdFont-SemiBoldItalic.ttf
+│               ├───UbuntuSansMonoNerdFontMono-Bold.ttf
+│               ├───UbuntuSansMonoNerdFontMono-BoldItalic.ttf
+│               ├───UbuntuSansMonoNerdFontMono-Italic.ttf
+│               ├───UbuntuSansMonoNerdFontMono-Medium.ttf
+│               ├───UbuntuSansMonoNerdFontMono-MediumItalic.ttf
+│               ├───UbuntuSansMonoNerdFontMono-Regular.ttf
+│               ├───UbuntuSansMonoNerdFontMono-SemiBold.ttf
+│               ├───UbuntuSansMonoNerdFontMono-SemiBoldItalic.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-Bold.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-BoldItalic.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-Italic.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-Medium.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-MediumItalic.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-Regular.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-SemiBold.ttf
+│               ├───UbuntuSansMonoNerdFontPropo-SemiBoldItalic.ttf
+│               ├───UbuntuSansNerdFont-Bold.ttf
+│               ├───UbuntuSansNerdFont-BoldItalic.ttf
+│               ├───UbuntuSansNerdFont-Italic.ttf
+│               ├───UbuntuSansNerdFont-Medium.ttf
+│               ├───UbuntuSansNerdFont-MediumItalic.ttf
+│               ├───UbuntuSansNerdFont-Regular.ttf
+│               ├───UbuntuSansNerdFont-SemiBold.ttf
+│               ├───UbuntuSansNerdFont-SemiBoldItalic.ttf
+│               ├───UbuntuSansNerdFontPropo-Bold.ttf
+│               ├───UbuntuSansNerdFontPropo-BoldItalic.ttf
+│               ├───UbuntuSansNerdFontPropo-Italic.ttf
+│               ├───UbuntuSansNerdFontPropo-Medium.ttf
+│               ├───UbuntuSansNerdFontPropo-MediumItalic.ttf
+│               ├───UbuntuSansNerdFontPropo-Regular.ttf
+│               ├───UbuntuSansNerdFontPropo-SemiBold.ttf
+│               └───UbuntuSansNerdFontPropo-SemiBoldItalic.ttf
 └───temp/

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/multiDiffEditor/multiDiffEditorWidgetImpl.js
+
 import { h, scheduleAtNextAnimationFrame, getWindow } from '../../../../base/browser/dom.js';
 import { SmoothScrollableElement } from '../../../../base/browser/ui/scrollbar/scrollableElement.js';
 import { compareBy, numberComparator } from '../../../../base/common/arrays.js';

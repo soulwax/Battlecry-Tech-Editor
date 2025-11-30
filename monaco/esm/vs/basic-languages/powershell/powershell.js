@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/powershell/powershell.js
+
 const conf = {
   // the default separators except `$-`
   wordPattern: /(-?\d*\.\d\w*)|([^\`\~\!\@\#%\^\&\*\(\)\=\+\[\{\]\}\\\|\;\:\'\"\,\.\<\>\/\?\s]+)/g,

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/accessibility/common/accessibility.js
+
 import { RawContextKey } from '../../contextkey/common/contextkey.js';
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 

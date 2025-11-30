@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/languagesAssociations.js
+
 import { parse } from '../../../base/common/glob.js';
 import { Mimes } from '../../../base/common/mime.js';
 import { Schemas } from '../../../base/common/network.js';

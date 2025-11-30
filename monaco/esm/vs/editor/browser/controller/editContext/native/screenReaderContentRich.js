@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/native/screenReaderContentRich.js
+
 import { getActiveWindow, addDisposableListener, isHTMLElement } from '../../../../../base/browser/dom.js';
 import { createTrustedTypesPolicy } from '../../../../../base/browser/trustedTypes.js';
 import { IAccessibilityService } from '../../../../../platform/accessibility/common/accessibility.js';

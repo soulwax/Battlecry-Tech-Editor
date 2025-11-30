@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/common/quickInput.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

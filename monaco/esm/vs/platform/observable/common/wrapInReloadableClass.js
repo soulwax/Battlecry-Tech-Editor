@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/observable/common/wrapInReloadableClass.js
+
 import '../../../base/common/observableInternal/index.js';
 import { IInstantiationService } from '../../instantiation/common/instantiation.js';
 

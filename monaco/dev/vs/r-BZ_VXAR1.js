@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/r-BZ_VXAR1.js
+
 define("vs/r-BZ_VXAR1", ["exports"], (function(exports) {
   "use strict";
   const conf = {

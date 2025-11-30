@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInputController.js
+
 import { onDidRegisterWindow, onWillUnregisterWindow, getWindow, EventType, addDisposableListener, append, $ as $$1, trackFocus, isAncestor, isHTMLElement, reset, isAncestorOfActiveElement, addDisposableGenericMouseUpListener, addDisposableGenericMouseDownListener, addDisposableGenericMouseMoveListener, getActiveWindow } from '../../../base/browser/dom.js';
 import { createStyleSheet } from '../../../base/browser/domStylesheets.js';
 import { ActionBar } from '../../../base/browser/ui/actionbar/actionbar.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/css/cssWorker.js
+
 import { newCSSDataProvider, getSCSSLanguageService, getLESSLanguageService, getCSSLanguageService } from '../../../external/vscode-css-languageservice/lib/esm/cssLanguageService.js';
 import { TextDocument } from '../../../external/vscode-languageserver-textdocument/lib/esm/main.js';
 

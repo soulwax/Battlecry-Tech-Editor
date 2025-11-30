@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/themeService.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable, toDisposable } from '../../../base/common/lifecycle.js';
 import { createDecorator } from '../../instantiation/common/instantiation.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/indentation/common/indentation.js
+
 import { getLeadingWhitespace } from '../../../../base/common/strings.js';
 import { ShiftCommand } from '../../../common/commands/shiftCommand.js';
 import { EditOperation } from '../../../common/core/editOperation.js';

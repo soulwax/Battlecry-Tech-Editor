@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/lua/lua.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

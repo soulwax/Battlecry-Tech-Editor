@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/monaco.contribution-D_SyqKiy.js
+
 define("vs/monaco.contribution-D_SyqKiy", ["require", "exports", "./editor.api-CykLys8L"], (function(require, exports, editor_api) {
   "use strict";
   class LanguageServiceDefaultsImpl {

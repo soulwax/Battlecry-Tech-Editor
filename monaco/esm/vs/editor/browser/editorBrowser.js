@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/editorBrowser.js
+
 import { EditorType } from '../common/editorCommon.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/configuration/common/configurations.js
+
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { deepClone } from '../../../base/common/objects.js';
 import { ConfigurationModel } from './configurationModels.js';

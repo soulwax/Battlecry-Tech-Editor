@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/commands/surroundSelectionCommand.js
+
 import { Range } from '../core/range.js';
 import { Selection } from '../core/selection.js';
 

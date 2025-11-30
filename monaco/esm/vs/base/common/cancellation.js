@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/cancellation.js
+
 import { Event, Emitter } from './event.js';
 
 /*---------------------------------------------------------------------------------------------

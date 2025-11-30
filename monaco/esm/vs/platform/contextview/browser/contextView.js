@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextview/browser/contextView.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

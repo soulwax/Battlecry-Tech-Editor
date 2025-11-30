@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/pascal-Ek4lERtt.js
+
 define("vs/pascal-Ek4lERtt", ["exports"], (function(exports) {
   "use strict";
   const conf = {

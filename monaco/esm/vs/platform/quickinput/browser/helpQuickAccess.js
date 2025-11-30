@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/helpQuickAccess.js
+
 import { localize } from '../../../nls.js';
 import { Registry } from '../../registry/common/platform.js';
 import { DisposableStore } from '../../../base/common/lifecycle.js';

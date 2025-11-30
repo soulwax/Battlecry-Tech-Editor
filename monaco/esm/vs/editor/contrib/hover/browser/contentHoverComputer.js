@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/contentHoverComputer.js
+
 import { coalesce } from '../../../../base/common/arrays.js';
 import { AsyncIterableProducer } from '../../../../base/common/async.js';
 

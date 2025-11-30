@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/twig/twig.js
+
 const conf = {
   wordPattern: /(-?\d*\.\d\w*)|([^\`\~\!\@\$\^\&\*\(\)\=\+\[\{\]\}\\\|\;\:\'\"\,\.\<\>\/\s]+)/g,
   comments: {

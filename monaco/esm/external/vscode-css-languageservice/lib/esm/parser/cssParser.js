@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/cssParser.js
+
 import { Scanner, TokenType } from './cssScanner.js';
 import { NodeType, Node, Nodelist, Marker, Level, Stylesheet, RuleSet, Declarations, Selector, Declaration, CustomPropertyDeclaration, CustomPropertySet, Property, Import, Namespace, FontFace, ViewPort, Keyframe, ReferenceType, KeyframeSelector, PropertyAtRule, Layer, Supports, SupportsCondition, Media, Medialist, MediaQuery, RatioValue, MediaCondition, MediaFeature, Page, PageBoxMarginBox, Document, Container, UnknownAtRule, SimpleSelector, AttributeSelector, Expression, UnicodeRange, BinaryExpression, Term, NumericValue, Identifier, Function, FunctionArgument, HexColorValue } from './cssNodes.js';
 import { ParseError } from './cssErrors.js';

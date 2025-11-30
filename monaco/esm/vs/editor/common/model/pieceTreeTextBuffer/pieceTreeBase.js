@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/pieceTreeTextBuffer/pieceTreeBase.js
+
 import { Position } from '../../core/position.js';
 import { Range } from '../../core/range.js';
 import { FindMatch } from '../../model.js';

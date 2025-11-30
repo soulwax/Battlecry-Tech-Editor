@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlayHints/browser/inlayHints.js
+
 import { onUnexpectedExternalError, CancellationError } from '../../../../base/common/errors.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { Position } from '../../../common/core/position.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/editorExtensions.js
+
 import { localize } from '../../nls.js';
 import { URI } from '../../base/common/uri.js';
 import { ICodeEditorService } from './services/codeEditorService.js';

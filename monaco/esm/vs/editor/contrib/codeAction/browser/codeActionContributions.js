@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeActionContributions.js
+
 import { registerEditorContribution, registerEditorAction, registerEditorCommand } from '../../../browser/editorExtensions.js';
 import { editorConfigurationBaseNode } from '../../../common/config/editorConfigurationSchema.js';
 import { QuickFixAction, RefactorAction, SourceAction, OrganizeImportsAction, AutoFixAction, FixAllAction, CodeActionCommand } from './codeActionCommands.js';

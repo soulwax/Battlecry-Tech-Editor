@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggest.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError, CancellationError, isCancellationError } from '../../../../base/common/errors.js';
 import { FuzzyScore } from '../../../../base/common/filters.js';

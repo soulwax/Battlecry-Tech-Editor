@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/config/charWidthReader.js
+
 import { applyFontInfo } from './domFontInfo.js';
 
 /*---------------------------------------------------------------------------------------------

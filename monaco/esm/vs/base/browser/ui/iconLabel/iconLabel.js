@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/iconLabel/iconLabel.js
+
 import './iconlabel.css';
 import { append, $, isHTMLElement, isAncestor, after } from '../../dom.js';
 import { asCSSUrl } from '../../cssValue.js';

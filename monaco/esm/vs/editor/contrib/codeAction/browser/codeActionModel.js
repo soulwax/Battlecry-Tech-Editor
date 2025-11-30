@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeActionModel.js
+
 import { createCancelablePromise, TimeoutTimer } from '../../../../base/common/async.js';
 import { isCancellationError } from '../../../../base/common/errors.js';
 import { Emitter } from '../../../../base/common/event.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/textToHtmlTokenizer.js
+
 import { splitLines, escape, isFullWidthCharacter } from '../../../base/common/strings.js';
 import { LineTokens } from '../tokens/lineTokens.js';
 import { TokenizationRegistry } from '../languages.js';

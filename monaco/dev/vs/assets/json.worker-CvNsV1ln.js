@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/assets/json.worker-CvNsV1ln.js
+
 (function() {
   "use strict";
   var _a, _b;

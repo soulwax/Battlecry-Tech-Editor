@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/hover/browser/hoverWidget.js
+
 import './hover.css';
 import { DisposableStore, MutableDisposable } from '../../../base/common/lifecycle.js';
 import { Emitter } from '../../../base/common/event.js';

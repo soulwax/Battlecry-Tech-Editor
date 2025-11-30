@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/parameterHints/browser/provideSignatureHelp.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';
 import { assertType } from '../../../../base/common/types.js';

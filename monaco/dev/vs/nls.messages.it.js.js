@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/nls.messages.it.js.js
+
 define("vs/nls.messages.it.js", ["./_commonjsHelpers-98qg88fe"], (function(_commonjsHelpers) {
   "use strict";
   var nls_messages_it$1 = {};

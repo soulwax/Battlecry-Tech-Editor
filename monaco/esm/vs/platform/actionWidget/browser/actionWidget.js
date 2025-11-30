@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actionWidget/browser/actionWidget.js
+
 import { addDisposableListener, EventType, trackFocus, $ } from '../../../base/browser/dom.js';
 import { ActionBar } from '../../../base/browser/ui/actionbar/actionbar.js';
 import { Disposable, MutableDisposable, DisposableStore } from '../../../base/common/lifecycle.js';

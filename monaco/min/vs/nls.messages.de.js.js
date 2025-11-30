@@ -1,3 +1,5 @@
+// File: monaco/min/vs/nls.messages.de.js.js
+
 define("vs/nls.messages.de.js",["./_commonjsHelpers-CT9FvmAN"],(function(r){"use strict";var e={};/*!-----------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Version: 0.55.1(516f350bdaf7a82f6731bd128a9ec86a6e5fa47d)

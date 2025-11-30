@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonFolding.js
+
 import { createScanner } from '../../../../jsonc-parser/lib/esm/main.js';
 import '../jsonLanguageTypes.js';
 import { FoldingRangeKind, Position } from '../../../../vscode-languageserver-types/lib/esm/main.js';

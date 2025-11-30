@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inPlaceReplace/browser/inPlaceReplace.js
+
 import { createCancelablePromise, timeout } from '../../../../base/common/async.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { EditorState } from '../../editorState/browser/editorState.js';

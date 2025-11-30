@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/range.js
+
 import { Position } from './position.js';
 
 /*---------------------------------------------------------------------------------------------

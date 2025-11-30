@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/sophia-DRm4eves.js
+
 define("vs/sophia-DRm4eves", ["exports"], (function(exports) {
   "use strict";
   const conf = {

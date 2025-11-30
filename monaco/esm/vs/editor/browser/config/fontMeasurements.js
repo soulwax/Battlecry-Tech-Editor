@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/config/fontMeasurements.js
+
 import { getWindowId } from '../../../base/browser/dom.js';
 import { PixelRatio } from '../../../base/browser/pixelRatio.js';
 import { Emitter } from '../../../base/common/event.js';

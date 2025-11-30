@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/vb/vb.js
+
 const conf = {
   comments: {
     lineComment: "'",

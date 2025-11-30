@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/typescript-0SV7N1Xc.js
+
 define("vs/typescript-0SV7N1Xc", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const conf = {

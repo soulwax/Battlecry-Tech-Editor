@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssValidation.js
+
 import { ParseErrorCollector, Level } from '../parser/cssNodes.js';
 import { LintConfigurationSettings, Rules } from './lintRules.js';
 import { LintVisitor } from './lint.js';

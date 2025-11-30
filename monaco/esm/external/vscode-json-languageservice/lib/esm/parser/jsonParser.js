@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/parser/jsonParser.js
+
 import { createScanner, getNodePath as getNodePath$1, getNodeValue as getNodeValue$1, findNodeAtOffset } from '../../../../jsonc-parser/lib/esm/main.js';
 import { isBoolean, equals, isDefined, isNumber, isString, isObject } from '../utils/objects.js';
 import { stringLength, extendedRegExp } from '../utils/strings.js';

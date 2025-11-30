@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/sparseTokensStore.js
+
 import { arrayInsert } from '../../../base/common/arrays.js';
 import { LineTokens } from './lineTokens.js';
 

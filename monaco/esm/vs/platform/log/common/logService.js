@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/log/common/logService.js
+
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { MultiplexLogger } from './log.js';
 

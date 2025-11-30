@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/sparql-O5ONewYs.js
+
 define("vs/sparql-O5ONewYs", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/inlineCompletionsSource.js
+
 import { compareUndefinedSmallest, numberComparator, compareBy, booleanComparator } from '../../../../../base/common/arrays.js';
 import { findLastMax } from '../../../../../base/common/arraysFind.js';
 import { RunOnceScheduler } from '../../../../../base/common/async.js';

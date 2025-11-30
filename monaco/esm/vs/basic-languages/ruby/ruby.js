@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/ruby/ruby.js
+
 const conf = {
   comments: {
     lineComment: "#",

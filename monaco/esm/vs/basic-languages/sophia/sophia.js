@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/sophia/sophia.js
+
 const conf = {
   comments: {
     lineComment: "//",

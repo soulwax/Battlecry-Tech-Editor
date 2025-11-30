@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerWidget.js
+
 import './colorPicker.css';
 import { PixelRatio } from '../../../../base/browser/pixelRatio.js';
 import { getWindow, $ as $$1 } from '../../../../base/browser/dom.js';

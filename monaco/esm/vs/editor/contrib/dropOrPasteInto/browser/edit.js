@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/dropOrPasteInto/browser/edit.js
+
 import { ResourceTextEdit } from '../../../browser/services/bulkEditService.js';
 import { SnippetParser } from '../../snippet/browser/snippetParser.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/actionbar/actionbar.js
+
 import { addDisposableListener, EventType, trackFocus, getActiveElement, isAncestor, isHTMLElement, EventHelper, clearNode } from '../../dom.js';
 import { StandardKeyboardEvent } from '../../keyboardEvent.js';
 import { BaseActionViewItem, ActionViewItem } from './actionViewItems.js';

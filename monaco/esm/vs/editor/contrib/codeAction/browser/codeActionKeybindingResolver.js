@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeActionKeybindingResolver.js
+
 import { HierarchicalKind } from '../../../../base/common/hierarchicalKind.js';
 import { Lazy } from '../../../../base/common/lazy.js';
 import { refactorCommandId, codeActionCommandId, sourceActionCommandId, organizeImportsCommandId, fixAllCommandId } from './codeAction.js';

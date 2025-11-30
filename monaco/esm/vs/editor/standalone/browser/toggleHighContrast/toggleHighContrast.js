@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/toggleHighContrast/toggleHighContrast.js
+
 import { registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { IStandaloneThemeService } from '../../common/standaloneTheme.js';
 import { ToggleHighContrastNLS } from '../../../common/standaloneStrings.js';

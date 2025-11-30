@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findWidget.js
+
 import { trackFocus, getTotalWidth, getDomNodePagePosition, getTopLeftOffset, getComputedStyle } from '../../../../base/browser/dom.js';
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { Toggle } from '../../../../base/browser/ui/toggle/toggle.js';

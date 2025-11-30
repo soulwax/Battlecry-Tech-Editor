@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewEventHandler.js
+
 import { Disposable } from '../../base/common/lifecycle.js';
 
 /*---------------------------------------------------------------------------------------------

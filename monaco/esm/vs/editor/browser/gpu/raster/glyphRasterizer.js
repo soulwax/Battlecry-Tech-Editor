@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/raster/glyphRasterizer.js
+
 import { memoize } from '../../../../base/common/decorators.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { isMacintosh } from '../../../../base/common/platform.js';

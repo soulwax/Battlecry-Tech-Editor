@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actions/browser/actionViewItemService.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { registerSingleton } from '../../instantiation/common/extensions.js';
 import { createDecorator } from '../../instantiation/common/instantiation.js';

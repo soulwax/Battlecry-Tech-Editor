@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlFolding.js
+
 import { TokenType } from '../htmlLanguageTypes.js';
 import { createScanner } from '../parser/htmlScanner.js';
 import { FoldingRangeKind } from '../../../../vscode-languageserver-types/lib/esm/main.js';

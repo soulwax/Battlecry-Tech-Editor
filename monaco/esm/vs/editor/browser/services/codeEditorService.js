@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/codeEditorService.js
+
 import { createDecorator } from '../../../platform/instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

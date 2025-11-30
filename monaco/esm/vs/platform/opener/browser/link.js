@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/opener/browser/link.js
+
 import { append, $, EventHelper } from '../../../base/browser/dom.js';
 import { DomEmitter } from '../../../base/browser/event.js';
 import { StandardKeyboardEvent } from '../../../base/browser/keyboardEvent.js';

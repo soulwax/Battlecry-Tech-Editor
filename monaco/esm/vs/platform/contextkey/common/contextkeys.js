@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextkey/common/contextkeys.js
+
 import { isMacintosh, isLinux, isWindows, isWeb, isIOS, isMobile } from '../../../base/common/platform.js';
 import { localize } from '../../../nls.js';
 import { RawContextKey } from './contextkey.js';

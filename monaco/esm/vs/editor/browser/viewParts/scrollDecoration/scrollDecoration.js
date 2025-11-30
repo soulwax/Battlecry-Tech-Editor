@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/scrollDecoration/scrollDecoration.js
+
 import './scrollDecoration.css';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { ViewPart } from '../../view/viewPart.js';

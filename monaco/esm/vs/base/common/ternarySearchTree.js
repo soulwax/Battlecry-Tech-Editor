@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/ternarySearchTree.js
+
 import { assert } from './assert.js';
 import { compareIgnoreCase, compare, compareSubstring, compareSubstringIgnoreCase } from './strings.js';
 

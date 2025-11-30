@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/wordContextKey.js
+
 import { RawContextKey, IContextKeyService } from '../../../../platform/contextkey/common/contextkey.js';
 import { localize } from '../../../../nls.js';
 

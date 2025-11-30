@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParts/colorPickerStrip.js
+
 import '../colorPicker.css';
 import { append, $ as $$1, addDisposableListener, EventType, getDomNodePagePosition } from '../../../../../base/browser/dom.js';
 import { GlobalPointerMoveMonitor } from '../../../../../base/browser/globalPointerMoveMonitor.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/clipboard/browser/clipboardService.js
+
 import { isSafari, isWebkitWebView } from '../../../base/browser/browser.js';
 import { onDidRegisterWindow, addDisposableListener, getActiveWindow, getActiveDocument, $, isHTMLElement } from '../../../base/browser/dom.js';
 import { mainWindow } from '../../../base/browser/window.js';

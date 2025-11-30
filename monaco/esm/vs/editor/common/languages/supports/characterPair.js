@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/characterPair.js
+
 import { StandardAutoClosingPairConditional } from '../languageConfiguration.js';
 
 /*---------------------------------------------------------------------------------------------

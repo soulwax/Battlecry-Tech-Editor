@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/hoverOperation.js
+
 import { createCancelableAsyncIterableProducer, RunOnceScheduler } from '../../../../base/common/async.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { Emitter } from '../../../../base/common/event.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/links/browser/links.js
+
 import { RunOnceScheduler, createCancelablePromise } from '../../../../base/common/async.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';

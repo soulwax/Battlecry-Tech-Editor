@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlLinkedEditing.js
+
 import '../htmlLanguageTypes.js';
 import { Range } from '../../../../vscode-languageserver-types/lib/esm/main.js';
 

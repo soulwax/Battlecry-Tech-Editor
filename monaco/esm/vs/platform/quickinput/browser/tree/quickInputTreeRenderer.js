@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/tree/quickInputTreeRenderer.js
+
 import { asCSSUrl } from '../../../../base/browser/cssValue.js';
 import { append, $ as $$1, prepend } from '../../../../base/browser/dom.js';
 import { ActionBar } from '../../../../base/browser/ui/actionbar/actionbar.js';

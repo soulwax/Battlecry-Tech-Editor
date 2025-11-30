@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/instantiation/common/extensions.js
+
 import { SyncDescriptor } from './descriptors.js';
 
 /*---------------------------------------------------------------------------------------------

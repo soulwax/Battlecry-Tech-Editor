@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/webWorkerFactory.js
+
 import { createTrustedTypesPolicy } from './trustedTypes.js';
 import { onUnexpectedError } from '../common/errors.js';
 import { COI } from '../common/network.js';

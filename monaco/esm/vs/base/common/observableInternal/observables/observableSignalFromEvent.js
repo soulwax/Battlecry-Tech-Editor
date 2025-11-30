@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/observableSignalFromEvent.js
+
 import { transaction } from '../transaction.js';
 import { DebugNameData } from '../debugName.js';
 import { BaseObservable } from './baseObservable.js';

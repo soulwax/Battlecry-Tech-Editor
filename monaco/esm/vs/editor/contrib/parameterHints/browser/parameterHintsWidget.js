@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/parameterHints/browser/parameterHintsWidget.js
+
 import { $ as $$1, append, addDisposableListener, EventHelper } from '../../../../base/browser/dom.js';
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { DomScrollableElement } from '../../../../base/browser/ui/scrollbar/scrollableElement.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/minimap/minimapPreBaked.js
+
 import { createSingleCallFunction } from '../../../../base/common/functional.js';
 
 /*---------------------------------------------------------------------------------------------

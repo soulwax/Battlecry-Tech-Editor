@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/longLinesHelper/browser/longLinesHelper.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { registerEditorContribution } from '../../../browser/editorExtensions.js';
 

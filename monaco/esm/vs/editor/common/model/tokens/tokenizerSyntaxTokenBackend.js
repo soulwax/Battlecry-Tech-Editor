@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/tokenizerSyntaxTokenBackend.js
+
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { Emitter } from '../../../../base/common/event.js';
 import { MutableDisposable, DisposableMap } from '../../../../base/common/lifecycle.js';

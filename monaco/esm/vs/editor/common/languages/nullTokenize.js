@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/nullTokenize.js
+
 import { EncodedTokenizationResult, TokenizationResult, Token } from '../languages.js';
 
 /*---------------------------------------------------------------------------------------------

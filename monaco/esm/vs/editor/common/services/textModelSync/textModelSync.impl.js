@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/textModelSync/textModelSync.impl.js
+
 import { IntervalTimer } from '../../../../base/common/async.js';
 import { Disposable, dispose, DisposableStore, toDisposable } from '../../../../base/common/lifecycle.js';
 import { URI } from '../../../../base/common/uri.js';

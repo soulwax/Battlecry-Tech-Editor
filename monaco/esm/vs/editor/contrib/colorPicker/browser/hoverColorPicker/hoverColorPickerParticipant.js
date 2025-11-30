@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/hoverColorPicker/hoverColorPickerParticipant.js
+
 import { AsyncIterableProducer } from '../../../../../base/common/async.js';
 import { Range } from '../../../../common/core/range.js';
 import { ColorDetector } from '../colorDetector.js';

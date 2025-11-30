@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/toggleTabFocusMode/browser/toggleTabFocusMode.js
+
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { TabFocus } from '../../../browser/config/tabFocus.js';
 import { localize2, localize } from '../../../../nls.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/redshift/redshift.js
+
 const conf = {
   comments: {
     lineComment: "--",

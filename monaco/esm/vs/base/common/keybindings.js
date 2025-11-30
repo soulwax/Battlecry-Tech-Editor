@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/keybindings.js
+
 import { illegalArgument } from './errors.js';
 
 /*---------------------------------------------------------------------------------------------

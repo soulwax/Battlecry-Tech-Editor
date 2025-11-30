@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/elixir-BxvNo5o6.js
+
 define("vs/elixir-BxvNo5o6", ["exports"], (function(exports) {
   "use strict";
   const conf = {

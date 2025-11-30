@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/hcl/hcl.js
+
 const conf = {
   comments: {
     lineComment: "#",

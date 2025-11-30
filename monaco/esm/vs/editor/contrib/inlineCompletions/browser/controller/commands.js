@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/controller/commands.js
+
 import '../../../../../base/common/observableInternal/index.js';
 import { splitLines } from '../../../../../base/common/strings.js';
 import { vUnion, vObj, vOptionalProp, vWithJsonSchemaRef, vUndefined, vBoolean, vString } from '../../../../../base/common/validation.js';

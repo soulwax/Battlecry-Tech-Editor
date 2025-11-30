@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewLayout/viewLinesViewportData.js
+
 import { Range } from '../core/range.js';
 
 /*---------------------------------------------------------------------------------------------

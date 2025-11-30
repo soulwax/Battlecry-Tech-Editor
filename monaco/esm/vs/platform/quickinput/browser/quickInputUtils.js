@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInputUtils.js
+
 import { reset, $, EventType, isEventLike, EventHelper } from '../../../base/browser/dom.js';
 import { createCSSRule } from '../../../base/browser/domStylesheets.js';
 import { asCSSUrl } from '../../../base/browser/cssValue.js';

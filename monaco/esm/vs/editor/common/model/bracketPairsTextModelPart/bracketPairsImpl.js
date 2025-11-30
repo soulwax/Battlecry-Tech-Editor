@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsImpl.js
+
 import { CallbackIterable, compareBy } from '../../../../base/common/arrays.js';
 import { Emitter } from '../../../../base/common/event.js';
 import { Disposable, MutableDisposable, DisposableStore } from '../../../../base/common/lifecycle.js';

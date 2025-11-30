@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/csharp-NZNtYXm3.js
+
 define("vs/csharp-NZNtYXm3", ["exports"], (function(exports) {
   "use strict";
   const conf = {

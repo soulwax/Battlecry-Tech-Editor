@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/editOperation.js
+
 import { Range } from './range.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/hoverCopyButton.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { IClipboardService } from '../../../../platform/clipboard/common/clipboardService.js';
 import { IHoverService } from '../../../../platform/hover/browser/hover.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/defaultDocumentColorsComputer.js
+
 import { Color, HSLA } from '../../../base/common/color.js';
 
 /*---------------------------------------------------------------------------------------------

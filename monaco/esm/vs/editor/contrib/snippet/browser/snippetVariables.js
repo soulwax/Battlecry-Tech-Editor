@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/snippet/browser/snippetVariables.js
+
 import { normalizeDriveLetter } from '../../../../base/common/labels.js';
 import { basename, dirname } from '../../../../base/common/path.js';
 import { dirname as dirname$1 } from '../../../../base/common/resources.js';

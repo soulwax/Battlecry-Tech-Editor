@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/keybinding/common/keybindingResolver.js
+
 import { expressionsAreEqualWithConstantSubstitution, implies } from '../../contextkey/common/contextkey.js';
 
 /*---------------------------------------------------------------------------------------------

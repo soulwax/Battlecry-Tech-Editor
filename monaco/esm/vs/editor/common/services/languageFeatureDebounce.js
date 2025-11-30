@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/languageFeatureDebounce.js
+
 import { doHash } from '../../../base/common/hash.js';
 import { LRUCache } from '../../../base/common/map.js';
 import { MovingAverage, clamp, SlidingWindowAverage } from '../../../base/common/numbers.js';

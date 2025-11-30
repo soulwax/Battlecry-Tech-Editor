@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/instantiation/common/instantiationService.js
+
 import { GlobalIdleValue } from '../../../base/common/async.js';
 import { illegalState } from '../../../base/common/errors.js';
 import { dispose, isDisposable, toDisposable } from '../../../base/common/lifecycle.js';

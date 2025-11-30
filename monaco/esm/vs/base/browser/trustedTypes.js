@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/trustedTypes.js
+
 import { onUnexpectedError } from '../common/errors.js';
 import { getMonacoEnvironment } from './browser.js';
 

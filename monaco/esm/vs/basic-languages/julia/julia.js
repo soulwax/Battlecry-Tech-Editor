@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/julia/julia.js
+
 const conf = {
   brackets: [
     ["{", "}"],

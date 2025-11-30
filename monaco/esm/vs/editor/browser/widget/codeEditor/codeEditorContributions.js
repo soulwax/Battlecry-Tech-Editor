@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/codeEditor/codeEditorContributions.js
+
 import { runWhenWindowIdle, getWindow } from '../../../../base/browser/dom.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { Disposable, DisposableMap } from '../../../../base/common/lifecycle.js';

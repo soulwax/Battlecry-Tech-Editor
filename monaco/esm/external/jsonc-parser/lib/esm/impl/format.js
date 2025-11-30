@@ -1,3 +1,5 @@
+// File: monaco/esm/external/jsonc-parser/lib/esm/impl/format.js
+
 import { createScanner } from './scanner.js';
 import { cachedSpaces, cachedBreakLinesWithSpaces, supportedEols } from './string-intern.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlayHints/browser/inlayHintsHover.js
+
 import { AsyncIterableProducer } from '../../../../base/common/async.js';
 import { MarkdownString, isEmptyMarkdownString } from '../../../../base/common/htmlContent.js';
 import { Position } from '../../../common/core/position.js';

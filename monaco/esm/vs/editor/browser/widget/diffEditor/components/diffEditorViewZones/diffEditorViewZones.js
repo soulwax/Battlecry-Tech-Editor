@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/diffEditorViewZones.js
+
 import { addDisposableListener, $ } from '../../../../../../base/browser/dom.js';
 import { ArrayQueue } from '../../../../../../base/common/arrays.js';
 import { RunOnceScheduler } from '../../../../../../base/common/async.js';

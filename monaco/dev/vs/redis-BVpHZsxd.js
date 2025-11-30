@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/redis-BVpHZsxd.js
+
 define("vs/redis-BVpHZsxd", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/folding/browser/hiddenRangeModel.js
+
 import { findFirstIdxMonotonousOrArrLen } from '../../../../base/common/arraysFind.js';
 import { Emitter } from '../../../../base/common/event.js';
 import { Range } from '../../../common/core/range.js';

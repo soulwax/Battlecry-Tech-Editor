@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/razor-BIG_AFb9.js
+
 define("vs/razor-BIG_AFb9", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const EMPTY_ELEMENTS = [

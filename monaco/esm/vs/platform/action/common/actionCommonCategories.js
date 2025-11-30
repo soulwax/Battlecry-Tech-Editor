@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/action/common/actionCommonCategories.js
+
 import { localize2 } from '../../../nls.js';
 
 /*---------------------------------------------------------------------------------------------

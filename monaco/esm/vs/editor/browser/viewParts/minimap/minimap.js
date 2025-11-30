@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/minimap/minimap.js
+
 import './minimap.css';
 import { addStandardDisposableListener, addDisposableListener, getDomNodePagePosition, EventType as EventType$1 } from '../../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';

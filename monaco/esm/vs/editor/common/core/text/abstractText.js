@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/text/abstractText.js
+
 import { assert } from '../../../../base/common/assert.js';
 import { Position } from '../position.js';
 import { Range } from '../range.js';

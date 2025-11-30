@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/linesOperations/browser/sortLinesCommand.js
+
 import { safeIntl } from '../../../../base/common/date.js';
 import { EditOperation } from '../../../common/core/editOperation.js';
 import { Range } from '../../../common/core/range.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/browser/iconsStyleSheet.js
+
 import { className, inline, Builder, stringValue, identValue, asCSSUrl } from '../../../base/browser/cssValue.js';
 import { Emitter } from '../../../base/common/event.js';
 import { DisposableStore } from '../../../base/common/lifecycle.js';

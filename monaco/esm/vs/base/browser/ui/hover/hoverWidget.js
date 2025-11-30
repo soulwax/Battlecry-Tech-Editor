@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/hover/hoverWidget.js
+
 import { append, $ as $$1, addDisposableListener, EventType } from '../../dom.js';
 import { StandardKeyboardEvent } from '../../keyboardEvent.js';
 import { DomScrollableElement } from '../scrollbar/scrollableElement.js';

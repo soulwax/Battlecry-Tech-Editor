@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/margin/margin.js
+
 import './margin.css';
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { ViewPart } from '../../view/viewPart.js';

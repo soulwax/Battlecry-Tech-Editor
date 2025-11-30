@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/rulersGpu/rulersGpu.js
+
 import { ViewPart } from '../../view/viewPart.js';
 import { Color } from '../../../../base/common/color.js';
 import { editorRuler } from '../../../common/core/editorColorRegistry.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/diffEditorBreadcrumbs/browser/contribution.js
+
 import { reverseOrder, compareBy, numberComparator } from '../../../../base/common/arrays.js';
 import '../../../../base/common/observableInternal/index.js';
 import { HideUnchangedRegionsFeature } from '../../../browser/widget/diffEditor/features/hideUnchangedRegionsFeature.js';

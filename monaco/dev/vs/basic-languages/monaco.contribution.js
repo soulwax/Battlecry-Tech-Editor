@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/basic-languages/monaco.contribution.js
+
 define("vs/basic-languages/monaco.contribution", ["require", "../editor.api-CykLys8L"], (function(require, editor_api) {
   "use strict";
   const languageDefinitions = {};

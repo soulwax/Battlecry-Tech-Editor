@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/loader.js
+
 'use strict';
 /*!-----------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.

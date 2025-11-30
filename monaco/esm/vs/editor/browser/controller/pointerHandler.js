@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/pointerHandler.js
+
 import { BrowserFeatures } from '../../../base/browser/canIUse.js';
 import { addDisposableListener } from '../../../base/browser/dom.js';
 import { Gesture, EventType } from '../../../base/browser/touch.js';

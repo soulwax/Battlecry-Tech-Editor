@@ -1,3 +1,5 @@
+// File: monaco/min/vs/wgsl-BhLXMOR0.js
+
 define("vs/wgsl-BhLXMOR0",["exports"],(function(a){"use strict";const s={comments:{lineComment:"//",blockComment:["/*","*/"]},brackets:[["{","}"],["[","]"],["(",")"]],autoClosingPairs:[{open:"[",close:"]"},{open:"{",close:"}"},{open:"(",close:")"}],surroundingPairs:[{open:"{",close:"}"},{open:"[",close:"]"},{open:"(",close:")"}]};function e(b){let i=[];const o=b.split(/\t+|\r+|\n+| +/);for(let r=0;r<o.length;++r)o[r].length>0&&i.push(o[r]);return i}const c=e("true false"),m=e(`
 			  alias
 			  break

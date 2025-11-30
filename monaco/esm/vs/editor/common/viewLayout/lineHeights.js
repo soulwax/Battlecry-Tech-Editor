@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewLayout/lineHeights.js
+
 import { binarySearch2 } from '../../../base/common/arrays.js';
 import { intersection } from '../../../base/common/collections.js';
 

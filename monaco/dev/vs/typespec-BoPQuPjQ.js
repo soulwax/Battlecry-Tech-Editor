@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/typespec-BoPQuPjQ.js
+
 define("vs/typespec-BoPQuPjQ", ["exports"], (function(exports) {
   "use strict";
   const bounded = (text) => `\\b${text}\\b`;

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/common/initialize.js
+
 import { start } from '../editor/editor.worker.start.js';
 
 let initialized = false;

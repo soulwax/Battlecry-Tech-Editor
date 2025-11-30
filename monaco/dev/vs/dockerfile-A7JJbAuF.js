@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/dockerfile-A7JJbAuF.js
+
 define("vs/dockerfile-A7JJbAuF", ["exports"], (function(exports) {
   "use strict";
   const conf = {

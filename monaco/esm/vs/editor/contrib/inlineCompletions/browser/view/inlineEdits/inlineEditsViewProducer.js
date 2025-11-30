@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsViewProducer.js
+
 import { createHotClass } from '../../../../../../base/common/hotReloadHelpers.js';
 import { Disposable } from '../../../../../../base/common/lifecycle.js';
 import '../../../../../../base/common/observableInternal/index.js';

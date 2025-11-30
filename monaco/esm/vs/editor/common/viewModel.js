@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel.js
+
 import { equals } from '../../base/common/arrays.js';
 import { isBasicASCII, containsRTL } from '../../base/common/strings.js';
 

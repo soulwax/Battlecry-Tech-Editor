@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneLanguages.js
+
 import { Color } from '../../../base/common/color.js';
 import { Range } from '../../common/core/range.js';
 import { SelectedSuggestionInfo, FoldingRangeKind, TokenizationRegistry, LazyTokenizationSupport, EncodedTokenizationResult, Token, TokenizationResult } from '../../common/languages.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/caretOperations/browser/caretOperations.js
+
 import { registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { EditorContextKeys } from '../../../common/editorContextKeys.js';
 import { MoveCaretCommand } from './moveCaretCommand.js';

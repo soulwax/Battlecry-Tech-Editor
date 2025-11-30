@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/standaloneColorPicker/standaloneColorPickerParticipant.js
+
 import { CancellationToken } from '../../../../../base/common/cancellation.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import { IThemeService } from '../../../../../platform/theme/common/themeService.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view.js
+
 import { runAtThisOrScheduleAtNextAnimationFrame, getWindow, trackFocus } from '../../base/browser/dom.js';
 import { createFastDomNode } from '../../base/browser/fastDomNode.js';
 import { inputLatency } from '../../base/browser/performance.js';

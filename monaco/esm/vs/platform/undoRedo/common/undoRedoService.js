@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/undoRedo/common/undoRedoService.js
+
 import { onUnexpectedError } from '../../../base/common/errors.js';
 import { Disposable, isDisposable } from '../../../base/common/lifecycle.js';
 import { Schemas } from '../../../base/common/network.js';

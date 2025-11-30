@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/diffEditorWidget.js
+
 import { h, getWindow } from '../../../../base/browser/dom.js';
 import { findLast } from '../../../../base/common/arraysFind.js';
 import { onUnexpectedError, BugIndicatingError } from '../../../../base/common/errors.js';

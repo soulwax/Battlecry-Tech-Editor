@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/aria/aria.js
+
 import { clearNode } from '../../dom.js';
 import './aria.css';
 

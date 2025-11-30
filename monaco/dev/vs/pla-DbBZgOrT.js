@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/pla-DbBZgOrT.js
+
 define("vs/pla-DbBZgOrT", ["exports"], (function(exports) {
   "use strict";
   const conf = {

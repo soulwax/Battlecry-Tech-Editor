@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/php-DK3ktPH8.js
+
 define("vs/php-DK3ktPH8", ["exports"], (function(exports) {
   "use strict";
   const conf = {

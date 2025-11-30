@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssSelectionRange.js
+
 import '../cssLanguageTypes.js';
 import { NodeType } from '../parser/cssNodes.js';
 import { SelectionRange, Range } from '../../../../vscode-languageserver-types/lib/esm/main.js';

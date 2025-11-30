@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewLayout/viewLineRenderer.js
+
 import { localize } from '../../../nls.js';
 import { containsRTL, firstNonWhitespaceIndex, lastNonWhitespaceIndex, isFullWidthCharacter } from '../../../base/common/strings.js';
 import { StringBuilder } from '../core/stringBuilder.js';

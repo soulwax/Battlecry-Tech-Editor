@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/tokenizationTextModelPart.js
+
 import { BugIndicatingError } from '../../../../base/common/errors.js';
 import { Emitter } from '../../../../base/common/event.js';
 import { countEOL } from '../../core/misc/eolCounter.js';

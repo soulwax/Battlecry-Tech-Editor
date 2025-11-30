@@ -1,3 +1,5 @@
+// File: monaco/esm/nls.messages.ru.js
+
 /*!-----------------------------------------------------------
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Version: 0.55.1(516f350bdaf7a82f6731bd128a9ec86a6e5fa47d)

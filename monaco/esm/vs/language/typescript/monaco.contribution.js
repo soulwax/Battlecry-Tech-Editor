@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/monaco.contribution.js
+
 import { typescriptVersion as typescriptVersion$1 } from './lib/typescriptServicesMetadata.js';
 import '../../editor/browser/coreCommands.js';
 import '../../editor/browser/widget/codeEditor/codeEditorWidget.js';

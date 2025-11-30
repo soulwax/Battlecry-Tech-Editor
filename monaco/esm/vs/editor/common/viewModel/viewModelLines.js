@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/viewModelLines.js
+
 import { ArrayQueue } from '../../../base/common/arrays.js';
 import { Position } from '../core/position.js';
 import { Range } from '../core/range.js';

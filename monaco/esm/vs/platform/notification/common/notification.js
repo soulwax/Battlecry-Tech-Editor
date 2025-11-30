@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/notification/common/notification.js
+
 import Severity$1 from '../../../base/common/severity.js';
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 

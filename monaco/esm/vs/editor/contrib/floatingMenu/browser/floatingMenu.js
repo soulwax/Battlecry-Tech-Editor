@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/floatingMenu/browser/floatingMenu.js
+
 import { h } from '../../../../base/browser/dom.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import '../../../../base/common/observableInternal/index.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/toggle/toggle.js
+
 import { Codicon } from '../../../common/codicons.js';
 import { Emitter } from '../../../common/event.js';
 import { ThemeIcon } from '../../../common/themables.js';

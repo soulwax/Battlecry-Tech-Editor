@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/viewLines/viewLines.js
+
 import { MOUSE_CURSOR_TEXT_CSS_CLASS_NAME } from '../../../../base/browser/ui/mouseCursor/mouseCursor.js';
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { isLinux } from '../../../../base/common/platform.js';

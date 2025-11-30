@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/editor.main.d.ts
+
 import { IEvent as IEvent$1, IDisposable as IDisposable$2, Uri, editor } from './editor.api.js';
 export { CancellationToken, CancellationTokenSource, Emitter, Environment, IKeyboardEvent, IMarkdownString, IMouseEvent, IPosition, IRange, IScrollEvent, ISelection, ITrustedTypePolicy, ITrustedTypePolicyOptions, KeyCode, KeyMod, MarkdownStringTrustedOptions, MarkerSeverity, MarkerTag, Position, Range, Selection, SelectionDirection, Thenable, Token, UriComponents, languages, worker } from './editor.api.js';
 

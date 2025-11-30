@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestOvertypingCapturer.js
+
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 
 /*---------------------------------------------------------------------------------------------

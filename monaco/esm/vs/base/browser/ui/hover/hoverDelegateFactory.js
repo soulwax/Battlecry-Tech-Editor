@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/hover/hoverDelegateFactory.js
+
 import { Lazy } from '../../../common/lazy.js';
 
 /*---------------------------------------------------------------------------------------------

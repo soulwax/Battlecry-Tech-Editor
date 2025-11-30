@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/markdown-BXo7NBdp.js
+
 define("vs/markdown-BXo7NBdp", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/table/tableWidget.js
+
 import { append, $, clearNode } from '../../dom.js';
 import { createStyleSheet } from '../../domStylesheets.js';
 import { getBaseLayerHoverDelegate } from '../hover/hoverDelegate2.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/treeSitter/treeSitterSyntaxTokenBackend.js
+
 import { Emitter } from '../../../../../base/common/event.js';
 import { toDisposable } from '../../../../../base/common/lifecycle.js';
 import { LineTokens } from '../../../tokens/lineTokens.js';

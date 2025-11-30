@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/liquid/liquid.js
+
 import '../../editor/browser/coreCommands.js';
 import '../../editor/browser/widget/codeEditor/codeEditorWidget.js';
 import '../../editor/browser/widget/diffEditor/diffEditor.contribution.js';

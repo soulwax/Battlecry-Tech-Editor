@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/freemarker2-CQSuO4BX.js
+
 define("vs/freemarker2-CQSuO4BX", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const EMPTY_ELEMENTS = [

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/heuristicSequenceOptimizations.js
+
 import { forEachWithNeighbors } from '../../../../base/common/arrays.js';
 import { OffsetRange } from '../../core/ranges/offsetRange.js';
 import { SequenceDiff, OffsetPair } from './algorithms/diffAlgorithm.js';

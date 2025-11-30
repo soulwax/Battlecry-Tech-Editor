@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/ecl-BJgqfLSq.js
+
 define("vs/ecl-BJgqfLSq", ["exports"], (function(exports) {
   "use strict";
   const conf = {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/fontZoom/browser/fontZoom.js
+
 import { registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { EditorZoom } from '../../../common/config/editorZoom.js';
 import { localize2 } from '../../../../nls.js';

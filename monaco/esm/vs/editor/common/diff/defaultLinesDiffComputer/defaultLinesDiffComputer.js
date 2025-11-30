@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/defaultLinesDiffComputer.js
+
 import { equals } from '../../../../base/common/arrays.js';
 import { assertFn } from '../../../../base/common/assert.js';
 import { LineRange } from '../../core/ranges/lineRange.js';

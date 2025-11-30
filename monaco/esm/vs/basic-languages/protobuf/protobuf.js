@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/protobuf/protobuf.js
+
 const namedLiterals = ["true", "false"];
 const conf = {
   comments: {

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/event.js
+
 import { onUnexpectedError } from './errors.js';
 import { createSingleCallFunction } from './functional.js';
 import { Disposable, combinedDisposable, DisposableStore, toDisposable } from './lifecycle.js';

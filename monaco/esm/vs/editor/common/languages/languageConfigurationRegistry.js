@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/languageConfigurationRegistry.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable, markAsSingleton, toDisposable } from '../../../base/common/lifecycle.js';
 import { getLeadingWhitespace } from '../../../base/common/strings.js';

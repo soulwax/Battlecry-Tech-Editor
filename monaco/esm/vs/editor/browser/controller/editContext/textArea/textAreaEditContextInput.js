@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/textArea/textAreaEditContextInput.js
+
 import { isFirefox } from '../../../../../base/browser/browser.js';
 import { addDisposableListener, getShadowRoot, getActiveElement, getWindow, saveParentsScrollTop, restoreParentsScrollTop } from '../../../../../base/browser/dom.js';
 import { DomEmitter } from '../../../../../base/browser/event.js';

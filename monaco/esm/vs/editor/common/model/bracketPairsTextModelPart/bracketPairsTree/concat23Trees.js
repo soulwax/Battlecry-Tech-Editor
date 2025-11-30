@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/concat23Trees.js
+
 import { ListAstNode } from './ast.js';
 
 /*---------------------------------------------------------------------------------------------

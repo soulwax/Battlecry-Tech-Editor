@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/languageFacts/dataManager.js
+
 import { values } from '../utils/objects.js';
 import { cssData } from '../data/webCustomData.js';
 import { CSSDataProvider } from './dataProvider.js';

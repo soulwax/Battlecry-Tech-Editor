@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/findinput/findInput.js
+
 import { EventHelper, addDisposableListener } from '../../dom.js';
 import { RegexToggle, WholeWordsToggle, CaseSensitiveToggle } from './findInputToggles.js';
 import { HistoryInputBox } from '../inputbox/inputBox.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssFolding.js
+
 import { TokenType, Scanner } from '../parser/cssScanner.js';
 import { InterpolationFunction, SCSSScanner } from '../parser/scssScanner.js';
 import { LESSScanner } from '../parser/lessScanner.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/css/decorationCssRuleExtractor.js
+
 import { $, getActiveDocument } from '../../../../base/browser/dom.js';
 import { Disposable, toDisposable } from '../../../../base/common/lifecycle.js';
 import './media/decorationCssRuleExtractor.css';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/semanticTokens/browser/documentSemanticTokens.js
+
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';
 import { isCancellationError, onUnexpectedError } from '../../../../base/common/errors.js';

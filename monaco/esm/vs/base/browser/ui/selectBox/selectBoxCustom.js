@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/selectBox/selectBoxCustom.js
+
 import { localize } from '../../../../nls.js';
 import { equals } from '../../../common/arrays.js';
 import { Emitter, Event } from '../../../common/event.js';

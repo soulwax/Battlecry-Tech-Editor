@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/semanticTokensProviderStyling.js
+
 import { IThemeService } from '../../../platform/theme/common/themeService.js';
 import { ILogService } from '../../../platform/log/common/log.js';
 import { SparseMultilineTokens } from '../tokens/sparseMultilineTokens.js';

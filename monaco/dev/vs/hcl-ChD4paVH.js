@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/hcl-ChD4paVH.js
+
 define("vs/hcl-ChD4paVH", ["exports"], (function(exports) {
   "use strict";
   const conf = {

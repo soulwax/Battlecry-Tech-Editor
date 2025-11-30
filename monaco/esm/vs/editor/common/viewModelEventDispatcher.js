@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModelEventDispatcher.js
+
 import { Emitter } from '../../base/common/event.js';
 import { Disposable } from '../../base/common/lifecycle.js';
 

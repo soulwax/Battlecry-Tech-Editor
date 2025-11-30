@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/cameligo-DCtn5844.js
+
 define("vs/cameligo-DCtn5844", ["exports"], (function(exports) {
   "use strict";
   const conf = {

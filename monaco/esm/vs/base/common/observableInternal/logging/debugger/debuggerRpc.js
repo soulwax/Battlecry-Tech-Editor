@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/logging/debugger/debuggerRpc.js
+
 import { SimpleTypedRpcConnection } from './rpc.js';
 
 /*---------------------------------------------------------------------------------------------

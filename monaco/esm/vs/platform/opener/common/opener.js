@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/opener/common/opener.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

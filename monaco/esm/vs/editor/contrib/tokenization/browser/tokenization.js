@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/tokenization/browser/tokenization.js
+
 import { StopWatch } from '../../../../base/common/stopwatch.js';
 import { registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { localize2 } from '../../../../nls.js';

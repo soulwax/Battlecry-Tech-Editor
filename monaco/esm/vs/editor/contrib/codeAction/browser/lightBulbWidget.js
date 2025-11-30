@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/lightBulbWidget.js
+
 import { $, addStandardDisposableGenericMouseDownListener, addDisposableListener, getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { Gesture } from '../../../../base/browser/touch.js';
 import { Codicon } from '../../../../base/common/codicons.js';

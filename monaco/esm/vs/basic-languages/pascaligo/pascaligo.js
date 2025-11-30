@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/pascaligo/pascaligo.js
+
 const conf = {
   comments: {
     lineComment: "//",

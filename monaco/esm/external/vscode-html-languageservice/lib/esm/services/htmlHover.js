@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlHover.js
+
 import { createScanner } from '../parser/htmlScanner.js';
 import { TokenType } from '../htmlLanguageTypes.js';
 import { isDefined } from '../utils/object.js';

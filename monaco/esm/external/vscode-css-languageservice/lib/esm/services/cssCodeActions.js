@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/cssCodeActions.js
+
 import { getNodePath, Declaration } from '../parser/cssNodes.js';
 import { difference } from '../utils/strings.js';
 import { Rules } from './lintRules.js';

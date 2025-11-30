@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/widget.js
+
 import { addDisposableListener, getWindow, EventType } from '../dom.js';
 import { StandardKeyboardEvent } from '../keyboardEvent.js';
 import { StandardMouseEvent } from '../mouseEvent.js';

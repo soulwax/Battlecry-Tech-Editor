@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/utils/format.js
+
 import { format as format$1 } from '../../../../jsonc-parser/lib/esm/main.js';
 import '../jsonLanguageTypes.js';
 import { TextEdit, Range } from '../../../../vscode-languageserver-types/lib/esm/main.js';

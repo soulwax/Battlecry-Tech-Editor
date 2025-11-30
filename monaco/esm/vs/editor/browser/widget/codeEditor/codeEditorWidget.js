@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/codeEditor/codeEditorWidget.js
+
 import '../../services/markerDecorations.js';
 import { DragAndDropObserver, getWindow, scheduleAtNextAnimationFrame } from '../../../../base/browser/dom.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';

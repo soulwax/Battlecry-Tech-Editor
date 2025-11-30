@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/labels.js
+
 import { hasDriveLetter } from './extpath.js';
 import { isWindows } from './platform.js';
 

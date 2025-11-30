@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/languageBracketsConfiguration.js
+
 import { CachedFunction } from '../../../../base/common/cache.js';
 import { createBracketOrRegExp } from './richEditBrackets.js';
 

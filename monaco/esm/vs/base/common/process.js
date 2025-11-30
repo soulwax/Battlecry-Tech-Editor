@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/process.js
+
 import { isWindows, isMacintosh } from './platform.js';
 
 /*---------------------------------------------------------------------------------------------

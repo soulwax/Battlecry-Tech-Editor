@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewLayout/lineDecorations.js
+
 import { isHighSurrogate } from '../../../base/common/strings.js';
 
 /*---------------------------------------------------------------------------------------------

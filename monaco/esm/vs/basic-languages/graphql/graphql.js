@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/graphql/graphql.js
+
 const conf = {
   comments: {
     lineComment: "#"

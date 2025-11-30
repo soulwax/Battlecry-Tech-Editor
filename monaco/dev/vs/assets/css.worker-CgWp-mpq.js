@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/assets/css.worker-CgWp-mpq.js
+
 (function() {
   "use strict";
   var _a2, _b, _c2;

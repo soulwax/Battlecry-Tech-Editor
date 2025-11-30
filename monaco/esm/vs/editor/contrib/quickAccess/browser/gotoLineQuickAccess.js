@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/quickAccess/browser/gotoLineQuickAccess.js
+
 import { Toggle } from '../../../../base/browser/ui/toggle/toggle.js';
 import { Codicon } from '../../../../base/common/codicons.js';
 import { Disposable, DisposableStore, toDisposable } from '../../../../base/common/lifecycle.js';

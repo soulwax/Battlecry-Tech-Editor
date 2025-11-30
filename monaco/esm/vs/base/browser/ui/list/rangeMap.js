@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/list/rangeMap.js
+
 import { Range } from '../../../common/range.js';
 
 /*---------------------------------------------------------------------------------------------

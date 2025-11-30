@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/symbolIcons/browser/symbolIcons.js
+
 import './symbolIcons.css';
 import { localize } from '../../../../nls.js';
 import { registerColor } from '../../../../platform/theme/common/colorUtils.js';

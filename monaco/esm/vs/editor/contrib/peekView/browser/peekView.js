@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/peekView/browser/peekView.js
+
 import { $, addStandardDisposableListener, append, clearNode, show, hide } from '../../../../base/browser/dom.js';
 import { ActionBar } from '../../../../base/browser/ui/actionbar/actionbar.js';
 import { Action } from '../../../../base/common/actions.js';

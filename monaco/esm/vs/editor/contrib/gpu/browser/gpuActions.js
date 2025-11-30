@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gpu/browser/gpuActions.js
+
 import { getActiveWindow } from '../../../../base/browser/dom.js';
 import { VSBuffer } from '../../../../base/common/buffer.js';
 import { URI } from '../../../../base/common/uri.js';

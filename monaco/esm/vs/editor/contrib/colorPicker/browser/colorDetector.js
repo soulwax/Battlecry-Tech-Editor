@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorDetector.js
+
 import { TimeoutTimer, createCancelablePromise } from '../../../../base/common/async.js';
 import { RGBA } from '../../../../base/common/color.js';
 import { onUnexpectedError } from '../../../../base/common/errors.js';

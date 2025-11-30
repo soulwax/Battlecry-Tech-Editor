@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/lexon/lexon.js
+
 const conf = {
   comments: {
     lineComment: "COMMENT"

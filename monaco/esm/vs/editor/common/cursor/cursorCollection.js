@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorCollection.js
+
 import { compareBy } from '../../../base/common/arrays.js';
 import { findFirstMin, findLastMax } from '../../../base/common/arraysFind.js';
 import { CursorState } from '../cursorCommon.js';

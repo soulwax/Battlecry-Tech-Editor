@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorTypeOperations.js
+
 import { ShiftCommand } from '../commands/shiftCommand.js';
 import { CompositionSurroundSelectionCommand } from '../commands/surroundSelectionCommand.js';
 import { isQuote, EditOperationResult } from '../cursorCommon.js';

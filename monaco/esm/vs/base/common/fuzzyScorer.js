@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/fuzzyScorer.js
+
 import { fuzzyScore, createMatches } from './filters.js';
 import { sep } from './path.js';
 import { isWindows } from './platform.js';

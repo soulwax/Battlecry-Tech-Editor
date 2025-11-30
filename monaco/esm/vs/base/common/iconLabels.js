@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/iconLabels.js
+
 import { matchesFuzzy } from './filters.js';
 import { ltrim } from './strings.js';
 import { ThemeIcon } from './themables.js';

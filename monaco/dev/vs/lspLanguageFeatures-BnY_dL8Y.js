@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/lspLanguageFeatures-BnY_dL8Y.js
+
 define("vs/lspLanguageFeatures-BnY_dL8Y", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   var DocumentUri;

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/extensions/common/extensions.js
+
 /**
  * **!Do not construct directly!**
  *

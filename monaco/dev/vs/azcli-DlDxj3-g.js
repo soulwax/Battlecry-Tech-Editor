@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/azcli-DlDxj3-g.js
+
 define("vs/azcli-DlDxj3-g", ["exports"], (function(exports) {
   "use strict";
   const conf = {

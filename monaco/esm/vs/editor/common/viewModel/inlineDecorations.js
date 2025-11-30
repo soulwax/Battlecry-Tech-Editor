@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewModel/inlineDecorations.js
+
 import { Range } from '../core/range.js';
 
 /*---------------------------------------------------------------------------------------------

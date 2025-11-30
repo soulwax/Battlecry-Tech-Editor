@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/textModel.js
+
 import { ArrayQueue, pushMany } from '../../../base/common/arrays.js';
 import { Color } from '../../../base/common/color.js';
 import { BugIndicatingError, illegalArgument, onUnexpectedError } from '../../../base/common/errors.js';

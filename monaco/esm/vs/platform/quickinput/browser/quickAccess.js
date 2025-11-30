@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickAccess.js
+
 import { DeferredPromise } from '../../../base/common/async.js';
 import { CancellationTokenSource } from '../../../base/common/cancellation.js';
 import { Event } from '../../../base/common/event.js';

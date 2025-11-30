@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/dropdown/dropdownActionViewItem.js
+
 import { Emitter } from '../../../common/event.js';
 import { append, $ } from '../../dom.js';
 import { BaseActionViewItem } from '../actionbar/actionViewItems.js';

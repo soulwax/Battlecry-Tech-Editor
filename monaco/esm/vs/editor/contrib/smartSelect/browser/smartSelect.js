@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/smartSelect/browser/smartSelect.js
+
 import { isNonEmptyArray, equals } from '../../../../base/common/arrays.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';

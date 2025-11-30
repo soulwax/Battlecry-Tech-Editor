@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/utils/editorGutter.js
+
 import { h, reset } from '../../../../../base/browser/dom.js';
 import { Disposable, toDisposable } from '../../../../../base/common/lifecycle.js';
 import '../../../../../base/common/observableInternal/index.js';

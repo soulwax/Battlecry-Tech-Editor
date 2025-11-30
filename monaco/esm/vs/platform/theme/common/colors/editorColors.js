@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colors/editorColors.js
+
 import { localize } from '../../../../nls.js';
 import { Color, RGBA } from '../../../../base/common/color.js';
 import { registerColor, transparent, lessProminent, darken, lighten } from '../colorUtils.js';

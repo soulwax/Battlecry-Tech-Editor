@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/contiguousMultilineTokens.js
+
 /**
  * Represents contiguous tokens over a contiguous range of lines.
  */

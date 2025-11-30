@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/lib/lib.index.js
+
 const libFileSet = {};
 libFileSet["lib.d.ts"] = true;
 libFileSet["lib.decorators.d.ts"] = true;

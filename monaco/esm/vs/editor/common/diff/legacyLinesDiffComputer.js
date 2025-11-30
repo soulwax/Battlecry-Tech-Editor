@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/legacyLinesDiffComputer.js
+
 import { LcsDiff } from '../../../base/common/diff/diff.js';
 import { LinesDiff } from './linesDiffComputer.js';
 import { DetailedLineRangeMapping, RangeMapping } from './rangeMapping.js';

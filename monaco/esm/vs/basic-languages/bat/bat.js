@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/bat/bat.js
+
 const conf = {
   comments: {
     lineComment: "REM"

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/tree/indexTreeModel.js
+
 import { TreeError } from './tree.js';
 import { splice, tail } from '../../../common/arrays.js';
 import { Delayer } from '../../../common/async.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/formattedTextRenderer.js
+
 import { addStandardDisposableListener } from './dom.js';
 
 /*---------------------------------------------------------------------------------------------

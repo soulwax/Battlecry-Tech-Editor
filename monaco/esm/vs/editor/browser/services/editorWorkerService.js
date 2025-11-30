@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/editorWorkerService.js
+
 import { timeout } from '../../../base/common/async.js';
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { logOnceWebWorkerWarning } from '../../../base/common/worker/webWorker.js';

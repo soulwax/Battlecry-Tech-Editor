@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/hoverContribution.js
+
 import { ShowOrFocusHoverAction, ShowDefinitionPreviewHoverAction, HideContentHoverAction, ScrollUpHoverAction, ScrollDownHoverAction, ScrollLeftHoverAction, ScrollRightHoverAction, PageUpHoverAction, PageDownHoverAction, GoToTopHoverAction, GoToBottomHoverAction, IncreaseHoverVerbosityLevel, DecreaseHoverVerbosityLevel } from './hoverActions.js';
 import { registerEditorContribution, registerEditorAction } from '../../../browser/editorExtensions.js';
 import '../../../../platform/theme/common/colorUtils.js';

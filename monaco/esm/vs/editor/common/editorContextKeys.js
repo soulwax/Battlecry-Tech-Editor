@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/editorContextKeys.js
+
 import { localize } from '../../nls.js';
 import { RawContextKey } from '../../platform/contextkey/common/contextkey.js';
 

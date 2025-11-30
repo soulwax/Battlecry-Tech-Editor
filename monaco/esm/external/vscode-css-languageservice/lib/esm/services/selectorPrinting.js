@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/selectorPrinting.js
+
 import { NodeType, RuleSet, SimpleSelector } from '../parser/cssNodes.js';
 import { Scanner } from '../parser/cssScanner.js';
 import { t } from '../../../../@vscode/l10n/dist/browser.js';

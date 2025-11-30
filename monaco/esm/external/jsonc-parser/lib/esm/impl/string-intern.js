@@ -1,3 +1,5 @@
+// File: monaco/esm/external/jsonc-parser/lib/esm/impl/string-intern.js
+
 const cachedSpaces = new Array(20).fill(0).map((_, index) => {
     return ' '.repeat(index);
 });

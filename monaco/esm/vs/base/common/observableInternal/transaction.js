@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/transaction.js
+
 import { handleBugIndicatingErrorRecovery } from './base.js';
 import { getFunctionName } from './debugName.js';
 import { getLogger } from './logging/logging.js';

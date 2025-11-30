@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/redis/redis.js
+
 const conf = {
   brackets: [
     ["{", "}"],

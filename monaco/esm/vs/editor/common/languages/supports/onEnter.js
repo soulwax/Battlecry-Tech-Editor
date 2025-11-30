@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/onEnter.js
+
 import { onUnexpectedError } from '../../../../base/common/errors.js';
 import { escapeRegExpCharacters } from '../../../../base/common/strings.js';
 import { IndentAction } from '../languageConfiguration.js';

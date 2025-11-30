@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/storage/common/storage.js
+
 import { RunOnceScheduler, runWhenGlobalIdle, Promises } from '../../../base/common/async.js';
 import { PauseableEmitter, Emitter, Event } from '../../../base/common/event.js';
 import { Disposable, MutableDisposable } from '../../../base/common/lifecycle.js';

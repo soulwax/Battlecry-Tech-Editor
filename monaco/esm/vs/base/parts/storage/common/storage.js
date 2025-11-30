@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/parts/storage/common/storage.js
+
 import { ThrottledDelayer } from '../../../common/async.js';
 import { PauseableEmitter, Event } from '../../../common/event.js';
 import { Disposable } from '../../../common/lifecycle.js';

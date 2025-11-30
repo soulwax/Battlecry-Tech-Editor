@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/tokens/sparseMultilineTokens.js
+
 import { Position } from '../core/position.js';
 import { Range } from '../core/range.js';
 import { countEOL } from '../core/misc/eolCounter.js';

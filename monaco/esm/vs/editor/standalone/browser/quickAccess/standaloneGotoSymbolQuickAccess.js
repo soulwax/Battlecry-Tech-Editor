@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoSymbolQuickAccess.js
+
 import '../../../../base/browser/ui/codicons/codicon/codicon.css';
 import '../../../../base/browser/ui/codicons/codicon/codicon-modifiers.css';
 import '../../../contrib/symbolIcons/browser/symbolIcons.js';

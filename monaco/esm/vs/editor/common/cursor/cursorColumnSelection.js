@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/cursor/cursorColumnSelection.js
+
 import { SingleCursorState } from '../cursorCommon.js';
 import { Position } from '../core/position.js';
 import { Range } from '../core/range.js';

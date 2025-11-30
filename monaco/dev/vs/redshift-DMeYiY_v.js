@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/redshift-DMeYiY_v.js
+
 define("vs/redshift-DMeYiY_v", ["exports"], (function(exports) {
   "use strict";
   const conf = {

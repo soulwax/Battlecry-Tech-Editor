@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inPlaceReplace/browser/inPlaceReplaceCommand.js
+
 import { Selection } from '../../../common/core/selection.js';
 
 /*---------------------------------------------------------------------------------------------

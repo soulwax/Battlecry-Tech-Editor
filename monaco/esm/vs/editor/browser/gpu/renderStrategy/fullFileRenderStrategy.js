@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/renderStrategy/fullFileRenderStrategy.js
+
 import { getActiveWindow } from '../../../../base/browser/dom.js';
 import { Color } from '../../../../base/common/color.js';
 import { BugIndicatingError } from '../../../../base/common/errors.js';

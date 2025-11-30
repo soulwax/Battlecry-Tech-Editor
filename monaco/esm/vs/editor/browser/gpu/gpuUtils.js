@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/gpuUtils.js
+
 import { BugIndicatingError } from '../../../base/common/errors.js';
 import { toDisposable } from '../../../base/common/lifecycle.js';
 

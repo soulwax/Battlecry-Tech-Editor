@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/textArea/textAreaEditContext.js
+
 import './textAreaEditContext.css';
 import { localize } from '../../../../../nls.js';
 import { isSafari, isFirefox, isChrome, isAndroid } from '../../../../../base/browser/browser.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/qsharp/qsharp.js
+
 const conf = {
   comments: {
     lineComment: "//"

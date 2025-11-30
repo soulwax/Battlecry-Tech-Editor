@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/lazyObservableValue.js
+
 import { TransactionImpl } from '../transaction.js';
 import { getLogger } from '../logging/logging.js';
 import { BaseObservable } from './baseObservable.js';

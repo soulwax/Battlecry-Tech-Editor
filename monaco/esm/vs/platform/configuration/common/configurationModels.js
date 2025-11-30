@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/configuration/common/configurationModels.js
+
 import { equals, distinct } from '../../../base/common/arrays.js';
 import { ResourceMap } from '../../../base/common/map.js';
 import { deepClone, equals as equals$1, deepFreeze } from '../../../base/common/objects.js';

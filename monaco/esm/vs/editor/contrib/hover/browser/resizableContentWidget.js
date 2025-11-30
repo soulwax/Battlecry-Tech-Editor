@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/resizableContentWidget.js
+
 import { ResizableHTMLElement } from '../../../../base/browser/ui/resizable/resizable.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { Position } from '../../../common/core/position.js';

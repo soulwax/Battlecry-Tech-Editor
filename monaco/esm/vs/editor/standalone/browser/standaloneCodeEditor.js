@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneCodeEditor.js
+
 import { setARIAContainer } from '../../../base/browser/ui/aria/aria.js';
 import { Disposable, DisposableStore, toDisposable } from '../../../base/common/lifecycle.js';
 import { ICodeEditorService } from '../../browser/services/codeEditorService.js';

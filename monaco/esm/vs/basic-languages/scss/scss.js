@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/scss/scss.js
+
 const conf = {
   wordPattern: /(#?-?\d*\.\d\w*%?)|([@$#!.:]?[\w-?]+%?)|[@#!.]/g,
   comments: {

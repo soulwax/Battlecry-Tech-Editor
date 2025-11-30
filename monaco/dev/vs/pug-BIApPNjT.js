@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/pug-BIApPNjT.js
+
 define("vs/pug-BIApPNjT", ["exports"], (function(exports) {
   "use strict";
   const conf = {

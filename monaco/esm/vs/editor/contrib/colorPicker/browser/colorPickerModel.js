@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerModel.js
+
 import { Emitter } from '../../../../base/common/event.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/cssValue.js
+
 import { FileAccess } from '../common/network.js';
 
 function asFragment(raw) {

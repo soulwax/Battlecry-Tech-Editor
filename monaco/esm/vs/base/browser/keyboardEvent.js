@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/keyboardEvent.js
+
 import { isFirefox, isWebKit } from './browser.js';
 import { KeyCodeUtils, EVENT_KEY_CODE_MAP } from '../common/keyCodes.js';
 import { KeyCodeChord } from '../common/keybindings.js';

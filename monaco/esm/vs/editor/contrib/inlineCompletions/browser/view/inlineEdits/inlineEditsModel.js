@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsModel.js
+
 import '../../../../../../base/common/observableInternal/index.js';
 import { localize } from '../../../../../../nls.js';
 import { observableCodeEditor } from '../../../../../browser/observableCodeEditor.js';

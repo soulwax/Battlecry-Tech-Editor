@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/markerHoverParticipant.js
+
 import { $ as $$1, append, addDisposableListener, getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { isNonEmptyArray } from '../../../../base/common/arrays.js';
 import { disposableTimeout, createCancelablePromise } from '../../../../base/common/async.js';

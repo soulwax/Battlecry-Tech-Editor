@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/completionModel.js
+
 import { quickSelect } from '../../../../base/common/arrays.js';
 import { FuzzyScoreOptions, fuzzyScore, fuzzyScoreGracefulAggressive, FuzzyScore, anyScore } from '../../../../base/common/filters.js';
 import { compareIgnoreCase } from '../../../../base/common/strings.js';

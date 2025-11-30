@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/wordDistance.js
+
 import { isFalsyOrEmpty, binarySearch } from '../../../../base/common/arrays.js';
 import { Range } from '../../../common/core/range.js';
 import { BracketSelectionRangeProvider } from '../../smartSelect/browser/bracketSelections.js';

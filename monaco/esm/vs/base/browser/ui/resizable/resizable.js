@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/resizable/resizable.js
+
 import { Dimension } from '../../dom.js';
 import { Sash, OrthogonalEdge } from '../sash/sash.js';
 import { Emitter, Event } from '../../../common/event.js';

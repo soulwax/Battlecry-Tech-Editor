@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/hoverActionIds.js
+
 import { localize } from '../../../../nls.js';
 
 /*---------------------------------------------------------------------------------------------

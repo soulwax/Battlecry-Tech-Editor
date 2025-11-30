@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/combineTextEditInfos.js
+
 import { ArrayQueue } from '../../../../../base/common/arrays.js';
 import { TextEditInfo } from './beforeEditPositionMapper.js';
 import { sumLengths, lengthAdd, lengthDiffNonNegative, lengthIsZero, lengthEquals, lengthZero, lengthToObj } from './length.js';

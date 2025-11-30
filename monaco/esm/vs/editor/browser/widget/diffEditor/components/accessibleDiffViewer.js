@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/components/accessibleDiffViewer.js
+
 import { reset, addStandardDisposableListener, addDisposableListener } from '../../../../../base/browser/dom.js';
 import { createTrustedTypesPolicy } from '../../../../../base/browser/trustedTypes.js';
 import { ActionBar } from '../../../../../base/browser/ui/actionbar/actionbar.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/scala-Cs4aXuOD.js
+
 define("vs/scala-Cs4aXuOD", ["exports"], (function(exports) {
   "use strict";
   const conf = {

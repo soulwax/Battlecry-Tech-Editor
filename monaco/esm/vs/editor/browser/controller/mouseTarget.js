@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/mouseTarget.js
+
 import { PageCoordinates } from '../editorDom.js';
 import { PartFingerprints } from '../view/viewPart.js';
 import { ViewLine } from '../viewParts/viewLines/viewLine.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/numbers.js
+
 function clamp(value, min, max) {
     return Math.min(Math.max(value, min), max);
 }

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/linesOperations/browser/linesOperations.js
+
 import { KeyChord } from '../../../../base/common/keyCodes.js';
 import { localize2, localize } from '../../../../nls.js';
 import { MenuId } from '../../../../platform/actions/common/actions.js';

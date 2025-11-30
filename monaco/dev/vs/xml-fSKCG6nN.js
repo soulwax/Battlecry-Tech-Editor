@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/xml-fSKCG6nN.js
+
 define("vs/xml-fSKCG6nN", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const conf = {

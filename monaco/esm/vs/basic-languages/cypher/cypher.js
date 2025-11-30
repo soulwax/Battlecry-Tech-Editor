@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/cypher/cypher.js
+
 const conf = {
   comments: {
     lineComment: "//",

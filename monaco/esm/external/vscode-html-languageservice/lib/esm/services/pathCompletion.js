@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/pathCompletion.js
+
 import { FileType } from '../htmlLanguageTypes.js';
 import { startsWith } from '../utils/strings.js';
 import { Range, TextEdit, CompletionItemKind, Position } from '../../../../vscode-languageserver-types/lib/esm/main.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/utils/sort.js
+
 import { createScanner } from '../../../../jsonc-parser/lib/esm/main.js';
 import '../jsonLanguageTypes.js';
 import { format } from './format.js';

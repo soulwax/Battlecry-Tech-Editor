@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/scheme/scheme.js
+
 const conf = {
   comments: {
     lineComment: ";",

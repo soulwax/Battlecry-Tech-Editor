@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/linesOperations/browser/copyLinesCommand.js
+
 import { Range } from '../../../common/core/range.js';
 import { Selection } from '../../../common/core/selection.js';
 

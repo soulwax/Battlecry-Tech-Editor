@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/m3-B1KqSpyY.js
+
 define("vs/m3-B1KqSpyY", ["exports"], (function(exports) {
   "use strict";
   const conf = {

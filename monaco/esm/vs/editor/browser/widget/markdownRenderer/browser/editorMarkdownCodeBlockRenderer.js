@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/markdownRenderer/browser/editorMarkdownCodeBlockRenderer.js
+
 import { isHTMLElement } from '../../../../../base/browser/dom.js';
 import { createTrustedTypesPolicy } from '../../../../../base/browser/trustedTypes.js';
 import { IConfigurationService } from '../../../../../platform/configuration/common/configuration.js';

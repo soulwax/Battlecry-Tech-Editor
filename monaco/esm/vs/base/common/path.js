@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/path.js
+
 import { cwd, env, platform } from './process.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/mysql-Drs0JCLT.js
+
 define("vs/mysql-Drs0JCLT", ["exports"], (function(exports) {
   "use strict";
   const conf = {

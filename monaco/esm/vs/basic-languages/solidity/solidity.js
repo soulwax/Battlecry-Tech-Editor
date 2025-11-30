@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/solidity/solidity.js
+
 const conf = {
   comments: {
     lineComment: "//",

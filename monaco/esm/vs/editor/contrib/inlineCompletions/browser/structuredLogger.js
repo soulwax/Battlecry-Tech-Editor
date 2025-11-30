@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/structuredLogger.js
+
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import '../../../../base/common/observableInternal/index.js';
 import { IContextKeyService } from '../../../../platform/contextkey/common/contextkey.js';

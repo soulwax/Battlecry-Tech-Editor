@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codeAction/browser/codeAction.js
+
 import { equals, coalesce, isNonEmptyArray } from '../../../../base/common/arrays.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { illegalArgument, isCancellationError, onUnexpectedExternalError } from '../../../../base/common/errors.js';

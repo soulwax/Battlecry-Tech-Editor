@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/experimental/reducer.js
+
 import { BugIndicatingError } from '../../errors.js';
 import { strictEquals } from '../../equals.js';
 import '../../event.js';

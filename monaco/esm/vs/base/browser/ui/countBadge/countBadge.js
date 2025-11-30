@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/countBadge/countBadge.js
+
 import { append, $ } from '../../dom.js';
 import { format } from '../../../common/strings.js';
 import './countBadge.css';

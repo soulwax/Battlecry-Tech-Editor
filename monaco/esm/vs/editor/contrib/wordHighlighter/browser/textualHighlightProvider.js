@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/wordHighlighter/browser/textualHighlightProvider.js
+
 import { USUAL_WORD_SEPARATORS } from '../../../common/core/wordHelper.js';
 import { ILanguageFeaturesService } from '../../../common/services/languageFeatures.js';
 import { DocumentHighlightKind } from '../../../common/languages.js';

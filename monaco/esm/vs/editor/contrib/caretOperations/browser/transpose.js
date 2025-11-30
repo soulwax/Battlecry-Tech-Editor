@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/caretOperations/browser/transpose.js
+
 import { registerEditorAction, EditorAction } from '../../../browser/editorExtensions.js';
 import { ReplaceCommand } from '../../../common/commands/replaceCommand.js';
 import { MoveOperations } from '../../../common/cursor/cursorMoveOperations.js';

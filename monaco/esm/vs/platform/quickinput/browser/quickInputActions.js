@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInputActions.js
+
 import { isMacintosh } from '../../../base/common/platform.js';
 import { localize } from '../../../nls.js';
 import { ContextKeyExpr } from '../../contextkey/common/contextkey.js';

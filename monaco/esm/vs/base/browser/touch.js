@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/touch.js
+
 import { onDidRegisterWindow, addDisposableListener, scheduleAtNextAnimationFrame } from './dom.js';
 import { mainWindow } from './window.js';
 import { memoize } from '../common/decorators.js';

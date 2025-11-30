@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findState.js
+
 import { Emitter } from '../../../../base/common/event.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';
 import { Range } from '../../../common/core/range.js';

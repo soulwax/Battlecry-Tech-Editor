@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/color.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError, illegalArgument } from '../../../../base/common/errors.js';
 import { IModelService } from '../../../common/services/model.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/editorWebWorker.js
+
 import { stringDiff } from '../../../base/common/diff/diff.js';
 import { Range } from '../core/range.js';
 import { computeLinks } from '../languages/linkComputer.js';

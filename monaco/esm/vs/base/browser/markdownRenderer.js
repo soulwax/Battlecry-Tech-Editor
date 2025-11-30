@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/markdownRenderer.js
+
 import { onUnexpectedError } from '../common/errors.js';
 import { removeMarkdownEscapes, escapeDoubleQuotes, parseHrefAndDimensions } from '../common/htmlContent.js';
 import { markdownEscapeEscapedIcons } from '../common/iconLabels.js';

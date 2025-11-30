@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/window/common/window.js
+
 import { isWeb, isMacintosh } from '../../../base/common/platform.js';
 
 function hasNativeContextMenu(configurationService, titleBarStyle) {

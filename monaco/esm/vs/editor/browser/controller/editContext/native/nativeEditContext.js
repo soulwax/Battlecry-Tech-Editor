@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/native/nativeEditContext.js
+
 import './nativeEditContext.css';
 import { isFirefox } from '../../../../../base/browser/browser.js';
 import { getWindow, addDisposableListener, getActiveElement, getWindowId } from '../../../../../base/browser/dom.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/quickAccess/standaloneHelpQuickAccess.js
+
 import { Registry } from '../../../../platform/registry/common/platform.js';
 import { Extensions } from '../../../../platform/quickinput/common/quickAccess.js';
 import { QuickHelpNLS } from '../../../common/standaloneStrings.js';

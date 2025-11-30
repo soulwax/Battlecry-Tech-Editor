@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/supports/electricCharacter.js
+
 import { distinct } from '../../../../base/common/arrays.js';
 import { ignoreBracketsInToken } from '../supports.js';
 import { BracketsUtils } from './richEditBrackets.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/coffee-C8bOs6Uz.js
+
 define("vs/coffee-C8bOs6Uz", ["exports"], (function(exports) {
   "use strict";
   const conf = {

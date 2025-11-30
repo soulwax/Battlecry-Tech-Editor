@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/index.js
+
 import '../arrays.js';
 import '../event.js';
 import '../lifecycle.js';

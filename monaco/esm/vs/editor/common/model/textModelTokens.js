@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/textModelTokens.js
+
 import { runWhenGlobalIdle } from '../../../base/common/async.js';
 import { BugIndicatingError, onUnexpectedError } from '../../../base/common/errors.js';
 import { setTimeout0 } from '../../../base/common/platform.js';

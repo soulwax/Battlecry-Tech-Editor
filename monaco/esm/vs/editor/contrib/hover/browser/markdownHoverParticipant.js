@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/markdownHoverParticipant.js
+
 import { $ as $$1, append } from '../../../../base/browser/dom.js';
 import { asArray, compareBy, numberComparator } from '../../../../base/common/arrays.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/inputbox/inputBox.js
+
 import { append, $ as $$1, getTotalHeight, isActiveElement, getTotalWidth } from '../../dom.js';
 import { asCssValueWithDefault } from '../../cssValue.js';
 import { DomEmitter } from '../../event.js';

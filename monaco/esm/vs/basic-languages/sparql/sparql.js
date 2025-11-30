@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/sparql/sparql.js
+
 const conf = {
   comments: {
     lineComment: "#"

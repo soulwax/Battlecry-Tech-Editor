@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/ruby-qQzGPz_6.js
+
 define("vs/ruby-qQzGPz_6", ["exports"], (function(exports) {
   "use strict";
   const conf = {

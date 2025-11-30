@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/ini-CdZgSnLI.js
+
 define("vs/ini-CdZgSnLI", ["exports"], (function(exports) {
   "use strict";
   const conf = {

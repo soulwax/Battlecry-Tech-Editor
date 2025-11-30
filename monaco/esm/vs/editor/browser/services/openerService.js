@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/openerService.js
+
 import { windowOpenNoOpener } from '../../../base/browser/dom.js';
 import { mainWindow } from '../../../base/browser/window.js';
 import { CancellationToken } from '../../../base/common/cancellation.js';

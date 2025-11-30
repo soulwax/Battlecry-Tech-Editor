@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/markerDecorations.js
+
 import { createDecorator } from '../../../platform/instantiation/common/instantiation.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoSymbol/browser/peek/referencesWidget.js
+
 import { Dimension, append, $, hide, addStandardDisposableListener, show } from '../../../../../base/browser/dom.js';
 import { SplitView, Sizing } from '../../../../../base/browser/ui/splitview/splitview.js';
 import { Color } from '../../../../../base/common/color.js';

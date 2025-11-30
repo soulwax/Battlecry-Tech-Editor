@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actions/browser/menuEntryActionViewItem.js
+
 import { asCSSUrl } from '../../../base/browser/cssValue.js';
 import { ModifierKeyEmitter, addDisposableListener, prepend, $, append, EventType } from '../../../base/browser/dom.js';
 import { StandardKeyboardEvent } from '../../../base/browser/keyboardEvent.js';

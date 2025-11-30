@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/lessScanner.js
+
 import { TokenType, Scanner } from './cssScanner.js';
 
 /*---------------------------------------------------------------------------------------------

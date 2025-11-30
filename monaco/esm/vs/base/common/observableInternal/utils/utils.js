@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/utils/utils.js
+
 import { autorun } from '../reactions/autorun.js';
 import '../../arrays.js';
 import '../../event.js';

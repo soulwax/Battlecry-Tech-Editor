@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/history/browser/contextScopedHistoryWidget.js
+
 import { FindInput } from '../../../base/browser/ui/findinput/findInput.js';
 import { ReplaceInput } from '../../../base/browser/ui/findinput/replaceInput.js';
 import { RawContextKey, IContextKeyService, ContextKeyExpr } from '../../contextkey/common/contextkey.js';

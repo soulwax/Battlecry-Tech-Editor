@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/domStylesheets.js
+
 import { DisposableStore, toDisposable } from '../common/lifecycle.js';
 import '../common/observableInternal/index.js';
 import { isFirefox } from './browser.js';

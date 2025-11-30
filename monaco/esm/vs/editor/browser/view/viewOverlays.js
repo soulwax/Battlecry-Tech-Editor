@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view/viewOverlays.js
+
 import { createFastDomNode } from '../../../base/browser/fastDomNode.js';
 import { applyFontInfo } from '../config/domFontInfo.js';
 import { VisibleLinesCollection } from './viewLayer.js';

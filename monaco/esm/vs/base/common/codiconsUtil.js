@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/codiconsUtil.js
+
 import { isString } from './types.js';
 
 const _codiconFontCharacters = Object.create(null);

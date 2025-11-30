@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/contextmenu/browser/contextmenu.js
+
 import { getShadowRoot, getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import { ActionViewItem } from '../../../../base/browser/ui/actionbar/actionViewItems.js';
 import { SubmenuAction, Separator } from '../../../../base/common/actions.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actionWidget/browser/actionList.js
+
 import { setVisibility, getWindow } from '../../../base/browser/dom.js';
 import { KeybindingLabel } from '../../../base/browser/ui/keybindingLabel/keybindingLabel.js';
 import { List } from '../../../base/browser/ui/list/listWidget.js';

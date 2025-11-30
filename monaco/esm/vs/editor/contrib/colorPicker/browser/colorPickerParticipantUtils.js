@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/colorPicker/browser/colorPickerParticipantUtils.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { Color, RGBA } from '../../../../base/common/color.js';
 import { getColorPresentations } from './color.js';

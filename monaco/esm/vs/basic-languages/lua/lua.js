@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/lua/lua.js
+
 const conf = {
   comments: {
     lineComment: "--",

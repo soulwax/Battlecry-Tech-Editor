@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/wordPartOperations/browser/wordPartOperations.js
+
 import { registerEditorCommand } from '../../../browser/editorExtensions.js';
 import { WordPartOperations } from '../../../common/cursor/cursorWordOperations.js';
 import { Range } from '../../../common/core/range.js';

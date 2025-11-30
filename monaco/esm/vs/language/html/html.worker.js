@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/html/html.worker.js
+
 import { initialize } from '../../common/initialize.js';
 import { HTMLWorker } from './htmlWorker.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/flow9/flow9.js
+
 const conf = {
   comments: {
     blockComment: ["/*", "*/"],

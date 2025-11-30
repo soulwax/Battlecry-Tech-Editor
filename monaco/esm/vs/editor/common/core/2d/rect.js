@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/2d/rect.js
+
 import { BugIndicatingError } from '../../../../base/common/errors.js';
 import { Point } from './point.js';
 

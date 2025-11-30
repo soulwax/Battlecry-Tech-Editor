@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/minimap/minimapCharRenderer.js
+
 import { getCharIndex } from './minimapCharSheet.js';
 import { toUint8 } from '../../../../base/common/uint.js';
 

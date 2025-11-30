@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/services/abstractCodeEditorService.js
+
 import { Emitter } from '../../../base/common/event.js';
 import { Disposable, toDisposable } from '../../../base/common/lifecycle.js';
 import { LinkedList } from '../../../base/common/linkedList.js';

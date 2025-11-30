@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/editor/common/editor.js
+
 var EditorOpenSource;
 (function (EditorOpenSource) {
     /**

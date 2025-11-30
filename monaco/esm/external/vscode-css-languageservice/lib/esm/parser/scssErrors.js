@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/scssErrors.js
+
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 
 /*---------------------------------------------------------------------------------------------

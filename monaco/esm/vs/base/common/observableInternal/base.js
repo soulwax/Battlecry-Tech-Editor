@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/base.js
+
 import { onUnexpectedError } from '../errors.js';
 import '../arrays.js';
 import '../event.js';

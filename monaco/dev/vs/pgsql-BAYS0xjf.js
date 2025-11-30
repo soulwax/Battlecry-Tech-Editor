@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/pgsql-BAYS0xjf.js
+
 define("vs/pgsql-BAYS0xjf", ["exports"], (function(exports) {
   "use strict";
   const conf = {

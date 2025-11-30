@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/nls.messages.ko.js.js
+
 define("vs/nls.messages.ko.js", (function() {
   "use strict";
   /*!-----------------------------------------------------------

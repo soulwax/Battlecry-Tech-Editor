@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/hover/browser/contentHoverWidgetWrapper.js
+
 import { addStandardDisposableListener } from '../../../../base/browser/dom.js';
 import { Disposable, MutableDisposable } from '../../../../base/common/lifecycle.js';
 import { TokenizationRegistry } from '../../../common/languages.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/guidesTextModelPart.js
+
 import { findLast } from '../../../base/common/arraysFind.js';
 import { firstNonWhitespaceIndex } from '../../../base/common/strings.js';
 import { CursorColumns } from '../core/cursorColumns.js';

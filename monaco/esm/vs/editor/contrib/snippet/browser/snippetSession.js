@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/snippet/browser/snippetSession.js
+
 import { groupBy } from '../../../../base/common/arrays.js';
 import { dispose } from '../../../../base/common/lifecycle.js';
 import { getLeadingWhitespace } from '../../../../base/common/strings.js';

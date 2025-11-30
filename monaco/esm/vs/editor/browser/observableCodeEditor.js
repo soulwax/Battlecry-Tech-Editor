@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/observableCodeEditor.js
+
 import { equalsIfDefined, itemsEquals } from '../../base/common/equals.js';
 import { Disposable, DisposableStore, toDisposable } from '../../base/common/lifecycle.js';
 import '../../base/common/observableInternal/index.js';

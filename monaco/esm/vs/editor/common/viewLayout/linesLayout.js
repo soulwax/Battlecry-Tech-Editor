@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/viewLayout/linesLayout.js
+
 import { singleLetterHash } from '../../../base/common/strings.js';
 import { LineHeightsManager } from './lineHeights.js';
 

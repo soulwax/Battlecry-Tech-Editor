@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/errorMessage.js
+
 import { coalesce } from './arrays.js';
 import { isString } from './types.js';
 import { localize } from '../../nls.js';

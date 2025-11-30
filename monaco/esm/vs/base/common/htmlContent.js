@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/htmlContent.js
+
 import { illegalArgument } from './errors.js';
 import { escapeIcons } from './iconLabels.js';
 import { Schemas } from './network.js';

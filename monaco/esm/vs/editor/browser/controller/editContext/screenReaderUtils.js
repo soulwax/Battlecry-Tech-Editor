@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/screenReaderUtils.js
+
 import { Range } from '../../../common/core/range.js';
 import { localize } from '../../../../nls.js';
 

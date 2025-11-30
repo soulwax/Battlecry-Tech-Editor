@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestWidget.js
+
 import { Dimension, append, $, addStandardDisposableListener, hide, show, runAtThisOrScheduleAtNextAnimationFrame, getWindow, getClientArea, getDomNodePagePosition } from '../../../../base/browser/dom.js';
 import '../../../../base/browser/ui/codicons/codicon/codicon.css';
 import '../../../../base/browser/ui/codicons/codicon/codicon-modifiers.css';

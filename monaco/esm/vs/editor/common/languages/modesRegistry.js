@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/languages/modesRegistry.js
+
 import { localize } from '../../../nls.js';
 import { Emitter } from '../../../base/common/event.js';
 import { Registry } from '../../../platform/registry/common/platform.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/scrollbar/horizontalScrollbar.js
+
 import { StandardWheelEvent } from '../../mouseEvent.js';
 import { AbstractScrollbar } from './abstractScrollbar.js';
 import { ARROW_IMG_SIZE } from './scrollbarArrow.js';

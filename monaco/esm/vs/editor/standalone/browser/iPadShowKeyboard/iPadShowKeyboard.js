@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/iPadShowKeyboard/iPadShowKeyboard.js
+
 import './iPadShowKeyboard.css';
 import { addDisposableListener } from '../../../../base/browser/dom.js';
 import { Disposable } from '../../../../base/common/lifecycle.js';

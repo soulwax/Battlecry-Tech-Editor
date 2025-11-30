@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditsNewUsers.js
+
 import { timeout } from '../../../../../../base/common/async.js';
 import { BugIndicatingError } from '../../../../../../base/common/errors.js';
 import { Disposable, MutableDisposable, DisposableStore } from '../../../../../../base/common/lifecycle.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/themables.js
+
 import { Codicon } from './codicons.js';
 
 /*---------------------------------------------------------------------------------------------

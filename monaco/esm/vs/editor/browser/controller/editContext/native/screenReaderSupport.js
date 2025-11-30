@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/native/screenReaderSupport.js
+
 import { Disposable, MutableDisposable } from '../../../../../base/common/lifecycle.js';
 import { localize } from '../../../../../nls.js';
 import { IAccessibilityService } from '../../../../../platform/accessibility/common/accessibility.js';

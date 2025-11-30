@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/stickyScroll/browser/stickyScrollProvider.js
+
 import { Disposable, DisposableStore, toDisposable } from '../../../../base/common/lifecycle.js';
 import { ILanguageFeaturesService } from '../../../common/services/languageFeatures.js';
 import { CancellationTokenSource } from '../../../../base/common/cancellation.js';

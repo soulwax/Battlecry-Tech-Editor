@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/utils/resources.js
+
 import { Utils, URI } from '../../../../vscode-uri/lib/esm/index.js';
 
 /*---------------------------------------------------------------------------------------------

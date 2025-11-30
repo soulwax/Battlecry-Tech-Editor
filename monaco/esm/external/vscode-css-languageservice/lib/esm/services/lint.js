@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/lint.js
+
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 import '../cssLanguageTypes.js';
 import '../languageFacts/colors.js';

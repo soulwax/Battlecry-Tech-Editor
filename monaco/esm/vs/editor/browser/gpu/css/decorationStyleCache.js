@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/css/decorationStyleCache.js
+
 import { NKeyMap } from '../../../../base/common/map.js';
 
 /*---------------------------------------------------------------------------------------------

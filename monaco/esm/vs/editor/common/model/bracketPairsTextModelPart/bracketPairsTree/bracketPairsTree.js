@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/bracketPairsTree.js
+
 import { Emitter } from '../../../../../base/common/event.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import { BracketInfo, BracketPairWithMinIndentationInfo } from '../../../textModelBracketPairs.js';

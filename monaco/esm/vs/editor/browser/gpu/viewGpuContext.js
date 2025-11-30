@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/viewGpuContext.js
+
 import { localize } from '../../../nls.js';
 import { getActiveWindow, addDisposableListener } from '../../../base/browser/dom.js';
 import { createFastDomNode } from '../../../base/browser/fastDomNode.js';

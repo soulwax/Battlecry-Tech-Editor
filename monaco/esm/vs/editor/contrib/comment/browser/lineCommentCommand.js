@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/comment/browser/lineCommentCommand.js
+
 import { firstNonWhitespaceIndex } from '../../../../base/common/strings.js';
 import { EditOperation } from '../../../common/core/editOperation.js';
 import { Position } from '../../../common/core/position.js';

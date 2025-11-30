@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/pascaligo-BhBiNdI2.js
+
 define("vs/pascaligo-BhBiNdI2", ["exports"], (function(exports) {
   "use strict";
   const conf = {

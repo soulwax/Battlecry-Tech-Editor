@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/config/tabFocus.js
+
 import { Emitter } from '../../../base/common/event.js';
 
 /*---------------------------------------------------------------------------------------------

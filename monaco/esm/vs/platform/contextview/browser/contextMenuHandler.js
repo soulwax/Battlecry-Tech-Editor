@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/contextview/browser/contextMenuHandler.js
+
 import { getActiveElement, isHTMLElement, isAncestor, $, addDisposableListener, EventType, getWindow } from '../../../base/browser/dom.js';
 import { StandardMouseEvent } from '../../../base/browser/mouseEvent.js';
 import { Menu } from '../../../base/browser/ui/menu/menu.js';

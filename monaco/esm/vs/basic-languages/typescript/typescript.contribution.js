@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/typescript/typescript.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

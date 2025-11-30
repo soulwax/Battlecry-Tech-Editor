@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/reactions/autorun.js
+
 import '../../arrays.js';
 import '../../event.js';
 import { toDisposable, DisposableStore } from '../../lifecycle.js';

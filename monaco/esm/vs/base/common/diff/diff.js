@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/diff/diff.js
+
 import { DiffChange } from './diffChange.js';
 import { stringHash } from '../hash.js';
 

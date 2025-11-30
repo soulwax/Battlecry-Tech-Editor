@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/hover/browser/updatableHoverWidget.js
+
 import { isHTMLElement } from '../../../base/browser/dom.js';
 import { isManagedHoverTooltipMarkdownString } from '../../../base/browser/ui/hover/hover.js';
 import { CancellationTokenSource } from '../../../base/common/cancellation.js';

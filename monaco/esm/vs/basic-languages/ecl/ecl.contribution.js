@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/ecl/ecl.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

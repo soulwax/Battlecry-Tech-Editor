@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/comment/browser/blockCommentCommand.js
+
 import { EditOperation } from '../../../common/core/editOperation.js';
 import { Position } from '../../../common/core/position.js';
 import { Range } from '../../../common/core/range.js';

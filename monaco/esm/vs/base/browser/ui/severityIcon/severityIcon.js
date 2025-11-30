@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/severityIcon/severityIcon.js
+
 import './media/severityIcon.css';
 import { Codicon } from '../../../common/codicons.js';
 import { ThemeIcon } from '../../../common/themables.js';

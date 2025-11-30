@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/tokens/abstractSyntaxTokenBackend.js
+
 import { equals } from '../../../../base/common/arrays.js';
 import { RunOnceScheduler } from '../../../../base/common/async.js';
 import { Emitter } from '../../../../base/common/event.js';

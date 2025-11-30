@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/baseObservable.js
+
 import { DebugLocation } from '../debugLocation.js';
 import { getFunctionName } from '../debugName.js';
 import { getLogger } from '../logging/logging.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/view/domLineBreaksComputer.js
+
 import { createTrustedTypesPolicy } from '../../../base/browser/trustedTypes.js';
 import { firstNonWhitespaceIndex, isFullWidthCharacter } from '../../../base/common/strings.js';
 import { assertReturnsDefined } from '../../../base/common/types.js';

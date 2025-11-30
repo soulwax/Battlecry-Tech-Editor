@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInputService.js
+
 import { CancellationToken } from '../../../base/common/cancellation.js';
 import { Emitter } from '../../../base/common/event.js';
 import { IContextKeyService, RawContextKey } from '../../contextkey/common/contextkey.js';

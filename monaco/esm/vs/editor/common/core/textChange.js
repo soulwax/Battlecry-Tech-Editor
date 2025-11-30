@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/textChange.js
+
 import { writeUInt32BE, writeUInt16LE, readUInt32BE } from '../../../base/common/buffer.js';
 import { decodeUTF16LE } from './stringBuilder.js';
 

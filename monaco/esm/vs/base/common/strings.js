@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/strings.js
+
 import { LRUCachedFunction } from './cache.js';
 import { Lazy } from './lazy.js';
 

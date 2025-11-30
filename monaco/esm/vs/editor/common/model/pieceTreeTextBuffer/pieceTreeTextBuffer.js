@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/pieceTreeTextBuffer/pieceTreeTextBuffer.js
+
 import { Emitter } from '../../../../base/common/event.js';
 import { isHighSurrogate, firstNonWhitespaceIndex, lastNonWhitespaceIndex, isBasicASCII, containsRTL, containsUnusualLineTerminators } from '../../../../base/common/strings.js';
 import { Range } from '../../core/range.js';

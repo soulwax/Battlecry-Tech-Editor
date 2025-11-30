@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/parser/cssSymbolScope.js
+
 import { FunctionParameter, BodyDeclaration, FunctionArgument, Function, ReferenceType, Identifier, getParentDeclaration, Variable, NodeType, Selector } from './cssNodes.js';
 import { findFirst } from '../utils/arrays.js';
 

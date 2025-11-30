@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/uuid.js
+
 const generateUuid = (function () {
     // use `randomUUID` if possible
     if (typeof crypto.randomUUID === 'function') {

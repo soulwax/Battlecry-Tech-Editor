@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonDocumentSymbols.js
+
 import { getNodeValue } from '../parser/jsonParser.js';
 import { endsWith } from '../utils/strings.js';
 import { colorFromHex } from '../utils/colors.js';

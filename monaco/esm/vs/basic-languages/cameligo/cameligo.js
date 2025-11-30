@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/cameligo/cameligo.js
+
 const conf = {
   comments: {
     lineComment: "//",

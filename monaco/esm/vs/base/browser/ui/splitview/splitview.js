@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/splitview/splitview.js
+
 import { append, $, scheduleAtNextAnimationFrame, getWindow, addDisposableListener } from '../../dom.js';
 import { DomEmitter } from '../../event.js';
 import { Sash } from '../sash/sash.js';

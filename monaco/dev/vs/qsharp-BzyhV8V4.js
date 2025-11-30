@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/qsharp-BzyhV8V4.js
+
 define("vs/qsharp-BzyhV8V4", ["exports"], (function(exports) {
   "use strict";
   const conf = {

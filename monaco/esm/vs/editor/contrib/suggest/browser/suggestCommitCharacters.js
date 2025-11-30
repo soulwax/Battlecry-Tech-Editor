@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestCommitCharacters.js
+
 import { isNonEmptyArray } from '../../../../base/common/arrays.js';
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { CharacterSet } from '../../../common/core/characterClassifier.js';

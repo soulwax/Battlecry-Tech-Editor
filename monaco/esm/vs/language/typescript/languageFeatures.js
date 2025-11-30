@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/language/typescript/languageFeatures.js
+
 import { typescriptDefaults } from './monaco.contribution.js';
 import { libFileSet } from './lib/lib.index.js';
 import '../../editor/browser/coreCommands.js';

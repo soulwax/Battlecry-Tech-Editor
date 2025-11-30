@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/types.js
+
 import { assert } from './assert.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/gotoSymbol/browser/goToCommands.js
+
 import { alert } from '../../../../base/browser/ui/aria/aria.js';
 import { raceCancellation, createCancelablePromise } from '../../../../base/common/async.js';
 import { KeyChord } from '../../../../base/common/keyCodes.js';

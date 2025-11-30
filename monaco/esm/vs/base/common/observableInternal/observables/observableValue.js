@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/observables/observableValue.js
+
 import { TransactionImpl } from '../transaction.js';
 import { BaseObservable } from './baseObservable.js';
 import { strictEquals } from '../../equals.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/quickinput/browser/quickInputList.js
+
 import { asCSSUrl } from '../../../base/browser/cssValue.js';
 import { append, $ as $$1, addStandardDisposableListener, EventType, prepend, addDisposableListener, isHTMLAnchorElement, isAncestor } from '../../../base/browser/dom.js';
 import { StandardKeyboardEvent } from '../../../base/browser/keyboardEvent.js';

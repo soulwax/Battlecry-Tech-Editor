@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/javascript/javascript.js
+
 import { conf as conf$1, language as language$1 } from '../typescript/typescript.js';
 
 const conf = conf$1;

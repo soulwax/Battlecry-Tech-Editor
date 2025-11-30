@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/python-CzSOMEzg.js
+
 define("vs/python-CzSOMEzg", ["exports", "./editor.api-CykLys8L"], (function(exports, editor_api) {
   "use strict";
   const conf = {

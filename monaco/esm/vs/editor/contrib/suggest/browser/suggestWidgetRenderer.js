@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/suggest/browser/suggestWidgetRenderer.js
+
 import { append, $, show, hide } from '../../../../base/browser/dom.js';
 import { IconLabel } from '../../../../base/browser/ui/iconLabel/iconLabel.js';
 import { Codicon } from '../../../../base/common/codicons.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/replaceAllCommand.js
+
 import { Range } from '../../../common/core/range.js';
 
 /*---------------------------------------------------------------------------------------------

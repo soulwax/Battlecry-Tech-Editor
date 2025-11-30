@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/hotReloadHelpers.js
+
 import './observableInternal/index.js';
 import { constObservable } from './observableInternal/observables/constObservable.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/codelens/browser/codelens.js
+
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { illegalArgument, onUnexpectedExternalError } from '../../../../base/common/errors.js';
 import { isDisposable, DisposableStore } from '../../../../base/common/lifecycle.js';

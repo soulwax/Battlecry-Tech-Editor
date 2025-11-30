@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/graphql-CHzgmf8E.js
+
 define("vs/graphql-CHzgmf8E", ["exports"], (function(exports) {
   "use strict";
   const conf = {

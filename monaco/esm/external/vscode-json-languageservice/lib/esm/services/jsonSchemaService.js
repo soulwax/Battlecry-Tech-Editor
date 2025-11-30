@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/services/jsonSchemaService.js
+
 import { parse } from '../../../../jsonc-parser/lib/esm/main.js';
 import { URI } from '../../../../vscode-uri/lib/esm/index.js';
 import { endsWith, extendedRegExp } from '../utils/strings.js';

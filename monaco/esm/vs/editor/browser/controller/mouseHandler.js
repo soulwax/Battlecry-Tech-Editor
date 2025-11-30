@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/mouseHandler.js
+
 import { addDisposableListener, EventType, getWindow, getShadowRoot, isKeyboardEvent } from '../../../base/browser/dom.js';
 import { StandardWheelEvent } from '../../../base/browser/mouseEvent.js';
 import { Disposable } from '../../../base/common/lifecycle.js';

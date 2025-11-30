@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/standaloneEditor.js
+
 import { mainWindow } from '../../../base/browser/window.js';
 import { Disposable, DisposableStore } from '../../../base/common/lifecycle.js';
 import { splitLines } from '../../../base/common/strings.js';

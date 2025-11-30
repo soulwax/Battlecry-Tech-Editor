@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/list/listWidget.js
+
 import { isEditableElement, EventHelper, getWindow, isHTMLElement, getActiveElement, isMouseEvent } from '../../dom.js';
 import { createStyleSheet } from '../../domStylesheets.js';
 import { asCssValueWithDefault } from '../../cssValue.js';

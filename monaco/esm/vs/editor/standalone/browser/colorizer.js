@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/colorizer.js
+
 import { createTrustedTypesPolicy } from '../../../base/browser/trustedTypes.js';
 import { startsWithUTF8BOM, splitLines } from '../../../base/common/strings.js';
 import { TokenizationRegistry } from '../../common/languages.js';

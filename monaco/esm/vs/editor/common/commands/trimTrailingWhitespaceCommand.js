@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/commands/trimTrailingWhitespaceCommand.js
+
 import { lastNonWhitespaceIndex } from '../../../base/common/strings.js';
 import { EditOperation } from '../core/editOperation.js';
 import { Range } from '../core/range.js';

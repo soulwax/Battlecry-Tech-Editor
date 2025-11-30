@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/snippet/browser/snippetController2.js
+
 import { DisposableStore } from '../../../../base/common/lifecycle.js';
 import { assertType } from '../../../../base/common/types.js';
 import { registerEditorContribution, EditorCommand, registerEditorCommand } from '../../../browser/editorExtensions.js';

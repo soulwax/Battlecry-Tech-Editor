@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/algorithms/diffAlgorithm.js
+
 import { forEachAdjacent } from '../../../../../base/common/arrays.js';
 import { BugIndicatingError } from '../../../../../base/common/errors.js';
 import { OffsetRange } from '../../../core/ranges/offsetRange.js';

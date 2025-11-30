@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/editor.main.js
+
 import * as monaco_contribution from '../language/css/monaco.contribution.js';
 import * as monaco_contribution$1 from '../language/html/monaco.contribution.js';
 import * as monaco_contribution$2 from '../language/json/monaco.contribution.js';

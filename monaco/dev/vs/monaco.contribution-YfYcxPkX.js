@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/monaco.contribution-YfYcxPkX.js
+
 define("vs/monaco.contribution-YfYcxPkX", ["require", "exports", "./editor.api-CykLys8L"], (function(require, exports, editor_api) {
   "use strict";
   const typescriptVersion$1 = "5.9.3";

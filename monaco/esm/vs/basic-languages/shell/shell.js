@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/shell/shell.js
+
 const conf = {
   comments: {
     lineComment: "#"

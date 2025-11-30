@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/linkedEditing/browser/linkedEditing.js
+
 import { isNonEmptyArray } from '../../../../base/common/arrays.js';
 import { Delayer, first } from '../../../../base/common/async.js';
 import { CancellationTokenSource, CancellationToken } from '../../../../base/common/cancellation.js';

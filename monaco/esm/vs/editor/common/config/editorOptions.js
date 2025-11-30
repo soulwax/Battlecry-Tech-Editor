@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/config/editorOptions.js
+
 import { equals as equals$1 } from '../../../base/common/arrays.js';
 import { equals } from '../../../base/common/objects.js';
 import { isLinux, isMacintosh, isChrome, isEdge, isNative } from '../../../base/common/platform.js';

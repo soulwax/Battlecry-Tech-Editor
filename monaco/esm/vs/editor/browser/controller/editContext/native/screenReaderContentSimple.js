@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/controller/editContext/native/screenReaderContentSimple.js
+
 import { getActiveWindow, addDisposableListener } from '../../../../../base/browser/dom.js';
 import { IAccessibilityService } from '../../../../../platform/accessibility/common/accessibility.js';
 import { Selection } from '../../../../common/core/selection.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/normalization.js
+
 import { LRUCache } from './map.js';
 
 /*---------------------------------------------------------------------------------------------

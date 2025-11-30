@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/keybindingLabels.js
+
 import { localize } from '../../nls.js';
 
 /*---------------------------------------------------------------------------------------------

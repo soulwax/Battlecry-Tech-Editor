@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/folding/browser/folding.js
+
 import { Delayer, RunOnceScheduler, createCancelablePromise } from '../../../../base/common/async.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedError, illegalArgument } from '../../../../base/common/errors.js';

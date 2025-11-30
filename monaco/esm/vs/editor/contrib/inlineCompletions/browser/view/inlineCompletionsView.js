@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineCompletionsView.js
+
 import { createStyleSheetFromObservable } from '../../../../../base/browser/domStylesheets.js';
 import { Disposable } from '../../../../../base/common/lifecycle.js';
 import '../../../../../base/common/observableInternal/index.js';

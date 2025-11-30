@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/actions/common/actions.js
+
 import { SubmenuAction } from '../../../base/common/actions.js';
 import { MicrotaskEmitter } from '../../../base/common/event.js';
 import { markAsSingleton, toDisposable, DisposableStore, dispose } from '../../../base/common/lifecycle.js';

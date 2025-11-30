@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/ui/actionbar/actionViewItems.js
+
 import { isFirefox } from '../../browser.js';
 import { DataTransfers } from '../../dnd.js';
 import { addDisposableListener, EventType, EventHelper } from '../../dom.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/bracketPairsTree/nodeReader.js
+
 import { lengthZero, lengthLessThan, lengthAdd } from './length.js';
 
 /*---------------------------------------------------------------------------------------------

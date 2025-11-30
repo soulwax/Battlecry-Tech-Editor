@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/wgsl/wgsl.js
+
 const conf = {
   comments: {
     lineComment: "//",

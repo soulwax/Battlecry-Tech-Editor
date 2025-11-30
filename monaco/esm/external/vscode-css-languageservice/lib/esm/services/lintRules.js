@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/lintRules.js
+
 import { Level } from '../parser/cssNodes.js';
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 

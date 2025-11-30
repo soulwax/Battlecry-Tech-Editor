@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/sb/sb.js
+
 const conf = {
   comments: {
     lineComment: "'"

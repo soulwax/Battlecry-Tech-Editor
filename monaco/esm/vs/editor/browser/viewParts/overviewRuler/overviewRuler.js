@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/overviewRuler/overviewRuler.js
+
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { OverviewZoneManager } from '../../../common/viewModel/overviewZoneManager.js';
 import { ViewEventHandler } from '../../../common/viewEventHandler.js';

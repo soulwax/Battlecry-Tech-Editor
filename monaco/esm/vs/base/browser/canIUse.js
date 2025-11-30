@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/browser/canIUse.js
+
 import './browser.js';
 import { mainWindow } from './window.js';
 import { isNative } from '../common/platform.js';

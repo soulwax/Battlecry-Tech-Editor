@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/services/htmlSymbolsProvider.js
+
 import '../htmlLanguageTypes.js';
 import { SymbolInformation, Range, DocumentSymbol, SymbolKind } from '../../../../vscode-languageserver-types/lib/esm/main.js';
 

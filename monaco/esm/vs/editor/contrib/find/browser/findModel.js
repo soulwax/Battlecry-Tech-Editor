@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/find/browser/findModel.js
+
 import { findFirstIdxMonotonousOrArrLen } from '../../../../base/common/arraysFind.js';
 import { TimeoutTimer, RunOnceScheduler } from '../../../../base/common/async.js';
 import { DisposableStore, dispose } from '../../../../base/common/lifecycle.js';

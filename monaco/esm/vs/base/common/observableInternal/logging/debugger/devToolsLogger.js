@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/logging/debugger/devToolsLogger.js
+
 import { AutorunObserver } from '../../reactions/autorunImpl.js';
 import { formatValue } from '../consoleObservableLogger.js';
 import { registerDebugChannel } from './debuggerRpc.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/restructuredtext-CmsqpaZy.js
+
 define("vs/restructuredtext-CmsqpaZy", ["exports"], (function(exports) {
   "use strict";
   const conf = {

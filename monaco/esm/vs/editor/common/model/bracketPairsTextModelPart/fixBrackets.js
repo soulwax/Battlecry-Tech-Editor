@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/bracketPairsTextModelPart/fixBrackets.js
+
 import { LanguageAgnosticBracketTokens } from './bracketPairsTree/brackets.js';
 import { lengthAdd, lengthGetColumnCountIfZeroLineCount, lengthZero } from './bracketPairsTree/length.js';
 import { parseDocument } from './bracketPairsTree/parser.js';

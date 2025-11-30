@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/services/editorBaseApi.js
+
 import { CancellationTokenSource } from '../../../base/common/cancellation.js';
 import { Emitter } from '../../../base/common/event.js';
 import { KeyChord } from '../../../base/common/keyCodes.js';

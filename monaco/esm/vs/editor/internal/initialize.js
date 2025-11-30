@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/internal/initialize.js
+
 import * as editor_api from '../editor.api2.js';
 
 function getGlobalMonaco() {

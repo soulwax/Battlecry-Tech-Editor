@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-html-languageservice/lib/esm/parser/htmlScanner.js
+
 import { t } from '../../../../@vscode/l10n/dist/browser.js';
 import { ScannerState, TokenType } from '../htmlLanguageTypes.js';
 

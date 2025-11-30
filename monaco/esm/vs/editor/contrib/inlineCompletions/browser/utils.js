@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/utils.js
+
 import { Permutation, compareBy } from '../../../../base/common/arrays.js';
 import '../../../../base/common/observableInternal/index.js';
 import { bindContextKey } from '../../../../platform/observable/common/platformObservableUtils.js';

@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/vb-Dj0rva7R.js
+
 define("vs/vb-Dj0rva7R", ["exports"], (function(exports) {
   "use strict";
   const conf = {

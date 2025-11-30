@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/view/inlineEdits/inlineEditWithChanges.js
+
 import { LineReplacement } from '../../../../../common/core/edits/lineEdit.js';
 import { LineRange } from '../../../../../common/core/ranges/lineRange.js';
 

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/standalone/browser/quickAccess/standaloneGotoLineQuickAccess.js
+
 import { AbstractGotoLineQuickAccessProvider } from '../../../contrib/quickAccess/browser/gotoLineQuickAccess.js';
 import { Registry } from '../../../../platform/registry/common/platform.js';
 import { Extensions } from '../../../../platform/quickinput/common/quickAccess.js';

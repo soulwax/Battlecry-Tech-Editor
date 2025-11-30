@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/viewParts/overviewRuler/decorationsOverviewRuler.js
+
 import { createFastDomNode } from '../../../../base/browser/fastDomNode.js';
 import { Color } from '../../../../base/common/color.js';
 import { ViewPart } from '../../view/viewPart.js';

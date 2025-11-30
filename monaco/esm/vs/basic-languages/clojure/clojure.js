@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/clojure/clojure.js
+
 const conf = {
   comments: {
     lineComment: ";;"

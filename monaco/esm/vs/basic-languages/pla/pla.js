@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/pla/pla.js
+
 const conf = {
   comments: {
     lineComment: "#"

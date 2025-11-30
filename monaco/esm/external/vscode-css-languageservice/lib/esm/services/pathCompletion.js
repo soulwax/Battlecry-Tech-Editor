@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/services/pathCompletion.js
+
 import { FileType } from '../cssLanguageTypes.js';
 import { startsWith, endsWith } from '../utils/strings.js';
 import { joinPath } from '../utils/resources.js';

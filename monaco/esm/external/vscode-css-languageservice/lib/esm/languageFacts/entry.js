@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-css-languageservice/lib/esm/languageFacts/entry.js
+
 import '../cssLanguageTypes.js';
 import { MarkupKind } from '../../../../vscode-languageserver-types/lib/esm/main.js';
 

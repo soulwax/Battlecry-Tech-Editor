@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/diff/defaultLinesDiffComputer/computeMovedLines.js
+
 import { SequenceDiff } from './algorithms/diffAlgorithm.js';
 import { LineRangeMapping } from '../rangeMapping.js';
 import { pushMany, compareBy, numberComparator, reverseOrder } from '../../../../base/common/arrays.js';

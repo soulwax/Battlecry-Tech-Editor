@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/glob.js
+
 import { isThenable } from './async.js';
 import { isEqualOrParent } from './extpath.js';
 import { LRUCache } from './map.js';

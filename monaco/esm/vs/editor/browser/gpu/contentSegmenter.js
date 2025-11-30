@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/gpu/contentSegmenter.js
+
 import { safeIntl } from '../../../base/common/date.js';
 
 /*---------------------------------------------------------------------------------------------

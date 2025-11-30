@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/theme/common/colors/menuColors.js
+
 import { localize } from '../../../../nls.js';
 import { registerColor } from '../colorUtils.js';
 import { contrastBorder, activeContrastBorder } from './baseColors.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/hover/browser/hover.js
+
 import { createDecorator } from '../../instantiation/common/instantiation.js';
 import { Disposable, DisposableStore } from '../../../base/common/lifecycle.js';
 import { IConfigurationService } from '../../configuration/common/configuration.js';

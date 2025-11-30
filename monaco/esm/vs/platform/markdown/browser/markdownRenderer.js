@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/markdown/browser/markdownRenderer.js
+
 import { renderMarkdown } from '../../../base/browser/markdownRenderer.js';
 import { onUnexpectedError } from '../../../base/common/errors.js';
 import { registerSingleton } from '../../instantiation/common/extensions.js';

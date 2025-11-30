@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/base/common/observableInternal/logging/consoleObservableLogger.js
+
 import { getClassName } from '../debugName.js';
 import '../debugLocation.js';
 import '../../arrays.js';

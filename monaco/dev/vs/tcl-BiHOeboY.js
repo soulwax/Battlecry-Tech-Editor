@@ -1,3 +1,5 @@
+// File: monaco/dev/vs/tcl-BiHOeboY.js
+
 define("vs/tcl-BiHOeboY", ["exports"], (function(exports) {
   "use strict";
   const conf = {

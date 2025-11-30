@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/core/characterClassifier.js
+
 import { toUint8 } from '../../../base/common/uint.js';
 
 /*---------------------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/common/model/textModelSearch.js
+
 import { createRegExp, getNextCodePoint } from '../../../base/common/strings.js';
 import { getMapForWordSeparators } from '../core/wordCharacterClassifier.js';
 import { Position } from '../core/position.js';

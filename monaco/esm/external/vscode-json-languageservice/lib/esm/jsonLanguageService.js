@@ -1,3 +1,5 @@
+// File: monaco/esm/external/vscode-json-languageservice/lib/esm/jsonLanguageService.js
+
 import { JSONCompletion } from './services/jsonCompletion.js';
 import { JSONHover } from './services/jsonHover.js';
 import { JSONValidation } from './services/jsonValidation.js';

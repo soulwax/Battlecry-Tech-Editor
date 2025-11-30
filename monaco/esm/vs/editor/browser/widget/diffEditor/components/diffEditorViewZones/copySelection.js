@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/widget/diffEditor/components/diffEditorViewZones/copySelection.js
+
 import { addDisposableListener } from '../../../../../../base/browser/dom.js';
 import { DisposableStore } from '../../../../../../base/common/lifecycle.js';
 import { Range } from '../../../../../common/core/range.js';

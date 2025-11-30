@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineProgress/browser/inlineProgress.js
+
 import { $, addDisposableListener, EventType } from '../../../../base/browser/dom.js';
 import { disposableTimeout } from '../../../../base/common/async.js';
 import { Codicon } from '../../../../base/common/codicons.js';

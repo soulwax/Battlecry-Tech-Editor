@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/list/browser/listService.js
+
 import { isKeyboardEvent, isActiveElement } from '../../../base/browser/dom.js';
 import { PagedList } from '../../../base/browser/ui/list/listPaging.js';
 import { List, isSelectionSingleChangeEvent, isSelectionRangeChangeEvent, TypeNavigationMode } from '../../../base/browser/ui/list/listWidget.js';

@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/inlineCompletions/browser/model/suggestWidgetAdapter.js
+
 import { compareBy, numberComparator } from '../../../../../base/common/arrays.js';
 import { findFirstMax } from '../../../../../base/common/arraysFind.js';
 import { Emitter, Event } from '../../../../../base/common/event.js';

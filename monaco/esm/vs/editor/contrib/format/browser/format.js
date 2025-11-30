@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/contrib/format/browser/format.js
+
 import { isNonEmptyArray, asArray } from '../../../../base/common/arrays.js';
 import { CancellationToken } from '../../../../base/common/cancellation.js';
 import { onUnexpectedExternalError } from '../../../../base/common/errors.js';

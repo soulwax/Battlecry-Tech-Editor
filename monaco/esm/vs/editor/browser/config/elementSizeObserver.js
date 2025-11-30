@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/editor/browser/config/elementSizeObserver.js
+
 import { Disposable } from '../../../base/common/lifecycle.js';
 import { Emitter } from '../../../base/common/event.js';
 import { scheduleAtNextAnimationFrame, getWindow } from '../../../base/browser/dom.js';

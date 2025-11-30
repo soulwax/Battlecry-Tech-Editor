@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/basic-languages/graphql/graphql.contribution.js
+
 import { registerLanguage } from '../_.contribution.js';
 
 registerLanguage({

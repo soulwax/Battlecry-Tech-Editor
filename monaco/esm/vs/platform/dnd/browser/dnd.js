@@ -1,3 +1,5 @@
+// File: monaco/esm/vs/platform/dnd/browser/dnd.js
+
 import { isNative } from '../../../base/common/platform.js';
 import { Registry } from '../../registry/common/platform.js';
 
