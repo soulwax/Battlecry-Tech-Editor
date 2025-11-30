@@ -1,6 +1,4 @@
-// File: public/app.js
-
-// Monaco Editor instances
+// Battlecry Editor instances
 let dartEditor = null;
 let outputEditor = null;
 
@@ -16,12 +14,9 @@ const DEFAULT_DART_CODE = `void main() {
 let isCompiling = false;
 let scrollSyncEnabled = true;
 
-// Initialize Monaco Editor
 require(["vs/editor/editor.main"], function () {
-  // Configure Monaco for Dart
   monaco.languages.register({ id: "dart" });
 
-  // Basic Dart syntax highlighting
   monaco.languages.setMonarchTokensProvider("dart", {
     keywords: [
       "abstract",
@@ -214,11 +209,62 @@ require(["vs/editor/editor.main"], function () {
     },
   });
 
+  // Define Material Palenight theme
+  monaco.editor.defineTheme("material-palenight", {
+    base: "vs-dark",
+    inherit: true,
+    rules: [
+      { token: "", foreground: "bfc7d5", background: "292d3e" },
+      { token: "comment", foreground: "676e95", fontStyle: "italic" },
+      { token: "keyword", foreground: "c792ea" },
+      { token: "type", foreground: "ffcb6b" },
+      { token: "type.identifier", foreground: "ffcb6b" },
+      { token: "identifier", foreground: "bfc7d5" },
+      { token: "string", foreground: "c3e88d" },
+      { token: "string.escape", foreground: "89ddff" },
+      { token: "string.invalid", foreground: "f07178" },
+      { token: "number", foreground: "f78c6c" },
+      { token: "number.float", foreground: "f78c6c" },
+      { token: "number.hex", foreground: "f78c6c" },
+      { token: "operator", foreground: "89ddff" },
+      { token: "delimiter", foreground: "89ddff" },
+      { token: "variable", foreground: "f07178" },
+    ],
+    colors: {
+      "editor.background": "#292d3e",
+      "editor.foreground": "#bfc7d5",
+      "editorLineNumber.foreground": "#3b3f51",
+      "editorLineNumber.activeForeground": "#676e95",
+      "editorCursor.foreground": "#ffcc00",
+      "editor.selectionBackground": "#717cb450",
+      "editor.inactiveSelectionBackground": "#717cb430",
+      "editor.lineHighlightBackground": "#00000050",
+      "editorWhitespace.foreground": "#3b3f51",
+      "editorIndentGuide.background": "#3b3f51",
+      "editorIndentGuide.activeBackground": "#4e5579",
+      "editorBracketMatch.background": "#3b3f51",
+      "editorBracketMatch.border": "#ffcc00",
+      "scrollbarSlider.background": "#3b3f5180",
+      "scrollbarSlider.hoverBackground": "#3b3f51c0",
+      "scrollbarSlider.activeBackground": "#3b3f51",
+      "minimap.background": "#292d3e",
+      "editorGutter.background": "#292d3e",
+      "editorWidget.background": "#1b1e2b",
+      "editorWidget.border": "#3b3f51",
+      "editorSuggestWidget.background": "#1b1e2b",
+      "editorSuggestWidget.border": "#3b3f51",
+      "editorSuggestWidget.foreground": "#bfc7d5",
+      "editorSuggestWidget.selectedBackground": "#3b3f51",
+      "editorHoverWidget.background": "#1b1e2b",
+      "editorHoverWidget.border": "#3b3f51",
+    },
+  });
+
   // Create Dart editor (left pane)
   dartEditor = monaco.editor.create(document.getElementById("dartEditor"), {
     value: DEFAULT_DART_CODE,
     language: "dart",
-    theme: "vs-dark",
+    theme: "material-palenight",
     fontSize: 14,
     minimap: { enabled: true },
     automaticLayout: true,
@@ -236,7 +282,7 @@ require(["vs/editor/editor.main"], function () {
   outputEditor = monaco.editor.create(document.getElementById("outputEditor"), {
     value: "// Compilation output will appear here...",
     language: "javascript",
-    theme: "vs-dark",
+    theme: "material-palenight",
     fontSize: 14,
     minimap: { enabled: true },
     automaticLayout: true,
@@ -266,7 +312,7 @@ require(["vs/editor/editor.main"], function () {
     }
   });
 
-  console.log("Monaco Editor initialized successfully");
+  console.log("Battlecry Editor initialized successfully");
 
   // Check server health
   checkServerHealth();
