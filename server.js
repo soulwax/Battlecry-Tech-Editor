@@ -7,7 +7,7 @@ const path = require("path");
 const crypto = require("crypto");
 
 const app = express();
-const PORT = 5555;
+const PORT = process.env.PORT || 5555;
 const TEMP_DIR = path.join(__dirname, "temp");
 
 // Middleware
