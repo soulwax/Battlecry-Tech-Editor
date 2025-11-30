@@ -930,6 +930,9 @@ let shellHistoryIndex = -1;
 let currentCommand = "";
 let shellCwd = "/"; // Current working directory (virtual)
 let shellEnv = {}; // Environment variables
+let nodeReplMode = false; // Node.js REPL mode
+let nodeReplHistory = []; // REPL command history
+let nodeReplHistoryIndex = -1;
 
 // Code Templates
 const CODE_TEMPLATES = {
@@ -1049,8 +1052,89 @@ function writeToTerminal(message, type = "info") {
 function writePrompt() {
   const promptLine = document.createElement("div");
   promptLine.className = "terminal-prompt-line";
-  promptLine.innerHTML = `<span class="terminal-prompt-text">${shellCwd} $</span>`;
+  if (nodeReplMode) {
+    promptLine.innerHTML = `<span class="terminal-prompt-text">></span>`;
+  } else {
+    promptLine.innerHTML = `<span class="terminal-prompt-text">${shellCwd} $</span>`;
+  }
   terminalHistory.appendChild(promptLine);
+  terminalOutput.scrollTop = terminalOutput.scrollHeight;
+}
+
+function writeReplPrompt() {
+  const promptLine = document.createElement("div");
+  promptLine.className = "terminal-prompt-line";
+  promptLine.innerHTML = `<span class="terminal-prompt-text">></span>`;
+  terminalHistory.appendChild(promptLine);
+  terminalOutput.scrollTop = terminalOutput.scrollHeight;
+}
+
+function executeNodeRepl(input) {
+  const trimmed = input.trim();
+  if (!trimmed) {
+    writeReplPrompt();
+    return;
+  }
+  
+  // Handle REPL commands
+  if (trimmed === ".exit" || trimmed === ".quit") {
+    nodeReplMode = false;
+    writeToTerminal("Exiting Node.js REPL", "info");
+    writePrompt();
+    return;
+  }
+  
+  if (trimmed === ".help") {
+    writeToTerminal("REPL commands:", "info");
+    writeToTerminal("  .exit    Exit REPL", "info");
+    writeToTerminal("  .quit    Exit REPL", "info");
+    writeToTerminal("  .help    Show this help", "info");
+    writeReplPrompt();
+    return;
+  }
+  
+  // Add to REPL history
+  if (trimmed && (nodeReplHistory.length === 0 || nodeReplHistory[nodeReplHistory.length - 1] !== trimmed)) {
+    nodeReplHistory.push(trimmed);
+    if (nodeReplHistory.length > 100) {
+      nodeReplHistory.shift();
+    }
+  }
+  nodeReplHistoryIndex = nodeReplHistory.length;
+  
+  // Display the command
+  const commandLine = document.createElement("div");
+  commandLine.className = "terminal-prompt-line";
+  commandLine.innerHTML = `<span class="terminal-prompt-text">></span> <span class="terminal-command">${trimmed}</span>`;
+  terminalHistory.appendChild(commandLine);
+  
+  // Execute JavaScript
+  try {
+    // Create a safe execution context
+    const result = eval(trimmed);
+    
+    // Display result (if not undefined)
+    if (result !== undefined) {
+      let output = result;
+      if (typeof result === "object" && result !== null) {
+        try {
+          output = JSON.stringify(result, null, 2);
+        } catch (e) {
+          output = String(result);
+        }
+      } else {
+        output = String(result);
+      }
+      writeToTerminal(output, "info");
+    }
+  } catch (error) {
+    writeToTerminal(`Error: ${error.message}`, "error");
+    if (error.stack) {
+      writeToTerminal(error.stack, "error");
+    }
+  }
+  
+  writeReplPrompt();
   terminalOutput.scrollTop = terminalOutput.scrollHeight;
 }
 
@@ -1204,10 +1288,240 @@ const shellCommands = {
     execute: () => {
       hideTerminal();
     }
+  },
+  
+  node: {
+    description: "Start Node.js REPL",
+    execute: () => {
+      nodeReplMode = true;
+      nodeReplHistory = [];
+      nodeReplHistoryIndex = -1;
+      writeToTerminal("Welcome to Node.js REPL", "info");
+      writeToTerminal("Type .exit to exit, .help for help", "info");
+      writeReplPrompt();
+    }
+  },
+  
+  grep: {
+    description: "Search for patterns in files",
+    execute: (args) => {
+      if (args.length < 2) {
+        writeToTerminal("grep: usage: grep pattern file...", "error");
+        return;
+      }
+      
+      const pattern = args[0];
+      const files = args.slice(1);
+      const virtualFiles = {
+        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
+        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
+        "/var/log/system.log": "System started successfully\nAll services running\n"
+      };
+      
+      files.forEach(file => {
+        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
+        if (virtualFiles[filePath]) {
+          const lines = virtualFiles[filePath].split("\n");
+          lines.forEach((line, index) => {
+            if (line.includes(pattern)) {
+              writeToTerminal(`${filePath}:${index + 1}:${line}`, "info");
+            }
+          });
+        } else {
+          writeToTerminal(`grep: ${file}: No such file or directory`, "error");
+        }
+      });
+    }
+  },
+  
+  find: {
+    description: "Search for files in directory tree",
+    execute: (args) => {
+      if (args.length < 2) {
+        writeToTerminal("find: usage: find path -name pattern", "error");
+        return;
+      }
+      
+      const path = args[0];
+      const nameIndex = args.indexOf("-name");
+      if (nameIndex === -1 || nameIndex === args.length - 1) {
+        writeToTerminal("find: missing argument to -name", "error");
+        return;
+      }
+      
+      const pattern = args[nameIndex + 1];
+      const virtualFS = {
+        "/": ["home", "usr", "bin", "etc", "var", "tmp"],
+        "/home": ["user"],
+        "/usr": ["bin", "lib", "share"],
+        "/bin": ["sh", "bash", "ls", "cat", "echo", "node"],
+        "/etc": ["passwd", "hosts"],
+        "/var": ["log", "tmp"],
+        "/tmp": []
+      };
+      
+      const searchPath = path.startsWith("/") ? path : (shellCwd === "/" ? "/" + path : shellCwd + "/" + path);
+      const normalizedPath = searchPath === "." ? shellCwd : searchPath;
+      
+      if (virtualFS[normalizedPath]) {
+        virtualFS[normalizedPath].forEach(item => {
+          if (item.includes(pattern.replace(/\*/g, ""))) {
+            const fullPath = normalizedPath === "/" ? `/${item}` : `${normalizedPath}/${item}`;
+            writeToTerminal(fullPath, "info");
+          }
+        });
+      }
+    }
+  },
+  
+  mkdir: {
+    description: "Create directory",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("mkdir: missing operand", "error");
+        return;
+      }
+      args.forEach(dir => {
+        writeToTerminal(`mkdir: created directory '${dir}'`, "success");
+      });
+    }
+  },
+  
+  rm: {
+    description: "Remove files or directories",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("rm: missing operand", "error");
+        return;
+      }
+      const recursive = args.includes("-r") || args.includes("-rf");
+      const files = args.filter(arg => !arg.startsWith("-"));
+      files.forEach(file => {
+        writeToTerminal(`rm: removed '${file}'`, "success");
+      });
+    }
+  },
+  
+  touch: {
+    description: "Create empty file or update timestamp",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("touch: missing file operand", "error");
+        return;
+      }
+      args.forEach(file => {
+        writeToTerminal(`touch: created '${file}'`, "success");
+      });
+    }
+  },
+  
+  head: {
+    description: "Display first lines of file",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("head: missing file operand", "error");
+        return;
+      }
+      
+      let lines = 10;
+      let files = args;
+      if (args[0] === "-n" && args.length > 2) {
+        lines = parseInt(args[1]) || 10;
+        files = args.slice(2);
+      }
+      
+      const virtualFiles = {
+        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
+        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
+        "/var/log/system.log": "System started successfully\nAll services running\n"
+      };
+      
+      files.forEach(file => {
+        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
+        if (virtualFiles[filePath]) {
+          const fileLines = virtualFiles[filePath].split("\n");
+          fileLines.slice(0, lines).forEach(line => {
+            writeToTerminal(line, "info");
+          });
+        } else {
+          writeToTerminal(`head: ${file}: No such file or directory`, "error");
+        }
+      });
+    }
+  },
+  
+  tail: {
+    description: "Display last lines of file",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("tail: missing file operand", "error");
+        return;
+      }
+      
+      let lines = 10;
+      let files = args;
+      if (args[0] === "-n" && args.length > 2) {
+        lines = parseInt(args[1]) || 10;
+        files = args.slice(2);
+      }
+      
+      const virtualFiles = {
+        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
+        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
+        "/var/log/system.log": "System started successfully\nAll services running\n"
+      };
+      
+      files.forEach(file => {
+        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
+        if (virtualFiles[filePath]) {
+          const fileLines = virtualFiles[filePath].split("\n");
+          fileLines.slice(-lines).forEach(line => {
+            writeToTerminal(line, "info");
+          });
+        } else {
+          writeToTerminal(`tail: ${file}: No such file or directory`, "error");
+        }
+      });
+    }
+  },
+  
+  wc: {
+    description: "Count lines, words, and characters",
+    execute: (args) => {
+      if (args.length === 0) {
+        writeToTerminal("wc: missing file operand", "error");
+        return;
+      }
+      
+      const virtualFiles = {
+        "/etc/passwd": "root:x:0:0:root:/root:/bin/bash\nuser:x:1000:1000:user:/home/user:/bin/bash",
+        "/etc/hosts": "127.0.0.1 localhost\n::1 localhost",
+        "/var/log/system.log": "System started successfully\nAll services running\n"
+      };
+      
+      args.forEach(file => {
+        const filePath = file.startsWith("/") ? file : (shellCwd === "/" ? "/" + file : shellCwd + "/" + file);
+        if (virtualFiles[filePath]) {
+          const content = virtualFiles[filePath];
+          const lines = content.split("\n").length;
+          const words = content.split(/\s+/).filter(w => w).length;
+          const chars = content.length;
+          writeToTerminal(`${lines} ${words} ${chars} ${file}`, "info");
+        } else {
+          writeToTerminal(`wc: ${file}: No such file or directory`, "error");
+        }
+      });
+    }
   }
 };
 
 function executeShellCommand(input) {
+  // If in REPL mode, execute as JavaScript
+  if (nodeReplMode) {
+    executeNodeRepl(input);
+    return;
+  }
+  
   const trimmed = input.trim();
   if (!trimmed) {
     writePrompt();
@@ -1575,22 +1889,46 @@ if (terminalInput) {
       executeShellCommand(command);
     } else if (e.key === "ArrowUp") {
       e.preventDefault();
-      if (shellHistoryIndex > 0) {
-        shellHistoryIndex--;
-        terminalInput.value = shellHistory[shellHistoryIndex];
+      if (nodeReplMode) {
+        if (nodeReplHistoryIndex > 0) {
+          nodeReplHistoryIndex--;
+          terminalInput.value = nodeReplHistory[nodeReplHistoryIndex];
+        }
+      } else {
+        if (shellHistoryIndex > 0) {
+          shellHistoryIndex--;
+          terminalInput.value = shellHistory[shellHistoryIndex];
+        }
       }
     } else if (e.key === "ArrowDown") {
       e.preventDefault();
-      if (shellHistoryIndex < shellHistory.length - 1) {
-        shellHistoryIndex++;
-        terminalInput.value = shellHistory[shellHistoryIndex];
+      if (nodeReplMode) {
+        if (nodeReplHistoryIndex < nodeReplHistory.length - 1) {
+          nodeReplHistoryIndex++;
+          terminalInput.value = nodeReplHistory[nodeReplHistoryIndex];
+        } else {
+          nodeReplHistoryIndex = nodeReplHistory.length;
+          terminalInput.value = currentCommand;
+        }
       } else {
-        shellHistoryIndex = shellHistory.length;
-        terminalInput.value = currentCommand;
+        if (shellHistoryIndex < shellHistory.length - 1) {
+          shellHistoryIndex++;
+          terminalInput.value = shellHistory[shellHistoryIndex];
+        } else {
+          shellHistoryIndex = shellHistory.length;
+          terminalInput.value = currentCommand;
+        }
       }
     } else if (e.key === "Escape") {
-      currentCommand = terminalInput.value;
-      terminalInput.value = "";
+      if (nodeReplMode) {
+        // Exit REPL on Escape
+        nodeReplMode = false;
+        writeToTerminal("Exiting Node.js REPL", "info");
+        writePrompt();
+      } else {
+        currentCommand = terminalInput.value;
+        terminalInput.value = "";
+      }
     }
   });
   
